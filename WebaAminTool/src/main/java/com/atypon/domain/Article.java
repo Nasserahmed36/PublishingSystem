@@ -6,6 +6,7 @@ public class Article {
     private String doi;
     private String title;
     private String issueDoi;
+    private String subject;
     private List<Author> authors;
 
     public String getDoi() {
@@ -39,6 +40,14 @@ public class Article {
 
     public void setIssueDoi(String issueDoi) {
         this.issueDoi = issueDoi;
+    }
+
+    public String getSubject() {
+        return subject;
+    }
+
+    public void setSubject(String subject) {
+        this.subject = subject;
     }
 
     private static class Author {

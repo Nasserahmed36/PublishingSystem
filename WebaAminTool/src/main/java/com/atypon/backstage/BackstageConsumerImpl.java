@@ -8,13 +8,16 @@ import java.util.concurrent.Executors;
 
 public class BackstageConsumerImpl implements BackstageConsumer {
     private volatile boolean keepRunning = true;
-    private final BlockingQueue<ArticleSubmission> submissionsQueue;
+    private final BlockingQueue<ArticleSubmission> creationQueue;
+    private final BlockingQueue<ArticleSubmission> deletionQueue;
     private final Processor<ArticleSubmission> mainProcessor =
             new MainProcessor();
     private final ExecutorService singleThreadExecutor = Executors.newSingleThreadExecutor();
 
-    public BackstageConsumerImpl(BlockingQueue<ArticleSubmission> submissionsQueue) {
-        this.submissionsQueue = submissionsQueue;
+    public BackstageConsumerImpl(BlockingQueue<ArticleSubmission> creationQueue,
+                                 BlockingQueue<ArticleSubmission> deletionQueue) {
+        this.creationQueue = creationQueue;
+        this.deletionQueue = deletionQueue;
     }
 
     @Override
@@ -22,7 +25,7 @@ public class BackstageConsumerImpl implements BackstageConsumer {
         singleThreadExecutor.execute(() -> {
             while (keepRunning) {
                 try {
-                    ArticleSubmission articleSubmission = submissionsQueue.take();
+                    ArticleSubmission articleSubmission = creationQueue.take();
                     mainProcessor.process(articleSubmission);
                 } catch (ProcessingException | InterruptedException e) {
                     e.printStackTrace();

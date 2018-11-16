@@ -25,11 +25,4 @@ public class ArticleSubmissionServiceImpl implements ArticleSubmissionService {
         return dao.getAll();
     }
 
-//
-//      articleSubmission.setArticleFileName(form.getArticleFileName());
-//            articleSubmission.setSeriesIssn(form.getSeriesIssn());
-//            articleSubmission.setTimestamp(System.currentTimeMillis());
-//    String articlePath = outputPath + File.separator +
-//            articleSubmission.getSeriesIssn() + File.separator +
-//            articleSubmission.getArticleFileName();
 }

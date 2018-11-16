@@ -51,7 +51,7 @@ public class MainProcessor implements Processor<ArticleSubmission> {
         File article = navigator.getArticleFile();
 
         File outputDir = new File(OUTPUT_PATH + File.separator +
-                articleSubmission.getArticleFileName().replace(".zip",""));
+                articleSubmission.getArticleFileName().replace(".zip", ""));
         outputDir.mkdirs();
         addDtd(navigator);
         jatsToHtmlTransformer.transform(article.getPath(),
@@ -59,7 +59,7 @@ public class MainProcessor implements Processor<ArticleSubmission> {
     }
 
     private void addDtd(ArticleSubmissionNavigator navigator) throws IOException {
-        File dtdFile= new File(navigator.getArticleDir().getAbsolutePath() + File.separator + "JATS-archivearticle1.dtd");
+        File dtdFile = new File(navigator.getArticleDir().getAbsolutePath() + File.separator + "JATS-archivearticle1.dtd");
         dtdFile.createNewFile();
     }
 

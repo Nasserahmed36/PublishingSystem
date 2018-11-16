@@ -8,8 +8,12 @@
         <param-value>50</param-value>
     </context-param>
     <context-param>
-        <param-name>outputPath</param-name>
+        <param-name>articleSubmissionsPath</param-name>
         <param-value>/home/nasserahmed36/IdeaProjects/Literatum/content</param-value>
+    </context-param>
+    <context-param>
+        <param-name>processedContentPath</param-name>
+        <param-value>/home/nasserahmed36/IdeaProjects/Literatum/processedContent</param-value>
     </context-param>
     <context-param>
         <param-name>datasourceEnv</param-name>

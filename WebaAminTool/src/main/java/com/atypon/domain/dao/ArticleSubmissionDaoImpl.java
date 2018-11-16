@@ -25,16 +25,17 @@ public class ArticleSubmissionDaoImpl implements ArticleSubmissionDao {
                 "status, path) values (?,?,?,?,?)";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
+            String outputFile = submission.getSeriesIssn() +
+                    File.separator + submission.getArticleFileName();
             connection.setAutoCommit(false);
             statement.setString(1, submission.getSeriesIssn());
             statement.setString(2, submission.getArticleFileName());
-            statement.setTimestamp(3, new Timestamp(submission.getTimestamp()));
-            statement.setString(4, submission.getStatus());
-            statement.setString(5, submission.getPath());
+            statement.setTimestamp(3, new Timestamp(System.currentTimeMillis()));
+            statement.setString(4, "Uploaded");
+            statement.setString(5, outputFile);
             statement.execute();
-            String outputFile = outputDirPath + File.separator + submission.getSeriesIssn() +
-                    File.separator + submission.getArticleFileName();
-            createNecessaryParentDirs(outputFile);
+            String absolutePath = outputDirPath + File.separator + outputFile;
+            createNecessaryParentDirs(absolutePath);
             FileUtils.download(inputStream, outputFile);
             connection.commit();
         } catch (SQLException | IOException e) {
@@ -66,13 +67,14 @@ public class ArticleSubmissionDaoImpl implements ArticleSubmissionDao {
         submission.setSeriesIssn(resultSet.getString("series_issn"));
         submission.setArticleFileName(resultSet.getString("file_name"));
         submission.setTimestamp(resultSet.getTimestamp("date").getTime());
-        submission.setPath(resultSet.getString("path"));
+        String absolutePath = outputDirPath + File.separator + resultSet.getString("path");
+        submission.setPath(absolutePath);
         submission.setStatus(resultSet.getString("status"));
         return submission;
     }
 
     private void createNecessaryParentDirs(String filePath) throws IOException {
-        if(!new File(filePath).getParentFile().mkdirs()) {
+        if (!new File(filePath).getParentFile().mkdirs()) {
             throw new IOException("File dirs cannot be created");
         }
     }

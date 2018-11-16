@@ -1,12 +1,14 @@
 package com.atypon.domain;
 
 public class Issue {
+
     private String doi;
-    private String journalIssn;
+    private String journalPrintIssn;
     private String number;
     private String volume;
     private String title;
-    private PublicationDate publicationDate;
+    private int month;
+    private int year;
     private String firstPage;
     private String lastPage;
 
@@ -19,12 +21,12 @@ public class Issue {
         this.doi = doi;
     }
 
-    public String getJournalIssn() {
-        return journalIssn;
+    public String getJournalPrintIssn() {
+        return journalPrintIssn;
     }
 
-    public void setJournalIssn(String journalIssn) {
-        this.journalIssn = journalIssn;
+    public void setJournalPrintIssn(String journalPrintIssn) {
+        this.journalPrintIssn = journalPrintIssn;
     }
 
     public String getNumber() {
@@ -51,35 +53,35 @@ public class Issue {
         this.title = title;
     }
 
-    public PublicationDate getPublicationDate() {
-        return publicationDate;
+    public int getMonth() {
+        return month;
     }
 
-    public void setPublicationDate(PublicationDate publicationDate) {
-        this.publicationDate = publicationDate;
+    public void setMonth(int month) {
+        this.month = month;
     }
 
-
-    public class PublicationDate {
-        private int month;
-        private int year;
-
-        public int getMonth() {
-            return month;
-        }
-
-        public void setMonth(int month) {
-            this.month = month;
-        }
-
-        public int getYear() {
-            return year;
-        }
-
-        public void setYear(int year) {
-            this.year = year;
-        }
+    public int getYear() {
+        return year;
     }
 
+    public void setYear(int year) {
+        this.year = year;
+    }
 
+    public String getFirstPage() {
+        return firstPage;
+    }
+
+    public void setFirstPage(String firstPage) {
+        this.firstPage = firstPage;
+    }
+
+    public String getLastPage() {
+        return lastPage;
+    }
+
+    public void setLastPage(String lastPage) {
+        this.lastPage = lastPage;
+    }
 }

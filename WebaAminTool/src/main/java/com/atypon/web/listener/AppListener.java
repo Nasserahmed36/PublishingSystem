@@ -26,34 +26,38 @@ public class AppListener implements ServletContextListener {
 
     @Override
     public void contextInitialized(ServletContextEvent sce) {
-        ServletContext servletContext = sce.getServletContext();
+        ServletContext context = sce.getServletContext();
 
-        DataSource dataSource = getDataSource(servletContext);
-        servletContext.setAttribute("datasource", dataSource);
-
-        ArticleSubmissionDao articleSubmissionDao = new ArticleSubmissionDaoImpl(dataSource,null);
-        servletContext.setAttribute("articleSubmissionDao", articleSubmissionDao);
-
-        ArticleSubmissionService articleSubmissionService = new ArticleSubmissionServiceImpl(articleSubmissionDao);
-        servletContext.setAttribute("articleSubmissionService", articleSubmissionService);
+        DataSource dataSource = getDataSource(context);
+        context.setAttribute("datasource", dataSource);
 
         IdentityDao identityDao = new IdentityDaoImpl(dataSource);
-        servletContext.setAttribute("identityDao", identityDao);
+        context.setAttribute("identityDao", identityDao);
 
         IdentityService identityService = new IdentityServiceImpl(identityDao);
-        servletContext.setAttribute("identityService", identityService);
+        context.setAttribute("identityService", identityService);
 
         JournalDao journalDao = new JournalDaoImpl(dataSource);
-        servletContext.setAttribute("journalDao", journalDao);
+        context.setAttribute("journalDao", journalDao);
 
         JournalService journalService = new JournalServiceImpl(journalDao);
-        servletContext.setAttribute("journalService", journalService);
+        context.setAttribute("journalService", journalService);
+
+        String articleSubmissionsPath = context.getInitParameter("articleSubmissionsPath");
+        ArticleSubmissionDao articleSubmissionDao = new ArticleSubmissionDaoImpl(dataSource, articleSubmissionsPath);
+        context.setAttribute("articleSubmissionDao", articleSubmissionDao);
 
         int queueSize = Integer.parseInt(sce.getServletContext().getInitParameter("submissionsQueueSize"));
-        BlockingQueue<ArticleSubmission> submissionsQueue = new ArrayBlockingQueue<>(queueSize);
-        servletContext.setAttribute("submissionsQueue", submissionsQueue);
+        BlockingQueue<ArticleSubmission> creationQueue = new ArrayBlockingQueue<>(queueSize);
+        BlockingQueue<ArticleSubmission> deletionQueue = new ArrayBlockingQueue<>(queueSize);
 
-        backstageConsumer = new BackstageConsumerImpl(submissionsQueue);
+
+        ArticleSubmissionService articleSubmissionService = new ArticleSubmissionServiceImpl(articleSubmissionDao);
+        ArticleSubmissionService articleSubmissionService1 = new ArticleSubmissionsProducer(articleSubmissionService,
+                creationQueue, deletionQueue);
+        context.setAttribute("articleSubmissionService", articleSubmissionService1);
+
+        backstageConsumer = new BackstageConsumerImpl(creationQueue, deletionQueue);
         backstageConsumer.start();
     }
 
