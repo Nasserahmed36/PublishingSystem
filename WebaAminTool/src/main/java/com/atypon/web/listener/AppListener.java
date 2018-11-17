@@ -3,6 +3,7 @@ package com.atypon.web.listener;
 
 import com.atypon.backstage.BackstageConsumer;
 import com.atypon.backstage.BackstageConsumerImpl;
+import com.atypon.context.ApplicationContext;
 import com.atypon.domain.ArticleSubmission;
 import com.atypon.domain.dao.*;
 import com.atypon.service.*;
@@ -57,6 +58,20 @@ public class AppListener implements ServletContextListener {
                 creationQueue, deletionQueue);
         context.setAttribute("articleSubmissionService", articleSubmissionService1);
 
+        IssueDao issueDao = new IssueDaoImpl(dataSource);
+        context.setAttribute("issueDao", issueDao);
+
+        IssueService issueService = new IssueServiceImpl(issueDao);
+        context.setAttribute("issueService", issueService);
+        ApplicationContext.setAttribute("issueService", issueService);
+
+        ArticleDao articleDao = new ArticleDaoImpl(dataSource);
+        context.setAttribute("articleDao",articleDao);
+
+        ArticleService articleService = new ArticleServiceImpl(articleDao);
+        context.setAttribute("articleService",articleService);
+        ApplicationContext.setAttribute("articleService", articleService);
+
         backstageConsumer = new BackstageConsumerImpl(creationQueue, deletionQueue);
         backstageConsumer.start();
     }
@@ -67,7 +82,7 @@ public class AppListener implements ServletContextListener {
     }
 
     private DataSource getDataSource(ServletContext servletContext) {
-        DataSource ds = null;
+        DataSource ds;
         try {
             Context context = new InitialContext();
             ds = (DataSource) context.lookup("java:/comp/env/" +
@@ -77,5 +92,4 @@ public class AppListener implements ServletContextListener {
         }
         return ds;
     }
-
 }

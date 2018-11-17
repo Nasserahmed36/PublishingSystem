@@ -9,26 +9,19 @@
     <list default="true" id="f6fd00d7-ea79-4df5-a141-84aea25d7f10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/dataSources/4516ce1a-e44d-43ec-ab91-16d28f362404.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/.idea/dataSources/4516ce1a-e44d-43ec-ab91-16d28f362404.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/IssueMetadataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/IssueMetadataProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/JatsToHtmlTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/JatsToHtmlTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/MainProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/MainProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/Issue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/Issue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleSubmissionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleSubmissionDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleSubmissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleSubmissionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleSubmissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleSubmissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleSubmissionsProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleSubmissionsProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/listener/AppListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/listener/AppListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186/aipa_4_1/2325160315620797/2325160315620797.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186/aipa_4_1/2325160315620797/2325160315620797.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186/aipa_4_1/2325160315620797/JATS-archivearticle1.dtd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186/aipa_4_1/issue-files/aipa_4_1.cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186/aipa_4_1/issue-files/aipa_4_1.largecover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186/aipa_4_1/issue-files/aipa_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186/manifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000028" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000028" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/aipa_aipa_4_1_20181029022409186/article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/META-INF/context.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -479,12 +472,12 @@
       <workItem from="1542190901187" duration="2797000" />
       <workItem from="1542222414344" duration="878000" />
       <workItem from="1542307535345" duration="1753000" />
-      <workItem from="1542367757787" duration="599000" />
+      <workItem from="1542367757787" duration="1202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58639000" />
+    <option name="totallyTimeSpent" value="59242000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,6 +490,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.2114001" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

@@ -36,13 +36,32 @@ public class ArticleSubmissionDaoImpl implements ArticleSubmissionDao {
             statement.execute();
             String absolutePath = outputDirPath + File.separator + outputFile;
             createNecessaryParentDirs(absolutePath);
-            FileUtils.download(inputStream, outputFile);
+            FileUtils.download(inputStream, absolutePath);
             connection.commit();
         } catch (SQLException | IOException e) {
             e.printStackTrace();
             return false;
         }
         return true;
+    }
+
+    @Override
+    public ArticleSubmission get(ArticleSubmission articleSubmission) {
+        ArticleSubmission journal = null;
+        String sql = "SELECT file_name, series_issn, date, status, path " +
+                "from submission where series_issn=? and file_name=?";
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setString(1, articleSubmission.getSeriesIssn());
+            statement.setString(2, articleSubmission.getArticleFileName());
+            ResultSet resultSet = statement.executeQuery();
+            if (resultSet.next()) {
+                journal = extractSubmission(resultSet);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return journal;
     }
 
     @Override

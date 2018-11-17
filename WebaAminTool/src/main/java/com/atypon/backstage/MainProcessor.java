@@ -1,7 +1,10 @@
 package com.atypon.backstage;
 
 import com.atypon.commons.FileUtils;
+import com.atypon.context.ApplicationContext;
 import com.atypon.domain.ArticleSubmission;
+import com.atypon.service.ArticleService;
+import com.atypon.service.IssueService;
 
 import javax.xml.transform.TransformerException;
 import java.io.File;
@@ -15,9 +18,16 @@ public class MainProcessor implements Processor<ArticleSubmission> {
     private static final String OUTPUT_PATH = "/mnt/ssd/ideaProjects/Literatum/processedContent";
 
     private final FileTransformer jatsToHtmlTransformer;
+    private final Processor<String> issueMetadataProcessor;
+    private final Processor<String> articleMetadataProcessor;
 
     public MainProcessor() {
         jatsToHtmlTransformer = new JatsToHtmlTransformer(JATS_HTML_XSL_FILE);
+        issueMetadataProcessor = new IssueMetadataProcessor((IssueService)
+                ApplicationContext.getAttribute("issueService"));
+        articleMetadataProcessor = new ArticleMetadataProcessor((ArticleService)
+                ApplicationContext.getAttribute("articleService"));
+
     }
 
 
@@ -49,13 +59,17 @@ public class MainProcessor implements Processor<ArticleSubmission> {
     private void process(ArticleSubmission articleSubmission, String unzipDir) throws ProcessingException, IOException, TransformerException {
         ArticleSubmissionNavigator navigator = new ArticleSubmissionNavigator(unzipDir);
         File article = navigator.getArticleFile();
+        File issueMetadataFile = navigator.getIssueMetadataFile();
 
         File outputDir = new File(OUTPUT_PATH + File.separator +
                 articleSubmission.getArticleFileName().replace(".zip", ""));
         outputDir.mkdirs();
         addDtd(navigator);
-        jatsToHtmlTransformer.transform(article.getPath(),
-                outputDir.getPath() + File.separator + navigator.getArticleDoi() + ".html");
+//        jatsToHtmlTransformer.transform(article.getPath(),
+//                outputDir.getPath() + File.separator + navigator.getArticleDoi() + ".html");
+
+       // issueMetadataProcessor.process(issueMetadataFile.getPath());
+            articleMetadataProcessor.process(article.getPath());
     }
 
     private void addDtd(ArticleSubmissionNavigator navigator) throws IOException {
@@ -67,6 +81,4 @@ public class MainProcessor implements Processor<ArticleSubmission> {
 
     }
 
-    public static void main(String[] args) {
-    }
 }

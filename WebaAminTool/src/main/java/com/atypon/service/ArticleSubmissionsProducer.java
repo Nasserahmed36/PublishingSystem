@@ -24,7 +24,7 @@ public class ArticleSubmissionsProducer implements ArticleSubmissionService {
         boolean result = service.save(articleSubmission, fileInputStream);
         if (result) {
             try {
-                creationQueue.put(articleSubmission);
+                creationQueue.put(get(articleSubmission));
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
@@ -33,7 +33,12 @@ public class ArticleSubmissionsProducer implements ArticleSubmissionService {
     }
 
     @Override
+    public ArticleSubmission get(ArticleSubmission articleSubmission) {
+        return service.get(articleSubmission);
+    }
+
+    @Override
     public List<ArticleSubmission> getAll() {
-        return null;
+        return service.getAll();
     }
 }

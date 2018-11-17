@@ -11,5 +11,5 @@
               username="root"
               password="123"
               driverClassName="com.mysql.jdbc.Driver"
-              url="jdbc:mysql://localhost:3306/AdminTool"/>
+              url="jdbc:mysql://localhost:3306/AdminTool?allowMultiQueries=true"/>
 </Context>

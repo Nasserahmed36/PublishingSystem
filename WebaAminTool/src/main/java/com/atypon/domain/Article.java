@@ -1,5 +1,6 @@
 package com.atypon.domain;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Article {
@@ -7,7 +8,10 @@ public class Article {
     private String title;
     private String issueDoi;
     private String subject;
-    private List<Author> authors;
+    private String firstPage;
+    private String lastPage;
+
+    private List<Author> authors = new ArrayList<>();
 
     public String getDoi() {
         return doi;
@@ -34,6 +38,10 @@ public class Article {
         this.authors = authors;
     }
 
+    public void addAuthor(Author author) {
+        authors.add(author);
+    }
+
     public String getIssueDoi() {
         return issueDoi;
     }
@@ -50,7 +58,37 @@ public class Article {
         this.subject = subject;
     }
 
-    private static class Author {
+
+    public String getFirstPage() {
+        return firstPage;
+    }
+
+    public void setFirstPage(String firstPage) {
+        this.firstPage = firstPage;
+    }
+
+    public String getLastPage() {
+        return lastPage;
+    }
+
+    public void setLastPage(String lastPage) {
+        this.lastPage = lastPage;
+    }
+
+    @Override
+    public String toString() {
+        return "Article{" +
+                "doi='" + doi + '\'' +
+                ", title='" + title + '\'' +
+                ", issueDoi='" + issueDoi + '\'' +
+                ", subject='" + subject + '\'' +
+                ", firstPage='" + firstPage + '\'' +
+                ", lastPage='" + lastPage + '\'' +
+                ", authors=" + authors +
+                '}';
+    }
+
+    public static class Author {
         private String givenName;
         private String surName;
         private String degrees;
@@ -77,6 +115,15 @@ public class Article {
 
         public void setDegrees(String degrees) {
             this.degrees = degrees;
+        }
+
+        @Override
+        public String toString() {
+            return "Author{" +
+                    "givenName='" + givenName + '\'' +
+                    ", surName='" + surName + '\'' +
+                    ", degrees='" + degrees + '\'' +
+                    '}';
         }
     }
 }

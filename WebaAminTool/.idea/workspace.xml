@@ -9,26 +9,18 @@
     <list default="true" id="aac7c92c-79f3-4bd1-8ea3-7006a3c6fe7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../AccessControl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4516ce1a-e44d-43ec-ab91-16d28f362404.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4516ce1a-e44d-43ec-ab91-16d28f362404.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/IssueMetadataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/IssueMetadataProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/MainProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/MainProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/Article.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/Issue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/Issue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionsProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionsProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186/aipa_4_1/2325160315620797/2325160315620797.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186/aipa_4_1/2325160315620797/2325160315620797.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186/aipa_4_1/2325160315620797/JATS-archivearticle1.dtd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186/aipa_4_1/issue-files/aipa_4_1.cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186/aipa_4_1/issue-files/aipa_4_1.largecover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186/aipa_4_1/issue-files/aipa_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/aipa_aipa_4_1_20181029022409186/manifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000028" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000028" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/aipa_aipa_4_1_20181029022409186/article.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,48 +68,49 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="46" />
+          <entry key="dummy" value="57" />
           <entry key="html" value="55" />
-          <entry key="java" value="8164" />
+          <entry key="java" value="12192" />
           <entry key="jsp" value="1362" />
-          <entry key="sql" value="435" />
-          <entry key="xml" value="189" />
+          <entry key="sql" value="1411" />
+          <entry key="xml" value="195" />
           <entry key="xsl" value="145" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="55" />
-          <entry key="JAVA" value="8164" />
+          <entry key="JAVA" value="12187" />
           <entry key="JSP" value="1362" />
-          <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Scratch" value="435" />
-          <entry key="XML" value="334" />
+          <entry key="PLAIN_TEXT" value="57" />
+          <entry key="SQL" value="5" />
+          <entry key="Scratch" value="1411" />
+          <entry key="XML" value="340" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
+          <entry key="class" value="2" />
           <entry key="dtd" value="1" />
           <entry key="html" value="5" />
-          <entry key="java" value="102" />
+          <entry key="java" value="146" />
           <entry key="js" value="2" />
           <entry key="jsp" value="24" />
-          <entry key="sql" value="3" />
-          <entry key="xml" value="34" />
+          <entry key="sql" value="6" />
+          <entry key="xml" value="47" />
           <entry key="xsl" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
+          <entry key="CLASS" value="2" />
           <entry key="DTD" value="1" />
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="102" />
+          <entry key="JAVA" value="146" />
           <entry key="JSP" value="24" />
           <entry key="JavaScript" value="2" />
-          <entry key="Scratch" value="3" />
-          <entry key="XML" value="37" />
+          <entry key="Scratch" value="6" />
+          <entry key="XML" value="50" />
         </counts>
       </usages-collector>
     </session>
@@ -188,10 +181,121 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+            <state relative-caret-position="561">
+              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="method#extractArticle#0;class#ArticleMetadataProcessor#0" />
+                <element signature="e#1726#1727#0" expanded="true" />
+                <element signature="e#1771#1772#0" expanded="true" />
+                <element signature="method#startElement#0;class#XmlIssueHandler#0;class#ArticleMetadataProcessor#0" />
+                <element signature="method#characters#0;class#XmlIssueHandler#0;class#ArticleMetadataProcessor#0" />
+                <element signature="method#endElement#0;class#XmlArticleHandler#0;class#ArticleMetadataProcessor#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Desktop/0198742916688652.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7">
+              <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+              <folding>
+                <element signature="e#7599#7604#0" expanded="true" />
+                <element signature="e#9857#9862#0" expanded="true" />
+                <element signature="e#11406#11411#0" expanded="true" />
+                <element signature="e#11510#11515#0" expanded="true" />
+                <element signature="e#11703#11708#0" expanded="true" />
+                <element signature="e#11807#11812#0" expanded="true" />
+                <element signature="e#12097#12102#0" expanded="true" />
+                <element signature="e#12293#12298#0" expanded="true" />
+                <element signature="e#12411#12416#0" expanded="true" />
+                <element signature="e#12532#12537#0" expanded="true" />
+                <element signature="e#12646#12651#0" expanded="true" />
+                <element signature="e#13378#13383#0" expanded="true" />
+                <element signature="e#13465#13470#0" expanded="true" />
+                <element signature="e#14363#14368#0" expanded="true" />
+                <element signature="e#14845#14850#0" expanded="true" />
+                <element signature="e#14950#14955#0" expanded="true" />
+                <element signature="e#16375#16380#0" expanded="true" />
+                <element signature="e#16580#16585#0" expanded="true" />
+                <element signature="e#16787#16792#0" expanded="true" />
+                <element signature="e#17098#17103#0" expanded="true" />
+                <element signature="e#17549#17554#0" expanded="true" />
+                <element signature="e#19067#19072#0" expanded="true" />
+                <element signature="e#19732#19737#0" expanded="true" />
+                <element signature="e#20108#20113#0" expanded="true" />
+                <element signature="e#21054#21059#0" expanded="true" />
+                <element signature="e#21142#21147#0" expanded="true" />
+                <element signature="e#22100#22105#0" expanded="true" />
+                <element signature="e#22206#22211#0" expanded="true" />
+                <element signature="e#22884#22889#0" expanded="true" />
+                <element signature="e#26638#26643#0" expanded="true" />
+                <element signature="e#26759#26764#0" expanded="true" />
+                <element signature="e#60654#60659#0" expanded="true" />
+                <element signature="e#226175#226180#0" expanded="true" />
+                <element signature="e#226786#226791#0" expanded="true" />
+                <element signature="e#245775#245779#0" expanded="true" />
+                <element signature="e#246105#246109#0" expanded="true" />
+                <element signature="e#246170#246174#0" expanded="true" />
+                <element signature="e#246501#246505#0" expanded="true" />
+                <element signature="e#253345#253349#0" expanded="true" />
+                <element signature="e#253376#253380#0" expanded="true" />
+                <element signature="e#253408#253412#0" expanded="true" />
+                <element signature="e#253942#253946#0" expanded="true" />
+                <element signature="e#272388#272392#0" expanded="true" />
+                <element signature="e#272419#272423#0" expanded="true" />
+                <element signature="e#272451#272455#0" expanded="true" />
+                <element signature="e#273917#273921#0" expanded="true" />
+                <element signature="e#274348#274352#0" expanded="true" />
+                <element signature="e#274386#274390#0" expanded="true" />
+                <element signature="e#274452#274456#0" expanded="true" />
+                <element signature="e#275325#275329#0" expanded="true" />
+                <element signature="e#275648#275652#0" expanded="true" />
+                <element signature="e#276098#276102#0" expanded="true" />
+                <element signature="e#276346#276350#0" expanded="true" />
+                <element signature="e#276790#276794#0" expanded="true" />
+                <element signature="e#276831#276835#0" expanded="true" />
+                <element signature="e#277302#277306#0" expanded="true" />
+                <element signature="e#277340#277344#0" expanded="true" />
+                <element signature="e#278924#278928#0" expanded="true" />
+                <element signature="e#286135#286139#0" expanded="true" />
+                <element signature="e#286166#286170#0" expanded="true" />
+                <element signature="e#286198#286202#0" expanded="true" />
+                <element signature="e#286749#286754#0" expanded="true" />
+                <element signature="e#288538#288543#0" expanded="true" />
+                <element signature="e#289509#289514#0" expanded="true" />
+                <element signature="e#291170#291175#0" expanded="true" />
+                <element signature="e#293152#293157#0" expanded="true" />
+                <element signature="e#296280#296285#0" expanded="true" />
+                <element signature="e#297138#297143#0" expanded="true" />
+                <element signature="e#297444#297449#0" expanded="true" />
+                <element signature="e#297616#297621#0" expanded="true" />
+                <element signature="e#297943#297948#0" expanded="true" />
+                <element signature="e#298889#298894#0" expanded="true" />
+                <element signature="e#299960#299965#0" expanded="true" />
+                <element signature="e#302489#302494#0" expanded="true" />
+                <element signature="e#306506#306511#0" expanded="true" />
+                <element signature="e#306619#306624#0" expanded="true" />
+                <element signature="e#306704#306709#0" expanded="true" />
+                <element signature="e#307168#307173#0" expanded="true" />
+                <element signature="e#310195#310200#0" expanded="true" />
+                <element signature="e#319988#319993#0" expanded="true" />
+                <element signature="e#323808#323813#0" expanded="true" />
+                <element signature="e#334506#334511#0" expanded="true" />
+                <element signature="e#349312#349317#0" expanded="true" />
+                <element signature="e#366043#366048#0" expanded="true" />
+                <element signature="e#371932#371937#0" expanded="true" />
+                <element signature="e#374733#374738#0" expanded="true" />
+                <element signature="e#374742#374747#0" expanded="true" />
+                <element signature="e#374752#374757#0" expanded="true" />
+                <element signature="e#374764#374769#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,20 +303,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
+            <state relative-caret-position="323">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/BackstageController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="5" column="15" selection-start-line="5" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -220,8 +321,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/MainProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="240">
+              <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -230,74 +331,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/IssueMetadataProcessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4516ce1a-e44d-43ec-ab91-16d28f362404/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_8_2_20181029025517060/afpa_8_2/issue-files/afpa_8_2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Article.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="33" selection-start-line="5" selection-start-column="3" selection-end-line="9" selection-end-column="33" />
+              <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
               <folding>
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_8_2_20181029025517060/afpa_8_2/1925362118785209/1925362118785209.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            <state relative-caret-position="-238">
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Issue.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
-              <folding>
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#1362#1363#0" expanded="true" />
-                <element signature="e#1412#1413#0" expanded="true" />
-                <element signature="e#1454#1455#0" expanded="true" />
-                <element signature="e#1489#1490#0" expanded="true" />
-                <element signature="e#1520#1521#0" expanded="true" />
-                <element signature="e#1568#1569#0" expanded="true" />
-                <element signature="e#1608#1609#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="544">
+              <caret line="72" column="73" selection-start-line="72" selection-start-column="73" selection-end-line="72" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -335,6 +414,9 @@
       <find>doi</find>
       <find>Edit</find>
       <find>&gt;</find>
+      <find>month</find>
+      <find>contrib</find>
+      <find>article-title</find>
     </findStrings>
     <replaceStrings>
       <replace>id</replace>
@@ -346,27 +428,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Downloads/a/UN-Processed  (Submissions)/afpa_afpa_6_3_20181029033525638/afpa_6_3/192536211600600301/192536211600600301.xml" />
-        <option value="$USER_HOME$/Downloads/a/UN-Processed  (Submissions)/bhda_bhda_42_1_20181029050651626/bhda_42_1/issue-files/bhda_42_1.xml" />
-        <option value="$USER_HOME$/Downloads/a/UN-Processed  (Submissions)/bhda_bhda_42_1_20181029050651626/bhda_42_1/bd-14-12.1/bd-14-12.1.xml" />
-        <option value="$USER_HOME$/Downloads/a/UN-Processed  (Submissions)/aipa_aipa_5_2_20181029023248821/aipa_5_2/2325160316685608/2325160316685608.xml" />
-        <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/aipa_aipa_6_3_20181029023259795/aipa_6_3/2325160318775747/2325160318775747.xml" />
-        <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/aipa_aipa_6_3_20181029024819450/aipa_6_3/2325160318764464/2325160318764464.xml" />
-        <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/aipa_aipa_6_3_20181029024819450/aipa_6_3/issue-files/aipa_6_3.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/PublicationDate.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/submissions.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/ContentController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/content.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/validator/JournalValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/identities.jsp" />
-        <option value="$USER_HOME$/Downloads/a/UN-Processed  (Submissions)/aipa_aipa_6_3_20181029023259795/aipa_6_3/2325160318775747/2325160318775747.xml" />
-        <option value="$USER_HOME$/Downloads/a/UN-Processed  (Submissions)/aipa_aipa_6_3_20181029023259795/aipa_6_3/issue-files/aipa_6_3.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/JournalService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/JournalDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/JournalServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/Journal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/form/JournalForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/journal.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/leftBar.jsp" />
@@ -375,28 +436,49 @@
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/SubmissionsController.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/ArticleSubmission.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/form/ArticleSubmissionForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/validator/ArticleSubmissionValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/userProfile.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/BackstageController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/backstage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/commons/FileUtils.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java" />
+        <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_8_2_20181029025517060/afpa_8_2/issue-files/afpa_8_2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/JatsToHtmlTransformer.java" />
+        <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_8_2_20181029025517060/afpa_8_2/1925362118785209/1925362118785209.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/Issue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/IssueService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/context/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionsProducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/MainProcessor.java" />
-        <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_8_2_20181029025517060/afpa_8_2/issue-files/afpa_8_2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/IssueServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/aipa_4_1.xml" />
+        <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_6_3_20181029033525638/afpa_6_3/192536211600600301/192536211600600301.xml" />
+        <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_7_1_20181029024924876/afpa_7_1/192536211700700102/192536211700700102.xml" />
+        <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/bhda_bhda_42_2_20181029050741952/bhda_42_2/0198742916688653/0198742916688653.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/Article.java" />
-        <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_8_2_20181029025517060/afpa_8_2/1925362118785209/1925362118785209.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/Issue.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4516ce1a-e44d-43ec-ab91-16d28f362404/console.sql" />
+        <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/bhda_bhda_42_2_20181029050741952/bhda_42_2/issue-files/bhda_42_2.xml" />
+        <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/aipa_aipa_4_1_20181029022342499/aipa_4_1/issue-files/aipa_4_1.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/IssueMetadataProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4516ce1a-e44d-43ec-ab91-16d28f362404/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/MainProcessor.java" />
+        <option value="$USER_HOME$/Desktop/0198742916688652.xml" />
       </list>
     </option>
   </component>
@@ -483,6 +565,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="atypon" type="462c0819:PsiDirectoryNode" />
               <item name="commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebaAminTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebaAminTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atypon" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebaAminTool" type="b2602c69:ProjectViewProjectNode" />
@@ -642,7 +733,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542324778132" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542415858240" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Edit As Language" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -651,16 +743,20 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.atypon.commons" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/META-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/atypon" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/admin" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao" />
       <recent name="$PROJECT_DIR$/src/main/webapp/admin" />
       <recent name="$PROJECT_DIR$/src/main/java/com/atypon/service" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao" />
       <recent name="$PROJECT_DIR$/src/main/java/com/atypon" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
@@ -671,12 +767,8 @@
       <recent name="com.atypon.domain" />
       <recent name="com.atypon.web.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/META-INF" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/atypon" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/admin" />
-      <recent name="$PROJECT_DIR$" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atypon.commons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -692,9 +784,61 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="AppListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atypon.web.listener.AppListener" />
+      <module name="WebaAminTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atypon.web.listener.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArticleMetadataProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atypon.backstage.ArticleMetadataProcessor" />
+      <module name="WebaAminTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atypon.backstage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArticleSubmissionDaoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atypon.domain.dao.ArticleSubmissionDaoImpl" />
       <module name="web-admin-tool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atypon.domain.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IssueMetadataProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atypon.backstage.IssueMetadataProcessor" />
+      <module name="WebaAminTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atypon.backstage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JournalDaoImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atypon.domain.dao.JournalDaoImpl" />
+      <module name="WebaAminTool" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.atypon.domain.dao.*" />
@@ -849,9 +993,17 @@
     <list>
       <item itemvalue="Tomcat Server.Tomcat" />
       <item itemvalue="Application.ArticleSubmissionDaoImpl" />
+      <item itemvalue="Application.IssueMetadataProcessor" />
+      <item itemvalue="Application.AppListener" />
+      <item itemvalue="Application.JournalDaoImpl" />
+      <item itemvalue="Application.ArticleMetadataProcessor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArticleMetadataProcessor" />
+        <item itemvalue="Application.JournalDaoImpl" />
+        <item itemvalue="Application.AppListener" />
+        <item itemvalue="Application.IssueMetadataProcessor" />
         <item itemvalue="Application.ArticleSubmissionDaoImpl" />
       </list>
     </recent_temporary>
@@ -886,12 +1038,12 @@
       <workItem from="1542273968108" duration="64000" />
       <workItem from="1542274143765" duration="23073000" />
       <workItem from="1542310290732" duration="13274000" />
-      <workItem from="1542367756379" duration="599000" />
+      <workItem from="1542367756379" duration="38287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268964000" />
+    <option name="totallyTimeSpent" value="306652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -904,6 +1056,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4972973" visible="true" weight="0.2733813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -916,7 +1069,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.47027028" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32535884" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.4555024" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.45513514" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.38054055" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -960,6 +1113,18 @@
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/MainProcessor.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -992,6 +1157,16 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>attributes.getValue(&quot;pub-type&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>attributes.getValue(&quot;ppub&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>request.getRequestURI().split(&quot;/&quot;)</expression-string>
         <language-id>JAVA</language-id>
@@ -1032,194 +1207,16 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>uri.substring(request.getContextPath().length())</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/PublicationDate.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/IdentityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/submissions.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3434">
-          <caret line="241" column="7" selection-start-line="241" selection-start-column="7" selection-end-line="241" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml" />
-    <entry file="file://$USER_HOME$/Desktop/UN-Processed  (Submissions)/aipa_aipa_6_3_20181029024819450/aipa_6_3/2325160318764464/2325160318764464.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/IdentityVaildator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="30" column="22" selection-start-line="11" selection-start-column="7" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/0198742916688653.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/a/UN-Processed  (Submissions)/aipa_aipa_6_3_20181029023259795/aipa_6_3/issue-files/aipa_6_3.xml" />
-    <entry file="file://$USER_HOME$/Downloads/a/UN-Processed  (Submissions)/aipa_aipa_6_3_20181029023259795/aipa_6_3/2325160318775747/2325160318775747.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/form/IdentityForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/JournalValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/JournalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IdentityDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="104" column="9" lean-forward="true" selection-start-line="96" selection-start-column="6" selection-end-line="104" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/JournalDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/IdentityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/JournalServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#562#563#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Journal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/journal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="152" column="80" lean-forward="true" selection-start-line="152" selection-start-column="80" selection-end-line="152" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/form/JournalForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/leftBar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="60" lean-forward="true" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/SubmissionsController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/IdentityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/ArticleSubmission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="98" column="24" selection-start-line="98" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/ArticleUploadController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/ArticleSubmissionValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1258,140 +1255,500 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="80" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/form/ArticleSubmissionForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionsProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="64" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/BackstageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/MainProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/JatsToHtmlTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/IssueMetadataProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4516ce1a-e44d-43ec-ab91-16d28f362404/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" selection-start-line="5" selection-start-column="3" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="24" column="67" selection-start-line="24" selection-start-column="67" selection-end-line="24" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_8_2_20181029025517060/afpa_8_2/1925362118785209/1925362118785209.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Issue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
-          <folding>
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#1412#1413#0" expanded="true" />
-            <element signature="e#1454#1455#0" expanded="true" />
-            <element signature="e#1489#1490#0" expanded="true" />
-            <element signature="e#1520#1521#0" expanded="true" />
-            <element signature="e#1568#1569#0" expanded="true" />
-            <element signature="e#1608#1609#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_8_2_20181029025517060/afpa_8_2/issue-files/afpa_8_2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="324">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/UN-Processed  (Submissions)/aipa_aipa_6_3_20181029024819450/aipa_6_3/issue-files/aipa_6_3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Issue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1288#1289#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/JournalDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IdentityDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="104" column="9" lean-forward="true" selection-start-line="96" selection-start-column="6" selection-end-line="104" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/IssueService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar!/javax/servlet/ServletContextListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/context.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/context/ApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/BackstageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionsProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="80" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/IssueServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_6_3_20181029033525638/afpa_6_3/issue-files/afpa_6_3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/UN-Processed  (Submissions)/aipa_aipa_6_3_20181029023259795/aipa_6_3/2325160318775747/2325160318775747.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_6_3_20181029033525638/afpa_6_3/192536211600600301/192536211600600301.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/UN-Processed  (Submissions)/bhda_bhda_42_2_20181029050741952/bhda_42_2/issue-files/bhda_42_2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="29" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/aipa_4_1.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/IssueMetadataProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="75" column="27" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#extractIssue#0;class#IssueMetadataProcessor#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/UN-Processed  (Submissions)/aipa_aipa_4_1_20181029022342499/aipa_4_1/issue-files/aipa_4_1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_7_1_20181029024924876/afpa_7_1/192536211700700102/192536211700700102.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/UN-Processed  (Submissions)/bhda_bhda_42_2_20181029050741952/bhda_42_2/0198742916688653/0198742916688653.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="44" lean-forward="true" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-649">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" column="13" lean-forward="true" selection-start-line="36" selection-start-column="12" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="72" column="73" selection-start-line="72" selection-start-column="73" selection-end-line="72" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4516ce1a-e44d-43ec-ab91-16d28f362404/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/MainProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="75" column="32" selection-start-line="75" selection-start-column="32" selection-end-line="75" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="method#extractArticle#0;class#ArticleMetadataProcessor#0" />
+            <element signature="e#1726#1727#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="method#startElement#0;class#XmlIssueHandler#0;class#ArticleMetadataProcessor#0" />
+            <element signature="method#characters#0;class#XmlIssueHandler#0;class#ArticleMetadataProcessor#0" />
+            <element signature="method#endElement#0;class#XmlArticleHandler#0;class#ArticleMetadataProcessor#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/0198742916688652.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="e#7599#7604#0" expanded="true" />
+            <element signature="e#9857#9862#0" expanded="true" />
+            <element signature="e#11406#11411#0" expanded="true" />
+            <element signature="e#11510#11515#0" expanded="true" />
+            <element signature="e#11703#11708#0" expanded="true" />
+            <element signature="e#11807#11812#0" expanded="true" />
+            <element signature="e#12097#12102#0" expanded="true" />
+            <element signature="e#12293#12298#0" expanded="true" />
+            <element signature="e#12411#12416#0" expanded="true" />
+            <element signature="e#12532#12537#0" expanded="true" />
+            <element signature="e#12646#12651#0" expanded="true" />
+            <element signature="e#13378#13383#0" expanded="true" />
+            <element signature="e#13465#13470#0" expanded="true" />
+            <element signature="e#14363#14368#0" expanded="true" />
+            <element signature="e#14845#14850#0" expanded="true" />
+            <element signature="e#14950#14955#0" expanded="true" />
+            <element signature="e#16375#16380#0" expanded="true" />
+            <element signature="e#16580#16585#0" expanded="true" />
+            <element signature="e#16787#16792#0" expanded="true" />
+            <element signature="e#17098#17103#0" expanded="true" />
+            <element signature="e#17549#17554#0" expanded="true" />
+            <element signature="e#19067#19072#0" expanded="true" />
+            <element signature="e#19732#19737#0" expanded="true" />
+            <element signature="e#20108#20113#0" expanded="true" />
+            <element signature="e#21054#21059#0" expanded="true" />
+            <element signature="e#21142#21147#0" expanded="true" />
+            <element signature="e#22100#22105#0" expanded="true" />
+            <element signature="e#22206#22211#0" expanded="true" />
+            <element signature="e#22884#22889#0" expanded="true" />
+            <element signature="e#26638#26643#0" expanded="true" />
+            <element signature="e#26759#26764#0" expanded="true" />
+            <element signature="e#60654#60659#0" expanded="true" />
+            <element signature="e#226175#226180#0" expanded="true" />
+            <element signature="e#226786#226791#0" expanded="true" />
+            <element signature="e#245775#245779#0" expanded="true" />
+            <element signature="e#246105#246109#0" expanded="true" />
+            <element signature="e#246170#246174#0" expanded="true" />
+            <element signature="e#246501#246505#0" expanded="true" />
+            <element signature="e#253345#253349#0" expanded="true" />
+            <element signature="e#253376#253380#0" expanded="true" />
+            <element signature="e#253408#253412#0" expanded="true" />
+            <element signature="e#253942#253946#0" expanded="true" />
+            <element signature="e#272388#272392#0" expanded="true" />
+            <element signature="e#272419#272423#0" expanded="true" />
+            <element signature="e#272451#272455#0" expanded="true" />
+            <element signature="e#273917#273921#0" expanded="true" />
+            <element signature="e#274348#274352#0" expanded="true" />
+            <element signature="e#274386#274390#0" expanded="true" />
+            <element signature="e#274452#274456#0" expanded="true" />
+            <element signature="e#275325#275329#0" expanded="true" />
+            <element signature="e#275648#275652#0" expanded="true" />
+            <element signature="e#276098#276102#0" expanded="true" />
+            <element signature="e#276346#276350#0" expanded="true" />
+            <element signature="e#276790#276794#0" expanded="true" />
+            <element signature="e#276831#276835#0" expanded="true" />
+            <element signature="e#277302#277306#0" expanded="true" />
+            <element signature="e#277340#277344#0" expanded="true" />
+            <element signature="e#278924#278928#0" expanded="true" />
+            <element signature="e#286135#286139#0" expanded="true" />
+            <element signature="e#286166#286170#0" expanded="true" />
+            <element signature="e#286198#286202#0" expanded="true" />
+            <element signature="e#286749#286754#0" expanded="true" />
+            <element signature="e#288538#288543#0" expanded="true" />
+            <element signature="e#289509#289514#0" expanded="true" />
+            <element signature="e#291170#291175#0" expanded="true" />
+            <element signature="e#293152#293157#0" expanded="true" />
+            <element signature="e#296280#296285#0" expanded="true" />
+            <element signature="e#297138#297143#0" expanded="true" />
+            <element signature="e#297444#297449#0" expanded="true" />
+            <element signature="e#297616#297621#0" expanded="true" />
+            <element signature="e#297943#297948#0" expanded="true" />
+            <element signature="e#298889#298894#0" expanded="true" />
+            <element signature="e#299960#299965#0" expanded="true" />
+            <element signature="e#302489#302494#0" expanded="true" />
+            <element signature="e#306506#306511#0" expanded="true" />
+            <element signature="e#306619#306624#0" expanded="true" />
+            <element signature="e#306704#306709#0" expanded="true" />
+            <element signature="e#307168#307173#0" expanded="true" />
+            <element signature="e#310195#310200#0" expanded="true" />
+            <element signature="e#319988#319993#0" expanded="true" />
+            <element signature="e#323808#323813#0" expanded="true" />
+            <element signature="e#334506#334511#0" expanded="true" />
+            <element signature="e#349312#349317#0" expanded="true" />
+            <element signature="e#366043#366048#0" expanded="true" />
+            <element signature="e#371932#371937#0" expanded="true" />
+            <element signature="e#374733#374738#0" expanded="true" />
+            <element signature="e#374742#374747#0" expanded="true" />
+            <element signature="e#374752#374757#0" expanded="true" />
+            <element signature="e#374764#374769#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

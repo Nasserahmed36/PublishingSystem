@@ -97,4 +97,5 @@ public class JournalDaoImpl implements JournalDao {
             return Boolean.FALSE;
         }
     }
+
 }

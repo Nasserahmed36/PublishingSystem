@@ -19,6 +19,11 @@ public class ArticleSubmissionServiceImpl implements ArticleSubmissionService {
         return dao.save(articleSubmission, fileInputStream);
     }
 
+    @Override
+    public ArticleSubmission get(ArticleSubmission articleSubmission) {
+        return dao.get(articleSubmission);
+    }
+
 
     @Override
     public List<ArticleSubmission> getAll() {

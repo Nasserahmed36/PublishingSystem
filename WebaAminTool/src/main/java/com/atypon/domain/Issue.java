@@ -1,16 +1,17 @@
 package com.atypon.domain;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Issue {
 
     private String doi;
     private String journalPrintIssn;
-    private String number;
-    private String volume;
-    private String title;
+    private int volume;
+    private int number;
     private int month;
     private int year;
-    private String firstPage;
-    private String lastPage;
+    private List<String> subjects = new ArrayList<>();
 
 
     public String getDoi() {
@@ -29,28 +30,20 @@ public class Issue {
         this.journalPrintIssn = journalPrintIssn;
     }
 
-    public String getNumber() {
+    public int getNumber() {
         return number;
     }
 
-    public void setNumber(String number) {
+    public void setNumber(int number) {
         this.number = number;
     }
 
-    public String getVolume() {
+    public int getVolume() {
         return volume;
     }
 
-    public void setVolume(String volume) {
+    public void setVolume(int volume) {
         this.volume = volume;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 
     public int getMonth() {
@@ -69,19 +62,24 @@ public class Issue {
         this.year = year;
     }
 
-    public String getFirstPage() {
-        return firstPage;
+    public void addSubject(String subject) {
+        subjects.add(subject);
     }
 
-    public void setFirstPage(String firstPage) {
-        this.firstPage = firstPage;
+    public List<String> getSubjects() {
+        return subjects;
     }
 
-    public String getLastPage() {
-        return lastPage;
-    }
-
-    public void setLastPage(String lastPage) {
-        this.lastPage = lastPage;
+    @Override
+    public String toString() {
+        return "Issue{" +
+                "doi='" + doi + '\'' +
+                ", journalPrintIssn='" + journalPrintIssn + '\'' +
+                ", volume=" + volume +
+                ", number=" + number +
+                ", month=" + month +
+                ", year=" + year +
+                ", subjects=" + subjects +
+                '}';
     }
 }
