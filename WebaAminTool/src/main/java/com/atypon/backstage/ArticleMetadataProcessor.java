@@ -8,11 +8,17 @@ import static com.atypon.domain.Article.Author;
 import com.atypon.service.ArticleService;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
+import org.xml.sax.SAXNotRecognizedException;
+import org.xml.sax.SAXNotSupportedException;
 import org.xml.sax.helpers.DefaultHandler;
 
+import javax.security.sasl.SaslException;
+import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
 public class ArticleMetadataProcessor implements Processor<String> {
 
@@ -29,8 +35,8 @@ public class ArticleMetadataProcessor implements Processor<String> {
     }
 
     private Article extractArticle(String articleFilePath) throws ProcessingException {
+        Article article = new Article();
         try {
-            Article article = new Article();
             SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
             saxParserFactory.setValidating(false);
             saxParserFactory.setFeature("http://xml.org/sax/features/namespaces", false);
@@ -40,10 +46,12 @@ public class ArticleMetadataProcessor implements Processor<String> {
             SAXParser saxParser = saxParserFactory.newSAXParser();
             XmlArticleHandler handler = new XmlArticleHandler(article);
             saxParser.parse(new FileInputStream(articleFilePath), handler);
-            return article;
-        } catch (Exception e) {
-            throw new ProcessingException(e);
+        } catch (EndOfTheDocumentException ignore) {
+
+        } catch (SAXException | ParserConfigurationException | IOException e) {
+            e.printStackTrace();
         }
+        return article;
     }
 
     private static class XmlArticleHandler extends DefaultHandler {
@@ -130,14 +138,16 @@ public class ArticleMetadataProcessor implements Processor<String> {
         @Override
         public void endElement(String uri, String localName, String qName) throws SAXException {
             switch (qName) {
-
                 case "contrib":
                     article.addAuthor(author);
                     author = new Author();
                     break;
-
+                case "article-meta":
+                    throw new EndOfTheDocumentException();
             }
         }
     }
 
+    private static class EndOfTheDocumentException extends RuntimeException {
+    }
 }

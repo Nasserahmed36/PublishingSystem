@@ -37,6 +37,7 @@ public class MainProcessor implements Processor<ArticleSubmission> {
         if (validate(unzipDir)) {
             try {
                 process(articleSubmission, unzipDir);
+                notify(true);
             } catch (IOException | TransformerException e) {
                 throw new ProcessingException(e);
             }
@@ -68,8 +69,8 @@ public class MainProcessor implements Processor<ArticleSubmission> {
 //        jatsToHtmlTransformer.transform(article.getPath(),
 //                outputDir.getPath() + File.separator + navigator.getArticleDoi() + ".html");
 
-       // issueMetadataProcessor.process(issueMetadataFile.getPath());
-            articleMetadataProcessor.process(article.getPath());
+        issueMetadataProcessor.process(issueMetadataFile.getPath());
+        articleMetadataProcessor.process(article.getPath());
     }
 
     private void addDtd(ArticleSubmissionNavigator navigator) throws IOException {

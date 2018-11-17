@@ -24,11 +24,12 @@ public class ArticleDaoImpl implements ArticleDao {
         sql.append("insert into article_author (article_dao, given_name, sur_name," +
                 " degrees) values ");
         for (int i = 0; i < article.getAuthors().size(); i++) {
-            sql.append(" (?,?),");
+            sql.append(" (?,?,?,?),");
         }
         sql.deleteCharAt(sql.length() - 1);
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql.toString())) {
+            connection.setAutoCommit(false);
             int index = 1;
             statement.setString(index++, article.getDoi());
             statement.setString(index++, article.getTitle());
@@ -43,8 +44,8 @@ public class ArticleDaoImpl implements ArticleDao {
                 statement.setString(index++, author.getSurName());
                 statement.setString(index++, author.getSurName());
             }
-
             statement.execute();
+            connection.commit();
         } catch (SQLException e) {
             e.printStackTrace();
             return false;
