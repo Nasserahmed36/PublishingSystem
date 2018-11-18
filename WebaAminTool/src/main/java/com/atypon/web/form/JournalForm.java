@@ -8,13 +8,14 @@ public class JournalForm {
     private String title;
     private String publisherName;
     private String publisherLocation;
+    private String discipline;
 
 
     public String getPrintIssn() {
         return printIssn;
     }
 
-    public void setPrintIsnn(String pIsnn) {
+    public void setPrintIssn(String pIsnn) {
         this.printIssn = pIsnn;
     }
 
@@ -59,5 +60,11 @@ public class JournalForm {
         this.publisherLocation = publisherLocation;
     }
 
+    public String getDiscipline() {
+        return discipline;
+    }
 
+    public void setDiscipline(String discipline) {
+        this.discipline = discipline;
+    }
 }

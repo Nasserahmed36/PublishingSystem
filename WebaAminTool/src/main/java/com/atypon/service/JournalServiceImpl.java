@@ -3,6 +3,8 @@ package com.atypon.service;
 import com.atypon.domain.Journal;
 import com.atypon.domain.dao.JournalDao;
 
+import java.util.List;
+
 public class JournalServiceImpl implements JournalService {
     private final JournalDao dao;
 
@@ -21,6 +23,16 @@ public class JournalServiceImpl implements JournalService {
     }
 
     @Override
+    public List<Journal> getAll() {
+        return dao.getAll();
+    }
+
+    @Override
+    public List<Journal> getByDiscipline(String discipline) {
+        return dao.getByDiscipline(discipline);
+    }
+
+    @Override
     public boolean update(Journal journal) {
         return dao.update(journal);
     }
@@ -29,4 +41,6 @@ public class JournalServiceImpl implements JournalService {
     public boolean delete(String issn) {
         return dao.delete(issn);
     }
+
+
 }

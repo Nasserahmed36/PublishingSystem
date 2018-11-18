@@ -3,7 +3,6 @@ package com.atypon.web.servlet;
 import com.atypon.web.controller.JournalController;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -11,9 +10,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet(name = "DispatcherServlet", urlPatterns = {"/journal/*"})
-@MultipartConfig
 public class DispatcherServlet extends HttpServlet {
-    private static final String JSPS_FILE = "/static";
+    private static final String JSPS_FILE = "/publish";
 
     private JournalController journalController;
 
@@ -29,6 +27,7 @@ public class DispatcherServlet extends HttpServlet {
         String view = null;
         switch (action) {
             case "journal":
+                view = journalController.handle(request,response);
                 break;
         }
         dispatch(request, response, view);

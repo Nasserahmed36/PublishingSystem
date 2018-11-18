@@ -27,6 +27,8 @@ public class MainProcessor implements Processor<ArticleSubmission> {
                 ApplicationContext.getAttribute("issueService"));
         articleMetadataProcessor = new ArticleMetadataProcessor((ArticleService)
                 ApplicationContext.getAttribute("articleService"));
+        // gather data
+        // add them all at once
 
     }
 

@@ -146,6 +146,7 @@ public class JournalController implements Controller {
         journal.setTitle(form.getTitle());
         journal.setPublisherName(form.getPublisherName());
         journal.setPublisherLocation(form.getPublisherLocation());
+        journal.setDiscipline(form.getDiscipline());
         return journal;
     }
 
@@ -163,11 +164,12 @@ public class JournalController implements Controller {
         JournalForm form = new JournalForm();
         form.setId(request.getParameter("id").trim());
         form.setElectronicIssn(request.getParameter("eIssn").trim());
-        form.setPrintIsnn(request.getParameter("pIssn").trim());
+        form.setPrintIssn(request.getParameter("pIssn").trim());
         form.setElectronicIssn(request.getParameter("eIssn").trim());
         form.setTitle(request.getParameter("title").trim());
         form.setPublisherName(request.getParameter("publisherName").trim());
         form.setPublisherLocation(request.getParameter("publisherLocation").trim());
+        form.setDiscipline(request.getParameter("discipline").trim());
         return form;
     }
 }

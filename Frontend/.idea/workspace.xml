@@ -7,21 +7,221 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3e3c32c-c211-4cf8-a5bf-61ab0e0cbd55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../AccessControl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/WEB-INF/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/WEB-INF/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/WEB-INF/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/01-homepage/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/01-homepage/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/02-Single-post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/02-Single-post/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/02-Single-post/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/03-About-me.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/03-About-me/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/03-About-me/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/04-Contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/04-Contact/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/04-Contact/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/05-Comming-soon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/05-Comming-soon/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/05-Comming-soon/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/common-css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/common-css/ionicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/common-css/layerslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/common-css/swiper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/common-js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/common-js/embed.videos.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/common-js/jquery-3.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/common-js/jquery.circliful.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/common-js/jquery.countdown.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/common-js/layerslider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/common-js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/common-js/swiper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/common-js/tether.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/fonts/ionicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/homePage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/advertise-1-400x500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/atypon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/author-1-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/author-2-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/author-3-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/blog-1-1000x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/blog-10-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/blog-11-1000x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/blog-2-1000x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/blog-3-500x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/blog-4-500x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/blog-5-500x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/blog-6-500x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/blog-7-500x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/blog-8-1000x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/blog-9-600x600.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/category-1-400x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/category-2-400x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/category-3-400x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/category-4-400x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/instragram-1-300x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/instragram-2-300x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/instragram-3-300x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/instragram-4-300x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/instragram-5-300x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/instragram-6-300x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/instragram-7-300x400.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/instragram-side-1-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/instragram-side-2-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/instragram-side-3-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/instragram-side-4-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/instragram-side-5-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/instragram-side-6-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/publish.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/publishing.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/recent-post-1-150x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/recent-post-2-150x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/recent-post-3-150x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/recent-post-4-150x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/recomended-1-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/recomended-2-200x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/signature-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/slider-1-1600x800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/slider-2-1600x800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/images/slider-3-1600x800.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Frontend_war_exploded/static/journalList.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/03-About-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/03-About-me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/04-Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/04-Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/common-css/layerslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/common-css/layerslider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/common-js/layerslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/common-js/layerslider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/common-js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/common-js/swiper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/01-homepage/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/01-homepage/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/01-homepage/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/01-homepage/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/02-Single-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/02-Single-post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/02-Single-post/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/02-Single-post/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/02-Single-post/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/02-Single-post/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/03-About-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/03-About-me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/03-About-me/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/03-About-me/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/03-About-me/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/03-About-me/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/04-Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/04-Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/04-Contact/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/04-Contact/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/04-Contact/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/04-Contact/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/05-Comming-soon.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/05-Comming-soon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/05-Comming-soon/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/05-Comming-soon/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/05-Comming-soon/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/05-Comming-soon/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/common-css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/common-css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/common-css/ionicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/common-css/ionicons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/common-css/layerslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/common-css/layerslider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/common-css/swiper.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/common-css/swiper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/common-js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/common-js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/common-js/embed.videos.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/common-js/embed.videos.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/common-js/jquery-3.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/common-js/jquery-3.1.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/common-js/jquery.circliful.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/common-js/jquery.circliful.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/common-js/jquery.countdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/common-js/jquery.countdown.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/common-js/layerslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/common-js/layerslider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/common-js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/common-js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/common-js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/common-js/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/common-js/tether.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/common-js/tether.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/fonts/ionicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/fonts/ionicons.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/fonts/ionicons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/fonts/ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/fonts/ionicons.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/fonts/ionicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/fonts/ionicons.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/homePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/advertise-1-400x500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/advertise-1-400x500.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/atypon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/atypon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/author-1-200x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/author-1-200x200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/author-2-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/author-2-150x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/author-3-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/author-3-150x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/blog-1-1000x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/blog-1-1000x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/blog-10-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/blog-10-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/blog-11-1000x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/blog-11-1000x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/blog-2-1000x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/blog-2-1000x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/blog-3-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/blog-3-500x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/blog-4-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/blog-4-500x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/blog-5-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/blog-5-500x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/blog-6-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/blog-6-500x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/blog-7-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/blog-7-500x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/blog-8-1000x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/blog-8-1000x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/blog-9-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/blog-9-600x600.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/category-1-400x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/category-1-400x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/category-2-400x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/category-2-400x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/category-3-400x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/category-3-400x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/category-4-400x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/category-4-400x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/instragram-1-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/instragram-1-300x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/instragram-2-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/instragram-2-300x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/instragram-3-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/instragram-3-300x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/instragram-4-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/instragram-4-300x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/instragram-5-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/instragram-5-300x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/instragram-6-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/instragram-6-300x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/instragram-7-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/instragram-7-300x400.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/instragram-side-1-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/instragram-side-1-150x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/instragram-side-2-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/instragram-side-2-150x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/instragram-side-3-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/instragram-side-3-150x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/instragram-side-4-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/instragram-side-4-150x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/instragram-side-5-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/instragram-side-5-150x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/instragram-side-6-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/instragram-side-6-150x150.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/publish.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/publish.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/publishing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/publishing.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/recent-post-1-150x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/recent-post-1-150x200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/recent-post-2-150x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/recent-post-2-150x200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/recent-post-3-150x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/recent-post-3-150x200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/recent-post-4-150x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/recent-post-4-150x200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/recomended-1-200x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/recomended-1-200x200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/recomended-2-200x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/recomended-2-200x200.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/signature-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/signature-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/slider-1-1600x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/slider-1-1600x800.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/slider-2-1600x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/slider-2-1600x800.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/images/slider-3-1600x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/images/slider-3-1600x800.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/journalList.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/publish/journalList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/dataSources/4516ce1a-e44d-43ec-ab91-16d28f362404.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/.idea/dataSources/4516ce1a-e44d-43ec-ab91-16d28f362404.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/MainProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/MainProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/Journal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/Journal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/JournalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/JournalDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/JournalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/JournalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/JournalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/JournalServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/controller/JournalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/controller/JournalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/form/JournalForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/form/JournalForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/validator/JournalValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/validator/JournalValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/journal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/journal.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/MainProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/MainProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/Journal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/Journal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/JournalDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/JournalDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/JournalDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/JournalDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/JournalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/JournalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/JournalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/JournalServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/form/JournalForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/form/JournalForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/validator/JournalValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/validator/JournalValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/MainProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/MainProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/Journal.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/Journal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/JournalDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/JournalDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/JournalDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/JournalDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/JournalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/JournalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/JournalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/JournalServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/JournalForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/JournalForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/JournalValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/JournalValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/journal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/journal.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/journal.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/journal.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_002" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,78 +285,93 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-290851860">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="192" />
+          <entry key="java" value="480" />
+          <entry key="jsp" value="11" />
+          <entry key="xml" value="49" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="192" />
+          <entry key="JAVA" value="480" />
+          <entry key="JSP" value="11" />
+          <entry key="XML" value="49" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="4" />
+          <entry key="css" value="1" />
+          <entry key="html" value="1" />
+          <entry key="java" value="5" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="5" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2201#2202#0" expanded="true" />
-                <element signature="e#2261#2262#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/static/02-Single-post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4981">
-              <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/static/03-About-me.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2707">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="-30">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/static/homePage.html">
+        <entry file="file://$PROJECT_DIR$/web/publish/journalList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="143" column="89" selection-start-line="143" selection-start-column="83" selection-end-line="143" selection-end-column="89" />
+            <state relative-caret-position="2295">
+              <caret line="153" column="34" selection-start-line="153" selection-start-column="34" selection-end-line="153" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Table_Fixed_Header/Table_Fixed_Header/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="21" selection-end-column="102" />
               <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/static/journalList.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/Listener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="109" column="55" selection-start-line="109" selection-start-column="55" selection-end-line="109" selection-end-column="55" />
+            <state relative-caret-position="285">
+              <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
               <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -165,17 +380,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="21" selection-start-line="30" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
+            <state relative-caret-position="444">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/a.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -184,15 +399,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/Controller.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar!/javax/servlet/ServletContextListener.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="105">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -214,15 +454,24 @@
         <option value="$PROJECT_DIR$/src/main/java/web/form/IdentityForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/listener/AppListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/web/validator/IdentityVaildator.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/web/controller/JournalController.java" />
         <option value="$PROJECT_DIR$/web/static/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/web/servlet/DispatcherServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" />
         <option value="$PROJECT_DIR$/web/static/02-Single-post.html" />
         <option value="$PROJECT_DIR$/web/static/03-About-me.html" />
         <option value="$PROJECT_DIR$/web/static/journalList.html" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/publish/journalList.html" />
+        <option value="$PROJECT_DIR$/web/publish/journalList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/web/META-INF/context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/CC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/q/web/listener/Listener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/a.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/Listener.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -234,12 +483,12 @@
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1150" />
     <option name="y" value="234" />
     <option name="width" value="772" />
@@ -253,8 +502,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,41 +512,50 @@
             <path>
               <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="04-Contact" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="common-css" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="generated-sources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542491605436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542559639667" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.war" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
@@ -308,13 +564,15 @@
       <recent name="$PROJECT_DIR$/web/static/images" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atypon.web.listener" />
       <recent name="web.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/publish" />
+      <recent name="$PROJECT_DIR$/web/publish/images" />
       <recent name="$PROJECT_DIR$/web/static" />
       <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/web/static/images" />
-      <recent name="$PROJECT_DIR$/web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -329,16 +587,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.12">
-    <configuration name="homePage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:8080/Publishing/static/homePage.html">
-      <method v="2" />
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a" />
+      <module name="Frontend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="journalList.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/Publishing/static/journalList.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="Tomcat 9.0.12" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.91" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="Frontend:war exploded">
@@ -346,14 +604,9 @@
             <option name="CONTEXT_PATH" value="/Publishing" />
           </settings>
         </artifact>
-        <file path="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/AdminTool" />
-          </settings>
-        </file>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_12_Frontend" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Frontend" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -361,7 +614,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="45781" />
+        <option name="DEBUG_PORT" value="43543" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -409,20 +662,18 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method v="2">
-        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="Frontend:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.homePage.html" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.12" />
-      <item itemvalue="JavaScript Debug.journalList.html" />
+      <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="Application.a" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.journalList.html" />
+        <item itemvalue="Application.a" />
       </list>
     </recent_temporary>
   </component>
@@ -437,47 +688,50 @@
       <option name="presentableId" value="Default" />
       <updated>1542458139010</updated>
       <workItem from="1542458147229" duration="24052000" />
+      <workItem from="1542534620634" duration="11513000" />
+      <workItem from="1542556250443" duration="3387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24052000" />
+    <option name="totallyTimeSpent" value="38952000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1150" y="234" width="772" height="789" extended-state="0" />
+    <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5523416" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2097399" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32972974" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.036418818" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291866" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3196172" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3291866" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,6 +739,27 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/Listener.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>sce.getServletContext().getContextPath()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
@@ -494,136 +769,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/images/logo.png">
+    <entry file="file://$PROJECT_DIR$/web/publish/images/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/images/slider-1-1600x800.jpg">
+    <entry file="file://$PROJECT_DIR$/web/publish/images/slider-1-1600x800.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/common-js/layerslider.js">
+    <entry file="file://$PROJECT_DIR$/web/publish/common-js/layerslider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2261">
           <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/01-homepage/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/web/publish/01-homepage/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="95" column="31" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/form/JournalForm.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/validator/JournalValidator.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/validator/ArticleSubmissionValidator.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/form/IdentityForm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/form/JournalForm.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/validator/JournalValidator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/validator/ArticleSubmissionValidator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/form/IdentityForm.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/IdentityController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/form/ArticleSubmissionForm.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/web/validator/IdentityVaildator.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/atypon/web-admin-tool/1.0-SNAPSHOT/web-admin-tool-1.0-SNAPSHOT.jar!/com/atypon/web/controller/JournalController.class" />
+    <entry file="file://$PROJECT_DIR$/web/static/.gitattributes" />
+    <entry file="file://$PROJECT_DIR$/web/publish/02-Single-post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/controller/IdentityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/form/ArticleSubmissionForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/web/validator/IdentityVaildator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="21" selection-start-line="30" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/atypon/web-admin-tool/1.0-SNAPSHOT/web-admin-tool-1.0-SNAPSHOT.jar!/com/atypon/web/controller/JournalController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2201#2202#0" expanded="true" />
-            <element signature="e#2261#2262#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/03-About-me.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2707">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/02-Single-post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4981">
+        <state relative-caret-position="735">
           <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/homePage.html">
+    <entry file="file://$PROJECT_DIR$/web/publish/03-About-me.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/publish/homePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
           <caret line="143" column="89" selection-start-line="143" selection-start-column="83" selection-end-line="143" selection-end-column="89" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
@@ -639,16 +830,206 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/journalList.html">
+    <entry file="file://$PROJECT_DIR$/web/publish/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="109" column="55" selection-start-line="109" selection-start-column="55" selection-end-line="109" selection-end-column="55" />
+        <state relative-caret-position="720">
+          <caret line="48" column="37" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
           <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2203#2204#0" expanded="true" />
+            <element signature="e#2263#2264#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/publish/journalList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="153" column="34" selection-start-line="153" selection-start-column="34" selection-end-line="153" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Table_Fixed_Header/Table_Fixed_Header/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="21" selection-end-column="102" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/CC.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar!/javax/servlet/ServletContextListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/atypon/web-admin-tool/1.0-SNAPSHOT/web-admin-tool-1.0-SNAPSHOT.jar!/com/atypon/domain/dao/IdentityDao.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/atypon/web/listener/Listener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/Listener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="57" lean-forward="true" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Frontend:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Frontend</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

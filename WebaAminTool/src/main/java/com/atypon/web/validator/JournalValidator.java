@@ -28,6 +28,9 @@ public class JournalValidator extends Validator<JournalForm> {
         if (isEmpty(form.getPublisherLocation())) {
             errors.add("Publisher Location is required");
         }
+        if(isEmpty(form.getDiscipline())) {
+            errors.add("Discipline is required");
+        }
         return errors;
     }
 }

@@ -7,6 +7,7 @@ public class Journal {
     private String title;
     private String publisherName;
     private String publisherLocation;
+    private String discipline;
 
 
     public String getPrintIssn() {
@@ -57,5 +58,11 @@ public class Journal {
         this.publisherLocation = publisherLocation;
     }
 
+    public String getDiscipline() {
+        return discipline;
+    }
 
+    public void setDiscipline(String discipline) {
+        this.discipline = discipline;
+    }
 }

@@ -137,6 +137,26 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="disciplineState">Discipline</label>
+                                            <select id="disciplineState" name="discipline" class="form-control">
+                                                <option value="">Select a discipline</option>
+                                                <option value="Health Sciences">Health Sciences</option>
+                                                <option value="Life &amp; Biomedical Sciences">Life &amp; Biomedical
+                                                    Sciences
+                                                </option>
+                                                <option value="Materials Science &amp; Engineering">Materials Science
+                                                    &amp; Engineering
+                                                </option>
+                                                <option value="Social Sciences &amp; Humanities">Social Sciences &amp;
+                                                    Humanities
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
                                 <button formaction="${pageContext.request.contextPath}/journal/create"
                                         type="submit" style="margin-left: 10px;"
                                         formmethod="post" class="btn btn-info btn-fill pull-right">Create Journal
