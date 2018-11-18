@@ -8,11 +8,26 @@
   <component name="ChangeListManager">
     <list default="true" id="f6fd00d7-ea79-4df5-a141-84aea25d7f10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Frontend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/static/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/static/03-About-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/static/03-About-me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/static/04-Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/static/04-Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/static/common-css/layerslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/static/common-css/layerslider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/static/common-js/layerslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/static/common-js/layerslider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/static/common-js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/static/common-js/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Frontend/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/web/static/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/web/static/03-About-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/web/static/03-About-me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/web/static/04-Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/web/static/04-Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/web/static/common-css/layerslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/web/static/common-css/layerslider.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Frontend/web/static/common-js/layerslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/web/static/common-js/layerslider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/web/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/web/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/web/static/common-js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/web/static/common-js/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/web/static/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/dataSources/4516ce1a-e44d-43ec-ab91-16d28f362404.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/.idea/dataSources/4516ce1a-e44d-43ec-ab91-16d28f362404.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/MainProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/MainProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/Article.java" afterDir="false" />
@@ -147,7 +162,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -205,9 +220,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="984" />
-    <option name="y" value="245" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1150" />
+    <option name="y" value="234" />
     <option name="width" value="772" />
     <option name="height" value="789" />
   </component>
@@ -487,12 +502,12 @@
       <workItem from="1542222414344" duration="878000" />
       <workItem from="1542307535345" duration="1753000" />
       <workItem from="1542367757787" duration="1202000" />
-      <workItem from="1542453351703" duration="3284000" />
+      <workItem from="1542453351703" duration="4253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62526000" />
+    <option name="totallyTimeSpent" value="63495000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -504,7 +519,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.21361372" />
@@ -719,7 +734,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -1992,7 +1992,7 @@ if (typeof LS_Meta === 'object' && LS_Meta.fixGSAP) {
 	*
 	* (c) 2011-2017 George Krupa, John Gera & Kreatura Media
 	*
-	* Plugin web:			https://layerslider.kreaturamedia.com/
+	* Plugin com.atypon.web:			https://layerslider.kreaturamedia.com/
 	* Licenses: 			http://codecanyon.net/licenses/
 */
 
@@ -2027,7 +2027,7 @@ if (typeof LS_Meta === 'object' && LS_Meta.fixGSAP) {
 	*
 	* (c) 2011-2017 George Krupa, John Gera & Kreatura Media
 	*
-	* Plugin web:			https://layerslider.kreaturamedia.com/
+	* Plugin com.atypon.web:			https://layerslider.kreaturamedia.com/
 	* licenses:				http://codecanyon.net/licenses/standard
 */
 

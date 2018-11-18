@@ -3441,7 +3441,7 @@
             return isSupported;
         }
         /**
-         * Mouse wheel (and 2-finger trackpad) support on the web sucks.  It is
+         * Mouse wheel (and 2-finger trackpad) support on the com.atypon.web sucks.  It is
          * complicated, thus this doc is long and (hopefully) detailed enough to answer
          * your questions.
          *
@@ -3468,7 +3468,7 @@
          *   pixelY  -- " - y plane
          *
          * Wheel values are provided by the browser assuming you are using the wheel to
-         * scroll a web page by a number of lines or pixels (or pages).  Values can vary
+         * scroll a com.atypon.web page by a number of lines or pixels (or pages).  Values can vary
          * significantly on different platforms and browsers, forgetting that you can
          * scroll at different speeds.  Some devices (like trackpads) emit more events
          * at smaller increments with fine granularity, and some emit massive jumps with
