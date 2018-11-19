@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="forntend:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1d0b1e7-5841-4d10-957f-2bef8f96eab3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AccessControl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__com_atypon_web_admin_tool_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__org_springframework_spring_aop_4_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__org_springframework_spring_beans_4_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__org_springframework_spring_context_4_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__org_springframework_spring_core_4_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__org_springframework_spring_expression_4_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__org_springframework_spring_tx_4_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__org_springframework_spring_web_4_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/Frontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/Frontend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/WEB-INF/classes/a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/WEB-INF/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/WEB-INF/classes/com/atypon/web/listener/Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/WEB-INF/classes/com/atypon/web/listener/Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/out/artifacts/Frontend_war_exploded/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/main/java/a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/main/java/com/atypon/web/controller/JournalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/main/java/com/atypon/web/controller/JournalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/main/java/com/atypon/web/listener/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/main/java/com/atypon/web/listener/Listener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/target/classes/a.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/target/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/target/classes/com/atypon/web/listener/Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/target/classes/com/atypon/web/listener/Listener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/target/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/css/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/css/animate.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/css/pe-icon-7-stroke.css" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/css/pe-icon-7-stroke.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/img/loading-bubbles.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/img/loading-bubbles.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/img/mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/img/mask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/js/bootstrap-notify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/js/bootstrap-notify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/js/chartist.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/js/chartist.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/js/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/sass/lbd/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/sass/lbd/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/sass/lbd/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/sass/lbd/_inputs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/sass/lbd/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/sass/lbd/_misc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/sass/lbd/_sidebar-and-main-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/sass/lbd/_sidebar-and-main-panel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/sass/light-bootstrap-dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/assets/sass/light-bootstrap-dashboard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/JournalDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/JournalDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.war" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/JournalDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/JournalDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/css/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/css/animate.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/css/pe-icon-7-stroke.css" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/css/pe-icon-7-stroke.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/img/loading-bubbles.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/img/loading-bubbles.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/img/mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/img/mask.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/js/bootstrap-notify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/js/bootstrap-notify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/js/chartist.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/js/chartist.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/js/demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/sass/lbd/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/sass/lbd/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/sass/lbd/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/sass/lbd/_inputs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/sass/lbd/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/sass/lbd/_misc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/sass/lbd/_sidebar-and-main-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/sass/lbd/_sidebar-and-main-panel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/sass/light-bootstrap-dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/assets/sass/light-bootstrap-dashboard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_3.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_3.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_4.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_4.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_5.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_5.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_6.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_6.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AccessControl/content_licence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AccessControl/content_licence.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AccessControl/identity.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AccessControl/identity.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AccessControl/licence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AccessControl/licence.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AccessControl/user_content_licence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AccessControl/user_content_licence.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/identity.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/identity.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/journal.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/journal.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/submission.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/submission.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/auto.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000001" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000002" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000003" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000003" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000004" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000004" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000005" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000005" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000006" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000006" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000007" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000007" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000008" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000008" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000009" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000009" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000010" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000010" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000011" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000011" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000012" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000012" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000013" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000013" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000014" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000014" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000015" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000015" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000016" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000016" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000017" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000017" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000018" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000018" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000019" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000019" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000020" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000020" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000021" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000021" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000022" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000022" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000023" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000023" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000024" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000024" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000025" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000025" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000026" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000026" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000027" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000027" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000031" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000031" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ca-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ca-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ca.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ca.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/client-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/client-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/client-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/client-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql/general_log.CSM" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql/general_log.CSM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql/general_log.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql/general_log.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql/general_log_197.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql/general_log_197.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql/slow_log.CSM" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql/slow_log.CSM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql/slow_log.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql/slow_log.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql/slow_log_198.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql/slow_log_198.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/accounts_135.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/accounts_135.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/cond_instances_74.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/cond_instances_74.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/data_lock_waits_150.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/data_lock_waits_150.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/data_locks_149.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/data_locks_149.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_129.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_129.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_130.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_130.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_131.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_131.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_132.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_132.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_133.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_133.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_cu_101.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_cu_101.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_hi_102.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_hi_102.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_hi_103.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_hi_103.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_104.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_104.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_105.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_105.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_106.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_106.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_107.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_107.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_108.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_108.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_109.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_109.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_110.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_110.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_111.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_111.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_112.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_112.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_113.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_113.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_114.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_114.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_115.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_115.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_116.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_116.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_117.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_117.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_118.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_118.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_119.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_119.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_120.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_120.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_121.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_121.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_122.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_122.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_123.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_123.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_124.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_124.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_125.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_125.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_126.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_126.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_127.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_127.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_128.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_128.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_cur_75.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_cur_75.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_his_76.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_his_76.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_his_77.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_his_77.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_78.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_78.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_79.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_79.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_80.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_80.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_81.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_81.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_82.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_82.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_83.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_83.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/file_instances_84.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/file_instances_84.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/file_summary_by__85.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/file_summary_by__85.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/file_summary_by__86.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/file_summary_by__86.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/global_status_168.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/global_status_168.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/global_variables_171.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/global_variables_171.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/host_cache_87.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/host_cache_87.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/hosts_136.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/hosts_136.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/log_status_161.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/log_status_161.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_143.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_143.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_144.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_144.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_145.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_145.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_146.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_146.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_g_142.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_g_142.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/metadata_locks_148.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/metadata_locks_148.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/mutex_instances_88.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/mutex_instances_88.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/objects_summary__89.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/objects_summary__89.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/performance_time_90.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/performance_time_90.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/persisted_variab_174.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/persisted_variab_174.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/prepared_stateme_162.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/prepared_stateme_162.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_154.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_154.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_155.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_155.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_156.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_156.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_157.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_157.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_159.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_159.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_160.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_160.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_conn_151.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_conn_151.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_conn_153.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_conn_153.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_grou_152.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_grou_152.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_grou_158.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_grou_158.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/rwlock_instances_91.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/rwlock_instances_91.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/session_account__141.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/session_account__141.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/session_connect__140.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/session_connect__140.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/session_status_169.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/session_status_169.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/session_variable_172.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/session_variable_172.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_actors_92.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_actors_92.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_consumers_93.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_consumers_93.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_instrument_94.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_instrument_94.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_objects_95.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_objects_95.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_threads_96.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_threads_96.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/socket_instances_137.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/socket_instances_137.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/socket_summary_b_138.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/socket_summary_b_138.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/socket_summary_b_139.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/socket_summary_b_139.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_accoun_164.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_accoun_164.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_host_165.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_host_165.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_thread_166.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_thread_166.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_user_167.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_user_167.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/table_handles_147.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/table_handles_147.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/table_io_waits_s_97.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/table_io_waits_s_97.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/table_io_waits_s_98.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/table_io_waits_s_98.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/table_lock_waits_99.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/table_lock_waits_99.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/threads_100.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/threads_100.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/user_defined_fun_175.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/user_defined_fun_175.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/user_variables_b_163.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/user_variables_b_163.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/users_134.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/users_134.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/variables_by_thr_170.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/variables_by_thr_170.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/variables_info_173.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/variables_info_173.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/private_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/private_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/public_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/public_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/server-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/server-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/server-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/server-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/sys/sys_config.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/sys/sys_config.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_002" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-886980848">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="4" />
+          <entry key="java" value="72" />
+          <entry key="jsp" value="193" />
+          <entry key="sql" value="17" />
+          <entry key="txt" value="10" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="72" />
+          <entry key="JSP" value="193" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Scratch" value="17" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="5" />
+          <entry key="jsp" value="2" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="5" />
+          <entry key="JSP" value="2" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/49e700be-f749-462f-b261-02b12d121d98/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2439#2440#0" expanded="true" />
+                <element signature="e#2499#2500#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/publish/journalList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="128" column="94" lean-forward="true" selection-start-line="128" selection-start-column="93" selection-end-line="128" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/Validator.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/web/listener/Listener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/Listener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/publish/journalList.jsp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/49e700be-f749-462f-b261-02b12d121d98/console.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1150" />
+    <option name="y" value="234" />
+    <option name="width" value="772" />
+    <option name="height" value="789" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forntend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forntend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forntend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forntend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forntend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forntend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forntend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forntend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forntend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forntend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forntend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="publish" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forntend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="schema" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542619144400" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.war" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="forntend:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Publishing" />
+          </settings>
+        </artifact>
+        <file path="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/AdminTool" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_forntend" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="44441" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="forntend:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1d0b1e7-5841-4d10-957f-2bef8f96eab3" name="Default Changelist" comment="" />
+      <created>1542573238541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542573238541</updated>
+      <workItem from="1542573242181" duration="5221000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5221000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958494" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32972974" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32972974" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" weight="0.32972974" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>journalService.getAll()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/Validator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2439#2440#0" expanded="true" />
+            <element signature="e#2499#2500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/49e700be-f749-462f-b261-02b12d121d98/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/publish/journalList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="128" column="94" lean-forward="true" selection-start-line="128" selection-start-column="93" selection-end-line="128" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
