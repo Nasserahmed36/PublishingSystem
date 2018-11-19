@@ -144,13 +144,13 @@
                                             <select id="disciplineState" name="discipline" class="form-control">
                                                 <option value="">Select a discipline</option>
                                                 <option value="Health Sciences">Health Sciences</option>
-                                                <option value="Life &amp; Biomedical Sciences">Life &amp; Biomedical
+                                                <option value="Life and Biomedical Sciences">Life &amp; Biomedical
                                                     Sciences
                                                 </option>
-                                                <option value="Materials Science &amp; Engineering">Materials Science
+                                                <option value="Materials Science and Engineering">Materials Science
                                                     &amp; Engineering
                                                 </option>
-                                                <option value="Social Sciences &amp; Humanities">Social Sciences &amp;
+                                                <option value="Social Sciences and Humanities">Social Sciences &amp;
                                                     Humanities
                                                 </option>
                                             </select>

@@ -1,6 +1,7 @@
 package com.atypon.web.servlet;//package com.atypon.com.atypon.web.servlet;
 
 
+import com.atypon.web.controller.IssueController;
 import com.atypon.web.controller.JournalController;
 
 import javax.servlet.ServletException;
@@ -10,16 +11,18 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "DispatcherServlet", urlPatterns = {"/journal/*"})
+@WebServlet(name = "DispatcherServlet", urlPatterns = {"/journal/*","/issue/*"})
 public class DispatcherServlet extends HttpServlet {
     private static final String JSPS_FILE = "/publish";
 
     private JournalController journalController;
+    private IssueController issueController;
 
     @Override
     public void init() throws ServletException {
         super.init();
         journalController = new JournalController(getServletContext());
+        issueController = new IssueController(getServletContext());
     }
 
     @Override
@@ -31,6 +34,8 @@ public class DispatcherServlet extends HttpServlet {
             case "journal":
                 view = journalController.handle(request, response);
                 break;
+            case "issue":
+                view = issueController.handle(request,response);
         }
         dispatch(request, response, view);
     }
@@ -64,9 +69,5 @@ public class DispatcherServlet extends HttpServlet {
     private boolean isRedirect(String view) {
         return view.split(":")[0].equals("redirect");
     }
-
-    public static void main(String[] args) {
-    }
-
 
 }

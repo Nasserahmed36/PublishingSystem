@@ -2,32 +2,24 @@ package com.atypon.web.controller;
 
 
 import com.atypon.service.JournalService;
-import com.atypon.service.JournalServiceImpl;
-import com.atypon.web.form.JournalForm;
-import com.atypon.web.validator.JournalValidator;
 
 import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 
 public class JournalController implements Controller {
 
     private final String JOURNALS_VIEW = "journalList.jsp";
 
     private final JournalService journalService;
-    private final JournalValidator validator;
 
 
     public JournalController(ServletContext context) {
         journalService = (JournalService) context.getAttribute("journalService");
-        validator = new JournalValidator();
     }
 
     @Override
-    public String handle(HttpServletRequest request, HttpServletResponse response)
-            throws IOException, ServletException {
+    public String handle(HttpServletRequest request, HttpServletResponse response) {
         String operation = extractOperation(request);
         switch (operation) {
             case "all":
@@ -39,7 +31,7 @@ public class JournalController implements Controller {
 
     private String handleAll(HttpServletRequest request, HttpServletResponse response) {
         String discipline = request.getParameter("discipline");
-        if (validator.isEmpty(discipline)) {
+        if (isEmpty(discipline)) {
             return handleAllWithoutDiscipline(request, response);
         } else {
             return handleAllWithDiscipline(request, response, discipline);
@@ -71,28 +63,11 @@ public class JournalController implements Controller {
     }
 
 
-    private boolean setAsBadRequestIFBadMethod(HttpServletRequest request,
-                                               HttpServletResponse response,
-                                               String expectedMethod) {
-        if (!request.getMethod().equals(expectedMethod)) {
-            response.setStatus(HttpServletResponse.SC_BAD_REQUEST);
-            return true;
-        }
-        return false;
+
+    public boolean isEmpty(String string) {
+        return string == null || string.trim().isEmpty();
     }
 
-    private JournalForm extractJournalForm(HttpServletRequest request) {
-        JournalForm form = new JournalForm();
-        form.setId(request.getParameter("id").trim());
-        form.setElectronicIssn(request.getParameter("eIssn").trim());
-        form.setPrintIssn(request.getParameter("pIssn").trim());
-        form.setElectronicIssn(request.getParameter("eIssn").trim());
-        form.setTitle(request.getParameter("title").trim());
-        form.setPublisherName(request.getParameter("publisherName").trim());
-        form.setPublisherLocation(request.getParameter("publisherLocation").trim());
-        form.setDiscipline(request.getParameter("discipline").trim());
-        return form;
-    }
 
 
 

@@ -7,6 +7,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class IssueDaoImpl implements IssueDao {
     private final DataSource dataSource;
@@ -59,4 +61,69 @@ public class IssueDaoImpl implements IssueDao {
         }
         return false;
     }
+
+    @Override
+    public List<Issue> getAll() {
+        List<Issue> issues = new ArrayList<>();
+        String sql = "SELECT doi, journal_print_issn, number, volume, year, month FROM issue";
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            ResultSet resultSet = statement.executeQuery();
+            while (resultSet.next()) {
+                Issue issue = extractIssue(resultSet);
+                issues.add(issue);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return issues;
+    }
+
+    @Override
+    public List<Issue> getByVolume(int volume) {
+        List<Issue> issues = new ArrayList<>();
+        String sql = "SELECT doi, journal_print_issn, number, volume, year, month FROM issue " +
+                "where volume = ?";
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setInt(1, volume);
+            ResultSet resultSet = statement.executeQuery();
+            while (resultSet.next()) {
+                Issue issue = extractIssue(resultSet);
+                issues.add(issue);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return issues;
+    }
+
+    @Override
+    public int getMaxVolume(String journalPrintIssn) {
+        int maxVolume = -1;
+        String sql = "select max(volume) from issue";
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            ResultSet resultSet = statement.executeQuery();
+            if (resultSet.next()) {
+                return resultSet.getInt(1);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return maxVolume;
+    }
+
+    private Issue extractIssue(ResultSet resultSet) throws SQLException {
+        Issue issue = new Issue();
+        issue.setDoi(resultSet.getString(1));
+        issue.setJournalPrintIssn(resultSet.getString(2));
+        issue.setNumber(resultSet.getInt(3));
+        issue.setNumber(resultSet.getInt(4));
+        issue.setYear(resultSet.getInt(5));
+        issue.setMonth(resultSet.getInt(6));
+        return issue;
+    }
+
+
 }

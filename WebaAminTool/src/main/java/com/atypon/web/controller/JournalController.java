@@ -25,6 +25,7 @@ public class JournalController implements Controller {
     @Override
     public String handle(HttpServletRequest request, HttpServletResponse response)
             throws IOException, ServletException {
+
         String operation = extractOperation(request);
         switch (operation) {
             case "form":

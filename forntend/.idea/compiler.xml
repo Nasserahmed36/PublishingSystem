@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="forntend" />
+        <module name="front-end" />
       </profile>
     </annotationProcessing>
   </component>

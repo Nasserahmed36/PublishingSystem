@@ -3,6 +3,8 @@ package com.atypon.service;
 import com.atypon.domain.Issue;
 import com.atypon.domain.dao.IssueDao;
 
+import java.util.List;
+
 public class IssueServiceImpl implements IssueService {
     private final IssueDao dao;
 
@@ -13,6 +15,16 @@ public class IssueServiceImpl implements IssueService {
     @Override
     public boolean create(Issue issue) {
             return dao.create(issue);
+    }
+
+    @Override
+    public List<Issue> getAll() {
+        return dao.getAll();
+    }
+
+    @Override
+    public List<Issue> getByVolume(int volume) {
+        return dao.getByVolume(volume);
     }
 
     @Override
@@ -27,6 +39,11 @@ public class IssueServiceImpl implements IssueService {
             return dao.create(issue);
         }
         return false;
+    }
+
+    @Override
+    public int getLastVolume(String journalPrintIssn) {
+        return dao.getMaxVolume(journalPrintIssn);
     }
 
 

@@ -3,7 +3,8 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <c:set var="context" value="${pageContext.request.contextPath}/publish"/>
+    <c:set var="context" value="${pageContext.request.contextPath}"/>
+    <c:set var="sources" value="${pageContext.request.contextPath}/publish"/>
     <title>TITLE</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,16 +18,16 @@
 
     <!-- Stylesheets -->
 
-    <link href="${context}/common-css/bootstrap.css" rel="stylesheet">
+    <link href="${sources}/common-css/bootstrap.css" rel="stylesheet">
 
-    <link href="${context}/common-css/ionicons.css" rel="stylesheet">
+    <link href="${sources}/common-css/ionicons.css" rel="stylesheet">
 
-    <link href="${context}/common-css/layerslider.css" rel="stylesheet">
+    <link href="${sources}/common-css/layerslider.css" rel="stylesheet">
 
 
-    <link href="${context}/01-homepage/css/styles.css" rel="stylesheet">
+    <link href="${sources}/01-homepage/css/styles.css" rel="stylesheet">
 
-    <link href="${context}/01-homepage/css/responsive.css" rel="stylesheet">
+    <link href="${sources}/01-homepage/css/responsive.css" rel="stylesheet">
 
     <style type="text/css">
         #identityTableBody td {
@@ -40,6 +41,7 @@
         p {
             color: black;
         }
+
         th {
             font-weight: bold;
         }
@@ -72,7 +74,8 @@
 
     </div><!-- top-menu -->
 
-    <div class="middle-menu center-text"><a href="#" class="logo"><img src="${context}/images/atypon.jpg" alt="Logo Image"></a>
+    <div class="middle-menu center-text"><a href="#" class="logo"><img src="${sources}/images/atypon.jpg"
+                                                                       alt="Logo Image"></a>
     </div>
 
     <div class="bottom-area">
@@ -124,28 +127,30 @@
                                         <br/>
                                         <div style="text-align: left;padding-left: 0" class="form-group col-md-4">
                                             <label for="disciplineState">Discipline</label>
-                                            <select id="disciplineState" name="discipline" class="form-control">
-                                                <option value="">Select a discipline</option>
-                                                <option value="Health Sciences">Health Sciences</option>
-                                                <option value="Life &amp; Biomedical Sciences">Life &amp; Biomedical
-                                                    Sciences
+                                            <select id="disciplineState" name="discipline" class="form-control"
+                                                    onchange="a(this)">
+                                                <option <c:if test="${param.discipline eq '#'}">selected</c:if> value="#">Select a discipline</option>
+                                                <option <c:if test="${param.discipline eq 'Health and Sciences'}">selected</c:if> value="Health and Sciences">Health Sciences</option>
+                                                <option <c:if test="${param.discipline eq 'Life and Biomedical Sciences'}">selected</c:if> value="Life and Biomedical Sciences">
+                                                    Life &amp; Biomedical Sciences
                                                 </option>
-                                                <option value="Materials Science &amp; Engineering">Materials Science
+                                                <option <c:if test="${param.discipline eq 'Materials Science and Engineering'}">selected</c:if>  value="Materials Science and Engineering">Materials Science
                                                     &amp; Engineering
                                                 </option>
-                                                <option value="Social Sciences &amp; Humanities">Social Sciences &amp;
+                                                <option <c:if test="${param.discipline eq 'Social Sciences and Humanities'}">selected</c:if>  value="Social Sciences and Humanities">Social Sciences &amp;
                                                     Humanities
                                                 </option>
                                             </select>
                                         </div>
+
                                         <table style="text-align: left;" class="table table-hover table-striped">
                                             <thead>
-                                                <tr>
-                                                    <th>Title</th>
-                                                    <th>Print ISSN</th>
-                                                    <th>publisherName</th>
-                                                    <th>discipline</th>
-                                                </tr>
+                                            <tr>
+                                                <th>Title</th>
+                                                <th>Print ISSN</th>
+                                                <th>publisherName</th>
+                                                <th>discipline</th>
+                                            </tr>
                                             </thead>
                                             <tbody>
                                             <c:forEach items="${requestScope.journals}" var="journal">
@@ -193,7 +198,8 @@
                         <h4 class="title"><b class="light-color">Latest Articles</b></h4>
 
                         <div class="latest-post" href="#">
-                            <div class="l-post-image"><img src="${context}/images/recent-post-1-150x200.jpg" alt="Category Image">
+                            <div class="l-post-image"><img src="${sources}/images/recent-post-1-150x200.jpg"
+                                                           alt="Category Image">
                             </div>
                             <div class="post-info">
                                 <a class="btn category-btn" href="#">TRAVEL</a>
@@ -203,7 +209,8 @@
                         </div>
 
                         <div class="latest-post" href="#">
-                            <div class="l-post-image"><img src="${context}/images/recent-post-2-150x200.jpg" alt="Category Image">
+                            <div class="l-post-image"><img src="${sources}/images/recent-post-2-150x200.jpg"
+                                                           alt="Category Image">
                             </div>
                             <div class="post-info">
                                 <a class="btn category-btn" href="#">TRAVEL</a>
@@ -212,7 +219,8 @@
                             </div>
                         </div>
                         <div class="latest-post" href="#">
-                            <div class="l-post-image"><img src="${context}/images/recent-post-3-150x200.jpg" alt="Category Image">
+                            <div class="l-post-image"><img src="${sources}/images/recent-post-3-150x200.jpg"
+                                                           alt="Category Image">
                             </div>
                             <div class="post-info">
                                 <a class="btn category-btn" href="#">TRAVEL</a>
@@ -222,7 +230,8 @@
                         </div>
 
                         <div class="latest-post" href="#">
-                            <div class="l-post-image"><img src="${context}/images/recent-post-4-150x200.jpg" alt="Category Image">
+                            <div class="l-post-image"><img src="${sources}/images/recent-post-4-150x200.jpg"
+                                                           alt="Category Image">
                             </div>
                             <div class="post-info">
                                 <a class="btn category-btn" href="#">TRAVEL</a>
@@ -261,15 +270,34 @@
 
 <!-- SCIPTS -->
 
-<script src="${context}/common-js/jquery-3.1.1.min.js"></script>
+<script src="${sources}/common-js/jquery-3.1.1.min.js"></script>
 
-<script src="${context}/common-js/tether.min.js"></script>
+<script src="${sources}/common-js/tether.min.js"></script>
 
-<script src="${context}/common-js/bootstrap.js"></script>
+<script src="${sources}/common-js/bootstrap.js"></script>
 
-<script src="${context}/common-js/layerslider.js"></script>
+<script src="${sources}/common-js/layerslider.js"></script>
 
-<script src="${context}/common-js/scripts.js"></script>
+<script src="${sources}/common-js/scripts.js"></script>
+<script>
+    function getParameter(name) {
+        if (name = (new RegExp('[?&]' + encodeURIComponent(name) + '=([^&]*)')).exec(location.search))
+            return decodeURIComponent(name[1]);
+    }
 
+    $(function () {
+        $('#disciplineState').val(getParameter("discipline") || "#" );
+    });
+
+    function a(s) {
+        var selected = s.value;
+        var aa = "${context}/journal";
+        if (selected !== "#") {
+            aa = '${context}/journal?discipline=' + selected;
+        }
+        location = aa;
+        // location.reload()
+    }
+</script>
 </body>
 </html>
