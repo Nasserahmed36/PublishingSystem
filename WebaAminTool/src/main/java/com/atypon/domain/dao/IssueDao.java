@@ -6,11 +6,12 @@ import java.util.List;
 
 public interface IssueDao {
     boolean create(Issue issue);
+
     boolean isExisted(String issueDao);
 
-    List<Issue> getAll();
+    List<Issue> getBy(String journalPrintIssn);
 
-    List<Issue> getByVolume(int volume);
+    List<Issue> getBy(String journalPrintIssn, int volume);
 
     int getMaxVolume(String journalPrintIssn);
 }

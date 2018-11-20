@@ -14,17 +14,17 @@ public class IssueServiceImpl implements IssueService {
 
     @Override
     public boolean create(Issue issue) {
-            return dao.create(issue);
+        return dao.create(issue);
     }
 
     @Override
-    public List<Issue> getAll() {
-        return dao.getAll();
+    public List<Issue> getBy(String journalPrintIssn) {
+        return dao.getBy(journalPrintIssn);
     }
 
     @Override
-    public List<Issue> getByVolume(int volume) {
-        return dao.getByVolume(volume);
+    public List<Issue> getBy(String journalPrintIssn, int volume) {
+        return dao.getBy(journalPrintIssn, volume);
     }
 
     @Override

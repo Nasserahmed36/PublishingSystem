@@ -63,11 +63,13 @@ public class IssueDaoImpl implements IssueDao {
     }
 
     @Override
-    public List<Issue> getAll() {
+    public List<Issue> getBy(String journalPrintIssn) {
         List<Issue> issues = new ArrayList<>();
-        String sql = "SELECT doi, journal_print_issn, number, volume, year, month FROM issue";
+        String sql = "SELECT doi, journal_print_issn, number, volume, year, month FROM issue " +
+                "where journal_print_issn = ?";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setString(1, journalPrintIssn);
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()) {
                 Issue issue = extractIssue(resultSet);
@@ -80,13 +82,14 @@ public class IssueDaoImpl implements IssueDao {
     }
 
     @Override
-    public List<Issue> getByVolume(int volume) {
+    public List<Issue> getBy(String journalPrintIssn, int volume) {
         List<Issue> issues = new ArrayList<>();
         String sql = "SELECT doi, journal_print_issn, number, volume, year, month FROM issue " +
-                "where volume = ?";
+                "where journal_print_issn = ? AND volume = ?";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
-            statement.setInt(1, volume);
+            statement.setString(1, journalPrintIssn);
+            statement.setInt(2, volume);
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()) {
                 Issue issue = extractIssue(resultSet);
@@ -101,9 +104,10 @@ public class IssueDaoImpl implements IssueDao {
     @Override
     public int getMaxVolume(String journalPrintIssn) {
         int maxVolume = -1;
-        String sql = "select max(volume) from issue";
+        String sql = "select max(volume) from issue where journal_print_issn = ?";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setString(1, journalPrintIssn);
             ResultSet resultSet = statement.executeQuery();
             if (resultSet.next()) {
                 return resultSet.getInt(1);
@@ -119,7 +123,7 @@ public class IssueDaoImpl implements IssueDao {
         issue.setDoi(resultSet.getString(1));
         issue.setJournalPrintIssn(resultSet.getString(2));
         issue.setNumber(resultSet.getInt(3));
-        issue.setNumber(resultSet.getInt(4));
+        issue.setVolume(resultSet.getInt(4));
         issue.setYear(resultSet.getInt(5));
         issue.setMonth(resultSet.getInt(6));
         return issue;

@@ -2,48 +2,46 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="front-end:war exploded" />
+      <artifact name="forntend:war exploded" />
     </artifacts-to-build>
-  </component>
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/IssueController.java" line="35" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1d0b1e7-5841-4d10-957f-2bef8f96eab3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../AccessControl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/IssueDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/IssueDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/IssueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/IssueService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/IssueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/IssueServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/controller/JournalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/controller/JournalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/validator/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/validator/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/journal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/webapp/admin/journal.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/IssueDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/IssueDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/IssueDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/IssueDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/IssueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/IssueService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/IssueServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/IssueServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/validator/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/validator/Validator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.war" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/journal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/admin/journal.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/IssueDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/IssueDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/IssueDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/IssueDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/IssueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/IssueService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/IssueServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/IssueServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/Validator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/IssueController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/publish/issueList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/publish/issueList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/publish/journalList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/publish/journalList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/web/controller/IssueController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/front-end/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/front-end/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/front-end/WEB-INF/classes/com/atypon/web/controller/IssueController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/front-end/WEB-INF/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/front-end/WEB-INF/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/front-end/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/front-end/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/front-end/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/front-end/WEB-INF/lib/web-admin-tool-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/front-end/WEB-INF/lib/web-admin-tool-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/front-end/publish/issueList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/front-end/publish/issueList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/front-end/publish/journalList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/front-end/publish/journalList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" afterDir="false" />
@@ -55,9 +53,9 @@
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/article.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/article.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/issue.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/issue.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/journal.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/journal.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000032" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000032" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000033" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000033" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.index" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibdata1" afterDir="false" />
@@ -92,42 +90,53 @@
     <session id="-886980848">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="JavaScript Console" value="34" />
+          <entry key="cell" value="45" />
           <entry key="dummy" value="4" />
-          <entry key="java" value="72" />
-          <entry key="jsp" value="193" />
-          <entry key="sql" value="17" />
+          <entry key="html" value="757" />
+          <entry key="java" value="383" />
+          <entry key="jsp" value="690" />
+          <entry key="sql" value="170" />
           <entry key="txt" value="10" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="72" />
-          <entry key="JSP" value="193" />
+          <entry key="HTML" value="757" />
+          <entry key="JAVA" value="383" />
+          <entry key="JSP" value="690" />
+          <entry key="JavaScript" value="34" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Scratch" value="17" />
+          <entry key="Scratch" value="215" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
-          <entry key="jsp" value="2" />
-          <entry key="sql" value="1" />
+          <entry key="html" value="3" />
+          <entry key="java" value="7" />
+          <entry key="jsp" value="5" />
+          <entry key="sql" value="2" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
-          <entry key="JSP" value="2" />
-          <entry key="Scratch" value="1" />
+          <entry key="HTML" value="3" />
+          <entry key="JAVA" value="7" />
+          <entry key="JSP" value="5" />
+          <entry key="Scratch" value="2" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
@@ -179,60 +188,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/IssueController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-156">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="527">
+              <caret line="31" column="61" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2563#2564#0" expanded="true" />
-                <element signature="e#2616#2617#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/publish/issueList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="281" column="27" lean-forward="true" selection-start-line="281" selection-start-column="27" selection-end-line="281" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -240,13 +202,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="442">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2447#2448#0" expanded="true" />
-                <element signature="e#2507#2508#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/49e700be-f749-462f-b261-02b12d121d98/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -254,8 +223,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/publish/journalList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="683">
-              <caret line="150" column="70" selection-start-line="150" selection-start-column="70" selection-end-line="150" selection-end-column="70" />
+            <state relative-caret-position="551">
+              <caret line="47" column="9" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="47" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/Validator.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/publish/issueList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/IssueController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="39" column="55" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -263,8 +258,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="408">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/publish/articleList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-299">
+              <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -275,6 +291,8 @@
     <findStrings>
       <find>img</find>
       <find>alert</find>
+      <find>article</find>
+      <find>TRA</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -286,15 +304,16 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/web/listener/Listener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/Listener.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/49e700be-f749-462f-b261-02b12d121d98/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/webapp/publish/journalList.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/IssueController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/publish/journalList.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/publish/issueList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/publish/articleList.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/IssueController.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/49e700be-f749-462f-b261-02b12d121d98/console.sql" />
       </list>
     </option>
   </component>
@@ -312,9 +331,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1150" />
-    <option name="y" value="234" />
-    <option name="width" value="772" />
+    <option name="x" value="207" />
+    <option name="y" value="121" />
+    <option name="width" value="837" />
     <option name="height" value="789" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -325,7 +344,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -391,15 +409,6 @@
               <item name="forntend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="validator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forntend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -408,7 +417,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="publish" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
@@ -417,18 +426,23 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="publish" type="462c0819:PsiDirectoryNode" />
-              <item name="01-homepage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
               <item name="forntend" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="publish" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
               <item name="forntend" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
@@ -437,30 +451,57 @@
             <path>
               <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="49e700be-f749-462f-b261-02b12d121d98" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="forntend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="com.intellij.database" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+              <item name="schema" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542646040196" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542740072365" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atypon.web.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/publish/images" />
       <recent name="$PROJECT_DIR$/src/main/webapp/publish" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -478,8 +519,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.91" ALTERNATIVE_JRE_ENABLED="false">
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="articleList.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:8080/Publishing/publish/articleList.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="journalList.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/Publishing/publish/journalList.jsp">
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
@@ -488,7 +535,7 @@
             <option name="CONTEXT_PATH" value="/AdminTool" />
           </settings>
         </file>
-        <artifact name="front-end:war exploded">
+        <artifact name="forntend:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/Publishing" />
           </settings>
@@ -557,6 +604,60 @@
         </option>
       </method>
     </configuration>
+    <configuration name="articleList.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/publish/articleList.html" />
+      <deployment>
+        <artifact name="forntend:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="articleList_html_forntend" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="34267" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="forntend:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="JavaScript Debug.articleList.html" />
+      <item itemvalue="Tomcat Server.articleList.html" />
+      <item itemvalue="JavaScript Debug.journalList.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.journalList.jsp" />
+        <item itemvalue="Tomcat Server.articleList.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -570,17 +671,29 @@
       <updated>1542573238541</updated>
       <workItem from="1542573242181" duration="5221000" />
       <workItem from="1542620669183" duration="21224000" />
+      <workItem from="1542655622731" duration="7124000" />
+      <workItem from="1542709798746" duration="13817000" />
+      <workItem from="1542728634606" duration="8757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26445000" />
+    <option name="totallyTimeSpent" value="56655000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18262313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -591,13 +704,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.56108105" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32928678" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32972974" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Database Console" order="9" weight="0.3291866" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.32864866" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32972974" />
@@ -636,6 +749,11 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>issueService.getBy(journalPrintIssn)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>issueService.getLastVolume(journalPrintIssn)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -653,11 +771,51 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/49e700be-f749-462f-b261-02b12d121d98/console.sql" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar!/org/apache/commons/lang3/StringUtils.class" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="205" column="19" selection-start-line="205" selection-start-column="19" selection-end-line="205" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="136">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/homePage.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="61" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -667,93 +825,58 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/Validator.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar!/org/apache/commons/lang3/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1830">
-          <caret line="2459" column="32" selection-start-line="2459" selection-start-column="32" selection-end-line="2459" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/publish/journalList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="683">
-          <caret line="150" column="70" selection-start-line="150" selection-start-column="70" selection-end-line="150" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="205" column="19" selection-start-line="205" selection-start-column="19" selection-end-line="205" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2447#2448#0" expanded="true" />
-            <element signature="e#2507#2508#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/IssueController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2563#2564#0" expanded="true" />
-            <element signature="e#2616#2617#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="551">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/publish/issueList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="281" column="27" lean-forward="true" selection-start-line="281" selection-start-column="27" selection-end-line="281" selection-end-column="27" />
+        <state relative-caret-position="568">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/IssueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/49e700be-f749-462f-b261-02b12d121d98/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/publish/articleList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#h4#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

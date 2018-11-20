@@ -34,7 +34,8 @@
             text-align: left;
             padding-left: 50px;
         }
-        .table{
+
+        .table {
 
         }
 
@@ -47,6 +48,11 @@
 
         th {
             font-weight: bold;
+        }
+
+        .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+            background-color: #FFAD4D;
+            cursor: pointer;
         }
     </style>
 
@@ -124,15 +130,19 @@
                                     <div class="card  table-wrapper-scroll-y">
                                         <div class="header">
                                             <h4 style="text-align: left;" class="title">Browse</h4>
-                                            <p style="text-align: left;"><b>Browse a list of issues by selecting the Volume.</b></p>
+                                            <p style="text-align: left;"><b>Browse a list of issues by selecting the
+                                                Volume.</b></p>
                                         </div>
                                         <br/>
                                         <div style="text-align: left;padding-left: 0" class="form-group col-md-4">
                                             <label for="disciplineState">Volume</label>
-                                            <select id="disciplineState" name="volume" class="form-control" onchange="a(this)">
-                                                <option selected value="all">Select a Volume</option>
+                                            <select id="disciplineState" name="volume" class="form-control"
+                                                    onchange="changeVolume(this)">
+                                                <option selected value="none">Select a Volume</option>
                                                 <c:forEach var="i" begin="1" end="${requestScope.lastVolume}">
-                                                    <option <c:if test="${param.volume eq i}">selected</c:if> value=${i}>Volume ${i}</option>
+                                                    <option
+                                                            <c:if test="${param.volume eq i}">selected</c:if>
+                                                            value=${i}>Volume ${i}</option>
                                                 </c:forEach>
                                             </select>
                                         </div>
@@ -142,6 +152,7 @@
                                             <tr>
                                                 <th>Issue Number</th>
                                                 <th>Date</th>
+                                                <th>Volume</th>
                                             </tr>
                                             </thead>
                                             <tbody>
@@ -149,6 +160,7 @@
                                                 <tr>
                                                     <td>${issue.number}</td>
                                                     <td>${issue.year}</td>
+                                                    <td>${issue.volume}</td>
                                                 </tr>
                                             </c:forEach>
                                             </tbody>
@@ -271,23 +283,48 @@
 <script src="${sources}/common-js/scripts.js"></script>
 <script>
     <%--function getParameter(name) {--%>
-        <%--if (name = (new RegExp('[?&]' + encodeURIComponent(name) + '=([^&]*)')).exec(location.search))--%>
-            <%--return decodeURIComponent(name[1]);--%>
+    <%--if (name = (new RegExp('[?&]' + encodeURIComponent(name) + '=([^&]*)')).exec(location.search))--%>
+    <%--return decodeURIComponent(name[1]);--%>
     <%--}--%>
 
     <%--$(function () {--%>
-        <%--$('#disciplineState').val(getParameter("discipline") || "#" );--%>
+    <%--$('#disciplineState').val(getParameter("discipline") || "#" );--%>
     <%--});--%>
 
-    <%--function a(s) {--%>
-        <%--var selected = s.value;--%>
-        <%--var aa = "${context}/journal";--%>
-        <%--if (selected !== "#") {--%>
-            <%--aa = '${context}/journal?discipline=' + selected;--%>
-        <%--}--%>
-        <%--location = aa;--%>
-        <%--// location.reload()--%>
-    <%--}--%>
+    function changeVolume(select) {
+        if (select.value === 'none') {
+            window.location = window.location.href.split("?")[0];
+            return;
+        }
+        insertParam("volume", select.value);
+
+    }
+
+    function insertParam(key, value) {
+        key = encodeURI(key);
+        value = encodeURI(value);
+
+        var kvp = document.location.search.substr(1).split('&');
+
+        var i = kvp.length;
+        var x;
+        while (i--) {
+            x = kvp[i].split('=');
+
+            if (x[0] === key) {
+                x[1] = value;
+                kvp[i] = x.join('=');
+                break;
+            }
+        }
+
+        if (i < 0) {
+            kvp[kvp.length] = [key, value].join('=');
+        }
+
+        //this will reload the page, it's likely better to store this until finished
+        document.location.search = kvp.join('&');
+    }
 </script>
 </body>
 </html>

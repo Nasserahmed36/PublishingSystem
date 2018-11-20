@@ -42,6 +42,11 @@
             color: black;
         }
 
+        .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+            background-color: #FFAD4D;
+            cursor: pointer;
+        }
+
         th {
             font-weight: bold;
         }
@@ -129,15 +134,27 @@
                                             <label for="disciplineState">Discipline</label>
                                             <select id="disciplineState" name="discipline" class="form-control"
                                                     onchange="a(this)">
-                                                <option <c:if test="${param.discipline eq '#'}">selected</c:if> value="#">Select a discipline</option>
-                                                <option <c:if test="${param.discipline eq 'Health and Sciences'}">selected</c:if> value="Health and Sciences">Health Sciences</option>
-                                                <option <c:if test="${param.discipline eq 'Life and Biomedical Sciences'}">selected</c:if> value="Life and Biomedical Sciences">
+                                                <option
+                                                        <c:if test="${param.discipline eq '#'}">selected</c:if>
+                                                        value="#">Select a discipline
+                                                </option>
+                                                <option
+                                                        <c:if test="${param.discipline eq 'Health and Sciences'}">selected</c:if>
+                                                        value="Health and Sciences">Health Sciences
+                                                </option>
+                                                <option
+                                                        <c:if test="${param.discipline eq 'Life and Biomedical Sciences'}">selected</c:if>
+                                                        value="Life and Biomedical Sciences">
                                                     Life &amp; Biomedical Sciences
                                                 </option>
-                                                <option <c:if test="${param.discipline eq 'Materials Science and Engineering'}">selected</c:if>  value="Materials Science and Engineering">Materials Science
+                                                <option
+                                                        <c:if test="${param.discipline eq 'Materials Science and Engineering'}">selected</c:if>
+                                                        value="Materials Science and Engineering">Materials Science
                                                     &amp; Engineering
                                                 </option>
-                                                <option <c:if test="${param.discipline eq 'Social Sciences and Humanities'}">selected</c:if>  value="Social Sciences and Humanities">Social Sciences &amp;
+                                                <option
+                                                        <c:if test="${param.discipline eq 'Social Sciences and Humanities'}">selected</c:if>
+                                                        value="Social Sciences and Humanities">Social Sciences &amp;
                                                     Humanities
                                                 </option>
                                             </select>
@@ -154,7 +171,8 @@
                                             </thead>
                                             <tbody>
                                             <c:forEach items="${requestScope.journals}" var="journal">
-                                                <tr>
+                                                <tr class="clickable-row"
+                                                    data-href="${requestScope['javax.servlet.forward.request_uri']}/${journal.printIssn}">
                                                     <td>${journal.title}</td>
                                                     <td>${journal.printIssn}</td>
                                                     <td>${journal.publisherName}</td>
@@ -165,7 +183,6 @@
                                         </table>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div><!-- single-post -->
@@ -286,7 +303,7 @@
     }
 
     $(function () {
-        $('#disciplineState').val(getParameter("discipline") || "#" );
+        $('#disciplineState').val(getParameter("discipline") || "#");
     });
 
     function a(s) {
@@ -296,8 +313,13 @@
             aa = '${context}/journal?discipline=' + selected;
         }
         location = aa;
-        // location.reload()
     }
+
+    $(document).ready(function ($) {
+        $(".clickable-row").click(function () {
+            window.location = $(this).data("href");
+        });
+    });
 </script>
 </body>
 </html>

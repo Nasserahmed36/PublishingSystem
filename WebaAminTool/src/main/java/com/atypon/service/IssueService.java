@@ -6,8 +6,8 @@ import java.util.List;
 
 public interface IssueService {
     boolean create(Issue issue);
-    List<Issue> getAll();
-    List<Issue> getByVolume(int volume);
+    List<Issue> getBy(String journalPrintIssn);
+    List<Issue> getBy(String journalPrintIssn, int volume);
     boolean isExisted(String issueDao);
     boolean createIfNotExist(Issue issue);
     int getLastVolume(String journalPrintIssn);

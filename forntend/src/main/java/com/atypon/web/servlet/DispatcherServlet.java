@@ -1,7 +1,6 @@
 package com.atypon.web.servlet;//package com.atypon.com.atypon.web.servlet;
 
 
-import com.atypon.web.controller.IssueController;
 import com.atypon.web.controller.JournalController;
 
 import javax.servlet.ServletException;
@@ -11,31 +10,26 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "DispatcherServlet", urlPatterns = {"/journal/*","/issue/*"})
+@WebServlet(name = "DispatcherServlet", urlPatterns = {"/journal/*"})
 public class DispatcherServlet extends HttpServlet {
     private static final String JSPS_FILE = "/publish";
 
     private JournalController journalController;
-    private IssueController issueController;
 
     @Override
     public void init() throws ServletException {
         super.init();
         journalController = new JournalController(getServletContext());
-        issueController = new IssueController(getServletContext());
     }
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String action = extractAction(request);
-
         String view = null;
         switch (action) {
             case "journal":
                 view = journalController.handle(request, response);
                 break;
-            case "issue":
-                view = issueController.handle(request,response);
         }
         dispatch(request, response, view);
     }
