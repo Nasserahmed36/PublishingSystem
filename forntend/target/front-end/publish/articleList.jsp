@@ -1,5 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="easy" tagdir="/WEB-INF/tags" %>
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -28,8 +30,6 @@
     <link href="${resources}/01-homepage/css/styles.css" rel="stylesheet">
 
     <link href="${resources}/01-homepage/css/responsive.css" rel="stylesheet">
-
-
     <style type="text/css">
 
         .btn a {
@@ -145,7 +145,8 @@
                                 <div class="subject col-lg-12 col-md-12">
 
                                     <h4 class="title">
-                                        <b class="light-color">${entry.key}</b>
+                                        <b class="light-color">${entry.key}
+                                        </b>
                                     </h4>
                                     <c:forEach var="article" items="${entry.value}">
                                         <div class="single-post article">
@@ -157,12 +158,13 @@
                                                         ${author.givenName} ${author.surName}
                                                     </span>
                                                     <span class="degrees">
-                                                            ${author.degrees}<c:if test="${not status.last}">,</c:if>
+                                                            ${author.degrees}
+                                                            <c:if test="${not status.last}">,</c:if>
                                                     </span>
                                                 </span>
                                                 </c:forEach>
                                             </div>
-                                            <div class=" date"><em>First Published ${article.month} 16, ${article.year};
+                                            <div class=" date"><em>First Published  <easy:DateFormat month="${article.month}"/> 16, ${article.year};
                                                 pp. ${article.firstPage}-${article.lastPage}</em>
                                             </div>
                                             <div class="options title">
