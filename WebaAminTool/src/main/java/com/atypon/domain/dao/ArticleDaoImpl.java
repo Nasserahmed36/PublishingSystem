@@ -6,7 +6,12 @@ import com.atypon.domain.Article.Author;
 import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 public class ArticleDaoImpl implements ArticleDao {
 
@@ -17,10 +22,10 @@ public class ArticleDaoImpl implements ArticleDao {
     }
 
     @Override
-    public boolean save(Article article) {
+    public boolean create(Article article) {
         StringBuilder sql = new StringBuilder("insert into article (doi, title, " +
-                "issue_doi, subject, first_page, last_page)" +
-                " VALUES (?,?,?,?,?,?); ");
+                "issue_doi, subject, first_page, last_page,month,year)" +
+                " VALUES (?,?,?,?,?,?,?,?); ");
         sql.append("insert into article_author (article_dao, given_name, sur_name," +
                 " degrees) values ");
         for (int i = 0; i < article.getAuthors().size(); i++) {
@@ -37,7 +42,8 @@ public class ArticleDaoImpl implements ArticleDao {
             statement.setString(index++, article.getSubject());
             statement.setString(index++, article.getFirstPage());
             statement.setString(index++, article.getLastPage());
-
+            statement.setInt(index++, article.getMonth());
+            statement.setInt(index++, article.getYear());
             for (Author author : article.getAuthors()) {
                 statement.setString(index++, article.getDoi());
                 statement.setString(index++, author.getGivenName());
@@ -51,5 +57,69 @@ public class ArticleDaoImpl implements ArticleDao {
             return false;
         }
         return true;
+    }
+
+    @Override
+    public Map<String, List<Article>> getSubjectToArticlesMap(String issueDoi) {
+        Map<String, List<Article>> map = new LinkedHashMap<>();
+        String sql = "select doi, title, issue_doi, subject, first_page, last_page" +
+                ",month, year from article where issue_doi = ? order by first_page";
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setString(1, issueDoi);
+            ResultSet resultSet = statement.executeQuery();
+            while (resultSet.next()) {
+                Article article = extractArticle(resultSet);
+                if (!map.containsKey(article.getSubject())) {
+                    map.put(article.getSubject(), new ArrayList<>());
+                }
+                map.get(article.getSubject()).add(article);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return map;
+    }
+
+    private Article extractArticle(ResultSet resultSet) throws SQLException {
+        Article article = new Article();
+        int index = 1;
+        article.setDoi(resultSet.getString(index++));
+        article.setTitle(resultSet.getString(index++));
+        article.setIssueDoi(resultSet.getString(index++));
+        article.setSubject(resultSet.getString(index++));
+        article.setFirstPage(resultSet.getString(index++));
+        article.setLastPage(resultSet.getString(index++));
+        article.setMonth(resultSet.getInt(index++));
+        article.setYear(resultSet.getInt(index));
+        article.setAuthors(getAuthors(article.getDoi()));
+        return article;
+    }
+
+    public List<Author> getAuthors(String doi) {
+        List<Author> authors = new ArrayList<>();
+        String sql = "select given_name,sur_name,degrees from article_author " +
+                "where article_dao = ?";
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setString(1, doi);
+            ResultSet resultSet = statement.executeQuery();
+            while (resultSet.next()) {
+                Author author = extractAuthor(resultSet);
+                authors.add(author);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return authors;
+    }
+
+    private Author extractAuthor(ResultSet resultSet) throws SQLException {
+        Author author = new Author();
+        int index = 1;
+        author.setGivenName(resultSet.getString(index++));
+        author.setSurName(resultSet.getString(index++));
+        author.setDegrees(resultSet.getString(index));
+        return author;
     }
 }

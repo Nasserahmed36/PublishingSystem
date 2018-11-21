@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <c:set var="context" value="${pageContext.request.contextPath}"/>
-    <c:set var="sources" value="${pageContext.request.contextPath}/publish"/>
+    <c:set var="resources" value="${pageContext.request.contextPath}/publish"/>
     <title>TITLE</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,16 +18,16 @@
 
     <!-- Stylesheets -->
 
-    <link href="${sources}/common-css/bootstrap.css" rel="stylesheet">
+    <link href="${resources}/common-css/bootstrap.css" rel="stylesheet">
 
-    <link href="${sources}/common-css/ionicons.css" rel="stylesheet">
+    <link href="${resources}/common-css/ionicons.css" rel="stylesheet">
 
-    <link href="${sources}/common-css/layerslider.css" rel="stylesheet">
+    <link href="${resources}/common-css/layerslider.css" rel="stylesheet">
 
 
-    <link href="${sources}/01-homepage/css/styles.css" rel="stylesheet">
+    <link href="${resources}/01-homepage/css/styles.css" rel="stylesheet">
 
-    <link href="${sources}/01-homepage/css/responsive.css" rel="stylesheet">
+    <link href="${resources}/01-homepage/css/responsive.css" rel="stylesheet">
 
     <style type="text/css">
         #identityTableBody td {
@@ -79,7 +79,7 @@
 
     </div><!-- top-menu -->
 
-    <div class="middle-menu center-text"><a href="#" class="logo"><img src="${sources}/images/atypon.jpg"
+    <div class="middle-menu center-text"><a href="#" class="logo"><img src="${resources}/images/atypon.jpg"
                                                                        alt="Logo Image"></a>
     </div>
 
@@ -215,7 +215,7 @@
                         <h4 class="title"><b class="light-color">Latest Articles</b></h4>
 
                         <div class="latest-post" href="#">
-                            <div class="l-post-image"><img src="${sources}/images/recent-post-1-150x200.jpg"
+                            <div class="l-post-image"><img src="${resources}/images/recent-post-1-150x200.jpg"
                                                            alt="Category Image">
                             </div>
                             <div class="post-info">
@@ -226,7 +226,7 @@
                         </div>
 
                         <div class="latest-post" href="#">
-                            <div class="l-post-image"><img src="${sources}/images/recent-post-2-150x200.jpg"
+                            <div class="l-post-image"><img src="${resources}/images/recent-post-2-150x200.jpg"
                                                            alt="Category Image">
                             </div>
                             <div class="post-info">
@@ -236,7 +236,7 @@
                             </div>
                         </div>
                         <div class="latest-post" href="#">
-                            <div class="l-post-image"><img src="${sources}/images/recent-post-3-150x200.jpg"
+                            <div class="l-post-image"><img src="${resources}/images/recent-post-3-150x200.jpg"
                                                            alt="Category Image">
                             </div>
                             <div class="post-info">
@@ -247,7 +247,7 @@
                         </div>
 
                         <div class="latest-post" href="#">
-                            <div class="l-post-image"><img src="${sources}/images/recent-post-4-150x200.jpg"
+                            <div class="l-post-image"><img src="${resources}/images/recent-post-4-150x200.jpg"
                                                            alt="Category Image">
                             </div>
                             <div class="post-info">
@@ -287,15 +287,15 @@
 
 <!-- SCIPTS -->
 
-<script src="${sources}/common-js/jquery-3.1.1.min.js"></script>
+<script src="${resources}/common-js/jquery-3.1.1.min.js"></script>
 
-<script src="${sources}/common-js/tether.min.js"></script>
+<script src="${resources}/common-js/tether.min.js"></script>
 
-<script src="${sources}/common-js/bootstrap.js"></script>
+<script src="${resources}/common-js/bootstrap.js"></script>
 
-<script src="${sources}/common-js/layerslider.js"></script>
+<script src="${resources}/common-js/layerslider.js"></script>
 
-<script src="${sources}/common-js/scripts.js"></script>
+<script src="${resources}/common-js/scripts.js"></script>
 <script>
     function getParameter(name) {
         if (name = (new RegExp('[?&]' + encodeURIComponent(name) + '=([^&]*)')).exec(location.search))

@@ -1,6 +1,10 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
+    <c:set var="context" value="${pageContext.request.contextPath}"/>
+    <c:set var="resources" value="${pageContext.request.contextPath}/publish"/>
     <title>TITLE</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,22 +18,19 @@
 
     <!-- Stylesheets -->
 
-    <link href="common-css/bootstrap.css" rel="stylesheet">
+    <link href="${resources}/common-css/bootstrap.css" rel="stylesheet">
 
-    <link href="common-css/ionicons.css" rel="stylesheet">
+    <link href="${resources}/common-css/ionicons.css" rel="stylesheet">
 
-    <link href="common-css/layerslider.css" rel="stylesheet">
+    <link href="${resources}/common-css/layerslider.css" rel="stylesheet">
 
 
-    <link href="01-homepage/css/styles.css" rel="stylesheet">
+    <link href="${resources}/01-homepage/css/styles.css" rel="stylesheet">
 
-    <link href="01-homepage/css/responsive.css" rel="stylesheet">
+    <link href="${resources}/01-homepage/css/responsive.css" rel="stylesheet">
+
+
     <style type="text/css">
-        .discipline.btn {
-            width: 350px;
-            font-weight: bold;
-            font-size: 1em;
-        }
 
         .btn a {
             color: black;
@@ -58,15 +59,18 @@
             width: 16rem;
             margin-bottom: 50px;
         }
-        div.issueCard:hover {
+
+        div.issueCard {
             cursor: pointer;
+            transition: all .2s;
         }
-        div.issueCard:hover div.card-body {
-            border-color: #FFAD4D;
-            color: #FFAD4D;
+
+        div.issueCard:hover {
+            transform: scale(1.1);
         }
+
         div.issueCard div.card-body {
-            border: 1px solid rgba(0,0,0,.125);
+            border: 1px solid rgba(0, 0, 0, .125);
             padding: 20px;
         }
     </style>
@@ -98,7 +102,8 @@
 
     </div><!-- top-menu -->
 
-    <div class="middle-menu center-text"><a href="#" class="logo"><img src="images/atypon.jpg" alt="Logo Image"></a>
+    <div class="middle-menu center-text"><a href="#" class="logo"><img src="${resources}/images/atypon.jpg"
+                                                                       alt="Logo Image"></a>
     </div>
 
     <div class="bottom-area">
@@ -136,6 +141,41 @@
                 <div class="blog-posts">
                     <div class="single-post">
                         <div class="row">
+                            <c:forEach items="${requestScope.subjectsMap}" var="entry">
+                                <div class="subject col-lg-12 col-md-12">
+
+                                    <h4 class="title">
+                                        <b class="light-color">${entry.key}</b>
+                                    </h4>
+                                    <c:forEach var="article" items="${entry.value}">
+                                        <div class="single-post article">
+                                            <h4 class="title"><a href="#">${article.title}</a></h4>
+                                            <div class="authors">
+                                                <c:forEach var="author" varStatus="status" items="${article.authors}">
+                                                    <span class="author">
+                                                    <span class="name">
+                                                        ${author.givenName} ${author.surName}
+                                                    </span>
+                                                    <span class="degrees">
+                                                            ${author.degrees}<c:if test="${not status.last}">,</c:if>
+                                                    </span>
+                                                </span>
+                                                </c:forEach>
+                                            </div>
+                                            <div class=" date"><em>First Published ${article.month} 16, ${article.year};
+                                                pp. ${article.firstPage}-${article.lastPage}</em>
+                                            </div>
+                                            <div class="options title">
+                                                <a class="btn category-btn" href="#">VIEW </a>
+                                                <a class="btn category-btn" href="#">PDF</a>
+                                            </div>
+                                        </div>
+                                        <!-- single-post -->
+                                    </c:forEach>
+                                </div>
+                                <!-- col-sm-6 -->
+
+                            </c:forEach>
                             <div class="subject col-lg-12 col-md-12">
 
                                 <h4 class="title">
@@ -153,7 +193,72 @@
                                             </span>
                                         </span>
                                     </div>
+                                    <div class=" date"><em>First Published August 16, 2018; pp. 10-15</em>
+                                    </div>
+                                    <div class="options title">
+                                        <a class="btn category-btn" href="#">VIEW </a>
+                                        <a class="btn category-btn" href="#">PDF</a>
+                                    </div>
+                                </div><!-- single-post -->
+                                <div class="single-post article">
+                                    <h4 class="title"><a href="#">One more night in the localclubs</a></h4>
+                                    <div class="authors">
+                                        <span class="author">
+                                            <span class="name">
+                                                Teresa Pearson
+                                            </span>
+                                            <span class="degress">
+                                                MS, RN, CDE, FAADE
+                                            </span>
+                                        </span>
+                                    </div>
                                     <div class=" date"><em>First Published August 16, 2018; pp. 10–15</em>
+                                    </div>
+                                    <div class="options title">
+                                        <a class="btn category-btn" href="#">VIEW </a>
+                                        <a class="btn category-btn" href="#">PDF</a>
+                                    </div>
+                                </div><!-- single-post -->
+
+                                <div class="single-post article">
+                                    <h4 class="title"><a href="#">One more night in the localclubs</a></h4>
+                                    <div class="authors">
+                                        <span class="author">
+                                            <span class="name">
+                                                Teresa Pearson
+                                            </span>
+                                            <span class="degress">
+                                                MS, RN, CDE, FAADE
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class=" date"><em>First Published August 16, 2018; pp. 10–15</em>
+                                    </div>
+                                    <div class="options title">
+                                        <a class="btn category-btn" href="#">VIEW </a>
+                                        <a class="btn category-btn" href="#">PDF</a>
+                                    </div>
+                                </div><!-- single-post -->
+
+                            </div><!-- col-sm-6 -->
+                            <div class="subject col-lg-12 col-md-12">
+
+                                <h4 class="title">
+                                    <b class="light-color">From the Editor</b>
+                                </h4>
+                                <div class="single-post article">
+                                    <h4 class="title"><a href="#">One more night in the localclubs</a></h4>
+                                    <div class="authors">
+                                        <span class="author">
+                                            <span class="name">
+                                                Teresa Pearson
+                                            </span>
+                                            <span class="degress">
+                                                MS, RN, CDE, FAADE
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class=" date"><em>First Published August 16, 2018; pp. 10-15</em>
                                     </div>
                                     <div class="options title">
                                         <a class="btn category-btn" href="#">VIEW </a>
@@ -217,7 +322,7 @@
                     </div><!-- sidebar-section src-area -->
 
                     <div class="issueCard card">
-                        <img class="card-img-top" src="images/cover.png" alt="Card image cap">
+                        <img class="card-img-top" src="${resources}/images/cover.png" alt="Card image cap">
                         <div class="card-body">
                             <h6 class="title card-text">Volume 6 Issue 6, November 2018</h6>
                         </div>
@@ -227,7 +332,8 @@
                         <h4 class="title"><b class="light-color">Latest Articles</b></h4>
 
                         <div class="latest-post" href="#">
-                            <div class="l-post-image"><img src="images/recent-post-1-150x200.jpg" alt="Category Image">
+                            <div class="l-post-image"><img src="${resources}/images/recent-post-1-150x200.jpg"
+                                                           alt="Category Image">
                             </div>
                             <div class="post-info">
                                 <a class="btn category-btn" href="#">TRAVEL</a>
@@ -237,7 +343,8 @@
                         </div>
 
                         <div class="latest-post" href="#">
-                            <div class="l-post-image"><img src="images/recent-post-2-150x200.jpg" alt="Category Image">
+                            <div class="l-post-image"><img src="${resources}/images/recent-post-2-150x200.jpg"
+                                                           alt="Category Image">
                             </div>
                             <div class="post-info">
                                 <a class="btn category-btn" href="#">TRAVEL</a>
@@ -246,7 +353,8 @@
                             </div>
                         </div>
                         <div class="latest-post" href="#">
-                            <div class="l-post-image"><img src="images/recent-post-3-150x200.jpg" alt="Category Image">
+                            <div class="l-post-image"><img src="${resources}/images/recent-post-3-150x200.jpg"
+                                                           alt="Category Image">
                             </div>
                             <div class="post-info">
                                 <a class="btn category-btn" href="#">TRAVEL</a>
@@ -256,7 +364,8 @@
                         </div>
 
                         <div class="latest-post" href="#">
-                            <div class="l-post-image"><img src="images/recent-post-4-150x200.jpg" alt="Category Image">
+                            <div class="l-post-image"><img src="${resources}/images/recent-post-4-150x200.jpg"
+                                                           alt="Category Image">
                             </div>
                             <div class="post-info">
                                 <a class="btn category-btn" href="#">TRAVEL</a>
@@ -294,15 +403,15 @@
 
 <!-- SCIPTS -->
 
-<script src="common-js/jquery-3.1.1.min.js"></script>
+<script src="${resources}/common-js/jquery-3.1.1.min.js"></script>
 
-<script src="common-js/tether.min.js"></script>
+<script src="${resources}/common-js/tether.min.js"></script>
 
-<script src="common-js/bootstrap.js"></script>
+<script src="${resources}/common-js/bootstrap.js"></script>
 
-<script src="common-js/layerslider.js"></script>
+<script src="${resources}/common-js/layerslider.js"></script>
 
-<script src="common-js/scripts.js"></script>
+<script src="${resources}/common-js/scripts.js"></script>
 
 </body>
 </html>

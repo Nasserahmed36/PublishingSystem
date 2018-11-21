@@ -7,62 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6fd00d7-ea79-4df5-a141-84aea25d7f10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/IssueDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/IssueDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/IssueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/IssueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/IssueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/IssueServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/IssueDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/IssueDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/IssueDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/IssueDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/IssueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/IssueService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/IssueServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/IssueServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/IssueDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/IssueDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/IssueDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/IssueDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/IssueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/IssueService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/IssueServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/IssueServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/IssueController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/JournalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/JournalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/issueList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/issueList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/journalList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/journalList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/IssueController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/IssueController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/controller/IssueController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/controller/IssueController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/web-admin-tool-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/web-admin-tool-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/issueList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/issueList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/journalList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/journalList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_3.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_3.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_4.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_4.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_5.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_5.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_6.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_6.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/article.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/article.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/issue.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/issue.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000033" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000033" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_002" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,7 +39,7 @@
     <session id="180726518">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="2" />
@@ -545,12 +495,12 @@
       <workItem from="1542453351703" duration="4253000" />
       <workItem from="1542569663830" duration="599000" />
       <workItem from="1542570736360" duration="680000" />
-      <workItem from="1542709800384" duration="2571000" />
+      <workItem from="1542709800384" duration="2794000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67567000" />
+    <option name="totallyTimeSpent" value="67790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,7 +513,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.22357498" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

@@ -45,6 +45,12 @@ public class AppListener implements ServletContextListener {
         IssueService issueService = new IssueServiceImpl(issueDao);
         context.setAttribute("issueService",issueService);
 
+        ArticleDao articleDao = new ArticleDaoImpl(dataSource);
+        context.setAttribute("articleDao",articleDao);
+
+        ArticleService articleService = new ArticleServiceImpl(articleDao);
+        context.setAttribute("articleService", articleService);
+
     }
 
     @Override

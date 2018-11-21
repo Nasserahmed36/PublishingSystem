@@ -10,6 +10,8 @@ public class Article {
     private String subject;
     private String firstPage;
     private String lastPage;
+    private int month;
+    private int year;
 
     private List<Author> authors = new ArrayList<>();
 
@@ -73,6 +75,22 @@ public class Article {
 
     public void setLastPage(String lastPage) {
         this.lastPage = lastPage;
+    }
+
+    public int getMonth() {
+        return month;
+    }
+
+    public void setMonth(int month) {
+        this.month = month;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
     }
 
     @Override

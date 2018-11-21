@@ -8,16 +8,12 @@ import static com.atypon.domain.Article.Author;
 import com.atypon.service.ArticleService;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
-import org.xml.sax.SAXNotRecognizedException;
-import org.xml.sax.SAXNotSupportedException;
 import org.xml.sax.helpers.DefaultHandler;
 
-import javax.security.sasl.SaslException;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 
 public class ArticleMetadataProcessor implements Processor<String> {
@@ -31,7 +27,7 @@ public class ArticleMetadataProcessor implements Processor<String> {
     @Override
     public void process(String articleFilePath) throws ProcessingException {
         Article article = extractArticle(articleFilePath);
-        articleService.save(article);
+        articleService.create(article);
     }
 
     private Article extractArticle(String articleFilePath) throws ProcessingException {
