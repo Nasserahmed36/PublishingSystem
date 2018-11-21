@@ -10,8 +10,8 @@ public class BackstageConsumerImpl implements BackstageConsumer {
     private volatile boolean keepRunning = true;
     private final BlockingQueue<ArticleSubmission> creationQueue;
     private final BlockingQueue<ArticleSubmission> deletionQueue;
-    private final Processor<ArticleSubmission> mainProcessor =
-            new MainProcessor();
+    private final Processor<ArticleSubmission> submissionProcessor =
+            new SubmissionProcessor();
     private final ExecutorService singleThreadExecutor = Executors.newSingleThreadExecutor();
 
     public BackstageConsumerImpl(BlockingQueue<ArticleSubmission> creationQueue,
@@ -26,7 +26,7 @@ public class BackstageConsumerImpl implements BackstageConsumer {
             while (keepRunning) {
                 try {
                     ArticleSubmission articleSubmission = creationQueue.take();
-                    mainProcessor.process(articleSubmission);
+                    submissionProcessor.process(articleSubmission);
                 } catch (ProcessingException | InterruptedException e) {
                     e.printStackTrace();
                 }

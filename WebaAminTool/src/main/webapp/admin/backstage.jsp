@@ -120,12 +120,12 @@
                                 <c:forEach items="${requestScope.submissions}" var="submission">
                                     <tr>
                                         <td>${submission.seriesIssn}</td>
-                                        <td>${submission.articleFileName}</td>
+                                        <td>${submission.fileName}</td>
                                         <td>
                                                 <jsp:useBean id="dateObject" class="java.util.Date"/>
                                                 <jsp:setProperty name="dateObject" property="time"
                                                                  value="${submission.timestamp}"/>
-                                                <fmt:formatDate value="${dateObject }" pattern="dd/MM/yyyy"/>
+                                                <fmt:formatDate value="${dateObject}" pattern="dd/MM/yyyy"/>
                                         <td>${submission.status}</td>
                                         <td>
                                             <button class="glyphicon glyphicon-trash btn btn-info"

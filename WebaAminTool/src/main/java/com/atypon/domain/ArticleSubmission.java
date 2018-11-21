@@ -2,7 +2,7 @@ package com.atypon.domain;
 
 public class ArticleSubmission {
     private String seriesIssn;
-    private String articleFileName;
+    private String fileName;
     private String status;
     private long timestamp;
     private String path;
@@ -15,12 +15,12 @@ public class ArticleSubmission {
         this.seriesIssn = seriesIssn;
     }
 
-    public String getArticleFileName() {
-        return articleFileName;
+    public String getFileName() {
+        return fileName;
     }
 
-    public void setArticleFileName(String articleFileName) {
-        this.articleFileName = articleFileName;
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
     }
 
     public String getStatus() {
@@ -51,7 +51,7 @@ public class ArticleSubmission {
     public String toString() {
         return "ArticleSubmission{" +
                 "seriesIssn='" + seriesIssn + '\'' +
-                ", articleFileName='" + articleFileName + '\'' +
+                ", fileName='" + fileName + '\'' +
                 ", path='" + path + '\'' +
                 '}';
     }

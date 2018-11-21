@@ -26,10 +26,10 @@ public class ArticleSubmissionDaoImpl implements ArticleSubmissionDao {
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
             String outputFile = submission.getSeriesIssn() +
-                    File.separator + submission.getArticleFileName();
+                    File.separator + submission.getFileName();
             connection.setAutoCommit(false);
             statement.setString(1, submission.getSeriesIssn());
-            statement.setString(2, submission.getArticleFileName());
+            statement.setString(2, submission.getFileName());
             statement.setTimestamp(3, new Timestamp(System.currentTimeMillis()));
             statement.setString(4, "Uploaded");
             statement.setString(5, outputFile);
@@ -53,7 +53,7 @@ public class ArticleSubmissionDaoImpl implements ArticleSubmissionDao {
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
             statement.setString(1, articleSubmission.getSeriesIssn());
-            statement.setString(2, articleSubmission.getArticleFileName());
+            statement.setString(2, articleSubmission.getFileName());
             ResultSet resultSet = statement.executeQuery();
             if (resultSet.next()) {
                 journal = extractSubmission(resultSet);
@@ -84,7 +84,7 @@ public class ArticleSubmissionDaoImpl implements ArticleSubmissionDao {
     private ArticleSubmission extractSubmission(ResultSet resultSet) throws SQLException {
         ArticleSubmission submission = new ArticleSubmission();
         submission.setSeriesIssn(resultSet.getString("series_issn"));
-        submission.setArticleFileName(resultSet.getString("file_name"));
+        submission.setFileName(resultSet.getString("file_name"));
         submission.setTimestamp(resultSet.getTimestamp("date").getTime());
         String absolutePath = outputDirPath + File.separator + resultSet.getString("path");
         submission.setPath(absolutePath);

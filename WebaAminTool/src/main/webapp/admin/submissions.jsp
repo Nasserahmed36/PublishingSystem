@@ -121,7 +121,7 @@
                                 <c:forEach items="${requestScope.submissions}" var="submission">
                                     <tr>
                                         <td>${submission.seriesIssn}</td>
-                                        <td>${submission.articleFileName}</td>
+                                        <td>${submission.fileName}</td>
                                         <td>
                                             <jsp:useBean id="fromattedDate" class="java.util.Date" />
                                             <jsp:setProperty name="fromattedDate" property="time" value="${submission.timestamp}" />

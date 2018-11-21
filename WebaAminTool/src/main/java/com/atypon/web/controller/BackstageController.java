@@ -75,7 +75,7 @@ public class BackstageController implements Controller {
     private ArticleSubmission extractArticleSubmission(ArticleSubmissionForm form) {
         ArticleSubmission articleSubmission = new ArticleSubmission();
         articleSubmission.setSeriesIssn(form.getSeriesIssn().trim());
-        articleSubmission.setArticleFileName(form.getArticleFileName().trim());
+        articleSubmission.setFileName(form.getArticleFileName().trim());
         return articleSubmission;
     }
 

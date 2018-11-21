@@ -18,7 +18,6 @@ com/atypon/web/servlet/DispatcherServlet.class
 com/atypon/commons/Messenger.class
 com/atypon/domain/ArticleSubmission.class
 com/atypon/backstage/ArticleMetadataProcessor$1.class
-com/atypon/backstage/MainProcessor.class
 com/atypon/domain/dao/ArticleDaoImpl.class
 com/atypon/web/validator/ArticleSubmissionValidator.class
 com/atypon/web/controller/JournalController.class
@@ -28,7 +27,6 @@ com/atypon/domain/dao/IdentityDao.class
 com/atypon/domain/dao/IssueDao.class
 com/atypon/service/ArticleSubmissionsProducer.class
 com/atypon/backstage/FileTransformer.class
-com/atypon/backstage/JatsToHtmlTransformer.class
 com/atypon/service/IdentityServiceImpl.class
 com/atypon/service/ArticleServiceImpl.class
 com/atypon/domain/dao/JournalDao.class
@@ -56,7 +54,6 @@ com/atypon/domain/dao/IssueDaoImpl.class
 com/atypon/backstage/ArticleMetadataProcessor.class
 com/atypon/backstage/ArticleSubmissionNavigator.class
 com/atypon/backstage/ArticleMetadataProcessor$EndOfTheDocumentException.class
-com/atypon/config/Settings.class
 com/atypon/web/validator/JournalValidator.class
 com/atypon/backstage/BackstageConsumer.class
 com/atypon/backstage/IssueMetadataProcessor$XmlIssueHandler.class
