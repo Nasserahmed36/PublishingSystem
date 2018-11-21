@@ -1,6 +1,14 @@
 package com.atypon.backstage;
 
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+import org.xml.sax.XMLReader;
+
+import javax.xml.XMLConstants;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.parsers.SAXParserFactory;
 import javax.xml.transform.*;
+import javax.xml.transform.sax.SAXSource;
 import javax.xml.transform.stream.StreamResult;
 import javax.xml.transform.stream.StreamSource;
 import java.io.FileNotFoundException;
@@ -18,19 +26,23 @@ public class XsltTransformer implements FileTransformer {
     @Override
     public void transform(String sourceFileLocation, String outputFileLocation) throws FileNotFoundException, TransformerException {
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
-        turnOffValidation(transformerFactory);
         Source xslDoc = new StreamSource(xsltLocation);
-        Source xmlSourceDoc = new StreamSource(sourceFileLocation);
+        SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
+        XMLReader xmlReader = null;
+        try {
+            // Turn off validation
+            saxParserFactory.setValidating(false);
+            saxParserFactory.setFeature("http://xml.org/sax/features/namespaces", false);
+            saxParserFactory.setFeature("http://xml.org/sax/features/validation", false);
+            saxParserFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);
+            saxParserFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
+            xmlReader = saxParserFactory.newSAXParser().getXMLReader();
+        } catch (SAXException | ParserConfigurationException e) {
+            e.printStackTrace();
+        }
         OutputStream outputHtmlFile = new FileOutputStream(outputFileLocation);
         Transformer transformer = transformerFactory.newTransformer(xslDoc);
-        transformer.transform(xmlSourceDoc, new StreamResult(outputHtmlFile));
-    }
-
-    private void turnOffValidation(TransformerFactory transformerFactory) throws TransformerConfigurationException {
-        transformerFactory.setFeature("http://xml.org/sax/features/namespaces", false);
-        transformerFactory.setFeature("http://xml.org/sax/features/validation", false);
-        transformerFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);
-        transformerFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
+        transformer.transform(new SAXSource(xmlReader, new InputSource(sourceFileLocation)), new StreamResult(outputHtmlFile));
     }
 
 

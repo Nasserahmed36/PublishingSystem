@@ -13,14 +13,17 @@ import java.util.Properties;
  */
 class BackstageSettings {
 
-    private static ClassLoader classLoader = BackstageSettings.class.getClassLoader();
-    private static File file = new File(classLoader.getResource("config/settings.properties").getFile());
-    private static Properties properties = new Properties();
-
-
+    private static final ClassLoader classLoader = BackstageSettings.class.getClassLoader();
+    private static final File file = new File(classLoader.getResource("config/settings.properties").getFile());
+    private static final Properties properties = new Properties();
     private static final String RESOURCES_PATH = BackstageSettings.class.getResource("/").getPath();
+
     private static final String XSL_FILES = RESOURCES_PATH + File.separator + "xsl";
-    private static final String JATS_HTML_XSL_FILE = XSL_FILES + File.separator + "jatsToHtml.xsl";
+    private static final String TO_FULL_PAGE_XSL = XSL_FILES + File.separator + "jatsToFullPage.xsl";
+    private static final String TO_ABSTRACT_PAGE_XSL = XSL_FILES + File.separator + "jatsToAbstractPage.xsl";
+    private static final String TO_ARTICLE_META_XSL = XSL_FILES + File.separator + "jatsToArticleMetadata.xsl";
+
+
     private static final String FULL_PAGE_FILE_NAME = "full.html";
     private static final String ABSTRACT_PAGE_FILE_NAME = "abstract.html";
     private static final String ARTICLE_METADATA_FILE_NAME = "articleMetadata.xml";
@@ -44,12 +47,16 @@ class BackstageSettings {
         return properties.getProperty("BACKSTAGE_OUTPUT_DIR");
     }
 
-    static String toHtmlXslFile() {
-        return JATS_HTML_XSL_FILE;
+    static String toFullPageXsl() {
+        return TO_FULL_PAGE_XSL;
     }
 
-    static String toArticleMetadataXslFile() {
-        return JATS_HTML_XSL_FILE;
+    public static String getToAbstractPageXsl() {
+        return TO_ABSTRACT_PAGE_XSL;
+    }
+
+    static String toArticleMetadataXsl() {
+        return TO_ARTICLE_META_XSL;
     }
 
     static String unzipArticleSubmissionPath(String articleSubmissionPath) {

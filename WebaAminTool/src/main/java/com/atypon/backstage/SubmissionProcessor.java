@@ -18,9 +18,10 @@ public class SubmissionProcessor implements Processor<ArticleSubmission> {
 
     public SubmissionProcessor() {
         jatsToFullPageTransformer =
-                new XsltTransformer(toHtmlXslFile());
+                new XsltTransformer(toFullPageXsl());
         jatsToArticleMetaTransformer =
-                new XsltTransformer(toArticleMetadataXslFile());
+                new XsltTransformer(toArticleMetadataXsl());
+
         // gather data
         // add them all at once
 

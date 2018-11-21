@@ -2,50 +2,42 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="web-admin-tool:war exploded" />
+      <artifact name="WebaAminTool:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aac7c92c-79f3-4bd1-8ea3-7006a3c6fe7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/SubmissionProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/JatsToHtmlTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/XsltTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/MainProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/config/Settings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/ArticleSubmission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/ArticleSubmission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/BackstageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/BackstageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/SubmissionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/SubmissionProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/XsltTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/XsltTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/settings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/backstage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/backstage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/submissions.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/submissions.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/backstage/BackstageConsumerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/backstage/BackstageConsumerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/backstage/JatsToHtmlTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/backstage/MainProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/config/Settings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/ArticleSubmission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/ArticleSubmission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/ArticleSubmissionDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/ArticleSubmissionDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/web/controller/BackstageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/web/controller/BackstageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/settings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/web-admin-tool/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$EndOfTheDocumentException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$EndOfTheDocumentException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$XmlArticleHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$XmlArticleHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/BackstageConsumerImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/BackstageConsumerImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/Article$Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/Article$Author.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/ArticleSubmission.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/ArticleSubmission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/ArticleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/ArticleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/ArticleDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/ArticleSubmissionDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/ArticleSubmissionDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/service/ArticleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/service/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/service/ArticleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/BackstageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/BackstageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/config/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/config/settings.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/JatsToHtmlTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/MainProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/config/Settings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/admin/backstage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/admin/backstage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/admin/submissions.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/admin/submissions.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_3.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_3.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_4.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_4.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_5.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_5.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_6.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_6.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/submission.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/submission.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000036" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000036" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_002" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,10 +79,11 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -98,8 +91,9 @@
           <entry key="cell" value="24" />
           <entry key="dummy" value="57" />
           <entry key="html" value="55" />
-          <entry key="java" value="13298" />
+          <entry key="java" value="13635" />
           <entry key="jsp" value="1362" />
+          <entry key="properties" value="8" />
           <entry key="sql" value="1592" />
           <entry key="xml" value="204" />
           <entry key="xsl" value="145" />
@@ -108,9 +102,10 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="55" />
-          <entry key="JAVA" value="13289" />
+          <entry key="JAVA" value="13626" />
           <entry key="JSP" value="1362" />
           <entry key="PLAIN_TEXT" value="57" />
+          <entry key="Properties" value="8" />
           <entry key="SQL" value="9" />
           <entry key="Scratch" value="1616" />
           <entry key="XML" value="349" />
@@ -122,12 +117,12 @@
           <entry key="css" value="1" />
           <entry key="dtd" value="1" />
           <entry key="html" value="5" />
-          <entry key="java" value="172" />
+          <entry key="java" value="174" />
           <entry key="js" value="2" />
           <entry key="jsp" value="25" />
           <entry key="sql" value="7" />
           <entry key="xml" value="53" />
-          <entry key="xsl" value="3" />
+          <entry key="xsl" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -136,11 +131,11 @@
           <entry key="CSS" value="1" />
           <entry key="DTD" value="1" />
           <entry key="HTML" value="5" />
-          <entry key="JAVA" value="172" />
+          <entry key="JAVA" value="174" />
           <entry key="JSP" value="25" />
           <entry key="JavaScript" value="2" />
           <entry key="Scratch" value="7" />
-          <entry key="XML" value="56" />
+          <entry key="XML" value="60" />
         </counts>
       </usages-collector>
     </session>
@@ -224,14 +219,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/SubmissionProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+            <state relative-caret-position="422">
+              <caret line="64" column="71" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1553#1554#0" expanded="true" />
-                <element signature="e#1580#1581#0" expanded="true" />
-                <element signature="e#2473#2474#0" expanded="true" />
-                <element signature="e#2512#2513#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -240,7 +231,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/JatsArticleMetadataExtractor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="68">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
@@ -259,69 +250,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/XsltTransformer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="method#turnOffValidation#0;class#XsltTransformer#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/backstage.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="122" column="54" selection-start-line="122" selection-end-line="123" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/submissions.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="137" column="22" lean-forward="true" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageSettings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
-              <folding>
-                <element signature="e#1591#1592#0" expanded="true" />
-                <element signature="e#1660#1661#0" expanded="true" />
-                <element signature="e#1380#1381#0" expanded="true" />
-                <element signature="e#1421#1422#0" expanded="true" />
-                <element signature="e#1523#1524#0" expanded="true" />
-                <element signature="e#1942#1943#0" expanded="true" />
-                <element signature="e#2012#2013#0" expanded="true" />
-                <element signature="e#2069#2070#0" expanded="true" />
-                <element signature="e#2140#2141#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config/settings.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="71" lean-forward="true" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -329,8 +261,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="46" column="79" lean-forward="true" selection-start-line="46" selection-start-column="79" selection-end-line="46" selection-end-column="79" />
+            <state relative-caret-position="208">
+              <caret line="35" column="64" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/XsltTransformer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+              <folding>
+                <element signature="e#1874#1875#0" expanded="true" />
+                <element signature="e#1916#1917#0" expanded="true" />
+                <element signature="e#2354#2355#0" expanded="true" />
+                <element signature="e#2425#2426#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/xsl/jatsToArticleMetadata.xsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/xsl/jatsToAbstractPage.xsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/xsl/jatsToFullPage.xsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -383,9 +366,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/aipa_4_1.xml" />
-        <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_6_3_20181029033525638/afpa_6_3/192536211600600301/192536211600600301.xml" />
         <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/afpa_afpa_7_1_20181029024924876/afpa_7_1/192536211700700102/192536211700700102.xml" />
         <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/bhda_bhda_42_2_20181029050741952/bhda_42_2/0198742916688653/0198742916688653.xml" />
         <option value="$USER_HOME$/Desktop/UN-Processed  (Submissions)/bhda_bhda_42_2_20181029050741952/bhda_42_2/issue-files/bhda_42_2.xml" />
@@ -423,17 +403,20 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/XSLTTransformer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/XslTTransformer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/settings.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/config/Settings.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/MainProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/ArticleSubmission.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/Listener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageSettings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/SubmissionProcessor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/XsltTransformer.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/backstage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/XsltTransformer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/SubmissionProcessor.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/settings.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageSettings.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/xsl/jatsToAbstractPage.xsl" />
+        <option value="$PROJECT_DIR$/src/main/resources/xsl/jatsToArticleMetadata.xsl" />
+        <option value="$PROJECT_DIR$/src/main/resources/xsl/jatsToFullPage.xsl" />
       </list>
     </option>
   </component>
@@ -480,7 +463,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -520,6 +502,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebaAminTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebaAminTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="xsl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebaAminTool" type="b2602c69:ProjectViewProjectNode" />
@@ -575,6 +565,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -582,7 +573,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542818988621" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542831772406" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Edit As Language" value="MySQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -595,15 +586,19 @@
     <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.atypon.commons" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/META-INF" />
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/atypon" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/admin" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/xsl" />
       <recent name="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao" />
       <recent name="$PROJECT_DIR$/src/main/webapp/admin" />
       <recent name="$PROJECT_DIR$/src/main/java/com/atypon/service" />
       <recent name="$PROJECT_DIR$/src/main/java/com/atypon" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.atypon.service" />
@@ -612,12 +607,8 @@
       <recent name="com.atypon.domain" />
       <recent name="com.atypon.web.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/META-INF" />
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/atypon" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/admin" />
-      <recent name="$PROJECT_DIR$" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atypon.commons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -632,8 +623,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.91" ALTERNATIVE_JRE_ENABLED="false">
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="XsltTransformer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atypon.backstage.XsltTransformer" />
+      <module name="WebaAminTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atypon.backstage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/AdminTool/" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
@@ -644,7 +648,7 @@
             <option name="CONTEXT_PATH" value="/AccessControl" />
           </settings>
         </file>
-        <artifact name="web-admin-tool:war exploded">
+        <artifact name="WebaAminTool:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/AdminTool" />
           </settings>
@@ -775,6 +779,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="Application.XsltTransformer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.XsltTransformer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -813,11 +826,12 @@
       <workItem from="1542709792330" duration="9929000" />
       <workItem from="1542792231254" duration="607000" />
       <workItem from="1542793331654" duration="13723000" />
+      <workItem from="1542826072210" duration="5557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="373806000" />
+    <option name="totallyTimeSpent" value="379363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -829,10 +843,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49665073" visible="true" weight="0.29662424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49665073" visible="true" weight="0.29994467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -843,8 +857,8 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.4691892" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32535884" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4997233" weight="0.4526316" />
-      <window_info anchor="bottom" id="Debug" order="4" visible="true" weight="0.37894738" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4997233" weight="0.4518919" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.3783784" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4997233" weight="0.3291866" />
@@ -852,7 +866,7 @@
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4991699" weight="0.32756758" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5008301" side_tool="true" weight="0.3291866" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4997233" weight="0.32248804" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4997233" weight="0.32216215" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" sideWeight="0.4997233" weight="0.3291866" />
       <window_info anchor="bottom" id="Version Control" order="15" show_stripe_button="false" />
@@ -923,12 +937,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/SubmissionProcessor.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1019,28 +1027,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Frontend/src/main/java/com/atypon/web/listener/Listener.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Journal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/identities.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="65" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/0198742916688653.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/ArticleSubmissionValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1139,16 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#1513#1514#0" expanded="true" />
-            <element signature="e#1541#1542#0" expanded="true" />
-            <element signature="e#1580#1581#0" expanded="true" />
-            <element signature="e#1614#1615#0" expanded="true" />
-            <element signature="e#1642#1643#0" expanded="true" />
-            <element signature="e#1669#1670#0" expanded="true" />
-            <element signature="e#1706#1707#0" expanded="true" />
-            <element signature="e#1738#1739#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1170,9 +1146,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1190,10 +1163,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1218,16 +1187,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/tag/FormatTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/tag/FormatTag.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
@@ -1239,9 +1199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="34" lean-forward="true" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1291,12 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-          <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1311,70 +1262,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/backstage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/settings.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="71" lean-forward="true" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
-          <folding>
-            <element signature="e#1591#1592#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
-            <element signature="e#1942#1943#0" expanded="true" />
-            <element signature="e#2012#2013#0" expanded="true" />
-            <element signature="e#2069#2070#0" expanded="true" />
-            <element signature="e#2140#2141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="46" column="79" lean-forward="true" selection-start-line="46" selection-start-column="79" selection-end-line="46" selection-end-column="79" />
+        <state relative-caret-position="2074">
+          <caret line="122" column="54" selection-start-line="122" selection-end-line="122" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="425">
           <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/SubmissionProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/submissions.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-            <element signature="e#1580#1581#0" expanded="true" />
-            <element signature="e#2473#2474#0" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="642">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/JatsArticleMetadataExtractor.java">
+    <entry file="file://$PROJECT_DIR$/hello.xsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="323">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1388,27 +1301,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/JatsArticleMetadataExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/XsltTransformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="306">
+          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="35" column="64" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/settings.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xsl/jatsToAbstractPage.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xsl/jatsToArticleMetadata.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xsl/jatsToFullPage.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/SubmissionProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="64" column="71" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
           <folding>
-            <element signature="method#turnOffValidation#0;class#XsltTransformer#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/backstage.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageSettings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="122" column="54" selection-start-line="122" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/submissions.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="137" column="22" lean-forward="true" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+        <state relative-caret-position="221">
+          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding>
+            <element signature="e#1874#1875#0" expanded="true" />
+            <element signature="e#1916#1917#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
+            <element signature="e#2425#2426#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
