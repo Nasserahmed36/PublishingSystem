@@ -3,4 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
+    <context-param>
+        <param-name>submissionsQueueSize</param-name>
+        <param-value>50</param-value>
+    </context-param>
+    <context-param>
+        <param-name>articleSubmissionsPath</param-name>
+        <param-value>/mnt/ssd/ideaProjects/Literatum/content</param-value>
+    </context-param>
+    <context-param>
+        <param-name>datasourceEnv</param-name>
+        <param-value>jdbc/mysql</param-value>
+    </context-param>
 </web-app>

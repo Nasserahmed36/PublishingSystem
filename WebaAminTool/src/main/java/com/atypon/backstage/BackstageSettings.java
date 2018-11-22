@@ -72,6 +72,11 @@ class BackstageSettings {
         return outputDir + File.separator + FULL_PAGE_FILE_NAME;
     }
 
+    static String fullPagePath(String journalId, String issueId, String articleId) {
+        return articleProcessedContentDir(journalId, issueId, articleId) +
+                File.separator + FULL_PAGE_FILE_NAME;
+    }
+
     static String abstractPagePath(String outputDir) {
         return outputDir + File.separator + ABSTRACT_PAGE_FILE_NAME;
     }

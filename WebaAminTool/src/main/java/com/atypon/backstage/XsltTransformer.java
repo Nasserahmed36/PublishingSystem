@@ -31,14 +31,14 @@ public class XsltTransformer implements FileTransformer {
         XMLReader xmlReader = null;
         try {
             // Turn off validation
+            saxParserFactory.setNamespaceAware(true);
             saxParserFactory.setValidating(false);
-            saxParserFactory.setFeature("http://xml.org/sax/features/namespaces", false);
             saxParserFactory.setFeature("http://xml.org/sax/features/validation", false);
             saxParserFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-dtd-grammar", false);
             saxParserFactory.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
             xmlReader = saxParserFactory.newSAXParser().getXMLReader();
         } catch (SAXException | ParserConfigurationException e) {
-            e.printStackTrace();
+            throw new TransformerException(e);
         }
         OutputStream outputHtmlFile = new FileOutputStream(outputFileLocation);
         Transformer transformer = transformerFactory.newTransformer(xslDoc);

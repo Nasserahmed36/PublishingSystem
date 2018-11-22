@@ -94,7 +94,7 @@ public class ArticleSubmissionDaoImpl implements ArticleSubmissionDao {
 
     private void createNecessaryParentDirs(String filePath) throws IOException {
         if (!new File(filePath).getParentFile().mkdirs()) {
-            throw new IOException("File dirs cannot be created");
+            throw new IOException("File dirs cannot be created: "  + filePath);
         }
     }
 

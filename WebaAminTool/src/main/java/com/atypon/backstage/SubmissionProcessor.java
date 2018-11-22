@@ -13,8 +13,10 @@ public class SubmissionProcessor implements Processor<ArticleSubmission> {
 
 
     private final FileTransformer jatsToFullPageTransformer;
-//    private final FileTransformer jatsToAbstractPageTransformer;
+    //    private final FileTransformer jatsToAbstractPageTransformer;
     private final FileTransformer jatsToArticleMetaTransformer;
+
+    private final ArticleMetadataProcessor articleMetadataProcessor;
 
     public SubmissionProcessor() {
         jatsToFullPageTransformer =
@@ -22,6 +24,8 @@ public class SubmissionProcessor implements Processor<ArticleSubmission> {
         jatsToArticleMetaTransformer =
                 new XsltTransformer(toArticleMetadataXsl());
 
+
+        articleMetadataProcessor = new ArticleMetadataProcessor(null);
         // gather data
         // add them all at once
 
@@ -60,23 +64,17 @@ public class SubmissionProcessor implements Processor<ArticleSubmission> {
         String outputDir = articleProcessedContentDir(submission.getSeriesIssn(),
                 navigator.getIssueId(), navigator.getArticleDoi());
         createMissingDirs(outputDir);
+        jatsToArticleMetaTransformer.transform(articleFile.getPath(), articleMetadataPath(outputDir));
+//        jatsToFullPageTransformer.transform(articleFile.getPath(), fullPagePath(outputDir));
+//        jatsToArticleMetaTransformer.transform(articleFile.getPath(), fullPagePath(outputDir));
 
-
-        jatsToFullPageTransformer.transform(articleFile.getPath(), fullPagePath(outputDir));
-        jatsToArticleMetaTransformer.transform(articleFile.getPath(), fullPagePath(outputDir));
-
-//        issueMetadataProcessor.process(issueMetadataFile.getPath());
-//        articleMetadataProcessor.process(articleFile.getPath());
+//        articleMetadataProcessor.process(fullPagePath(outputDir));
     }
 
     private boolean createMissingDirs(String outputDir) {
         return new File(outputDir).mkdirs();
     }
 
-    private void addDtd(ArticleSubmissionNavigator navigator) throws IOException {
-        File dtdFile = new File(navigator.getArticleDir().getAbsolutePath() + File.separator + "JATS-archivearticle1.dtd");
-        dtdFile.createNewFile();
-    }
 
     private void notify(boolean success) {
 
