@@ -163,7 +163,7 @@
                 </xsl:choose>
             </xsl:attribute>
 
-            <xsl:apply-templates select="@*"/>
+                <xsl:apply-templates select="@*"/>
             <xsl:apply-templates select="node()" mode="list-simple"/>
         </ul>
     </xsl:template>

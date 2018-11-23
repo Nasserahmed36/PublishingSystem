@@ -45,5 +45,10 @@ public class XsltTransformer implements FileTransformer {
         transformer.transform(new SAXSource(xmlReader, new InputSource(sourceFileLocation)), new StreamResult(outputHtmlFile));
     }
 
+    public static void main(String[] args) throws FileNotFoundException, TransformerException {
+        XsltTransformer x = new XsltTransformer("/home/nasserahmed36/IdeaProjects/Literatum/WebaAminTool/src/main/resources/xsl/jatsToFullPage.xsl");
+        x.transform("/home/nasserahmed36/Desktop/UN-Processed  (Submissions)/bhda_bhda_42_2_20181029050741952/bhda_42_2/0198742916688653/0198742916688653.xml","/home/nasserahmed36/Desktop/UN-Processed  (Submissions)/bhda_bhda_42_2_20181029050741952/bhda_42_2/0198742916688653/0198742916688653.html");
+    }
+
 
 }
