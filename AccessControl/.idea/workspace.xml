@@ -7,12 +7,521 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6fd00d7-ea79-4df5-a141-84aea25d7f10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/dataSources/4516ce1a-e44d-43ec-ab91-16d28f362404.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/dictionaries/nalkhatib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/dictionaries/nasserahmed36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/WebaAminTool.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/hello.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/hello.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/ArticleUploadHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/BackstageConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/BackstageConsumerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/BackstageSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/DataExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/FileTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/FileValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/IssueMetadataProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/JatsArticleMetadataExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/ProcessingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/Processor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/SubmissionProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/XsltTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/backstage/ZipSubmissionNavigator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/commons/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/commons/Messenger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/context/ApplicationContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/ArticleSubmission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/Identity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/Issue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/Journal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleSubmissionDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/IdentityDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/IdentityDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/IssueDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/JournalDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleSubmissionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleSubmissionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/ArticleSubmissionsProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/IdentityService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/IdentityServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/IssueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/IssueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/JournalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/service/JournalServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/controller/BackstageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/controller/IdentityController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/controller/JournalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/form/ArticleSubmissionForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/form/IdentityForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/form/JournalForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/listener/AppListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/validator/ArticleSubmissionValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/validator/IdentityVaildator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/validator/JournalValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/java/com/atypon/web/validator/Validator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/config/settings.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/articles-to-atom.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/articles-to-rss1.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/articles-to-rss2.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/articles-to-rss3.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/html-to-jats.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-bibtex.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-correction.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-datacite.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-doaj.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-html.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-html/citation.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-html/front.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-html/meta.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-html/self-citation.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-html/util.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-pubmed.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-rdf.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-retraction.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-ris.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-unixref-minimal.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-unixref-posted-content-database.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-unixref-posted-content-preprint.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jats-to-unixref.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jatsToAbstractPage.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jatsToArticleMetadata.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jatsToFullPage.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/resources/xsl/jatsToHtml.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/0198742916688653.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/WEB-INF/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/css/light-bootstrap-dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/css/pe-icon-7-stroke.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/fonts/Pe-icon-7-stroke.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/fonts/Pe-icon-7-stroke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/fonts/Pe-icon-7-stroke.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/fonts/Pe-icon-7-stroke.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/default-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/faces/face-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/faces/face-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/faces/face-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/faces/face-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/faces/face-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/faces/face-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/faces/face-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/faces/face-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/faces/tim_vector.jpe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/full-screen-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/loading-bubbles.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/new_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/sidebar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/sidebar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/sidebar-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/sidebar-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/sidebar-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/img/tim_80x80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/js/bootstrap-notify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/js/bootstrap-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/js/chartist.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/js/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/js/jquery.3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/js/light-bootstrap-dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_chartist.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_checkbox-radio-switch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_footers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_inputs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_misc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_navbars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_sidebar-and-main-panel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/mixins/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/mixins/_chartist.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/mixins/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/mixins/_inputs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/mixins/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/mixins/_morphing-buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/mixins/_navbars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/mixins/_social-buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/mixins/_tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/mixins/_transparency.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/lbd/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/assets/sass/light-bootstrap-dashboard.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/backstage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/identities.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/journal.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/leftBar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/licences.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/maps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/submissions.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/typography.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/upgrade.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/admin/userProfile.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/multipleUploads.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/src/main/web/singleUpload.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/ArticleMetadataProcessor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/ArticleMetadataProcessor$EndOfTheDocumentException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/ArticleMetadataProcessor$XmlArticleHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/ArticleMetadataProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/ArticleSubmissionNavigator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/ArticleUploadHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/BackstageConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/BackstageConsumerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/BackstageSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/DataExtractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/FileTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/FileValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/IssueMetadataProcessor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/IssueMetadataProcessor$XmlIssueHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/IssueMetadataProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/JatsArticleMetadataExtractor$JatsHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/JatsArticleMetadataExtractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/ProcessingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/Processor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/SubmissionProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/backstage/XsltTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/commons/FileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/commons/Messenger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/context/ApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/Article$Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/ArticleSubmission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/Identity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/Issue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/Journal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/ArticleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/ArticleDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/ArticleSubmissionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/ArticleSubmissionDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/IdentityDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/IdentityDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/IssueDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/IssueDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/JournalDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/domain/dao/JournalDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/ArticleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/ArticleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/ArticleSubmissionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/ArticleSubmissionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/ArticleSubmissionsProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/IdentityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/IdentityServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/IssueService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/IssueServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/JournalService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/service/JournalServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/controller/BackstageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/controller/IdentityController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/form/ArticleSubmissionForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/form/IdentityForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/form/JournalForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/validator/ArticleSubmissionValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/validator/IdentityVaildator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/validator/JournalValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/com/atypon/web/validator/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/config/settings.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/articles-to-atom.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/articles-to-rss1.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/articles-to-rss2.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/articles-to-rss3.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/html-to-jats.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-bibtex.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-correction.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-datacite.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-doaj.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-html.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-html/citation.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-html/front.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-html/meta.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-html/self-citation.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-html/util.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-pubmed.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-rdf.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-retraction.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-ris.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-unixref-minimal.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-unixref-posted-content-database.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-unixref-posted-content-preprint.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jats-to-unixref.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jatsToAbstractPage.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jatsToArticleMetadata.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jatsToFullPage.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/classes/xsl/jatsToHtml.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$EndOfTheDocumentException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$XmlArticleHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleSubmissionNavigator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleUploadHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/BackstageConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/BackstageConsumerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/BackstageSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/DataExtractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/FileTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/FileValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor$XmlIssueHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/JatsArticleMetadataExtractor$JatsHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/JatsArticleMetadataExtractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ProcessingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/Processor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/SubmissionProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/XsltTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/commons/FileUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/commons/Messenger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/context/ApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/Article$Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/ArticleSubmission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/Identity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/Issue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/Journal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/ArticleDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/ArticleDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/ArticleSubmissionDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/ArticleSubmissionDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/IdentityDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/IdentityDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/IssueDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/IssueDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/JournalDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/JournalDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/ArticleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/ArticleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/ArticleSubmissionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/ArticleSubmissionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/ArticleSubmissionsProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/IdentityService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/IdentityServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/IssueService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/IssueServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/JournalService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/JournalServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/BackstageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/IdentityController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/ArticleSubmissionForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/IdentityForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/JournalForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/ArticleSubmissionValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/IdentityVaildator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/JournalValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/config/settings.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/articles-to-atom.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/articles-to-rss1.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/articles-to-rss2.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/articles-to-rss3.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/html-to-jats.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-bibtex.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-correction.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-datacite.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-doaj.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/citation.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/front.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/meta.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/self-citation.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/util.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-pubmed.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-rdf.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-retraction.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-ris.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-unixref-minimal.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-unixref-posted-content-database.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-unixref-posted-content-preprint.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-unixref.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jatsToAbstractPage.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jatsToArticleMetadata.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jatsToFullPage.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/classes/xsl/jatsToHtml.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/commons-dbcp-1.2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/commons-pool-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/jackson-annotations-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/jackson-core-2.6.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/jackson-core-asl-1.9.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/jackson-databind-2.6.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/target/web-admin-tool/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web-admin-tool.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/0198742916688653.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/WEB-INF/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/css/animate.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/css/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/css/light-bootstrap-dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/css/pe-icon-7-stroke.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/fonts/Pe-icon-7-stroke.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/fonts/Pe-icon-7-stroke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/fonts/Pe-icon-7-stroke.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/fonts/Pe-icon-7-stroke.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/default-avatar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/faces/face-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/faces/face-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/faces/face-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/faces/face-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/faces/face-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/faces/face-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/faces/face-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/faces/face-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/faces/tim_vector.jpe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/full-screen-image-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/loading-bubbles.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/new_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/sidebar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/sidebar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/sidebar-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/sidebar-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/sidebar-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/img/tim_80x80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/js/bootstrap-notify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/js/bootstrap-select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/js/chartist.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/js/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/js/jquery.3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/js/light-bootstrap-dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_chartist.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_checkbox-radio-switch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_footers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_inputs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_misc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_navbars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_responsive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_sidebar-and-main-panel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/mixins/_cards.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/mixins/_chartist.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/mixins/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/mixins/_inputs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/mixins/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/mixins/_morphing-buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/mixins/_navbars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/mixins/_social-buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/mixins/_tabs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/mixins/_transparency.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/lbd/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/assets/sass/light-bootstrap-dashboard.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/backstage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/identities.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/journal.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/leftBar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/licences.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/maps.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/notifications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/submissions.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/typography.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/upgrade.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/admin/userProfile.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/multipleUploads.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebaAminTool/web/singleUpload.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/web-admin-tool-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/web-admin-tool-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_3.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_3.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_4.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_4.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_5.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_5.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_6.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_6.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/article.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/article.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/article_author.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/article_author.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/identity.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/identity.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/issue.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/issue.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/issue_subject.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/issue_subject.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/submission.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/submission.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000037" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000037" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_002" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,23 +548,24 @@
     <session id="180726518">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="2" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="23" />
+          <entry key="java" value="24" />
           <entry key="js" value="1" />
           <entry key="properties" value="1" />
           <entry key="sql" value="1" />
@@ -64,7 +574,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="24" />
           <entry key="JavaScript" value="1" />
           <entry key="Properties" value="1" />
           <entry key="Scratch" value="1" />
@@ -139,11 +649,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/LicenceType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -215,7 +734,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,6 +792,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,11 +1015,12 @@
       <workItem from="1542569663830" duration="599000" />
       <workItem from="1542570736360" duration="680000" />
       <workItem from="1542709800384" duration="2794000" />
+      <workItem from="1543094978841" duration="646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67790000" />
+    <option name="totallyTimeSpent" value="68436000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -513,8 +1033,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.22357498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.22634201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -636,13 +1157,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../WebaAminTool/src/main/webapp/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebaAminTool/src/main/webapp/META-INF/context.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IdentityDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -695,13 +1210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/LicenceType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/UserLicence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -727,6 +1235,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/LicenceType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
