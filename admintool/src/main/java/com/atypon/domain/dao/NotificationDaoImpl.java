@@ -70,5 +70,4 @@ public class NotificationDaoImpl implements NotificationDao {
         notification.setOperation(operation);
         return notification;
     }
-
 }

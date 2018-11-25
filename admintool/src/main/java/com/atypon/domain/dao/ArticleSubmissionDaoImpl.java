@@ -24,7 +24,7 @@ public class ArticleSubmissionDaoImpl implements ArticleSubmissionDao {
         String sql = "INSERT  INTO submission(series_issn, file_name, date," +
                 "status, path) values (?,?,?,?,?)";
         try (Connection connection = dataSource.getConnection();
-             PreparedStatement statement = connection.prepareStatement(sql,Statement.RETURN_GENERATED_KEYS)) {
+             PreparedStatement statement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
             String outputFile = submission.getSeriesIssn() +
                     File.separator + submission.getFileName();
             connection.setAutoCommit(false);
@@ -33,12 +33,13 @@ public class ArticleSubmissionDaoImpl implements ArticleSubmissionDao {
             statement.setTimestamp(3, new Timestamp(System.currentTimeMillis()));
             statement.setString(4, "Uploaded");
             statement.setString(5, outputFile);
+            statement.execute();
             String absolutePath = outputDirPath + File.separator + outputFile;
             createNecessaryParentDirs(absolutePath);
             FileUtils.download(inputStream, absolutePath);
             connection.commit();
             ResultSet resultSet = statement.getGeneratedKeys();
-            if(resultSet.next()) {
+            if (resultSet.next()) {
                 return resultSet.getInt(1);
             }
         } catch (SQLException | IOException e) {
@@ -66,7 +67,7 @@ public class ArticleSubmissionDaoImpl implements ArticleSubmissionDao {
     @Override
     public ArticleSubmission get(int id) {
         ArticleSubmission journal = null;
-        String sql = "SELECT file_name, series_issn, date, status, path " +
+        String sql = "SELECT id, file_name, series_issn, date, status, path " +
                 "from submission where id =?";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
@@ -100,6 +101,7 @@ public class ArticleSubmissionDaoImpl implements ArticleSubmissionDao {
 
     private ArticleSubmission extractSubmission(ResultSet resultSet) throws SQLException {
         ArticleSubmission submission = new ArticleSubmission();
+        submission.setId(resultSet.getInt("id"));
         submission.setSeriesIssn(resultSet.getString("series_issn"));
         submission.setFileName(resultSet.getString("file_name"));
         submission.setTimestamp(resultSet.getTimestamp("date").getTime());

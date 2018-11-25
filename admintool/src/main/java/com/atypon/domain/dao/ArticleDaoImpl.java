@@ -26,8 +26,10 @@ public class ArticleDaoImpl implements ArticleDao {
         StringBuilder sql = new StringBuilder("insert into article (doi, title, " +
                 "issue_doi, subject, first_page, last_page,month,year)" +
                 " VALUES (?,?,?,?,?,?,?,?); ");
-        sql.append("insert into article_author (article_dao, given_name, sur_name," +
-                " degrees) values ");
+        if (!article.getAuthors().isEmpty()) {
+            sql.append("insert into article_author (article_dao, given_name, sur_name," +
+                    " degrees) values ");
+        }
         for (int i = 0; i < article.getAuthors().size(); i++) {
             sql.append(" (?,?,?,?),");
         }

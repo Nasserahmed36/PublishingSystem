@@ -10,7 +10,7 @@
   </context-param>
   <context-param>
     <param-name>articleSubmissionsPath</param-name>
-    <param-value>/home/nasserahmed36/IdeaProjects/Literatum/content</param-value>
+    <param-value>/mnt/ssd/ideaProjects/Literatum/content</param-value>
   </context-param>
   <context-param>
     <param-name>datasourceEnv</param-name>
