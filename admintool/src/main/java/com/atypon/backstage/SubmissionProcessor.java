@@ -4,7 +4,7 @@ import com.atypon.context.ApplicationContext;
 import com.atypon.domain.ArticleSubmission;
 import com.atypon.domain.Notification;
 import com.atypon.service.ArticleSubmissionService;
-import com.atypon.service.NotificationService;
+import com.atypon.notification.NotificationService;
 
 import javax.xml.transform.TransformerException;
 import java.io.IOException;
@@ -48,9 +48,8 @@ public class SubmissionProcessor implements Processor<ArticleSubmission> {
 
     private Notification createNotification(ArticleSubmission submission, ArticleSubmissionNavigator navigator) {
         Notification notification = new Notification();
-        notification.setJournalPrintIssn(submission.getSeriesIssn());
-        notification.setIssueDoi(navigator.getIssueDoi());
-        notification.setArticleDoi(navigator.getArticleDoi());
+        notification.setType("Article");
+        notification.setContent(navigator.getArticleDoi());
         notification.setOperation(CREATED);
         return notification;
     }

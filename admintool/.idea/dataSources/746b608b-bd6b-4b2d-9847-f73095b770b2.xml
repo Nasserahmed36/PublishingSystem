@@ -1117,369 +1117,381 @@
     <table id="283" parent="3" name="issue_subject"/>
     <table id="284" parent="3" name="journal"/>
     <table id="285" parent="3" name="notification"/>
-    <table id="286" parent="3" name="submission"/>
-    <column id="287" parent="279" name="doi">
+    <table id="286" parent="3" name="save_point"/>
+    <table id="287" parent="3" name="submission"/>
+    <column id="288" parent="279" name="doi">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="288" parent="279" name="title">
+    <column id="289" parent="279" name="title">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="289" parent="279" name="issue_doi">
+    <column id="290" parent="279" name="issue_doi">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="290" parent="279" name="subject">
+    <column id="291" parent="279" name="subject">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="291" parent="279" name="first_page">
+    <column id="292" parent="279" name="first_page">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="292" parent="279" name="last_page">
+    <column id="293" parent="279" name="last_page">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="293" parent="279" name="month">
+    <column id="294" parent="279" name="month">
       <Position>7</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="294" parent="279" name="year">
+    <column id="295" parent="279" name="year">
       <Position>8</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="295" parent="279" name="issue_doi">
+    <index id="296" parent="279" name="issue_doi">
       <ColNames>issue_doi
 subject</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="296" parent="279" name="PRIMARY">
+    <key id="297" parent="279" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>doi</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="297" parent="279" name="article_ibfk_1">
+    <foreign-key id="298" parent="279" name="article_ibfk_1">
       <ColNames>issue_doi</ColNames>
       <RefSchemaName>AdminTool</RefSchemaName>
       <RefTableName>issue</RefTableName>
       <RefColNames>doi</RefColNames>
     </foreign-key>
-    <column id="298" parent="280" name="article_dao">
+    <column id="299" parent="280" name="article_dao">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="299" parent="280" name="given_name">
+    <column id="300" parent="280" name="given_name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="300" parent="280" name="sur_name">
+    <column id="301" parent="280" name="sur_name">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="301" parent="280" name="degrees">
+    <column id="302" parent="280" name="degrees">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="302" parent="280" name="article_dao">
+    <index id="303" parent="280" name="article_dao">
       <ColNames>article_dao</ColNames>
       <Type>btree</Type>
     </index>
-    <foreign-key id="303" parent="280" name="article_author_ibfk_1">
+    <foreign-key id="304" parent="280" name="article_author_ibfk_1">
       <ColNames>article_dao</ColNames>
       <RefSchemaName>AdminTool</RefSchemaName>
       <RefTableName>article</RefTableName>
       <RefColNames>doi</RefColNames>
     </foreign-key>
-    <column id="304" parent="281" name="username">
+    <column id="305" parent="281" name="username">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="305" parent="281" name="last_name">
+    <column id="306" parent="281" name="last_name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="306" parent="281" name="first_name">
+    <column id="307" parent="281" name="first_name">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="307" parent="281" name="email">
+    <column id="308" parent="281" name="email">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="308" parent="281" name="password">
+    <column id="309" parent="281" name="password">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="309" parent="281" name="type">
+    <column id="310" parent="281" name="type">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="310" parent="281" name="PRIMARY">
+    <key id="311" parent="281" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>username</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="311" parent="282" name="doi">
+    <column id="312" parent="282" name="doi">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="312" parent="282" name="journal_print_issn">
+    <column id="313" parent="282" name="journal_print_issn">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="313" parent="282" name="number">
+    <column id="314" parent="282" name="number">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="314" parent="282" name="volume">
+    <column id="315" parent="282" name="volume">
       <Position>4</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="315" parent="282" name="month">
+    <column id="316" parent="282" name="month">
       <Position>5</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="316" parent="282" name="year">
+    <column id="317" parent="282" name="year">
       <Position>6</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="317" parent="282" name="journal_print_issn">
+    <index id="318" parent="282" name="journal_print_issn">
       <ColNames>journal_print_issn</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="318" parent="282" name="PRIMARY">
+    <key id="319" parent="282" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>doi</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="319" parent="282" name="issue_ibfk_1">
+    <foreign-key id="320" parent="282" name="issue_ibfk_1">
       <ColNames>journal_print_issn</ColNames>
       <RefSchemaName>AdminTool</RefSchemaName>
       <RefTableName>journal</RefTableName>
       <RefColNames>print_issn</RefColNames>
     </foreign-key>
-    <column id="320" parent="283" name="issue_doi">
+    <column id="321" parent="283" name="issue_doi">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="321" parent="283" name="subject_title">
+    <column id="322" parent="283" name="subject_title">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="322" parent="283" name="PRIMARY">
+    <key id="323" parent="283" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>issue_doi
 subject_title</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="323" parent="283" name="issue_subject_ibfk_1">
+    <foreign-key id="324" parent="283" name="issue_subject_ibfk_1">
       <ColNames>issue_doi</ColNames>
       <RefSchemaName>AdminTool</RefSchemaName>
       <RefTableName>issue</RefTableName>
       <RefColNames>doi</RefColNames>
     </foreign-key>
-    <column id="324" parent="284" name="print_issn">
+    <column id="325" parent="284" name="print_issn">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="325" parent="284" name="electronic_issn">
+    <column id="326" parent="284" name="electronic_issn">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="326" parent="284" name="ID">
+    <column id="327" parent="284" name="ID">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="327" parent="284" name="title">
+    <column id="328" parent="284" name="title">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="328" parent="284" name="publisher_name">
+    <column id="329" parent="284" name="publisher_name">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="329" parent="284" name="publisher_location">
+    <column id="330" parent="284" name="publisher_location">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="330" parent="284" name="discipline">
+    <column id="331" parent="284" name="discipline">
       <Position>7</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="331" parent="284" name="electronic_issn">
+    <index id="332" parent="284" name="electronic_issn">
       <ColNames>electronic_issn</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="332" parent="284" name="ID">
+    <index id="333" parent="284" name="ID">
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="333" parent="284" name="PRIMARY">
+    <key id="334" parent="284" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>print_issn</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="334" parent="284" name="electronic_issn">
+    <key id="335" parent="284" name="electronic_issn">
       <ColNames>electronic_issn</ColNames>
       <UnderlyingIndexName>electronic_issn</UnderlyingIndexName>
     </key>
-    <key id="335" parent="284" name="ID">
+    <key id="336" parent="284" name="ID">
       <ColNames>ID</ColNames>
       <UnderlyingIndexName>ID</UnderlyingIndexName>
     </key>
-    <column id="336" parent="285" name="serial_number">
+    <column id="337" parent="285" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="337" parent="285" name="article_doi">
+    <column id="338" parent="285" name="type">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="338" parent="285" name="issue_doi">
+    <column id="339" parent="285" name="content">
       <Position>3</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="339" parent="285" name="journal_print_issn">
-      <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="340" parent="285" name="operation">
-      <Position>5</Position>
+      <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <index id="341" parent="285" name="submission_notification_serial_number_uindex">
-      <ColNames>serial_number</ColNames>
+      <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
     <key id="342" parent="285" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>serial_number</ColNames>
+      <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
     <key id="343" parent="285" name="submission_notification_serial_number_uindex">
-      <ColNames>serial_number</ColNames>
+      <ColNames>id</ColNames>
       <UnderlyingIndexName>submission_notification_serial_number_uindex</UnderlyingIndexName>
     </key>
-    <column id="344" parent="286" name="id">
+    <column id="344" parent="286" name="name">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="345" parent="286" name="value">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="346" parent="286" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>name</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="347" parent="287" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="345" parent="286" name="series_issn">
+    <column id="348" parent="287" name="series_issn">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="346" parent="286" name="file_name">
+    <column id="349" parent="287" name="file_name">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="347" parent="286" name="date">
+    <column id="350" parent="287" name="date">
       <Position>4</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="348" parent="286" name="status">
+    <column id="351" parent="287" name="status">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="349" parent="286" name="path">
+    <column id="352" parent="287" name="path">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="350" parent="286" name="PRIMARY">
+    <key id="353" parent="287" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

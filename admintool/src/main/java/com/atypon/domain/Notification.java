@@ -2,43 +2,34 @@ package com.atypon.domain;
 
 
 public class Notification {
-    private int serailNumber;
-    private String journalPrintIssn;
-    private String issueDoi;
-    private String articleDoi;
+    private int id;
+    private String type;
+    private String content;
     private Operation operation;
 
 
-    public int getSerailNumber() {
-        return serailNumber;
+    public int getId() {
+        return id;
     }
 
-    public void setSerailNumber(int serailNumber) {
-        this.serailNumber = serailNumber;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getJournalPrintIssn() {
-        return journalPrintIssn;
+    public String getType() {
+        return type;
     }
 
-    public void setJournalPrintIssn(String journalPrintIssn) {
-        this.journalPrintIssn = journalPrintIssn;
+    public void setType(String type) {
+        this.type = type;
     }
 
-    public String getIssueDoi() {
-        return issueDoi;
+    public String getContent() {
+        return content;
     }
 
-    public void setIssueDoi(String issueDoi) {
-        this.issueDoi = issueDoi;
-    }
-
-    public String getArticleDoi() {
-        return articleDoi;
-    }
-
-    public void setArticleDoi(String articleDoi) {
-        this.articleDoi = articleDoi;
+    public void setContent(String content) {
+        this.content = content;
     }
 
     public Operation getOperation() {
@@ -48,6 +39,7 @@ public class Notification {
     public void setOperation(Operation operation) {
         this.operation = operation;
     }
+
 
     public enum Operation {
         CREATED,

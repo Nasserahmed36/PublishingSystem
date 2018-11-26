@@ -7,5 +7,5 @@ import java.util.List;
 public interface NotificationDao {
     boolean create(Notification notification);
 
-    List<Notification> getAllAfter(int serialNumber);
+    List<Notification> getAllAfter(String type,int serialNumber);
 }

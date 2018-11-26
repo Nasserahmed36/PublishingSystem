@@ -21,14 +21,13 @@ public class NotificationDaoImpl implements NotificationDao {
 
     @Override
     public boolean create(Notification notification) {
-        String sql = "INSERT  INTO notification(journal_print_issn, issue_doi, article_doi,operation)" +
-                " values (?,?,?,?)";
+        String sql = "INSERT  INTO notification(content, type,operation)" +
+                " values (?,?,?)";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
             int index = 1;
-            statement.setString(index++, notification.getJournalPrintIssn());
-            statement.setString(index++, notification.getIssueDoi());
-            statement.setString(index++, notification.getArticleDoi());
+            statement.setString(index++, notification.getContent());
+            statement.setString(index++, notification.getType());
             statement.setString(index, notification.getOperation().name());
             statement.execute();
         } catch (SQLException e) {
@@ -39,14 +38,16 @@ public class NotificationDaoImpl implements NotificationDao {
 
     }
 
+
     @Override
-    public List<Notification> getAllAfter(int serialNumber) {
+    public List<Notification> getAllAfter(String type, int serialNumber) {
         List<Notification> notifications = new ArrayList<>();
-        String sql = "SELECT serial_number,journal_print_issn, issue_doi," +
-                "article_doi,operation from notification where serial_number > ?";
+        String sql = "SELECT id, content, " +
+                "type,operation from notification where type = ? and id > ?";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
             int index = 1;
+            statement.setString(index++, type);
             statement.setInt(index, serialNumber);
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()) {
@@ -62,10 +63,9 @@ public class NotificationDaoImpl implements NotificationDao {
     private Notification extractNotification(ResultSet resultSet) throws SQLException {
         Notification notification = new Notification();
         int index = 1;
-        notification.setSerailNumber(resultSet.getInt(index++));
-        notification.setJournalPrintIssn(resultSet.getString(index++));
-        notification.setIssueDoi(resultSet.getString(index++));
-        notification.setArticleDoi(resultSet.getString(index++));
+        notification.setId(resultSet.getInt(index++));
+        notification.setContent(resultSet.getString(index++));
+        notification.setType(resultSet.getString(index++));
         Operation operation = Operation.valueOf(resultSet.getString(index));
         notification.setOperation(operation);
         return notification;

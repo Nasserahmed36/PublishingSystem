@@ -1,11 +1,13 @@
 package com.atypon.web.listener;
 
 
+import com.atypon.backstage.AsynchronousService;
 import com.atypon.backstage.BackstageConsumer;
-import com.atypon.backstage.BackstageConsumerImpl;
 import com.atypon.context.ApplicationContext;
 import com.atypon.domain.ArticleSubmission;
 import com.atypon.domain.dao.*;
+import com.atypon.notification.NotificationService;
+import com.atypon.notification.NotificationServiceImpl;
 import com.atypon.service.*;
 
 import java.util.concurrent.ArrayBlockingQueue;
@@ -22,7 +24,7 @@ import javax.sql.DataSource;
 @WebListener
 public class AppListener implements ServletContextListener {
 
-    private BackstageConsumer backstageConsumer;
+    private AsynchronousService asynchronusService;
 
 
     @Override
@@ -79,13 +81,13 @@ public class AppListener implements ServletContextListener {
         context.setAttribute("notificationService", notificationService);
         ApplicationContext.setAttribute("notificationService", notificationService);
 
-        backstageConsumer = new BackstageConsumerImpl(creationQueue, deletionQueue);
-        backstageConsumer.start();
+        asynchronusService = new BackstageConsumer(creationQueue, deletionQueue);
+        asynchronusService.start();
     }
 
     @Override
     public void contextDestroyed(ServletContextEvent sce) {
-        backstageConsumer.stop();
+        asynchronusService.stop();
     }
 
     private DataSource getDataSource(ServletContext servletContext) {
