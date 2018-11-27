@@ -10,5 +10,7 @@ public interface ArticleService {
 
     Map<String, List<Article>> getSubjectToArticlesMap(String issueDoi);
 
+    List<Article> getAll();
+
     List<Article.Author> getAuthors(String doi);
 }

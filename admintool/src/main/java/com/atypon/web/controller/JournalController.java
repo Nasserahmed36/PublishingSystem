@@ -38,6 +38,8 @@ public class JournalController implements Controller {
                 return handleFind(request, response);
             case "delete":
                 return handleDelete(request, response);
+            case "all":
+                return handleGetAll(request, response);
         }
         return null;
     }
@@ -49,7 +51,7 @@ public class JournalController implements Controller {
         if (res.length >= 4)
             return res[3];
         else
-            return "form";
+            return "all";
     }
 
 
@@ -130,12 +132,21 @@ public class JournalController implements Controller {
         }
         if (validator.isEmpty(form.getPrintIssn())) {
             request.setAttribute("result", "PrintIssn is required");
+            return "journal.jsp";
         }
         request.setAttribute("result",
                 journalService.delete(form.getPrintIssn()) ?
                         "Journal Deleted" : "Journal Cannot be Deleted");
 
         return "journal.jsp";
+    }
+
+    private String handleGetAll(HttpServletRequest request, HttpServletResponse response) {
+        if (setAsBadRequestIFBadMethod(request, response, "GET")) {
+            return null;
+        }
+        request.setAttribute("journals", journalService.getAll());
+        return "journals.jsp";
     }
 
 
@@ -163,14 +174,22 @@ public class JournalController implements Controller {
 
     private JournalForm extractJournalForm(HttpServletRequest request) {
         JournalForm form = new JournalForm();
-        form.setId(request.getParameter("id").trim());
-        form.setElectronicIssn(request.getParameter("eIssn").trim());
-        form.setPrintIssn(request.getParameter("pIssn").trim());
-        form.setElectronicIssn(request.getParameter("eIssn").trim());
-        form.setTitle(request.getParameter("title").trim());
-        form.setPublisherName(request.getParameter("publisherName").trim());
-        form.setPublisherLocation(request.getParameter("publisherLocation").trim());
-        form.setDiscipline(request.getParameter("discipline").trim());
+        form.setId(getString("id", request));
+        form.setElectronicIssn(getString("eIssn", request));
+        form.setPrintIssn(getString("pIssn", request));
+        form.setElectronicIssn(getString("eIssn", request));
+        form.setTitle(getString("title", request));
+        form.setPublisherName(getString("publisherName", request));
+        form.setPublisherLocation(getString("publisherLocation", request));
+        form.setDiscipline(getString("discipline",request));
         return form;
+    }
+
+    private String getString(String key, HttpServletRequest request) {
+        String value = request.getParameter(key);
+        if (value != null) {
+            return value.trim();
+        }
+        return null;
     }
 }

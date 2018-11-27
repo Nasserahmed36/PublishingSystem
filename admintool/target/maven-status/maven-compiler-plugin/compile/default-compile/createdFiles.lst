@@ -1,0 +1,5 @@
+com/atypon/domain/Request.class
+com/atypon/domain/UserContentLicence.class
+com/atypon/domain/dao/LicenceDao.class
+com/atypon/domain/Licence.class
+com/atypon/domain/ContentLicence.class

@@ -22,7 +22,7 @@
                 </a>
             </li>
             <li class="b">
-                <a href="${pageContext.request.contextPath}/journal/form">
+                <a href="${pageContext.request.contextPath}/journal/all">
                     <i class="pe-7s-notebook"></i>
                     <p>Content</p>
                 </a>

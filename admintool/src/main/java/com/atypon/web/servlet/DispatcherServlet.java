@@ -10,8 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "DispatcherServlet", urlPatterns = {"/articleUpload/*",
-        "/submissions/*", "/identities/*", "/journal/*", "/backstage/*"})
+@WebServlet(name = "DispatcherServlet", urlPatterns = {"/identities/*", "/journal/*", "/backstage/*", "/article/*"})
 @MultipartConfig
 public class DispatcherServlet extends HttpServlet {
 
@@ -20,6 +19,7 @@ public class DispatcherServlet extends HttpServlet {
     private IdentityController identityController;
     private JournalController journalController;
     private BackstageController backstageController;
+    private ArticleController articleController;
 
     @Override
     public void init() throws ServletException {
@@ -27,6 +27,7 @@ public class DispatcherServlet extends HttpServlet {
         identityController = new IdentityController(getServletContext());
         journalController = new JournalController(getServletContext());
         backstageController = new BackstageController(getServletContext());
+        articleController = new ArticleController(getServletContext());
     }
 
 
@@ -43,6 +44,10 @@ public class DispatcherServlet extends HttpServlet {
                 break;
             case "backstage":
                 view = backstageController.handle(request, response);
+                break;
+            case "article":
+                view = articleController.handle(request, response);
+                break;
         }
         dispatch(request, response, view);
     }

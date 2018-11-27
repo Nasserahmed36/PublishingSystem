@@ -2,15 +2,10 @@ package com.atypon.controller;
 
 import com.atypon.domain.ContentLicence;
 import com.atypon.domain.Identity;
-import com.atypon.domain.UserLicence;
-import com.atypon.service.IdentityService;
-import com.atypon.service.LicenceService;
+import com.atypon.domain.UserContentLicence;
 import com.atypon.validator.IdentityValidator;
 import com.atypon.validator.LicenceValidator;
-import com.sun.istack.internal.NotNull;
-import com.sun.javaws.exceptions.ErrorCodeResponseException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.util.StringUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
@@ -123,7 +118,7 @@ public class AccessControlController {
 
 
     @RequestMapping(value = "/createUserLicence", method = {RequestMethod.POST})
-    public Object createUserLicence(UserLicence userLicence,
+    public Object createUserLicence(UserContentLicence userLicence,
                                     BindingResult bindingResult,
                                     HttpServletResponse response) {
         licenceValidator.validate(userLicence, bindingResult);
@@ -153,7 +148,7 @@ public class AccessControlController {
     }
 
     @RequestMapping(value = "/deleteUserLicence", method = {RequestMethod.DELETE})
-    public Object deleteContentLicence(UserLicence userLicence,
+    public Object deleteContentLicence(UserContentLicence userLicence,
                                        BindingResult bindingResult,
                                        HttpServletResponse response) {
         licenceValidator.validate(userLicence, bindingResult);
@@ -177,7 +172,7 @@ public class AccessControlController {
     }
 
     @RequestMapping(value = "/updateUserLicenceDate", method = {RequestMethod.POST})
-    public Object updateUserLicenceDate(UserLicence userLicence,
+    public Object updateUserLicenceDate(UserContentLicence userLicence,
                                         BindingResult bindingResult,
                                         HttpServletResponse response) {
         licenceValidator.validate(userLicence, bindingResult);

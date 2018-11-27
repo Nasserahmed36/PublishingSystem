@@ -2,7 +2,7 @@ package com.atypon.validator;
 
 import com.atypon.domain.ContentLicence;
 import com.atypon.domain.Licence;
-import com.atypon.domain.UserLicence;
+import com.atypon.domain.UserContentLicence;
 import org.springframework.validation.Errors;
 import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
@@ -11,7 +11,7 @@ public class LicenceValidator implements Validator {
     @Override
     public boolean supports(Class<?> aClass) {
         return ContentLicence.class.isAssignableFrom(aClass) ||
-                UserLicence.class.isAssignableFrom(aClass) ||
+                UserContentLicence.class.isAssignableFrom(aClass) ||
                 Licence.class.isAssignableFrom(aClass);
     }
 
@@ -19,15 +19,15 @@ public class LicenceValidator implements Validator {
     public void validate(Object o, Errors errors) {
         if (o instanceof ContentLicence) {
             validateContentLicence((ContentLicence) o, errors);
-        } else if (o instanceof UserLicence) {
-            validateUserLicence((UserLicence) o, errors);
+        } else if (o instanceof UserContentLicence) {
+            validateUserLicence((UserContentLicence) o, errors);
         } else {
             throw new RuntimeException("Not allowed object type:" + o.getClass());
         }
     }
 
 
-    private void validateUserLicence(UserLicence licence, Errors errors) {
+    private void validateUserLicence(UserContentLicence licence, Errors errors) {
         ValidationUtils.rejectIfEmptyOrWhitespace(errors, "username",
                 "username.required");
     }

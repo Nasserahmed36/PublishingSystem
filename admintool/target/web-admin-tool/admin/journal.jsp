@@ -60,9 +60,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                    <a class="navbar-brand" href="${pageContext.request.contextPath}/journal/all">Journals</a>
                     <a style="font-weight: bold" class="navbar-brand" href="#">Journal Form</a>
-                    <a class="navbar-brand" href="${pageContext.request.contextPath}/identities/userProfile">User
-                        Profile</a>
+                    <a class="navbar-brand" href="${pageContext.request.contextPath}/article/all">Articles</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">

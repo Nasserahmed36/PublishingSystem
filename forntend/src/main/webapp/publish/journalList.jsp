@@ -165,7 +165,7 @@
                                             <tr>
                                                 <th>Title</th>
                                                 <th>Print ISSN</th>
-                                                <th>publisherName</th>
+                                                <th>Publisher Name</th>
                                                 <th>discipline</th>
                                             </tr>
                                             </thead>

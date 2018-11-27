@@ -71,7 +71,7 @@ public class ArticleDaoImpl implements ArticleDao {
             statement.setString(1, issueDoi);
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()) {
-                Article article = extractArticle(resultSet);
+                Article article = extractArticleWithAuthors(resultSet);
                 if (!map.containsKey(article.getSubject())) {
                     map.put(article.getSubject(), new ArrayList<>());
                 }
@@ -81,6 +81,39 @@ public class ArticleDaoImpl implements ArticleDao {
             e.printStackTrace();
         }
         return map;
+    }
+
+    @Override
+    public List<Article> getAll() {
+        List<Article> articles = new ArrayList<>();
+        String sql = "select doi, title, issue_doi, subject, first_page, last_page" +
+                ",month, year from article order by first_page";
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            ResultSet resultSet = statement.executeQuery();
+            while (resultSet.next()) {
+                Article article = extractArticle(resultSet);
+                articles.add(article);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return articles;
+    }
+
+    private Article extractArticleWithAuthors(ResultSet resultSet) throws SQLException {
+        Article article = new Article();
+        int index = 1;
+        article.setDoi(resultSet.getString(index++));
+        article.setTitle(resultSet.getString(index++));
+        article.setIssueDoi(resultSet.getString(index++));
+        article.setSubject(resultSet.getString(index++));
+        article.setFirstPage(resultSet.getString(index++));
+        article.setLastPage(resultSet.getString(index++));
+        article.setMonth(resultSet.getInt(index++));
+        article.setYear(resultSet.getInt(index));
+        article.setAuthors(getAuthors(article.getDoi()));
+        return article;
     }
 
     private Article extractArticle(ResultSet resultSet) throws SQLException {
@@ -94,7 +127,6 @@ public class ArticleDaoImpl implements ArticleDao {
         article.setLastPage(resultSet.getString(index++));
         article.setMonth(resultSet.getInt(index++));
         article.setYear(resultSet.getInt(index));
-        article.setAuthors(getAuthors(article.getDoi()));
         return article;
     }
 

@@ -24,6 +24,11 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
+    public List<Article> getAll() {
+        return dao.getAll();
+    }
+
+    @Override
     public List<Article.Author> getAuthors(String doi) {
         return dao.getAuthors(doi);
     }

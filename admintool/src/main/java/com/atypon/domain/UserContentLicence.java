@@ -1,9 +1,10 @@
 package com.atypon.domain;
 
-public class UserLicence {
+public class UserContentLicence {
     private String username;
-    private ContentLicence contentLicence;
+    private int contentLicenceId;
     private long startDate;
+
 
     public String getUsername() {
         return username;
@@ -13,6 +14,13 @@ public class UserLicence {
         this.username = username;
     }
 
+    public int getContentLicenceId() {
+        return contentLicenceId;
+    }
+
+    public void setContentLicenceId(int contentLicenceId) {
+        this.contentLicenceId = contentLicenceId;
+    }
 
     public long getStartDate() {
         return startDate;
@@ -20,13 +28,5 @@ public class UserLicence {
 
     public void setStartDate(long startDate) {
         this.startDate = startDate;
-    }
-
-    public ContentLicence getContentLicence() {
-        return contentLicence;
-    }
-
-    public void setContentLicence(ContentLicence contentLicence) {
-        this.contentLicence = contentLicence;
     }
 }
