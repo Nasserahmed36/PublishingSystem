@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "DispatcherServlet", urlPatterns = {"/identities/*", "/journal/*", "/backstage/*", "/article/*"})
+@WebServlet(name = "DispatcherServlet", urlPatterns = {"/Dispatcher"})
 @MultipartConfig
 public class DispatcherServlet extends HttpServlet {
 

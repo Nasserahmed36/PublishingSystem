@@ -7,602 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6fd00d7-ea79-4df5-a141-84aea25d7f10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/licencesClasses.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8204592d-32b2-4f90-bff5-24be68ec65fb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8204592d-32b2-4f90-bff5-24be68ec65fb.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/access-control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/access-control.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/controller/AccessControlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/controller/AccessControlController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/ArticleMetadata.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/ContentLicence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/Identity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/Licence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/LicenceType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/UserLicence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IdentityDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IdentityDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/LicenceDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/LicenceDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/filter/AuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/service/IdentityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/service/IdentityServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/service/LicenceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/service/LicenceServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/validator/LicenceValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/validator/LicenceValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/.idea/admintool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/admintool.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/.idea/artifacts/admintool_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/artifacts/admintool_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/authorization/Authorizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/authentication/Authenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/authorization/FreeLicenceAuthorizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/authentication/FreeLicenceAuthenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/settings.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../admintool/.idea/dataSources/746b608b-bd6b-4b2d-9847-f73095b770b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/dataSources/746b608b-bd6b-4b2d-9847-f73095b770b2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../admintool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/admintool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/admintool.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/ArticleMetadataProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/ArticleSubmissionNavigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/ArticleSubmissionNavigator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/ArticleUploadHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/ArticleUploadHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/AsynchronousService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/AsynchronousService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/BackstageConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/BackstageConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/BackstageSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/BackstageSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/DataExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/DataExtractor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/FileTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/FileTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/FileValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/FileValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/IssueMetadataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/IssueMetadataProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/MainFileTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/MainFileTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/ProcessedContentProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/ProcessedContentProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/ProcessingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/ProcessingException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/Processor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/StaticResourcesCopier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/StaticResourcesCopier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/StaticResourcesCopierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/StaticResourcesCopierImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/SubmissionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/SubmissionProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/XsltTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/XsltTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/ZipSubmissionNavigator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/ZipSubmissionNavigator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/commons/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/commons/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/commons/Messenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/commons/Messenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/context/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/context/ApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/ArticleSubmission.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/ArticleSubmission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/Identity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/Identity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/Issue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/Issue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/Journal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/Journal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/Notification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/ArticleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/ArticleSubmissionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/ArticleSubmissionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/IdentityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/IdentityDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/IdentityDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/IdentityDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/IssueDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/IssueDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/JournalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/JournalDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/NotificationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/NotificationDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/NotificationDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/dao/NotificationDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/notification/NotificationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/notification/NotificationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/notification/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/notification/NotificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/notification/NotificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/notification/NotificationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/notification/NotificationsChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/notification/NotificationsChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/notification/NotificationsHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/notification/NotificationsHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/ArticleSubmissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/ArticleSubmissionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/ArticleSubmissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/ArticleSubmissionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/ArticleSubmissionsProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/ArticleSubmissionsProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/IdentityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/IdentityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/IdentityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/IdentityServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/IssueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/IssueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/IssueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/IssueServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/JournalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/JournalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/JournalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/service/JournalServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/controller/BackstageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/controller/BackstageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/controller/IdentityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/controller/IdentityController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/controller/JournalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/controller/JournalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/form/ArticleSubmissionForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/form/ArticleSubmissionForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/form/IdentityForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/form/IdentityForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/form/JournalForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/form/JournalForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/listener/AppListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/listener/AppListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/ContentLicence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/domain/ContentLicence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/validator/ArticleSubmissionValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/validator/ArticleSubmissionValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/validator/IdentityVaildator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/validator/IdentityVaildator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/validator/JournalValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/validator/JournalValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/validator/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/web/validator/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/resources/config/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/resources/config/settings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jats-to-html/citation.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jats-to-html/citation.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jats-to-html/front.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jats-to-html/front.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jats-to-html/meta.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jats-to-html/meta.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jats-to-html/self-citation.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jats-to-html/self-citation.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jats-to-html/util.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jats-to-html/util.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jatsToAbstractPage.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jatsToAbstractPage.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jatsToArticleMetadata.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jatsToArticleMetadata.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jatsToFullPage.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jatsToFullPage.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jatsToIssueMetadata.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/resources/xsl/jatsToIssueMetadata.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/css/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/css/animate.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/css/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/css/light-bootstrap-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/css/light-bootstrap-dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/css/pe-icon-7-stroke.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/css/pe-icon-7-stroke.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/default-avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/default-avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/face-7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/tim_vector.jpe" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/faces/tim_vector.jpe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/full-screen-image-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/full-screen-image-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/loading-bubbles.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/loading-bubbles.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/mask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/new_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/new_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/sidebar-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/sidebar-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/sidebar-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/sidebar-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/sidebar-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/sidebar-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/sidebar-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/sidebar-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/sidebar-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/sidebar-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/tim_80x80.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/img/tim_80x80.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/js/bootstrap-notify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/js/bootstrap-notify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/js/bootstrap-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/js/bootstrap-select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/js/chartist.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/js/chartist.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/js/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/js/jquery.3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/js/jquery.3.2.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/js/light-bootstrap-dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/js/light-bootstrap-dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_alerts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_chartist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_chartist.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_checkbox-radio-switch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_checkbox-radio-switch.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_footers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_footers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_inputs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_misc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_navbars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_navbars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_sidebar-and-main-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_sidebar-and-main-panel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_chartist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_chartist.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_inputs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_labels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_morphing-buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_morphing-buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_navbars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_navbars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_social-buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_social-buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_tabs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_transparency.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_transparency.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_vendor-prefixes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/lbd/mixins/_vendor-prefixes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/light-bootstrap-dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/assets/sass/light-bootstrap-dashboard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/backstage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/backstage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/identities.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/identities.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/journal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/journal.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/leftBar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/leftBar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/licences.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/licences.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/maps.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/maps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/notifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/notifications.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/submissions.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/submissions.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/typography.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/upgrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/upgrade.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/userProfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/admin/userProfile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/domain/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/domain/dao/ArticleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/domain/dao/ArticleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/domain/dao/ArticleDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/service/ArticleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/service/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/service/ArticleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/config/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/config/settings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/xsl/jats-to-html/citation.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/xsl/jats-to-html/citation.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/xsl/jats-to-html/front.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/xsl/jats-to-html/front.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/xsl/jats-to-html/meta.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/xsl/jats-to-html/meta.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/xsl/jats-to-html/self-citation.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/xsl/jats-to-html/self-citation.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/xsl/jats-to-html/util.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/xsl/jats-to-html/util.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/xsl/jatsToAbstractPage.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/xsl/jatsToAbstractPage.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/xsl/jatsToArticleMetadata.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/xsl/jatsToArticleMetadata.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/xsl/jatsToFullPage.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/xsl/jatsToFullPage.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/xsl/jatsToIssueMetadata.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/xsl/jatsToIssueMetadata.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool.war" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/ArticleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/ArticleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/domain/dao/ArticleDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/ArticleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/service/ArticleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/config/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/config/settings.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/citation.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/citation.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/front.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/front.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/meta.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/meta.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/self-citation.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/self-citation.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/util.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jats-to-html/util.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jatsToAbstractPage.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jatsToAbstractPage.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jatsToArticleMetadata.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jatsToArticleMetadata.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jatsToFullPage.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jatsToFullPage.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jatsToIssueMetadata.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/xsl/jatsToIssueMetadata.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-dbcp-1.2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-io-2.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-pool-1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-annotations-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-annotations-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-core-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-core-2.6.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-core-asl-1.9.13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-databind-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-databind-2.6.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/javax.servlet-api-4.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/javax.servlet-api-4.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/mysql-connector-java-8.0.12.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/protobuf-java-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/css/animate.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/css/animate.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/css/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/css/light-bootstrap-dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/css/light-bootstrap-dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/css/pe-icon-7-stroke.css" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/css/pe-icon-7-stroke.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/default-avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/default-avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/face-7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/tim_vector.jpe" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/faces/tim_vector.jpe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/full-screen-image-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/full-screen-image-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/loading-bubbles.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/loading-bubbles.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/mask.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/mask.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/new_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/new_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/sidebar-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/sidebar-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/sidebar-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/sidebar-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/sidebar-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/sidebar-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/sidebar-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/sidebar-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/sidebar-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/sidebar-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/tim_80x80.png" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/img/tim_80x80.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/js/bootstrap-notify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/js/bootstrap-notify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/js/bootstrap-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/js/bootstrap-select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/js/chartist.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/js/chartist.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/js/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/js/jquery.3.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/js/jquery.3.2.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/js/light-bootstrap-dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/js/light-bootstrap-dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_alerts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_chartist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_chartist.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_checkbox-radio-switch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_checkbox-radio-switch.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_footers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_footers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_inputs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_misc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_misc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_navbars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_navbars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_sidebar-and-main-panel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_sidebar-and-main-panel.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_chartist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_chartist.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_inputs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_labels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_morphing-buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_morphing-buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_navbars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_navbars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_social-buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_social-buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_tabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_tabs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_transparency.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_transparency.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_vendor-prefixes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/lbd/mixins/_vendor-prefixes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/light-bootstrap-dashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/assets/sass/light-bootstrap-dashboard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/backstage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/backstage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/identities.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/identities.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/journal.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/journal.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/leftBar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/leftBar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/licences.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/licences.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/maps.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/maps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/notifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/notifications.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/submissions.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/submissions.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/typography.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/upgrade.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/upgrade.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/userProfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/admin/userProfile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/.idea/dataSources/49e700be-f749-462f-b261-02b12d121d98.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/dataSources/49e700be-f749-462f-b261-02b12d121d98.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/.idea/dictionaries/nalkhatib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/dictionaries/nalkhatib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/.idea/dictionaries/nasserahmed36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/dictionaries/nasserahmed36.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/forntend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/forntend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/context/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/context/ApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/ArticleNotificationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/ArticleNotificationHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/ArticleNotificationsChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/ArticleNotificationsChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/ArticlesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/ArticlesManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/SavePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/SavePoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/SavePointImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/SavePointImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/IssueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/IssueController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/JournalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/JournalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/listener/AppListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/listener/AppListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/validator/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/validator/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/WEB-INF/tags/DateFormat.tag" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/WEB-INF/tags/DateFormat.tag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/file.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/file.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/01-homepage/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/01-homepage/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/01-homepage/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/01-homepage/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/02-Single-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/02-Single-post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/02-Single-post/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/02-Single-post/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/02-Single-post/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/02-Single-post/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/03-About-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/03-About-me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/03-About-me/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/03-About-me/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/03-About-me/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/03-About-me/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/04-Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/04-Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/04-Contact/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/04-Contact/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/04-Contact/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/04-Contact/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/05-Comming-soon.html" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/05-Comming-soon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/05-Comming-soon/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/05-Comming-soon/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/05-Comming-soon/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/05-Comming-soon/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/article.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/article.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/articleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/articleList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-css/ionicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-css/ionicons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-css/layerslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-css/layerslider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-css/swiper.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-css/swiper.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/embed.videos.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/embed.videos.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/jquery-3.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/jquery-3.1.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/jquery.circliful.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/jquery.circliful.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/jquery.countdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/jquery.countdown.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/layerslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/layerslider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/swiper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/tether.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/common-js/tether.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/fonts/ionicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/fonts/ionicons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/fonts/ionicons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/fonts/ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/fonts/ionicons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/fonts/ionicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/fonts/ionicons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/homePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/advertise-1-400x500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/advertise-1-400x500.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/atypon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/atypon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/author-1-200x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/author-1-200x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/author-2-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/author-2-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/author-3-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/author-3-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-1-1000x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-1-1000x600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-10-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-10-600x600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-11-1000x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-11-1000x600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-2-1000x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-2-1000x600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-3-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-3-500x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-4-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-4-500x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-5-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-5-500x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-6-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-6-500x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-7-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-7-500x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-8-1000x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-8-1000x600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-9-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/blog-9-600x600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/category-1-400x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/category-1-400x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/category-2-400x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/category-2-400x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/category-3-400x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/category-3-400x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/category-4-400x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/category-4-400x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-1-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-1-300x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-2-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-2-300x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-3-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-3-300x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-4-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-4-300x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-5-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-5-300x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-6-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-6-300x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-7-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-7-300x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-side-1-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-side-1-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-side-2-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-side-2-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-side-3-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-side-3-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-side-4-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-side-4-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-side-5-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-side-5-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-side-6-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/instragram-side-6-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/publish.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/publish.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/publishing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/publishing.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/recent-post-1-150x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/recent-post-1-150x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/recent-post-2-150x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/recent-post-2-150x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/recent-post-3-150x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/recent-post-3-150x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/recent-post-4-150x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/recent-post-4-150x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/recomended-1-200x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/recomended-1-200x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/recomended-2-200x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/recomended-2-200x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/signature-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/signature-image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/slider-1-1600x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/slider-1-1600x800.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/slider-2-1600x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/slider-2-1600x800.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/slider-3-1600x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/images/slider-3-1600x800.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/issueList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/issueList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/journalList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/journalList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/test.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/test.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/context/ApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/context/ApplicationContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ArticleNotificationHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ArticleNotificationHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ArticleNotificationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ArticleNotificationHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ArticleNotificationsChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ArticleNotificationsChecker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ArticlesManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ArticlesManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/SavePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/SavePoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/SavePointImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/SavePointImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/IssueController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/IssueController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/listener/AppListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/validator/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/validator/Validator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/META-INF/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/context/ApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/context/ApplicationContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/ArticleNotificationHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/ArticleNotificationHandler$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/ArticleNotificationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/ArticleNotificationHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/ArticleNotificationsChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/ArticleNotificationsChecker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/ArticlesManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/ArticlesManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/SavePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/SavePoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/SavePointImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/SavePointImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/controller/IssueController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/controller/IssueController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/listener/AppListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/validator/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/validator/Validator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/commons-dbcp-1.2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/commons-io-2.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/commons-lang3-3.8.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/commons-lang3-3.8.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/commons-pool-1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/jackson-annotations-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/jackson-annotations-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/jackson-core-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/jackson-core-2.6.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/jackson-core-asl-1.9.13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/jackson-databind-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/jackson-databind-2.6.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/javax.servlet-api-4.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/javax.servlet-api-4.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/jsp-api-2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/jsp-api-2.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/mysql-connector-java-8.0.12.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/protobuf-java-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/web-admin-tool-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/web-admin-tool-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/tags/DateFormat.tag" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/tags/DateFormat.tag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/file.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/file.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/01-homepage/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/01-homepage/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/01-homepage/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/01-homepage/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/02-Single-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/02-Single-post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/02-Single-post/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/02-Single-post/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/02-Single-post/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/02-Single-post/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/03-About-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/03-About-me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/03-About-me/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/03-About-me/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/03-About-me/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/03-About-me/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/04-Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/04-Contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/04-Contact/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/04-Contact/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/04-Contact/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/04-Contact/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/05-Comming-soon.html" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/05-Comming-soon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/05-Comming-soon/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/05-Comming-soon/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/05-Comming-soon/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/05-Comming-soon/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/article.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/article.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/articleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/articleList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-css/ionicons.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-css/ionicons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-css/layerslider.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-css/layerslider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-css/swiper.css" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-css/swiper.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/embed.videos.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/embed.videos.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/jquery-3.1.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/jquery-3.1.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/jquery.circliful.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/jquery.circliful.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/jquery.countdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/jquery.countdown.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/layerslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/layerslider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/swiper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/tether.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/tether.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/fonts/ionicons.eot" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/fonts/ionicons.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/fonts/ionicons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/fonts/ionicons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/fonts/ionicons.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/fonts/ionicons.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/fonts/ionicons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/fonts/ionicons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/homePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/advertise-1-400x500.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/advertise-1-400x500.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/atypon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/atypon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/author-1-200x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/author-1-200x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/author-2-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/author-2-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/author-3-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/author-3-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-1-1000x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-1-1000x600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-10-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-10-600x600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-11-1000x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-11-1000x600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-2-1000x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-2-1000x600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-3-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-3-500x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-4-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-4-500x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-5-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-5-500x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-6-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-6-500x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-7-500x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-7-500x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-8-1000x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-8-1000x600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-9-600x600.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/blog-9-600x600.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/category-1-400x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/category-1-400x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/category-2-400x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/category-2-400x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/category-3-400x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/category-3-400x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/category-4-400x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/category-4-400x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-1-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-1-300x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-2-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-2-300x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-3-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-3-300x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-4-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-4-300x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-5-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-5-300x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-6-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-6-300x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-7-300x400.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-7-300x400.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-side-1-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-side-1-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-side-2-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-side-2-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-side-3-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-side-3-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-side-4-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-side-4-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-side-5-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-side-5-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-side-6-150x150.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/instragram-side-6-150x150.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/publish.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/publish.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/publishing.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/publishing.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/recent-post-1-150x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/recent-post-1-150x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/recent-post-2-150x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/recent-post-2-150x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/recent-post-3-150x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/recent-post-3-150x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/recent-post-4-150x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/recent-post-4-150x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/recomended-1-200x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/recomended-1-200x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/recomended-2-200x200.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/recomended-2-200x200.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/signature-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/signature-image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/slider-1-1600x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/slider-1-1600x800.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/slider-2-1600x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/slider-2-1600x800.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/slider-3-1600x800.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/slider-3-1600x800.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/issueList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/issueList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/journalList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/journalList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/test.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/test.xsl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/journal.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/journal.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/Licence.ibd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/content_licence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/content_licence.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/user_content_licence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/user_content_licence.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000042" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000042" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibdata1" afterDir="false" />
@@ -632,17 +50,6 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySQL - AccessControl@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - AccessControl@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="MySQL - AccessControl@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="AccessControl: schema" type="c314c289:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -721,7 +128,7 @@
           <entry key="content_licence" value="1" />
           <entry key="identity" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="26" />
+          <entry key="java" value="31" />
           <entry key="jsp" value="1" />
           <entry key="licence" value="1" />
           <entry key="properties" value="1" />
@@ -735,7 +142,7 @@
         <counts>
           <entry key="Database Element" value="4" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="26" />
+          <entry key="JAVA" value="31" />
           <entry key="JSP" value="1" />
           <entry key="Properties" value="1" />
           <entry key="Scratch" value="1" />
@@ -745,17 +152,18 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="777" />
-          <entry key="properties" value="27" />
+          <entry key="java" value="827" />
+          <entry key="properties" value="48" />
           <entry key="sql" value="3" />
+          <entry key="txt" value="2" />
           <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="777" />
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Properties" value="27" />
+          <entry key="JAVA" value="827" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Properties" value="48" />
           <entry key="Scratch" value="3" />
           <entry key="XML" value="24" />
         </counts>
@@ -774,19 +182,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authorization/Authorizer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/Authenticator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="75">
+              <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authorization/FreeLicenceAuthorizer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/FreeLicenceAuthenticator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="60">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
               <folding>
                 <element signature="e#220#221#0" expanded="true" />
                 <element signature="e#248#249#0" expanded="true" />
@@ -795,11 +203,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config/settings.properties">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config/licencesClasses.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/AuthenticationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="75">
+              <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/AuthenticationServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#258#259#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -859,6 +285,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/authorization/Authorizer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/authorization/FreeLicenceAuthorizer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config/settings.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/authentication/Authorizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/authentication/authenticater.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/authentication/FreeLicenceAuthenticater.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/authentication/FreeLicenceAuthenticator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/licencesClasses.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/authentication/Authenticator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/AuthenticationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/AuthenticationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/d.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicence.java" />
       </list>
     </option>
   </component>
@@ -880,6 +316,29 @@
     <option name="y" value="25" />
     <option name="width" value="1853" />
     <option name="height" value="1175" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>JPA</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Resource managementJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -912,6 +371,39 @@
               <item name="AccessControl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AccessControl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AccessControl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atypon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AccessControl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AccessControl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atypon" type="462c0819:PsiDirectoryNode" />
+              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AccessControl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AccessControl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atypon" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AccessControl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AccessControl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -924,7 +416,25 @@
             </path>
             <path>
               <item name="AccessControl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AccessControl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AccessControl" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="AccessControl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="AccessControl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="8204592d-32b2-4f90-bff5-24be68ec65fb" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
@@ -942,7 +452,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="accesscontrol" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543333481860" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543424607763" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Edit As Language" value="GenericSQL" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -951,7 +461,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="database.main" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1156,12 +666,12 @@
       <workItem from="1542570736360" duration="680000" />
       <workItem from="1542709800384" duration="2794000" />
       <workItem from="1543094978841" duration="646000" />
-      <workItem from="1543316049556" duration="9363000" />
+      <workItem from="1543316049556" duration="14658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77799000" />
+    <option name="totallyTimeSpent" value="83094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1176,7 +686,7 @@
     <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.22910902" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.22910902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1185,7 +695,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" sideWeight="0.50089765" side_tool="true" weight="0.25235197" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3291866" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3308026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39808613" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -1206,7 +716,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32982844" />
+      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.32982844" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" x="0" y="0" width="413" height="855" id="Documentation" order="9" side_tool="true" weight="0.32982844" />
@@ -1456,6 +966,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xsl/jats-to-html/meta.xsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
@@ -1463,17 +976,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authorization/Authorizer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/FreeLicenceAuthenticator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authorization/FreeLicenceAuthorizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="60">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
           <folding>
             <element signature="e#220#221#0" expanded="true" />
             <element signature="e#248#249#0" expanded="true" />
@@ -1481,13 +987,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/xsl/jats-to-html/meta.xsl">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/licencesClasses.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/settings.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/Authenticator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="75">
+          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/AuthenticationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/d.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/AuthenticationServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#258#259#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1497,7 +1038,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>AccessControl:war exploded</last-edited>
+          <last-edited>access-control:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1545,7 +1086,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>AccessControl</last-edited>
+          <last-edited>access-control</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
