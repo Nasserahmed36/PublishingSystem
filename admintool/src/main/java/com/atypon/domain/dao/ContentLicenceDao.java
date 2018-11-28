@@ -5,6 +5,6 @@ import com.atypon.domain.ContentLicence;
 import java.util.List;
 
 public interface ContentLicenceDao {
-    void  create(ContentLicence contentLicence);
+    boolean  create(ContentLicence contentLicence);
     List<ContentLicence> get(String contentId);
 }

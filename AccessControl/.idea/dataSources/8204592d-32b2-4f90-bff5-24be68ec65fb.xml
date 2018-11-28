@@ -1401,15 +1401,14 @@ subject</ColNames>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="342" parent="285" name="licence_body">
+    <column id="342" parent="285" name="body">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <index id="343" parent="285" name="UC_content_licence">
       <ColNames>content_id
-licence_name
-licence_body</ColNames>
+licence_name</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
@@ -1424,8 +1423,7 @@ licence_body</ColNames>
     </key>
     <key id="346" parent="285" name="UC_content_licence">
       <ColNames>content_id
-licence_name
-licence_body</ColNames>
+licence_name</ColNames>
       <UnderlyingIndexName>UC_content_licence</UnderlyingIndexName>
     </key>
     <foreign-key id="347" parent="285" name="content_licence_Licence_name_fk">
@@ -1736,34 +1734,28 @@ subject_title</ColNames>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="401" parent="294" name="start_date">
+    <column id="401" parent="294" name="body">
       <Position>3</Position>
-      <DataType>timestamp|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="402" parent="294" name="content">
-      <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="403" parent="294" name="user_content_licence_content_licence_id_fk">
+    <index id="402" parent="294" name="user_content_licence_content_licence_id_fk">
       <ColNames>content_licence_Id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="404" parent="294" name="PRIMARY">
+    <key id="403" parent="294" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>username
 content_licence_Id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="405" parent="294" name="user_content_licence_identity_username_fk">
+    <foreign-key id="404" parent="294" name="user_content_licence_identity_username_fk">
       <ColNames>username</ColNames>
       <RefSchemaName>AdminTool</RefSchemaName>
       <RefTableName>identity</RefTableName>
       <RefColNames>username</RefColNames>
     </foreign-key>
-    <foreign-key id="406" parent="294" name="user_content_licence_content_licence_id_fk">
+    <foreign-key id="405" parent="294" name="user_content_licence_content_licence_id_fk">
       <ColNames>content_licence_Id</ColNames>
       <RefSchemaName>AdminTool</RefSchemaName>
       <RefTableName>content_licence</RefTableName>

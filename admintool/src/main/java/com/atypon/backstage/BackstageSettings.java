@@ -105,4 +105,5 @@ class BackstageSettings {
                 File.separator + ISSUE_METADATA_FILE_NAME;
     }
 
+
 }

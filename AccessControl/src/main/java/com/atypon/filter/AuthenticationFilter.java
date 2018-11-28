@@ -1,6 +1,7 @@
 package com.atypon.filter;
 
 import com.atypon.domain.Identity;
+import com.atypon.service.IdentityService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.servlet.*;

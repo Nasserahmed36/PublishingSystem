@@ -3,7 +3,7 @@ package com.atypon.domain;
 public class UserContentLicence {
     private String username;
     private int contentLicenceId;
-    private long startDate;
+    private String body;
 
 
     public String getUsername() {
@@ -22,11 +22,11 @@ public class UserContentLicence {
         this.contentLicenceId = contentLicenceId;
     }
 
-    public long getStartDate() {
-        return startDate;
+    public String getBody() {
+        return body;
     }
 
-    public void setStartDate(long startDate) {
-        this.startDate = startDate;
+    public void setBody(String body) {
+        this.body = body;
     }
 }

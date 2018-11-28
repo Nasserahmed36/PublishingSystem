@@ -18,6 +18,24 @@ public class ContentLicenceDaoImpl implements ContentLicenceDao {
     }
 
     @Override
+    public boolean create(ContentLicence contentLicence) {
+        String sql = "INSERT INTO content_licence(content_id, licence_name, body) " +
+                "values (?,?,?)";
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            int index = 0;
+            statement.setString(++index, contentLicence.getContentId());
+            statement.setString(++index, contentLicence.getLicenceName());
+            statement.setString(++index, contentLicence.getBody());
+            statement.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+        return true;
+    }
+
+    @Override
     public List<ContentLicence> get(String contentId) {
         List<ContentLicence> contentLicences = new ArrayList<>();
         String sql = "SELECT id, content_id, licence_name, body from content_licence";
