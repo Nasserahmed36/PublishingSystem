@@ -30,7 +30,6 @@ public class AppListener implements ServletContextListener {
     @Override
     public void contextInitialized(ServletContextEvent sce) {
         ServletContext context = sce.getServletContext();
-
         DataSource dataSource = getDataSource(context);
         context.setAttribute("datasource", dataSource);
 
@@ -73,6 +72,18 @@ public class AppListener implements ServletContextListener {
         ArticleService articleService = new ArticleServiceImpl(articleDao);
         context.setAttribute("articleService", articleService);
         ApplicationContext.setAttribute("articleService", articleService);
+
+        LicenceDao licenceDao = new LicenceDaoImpl(dataSource);
+        context.setAttribute("licenceDao", licenceDao);
+
+        LicenceService licenceService = new LicenceServiceImpl(licenceDao);
+        context.setAttribute("licenceService", licenceService);
+
+        ContentLicenceDao contentLicenceDao = new ContentLicenceDaoImpl(dataSource);
+        context.setAttribute("contentLicenceDao", contentLicenceDao);
+
+        ContentLicenceService contentLicenceService = new ContentLicenceServiceImpl(contentLicenceDao);
+        context.setAttribute("contentLicenceService", contentLicenceService);
 
         NotificationDao notificationDao = new NotificationDaoImpl(dataSource);
         context.setAttribute("notificationDao", notificationDao);

@@ -23,8 +23,6 @@ public class Authenticators {
         return (Class<? extends Authenticator>) Class.forName(className);
 
     }
-
-    // Suppresses default constructor, ensuring non-instantiability
     public static Authenticator getAuthenticator(String licenceName) {
         try {
             return getAuthenticatorClass(licenceName).newInstance();

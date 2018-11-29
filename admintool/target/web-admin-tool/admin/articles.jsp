@@ -106,7 +106,7 @@
                 <div class="col-md-12" style="overflow-x: hidden">
                     <div class="card ">
                         <div class="header">
-                            <h4 class="title">All Journals</h4>
+                            <h4 class="title">All Articles</h4>
                         </div>
                         <div class="content table-responsive table-full-width">
                             <table class="table table-hover table-striped">

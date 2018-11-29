@@ -31,24 +31,28 @@
     <bean id="dataSource"
           class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 
-        <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-        <property name="url" value="jdbc:mysql://localhost:3306/AccessControl" />
-        <property name="username" value="root" />
-        <property name="password" value="123" />
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/AccessControl"/>
+        <property name="username" value="root"/>
+        <property name="password" value="123"/>
     </bean>
 
     <bean id="identityDao" class="com.atypon.domain.dao.IdentityDaoImpl">
         <constructor-arg ref="dataSource"/>
     </bean>
-    <bean id="licenceDao" class="com.atypon.domain.dao.LicenceDaoImpl">
+    <bean id="contentLicenceDao" class="com.atypon.domain.dao.ContentLicenceDaoImpl">
+        <constructor-arg ref="dataSource"/>
+    </bean>
+
+    <bean id="userContentLicenceDao" class="com.atypon.domain.dao.UserContentLicenceDaoImpl">
         <constructor-arg ref="dataSource"/>
     </bean>
 
     <bean id="identityService" class="com.atypon.service.IdentityServiceImpl">
         <constructor-arg ref="identityDao"/>
     </bean>
-    <bean id="licenceService" class="com.atypon.service.LicenceServiceImpl">
-        <constructor-arg ref="licenceDao"/>
+    <bean id="authenticationService" class="com.atypon.service.AuthenticationServiceImpl">
+        <constructor-arg ref="contentLicenceDao"/>
     </bean>
 
 </beans>

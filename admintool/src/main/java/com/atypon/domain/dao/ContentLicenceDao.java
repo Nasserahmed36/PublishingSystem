@@ -7,4 +7,5 @@ import java.util.List;
 public interface ContentLicenceDao {
     boolean  create(ContentLicence contentLicence);
     List<ContentLicence> get(String contentId);
+    List<ContentLicence> getAll();
 }

@@ -10,16 +10,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "DispatcherServlet", urlPatterns = {"/Dispatcher"})
+@WebServlet(name = "DispatcherServlet", urlPatterns = {"/identities/*", "/journal/*", "/backstage/*", "/article/*", "/licence/*"})
 @MultipartConfig
 public class DispatcherServlet extends HttpServlet {
 
     private static final String JSPS_FILE = "/admin";
 
-    private IdentityController identityController;
-    private JournalController journalController;
-    private BackstageController backstageController;
-    private ArticleController articleController;
+    private Controller identityController;
+    private Controller journalController;
+    private Controller backstageController;
+    private Controller articleController;
+    private Controller licenceController;
 
     @Override
     public void init() throws ServletException {
@@ -28,6 +29,7 @@ public class DispatcherServlet extends HttpServlet {
         journalController = new JournalController(getServletContext());
         backstageController = new BackstageController(getServletContext());
         articleController = new ArticleController(getServletContext());
+        licenceController = new LicenceController(getServletContext());
     }
 
 
@@ -47,6 +49,9 @@ public class DispatcherServlet extends HttpServlet {
                 break;
             case "article":
                 view = articleController.handle(request, response);
+                break;
+            case "licence":
+                view = licenceController.handle(request, response);
                 break;
         }
         dispatch(request, response, view);

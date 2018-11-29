@@ -28,7 +28,7 @@
                 </a>
             </li>
             <li class="c">
-                <a href="licences.jsp">
+                <a href="${pageContext.request.contextPath}/licence/contentLicence">
                     <i class="pe-7s-news-paper"></i>
                     <p>Licences</p>
                 </a>

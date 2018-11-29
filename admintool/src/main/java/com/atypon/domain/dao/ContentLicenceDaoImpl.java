@@ -38,6 +38,25 @@ public class ContentLicenceDaoImpl implements ContentLicenceDao {
     @Override
     public List<ContentLicence> get(String contentId) {
         List<ContentLicence> contentLicences = new ArrayList<>();
+        String sql = "SELECT id, content_id, licence_name, body from content_licence" +
+                " where content_id = ?";
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            int index = 0;
+            statement.setString(++index, contentId);
+            ResultSet resultSet = statement.executeQuery();
+            while (resultSet.next()) {
+                contentLicences.add(extractContentLicence(resultSet));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return contentLicences;
+    }
+
+    @Override
+    public List<ContentLicence> getAll() {
+        List<ContentLicence> contentLicences = new ArrayList<>();
         String sql = "SELECT id, content_id, licence_name, body from content_licence";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
@@ -55,7 +74,6 @@ public class ContentLicenceDaoImpl implements ContentLicenceDao {
         ContentLicence contentLicence = new ContentLicence();
         int index = 1;
         contentLicence.setId(resultSet.getInt(index++));
-        contentLicence.setContentId(resultSet.getString(index++));
         contentLicence.setContentId(resultSet.getString(index++));
         contentLicence.setLicenceName(resultSet.getString(index++));
         contentLicence.setBody(resultSet.getString(index));

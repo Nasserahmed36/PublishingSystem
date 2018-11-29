@@ -4,16 +4,15 @@ import com.atypon.authentication.Authenticator;
 import com.atypon.authentication.Authenticators;
 import com.atypon.domain.ContentLicence;
 import com.atypon.domain.Request;
-import com.atypon.domain.dao.ContentLicenceDaoImpl;
+import com.atypon.domain.dao.ContentLicenceDao;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class AuthenticationServiceImpl implements AuthenticationService {
 
-    private final ContentLicenceDaoImpl contentLicenceDao;
+    private final ContentLicenceDao contentLicenceDao;
 
-    public AuthenticationServiceImpl(ContentLicenceDaoImpl contentLicenceDao) {
+    public AuthenticationServiceImpl(ContentLicenceDao contentLicenceDao) {
         this.contentLicenceDao = contentLicenceDao;
     }
 
@@ -22,12 +21,11 @@ public class AuthenticationServiceImpl implements AuthenticationService {
         List<ContentLicence> contentLicences = contentLicenceDao.get(contentId);
         for (ContentLicence contentLicence : contentLicences) {
             String licenceName = contentLicence.getLicenceName();
-            int contentLicenceId = contentLicence.getId();
             Authenticator authenticator = Authenticators.getAuthenticator(licenceName);
             if (authenticator == null) {
                 continue;
             }
-            if (authenticator.hasAccess(user, request, contentLicenceId)) {
+            if (authenticator.hasAccess(user, request, contentLicence)) {
                 return true;
             }
         }

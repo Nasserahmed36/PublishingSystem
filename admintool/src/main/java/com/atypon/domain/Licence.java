@@ -1,11 +1,31 @@
 package com.atypon.domain;
 
-public interface Licence {
+public class Licence {
+    private String name;
+    private String contentLicenceDescription;
+    private String userLicenceDescription;
 
-    /**
-     * @param identity can be null
-     * @param request  can be null
-     */
-    boolean hasAccess(Identity identity, Request request, String licenceBody);
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getContentLicenceDescription() {
+        return contentLicenceDescription;
+    }
+
+    public void setContentLicenceDescription(String contentLicenceDescription) {
+        this.contentLicenceDescription = contentLicenceDescription;
+    }
+
+    public String getUserLicenceDescription() {
+        return userLicenceDescription;
+    }
+
+    public void setUserLicenceDescription(String userLicenceDescription) {
+        this.userLicenceDescription = userLicenceDescription;
+    }
 }

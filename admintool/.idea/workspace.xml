@@ -5,40 +5,108 @@
       <artifact name="admintool:war exploded" />
     </artifacts-to-build>
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" line="37" mnemonic="8" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ef61c328-ee40-496e-b78f-2af39f0379f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../AccessControl/.idea/dataSources/8204592d-32b2-4f90-bff5-24be68ec65fb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/.idea/dataSources/8204592d-32b2-4f90-bff5-24be68ec65fb.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AccessControl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessControl/access-control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/access-control.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/authentication/Authenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/authentication/Authenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/authentication/Authenticators.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/authentication/Authenticators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/authentication/AuthenticatorsDependencies.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/authentication/AuthenticatorsDependencies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/authentication/FreeLicenceAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/authentication/FreeLicenceAuthenticator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/controller/AccessControlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/controller/AccessControlController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/filter/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/authentication/IdentityLicenceAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/authentication/IdentityLicenceAuthenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/backstage/DataExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/backstage/FileTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/backstage/JatsArticleMetadataExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/backstage/JatsToHtmlTransformer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/service/AuthenticationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/service/AuthenticationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/resources/config/licencesClasses.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/src/main/resources/config/licencesAuthenticators.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/webapp/WEB-INF/config/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/src/main/webapp/WEB-INF/config/springmvc-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/746b608b-bd6b-4b2d-9847-f73095b770b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/746b608b-bd6b-4b2d-9847-f73095b770b2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/Licence.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/UserContentLicence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/UserContentLicence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicenceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicenceDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicenceDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicenceDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/LicenceDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/LicenceDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/UserContentLicenceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/UserContentLicenceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/web/ServiceFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin/leftBar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin/leftBar.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/backstage/BackstageSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/backstage/BackstageSettings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/ContentLicence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/ContentLicence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/Licence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/Licence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/UserContentLicence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/UserContentLicence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/ContentLicenceDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/ContentLicenceDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/ContentLicenceDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/ContentLicenceDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/LicenceDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/LicenceDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/web/ServiceFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/web/listener/AppListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/web-admin-tool.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/web/listener/AppListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/commons-dbcp-1.2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/commons-io-2.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/commons-pool-1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/jackson-annotations-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/jackson-annotations-2.6.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/jackson-core-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/jackson-core-2.6.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/jackson-core-asl-1.9.13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/jackson-databind-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/jackson-databind-2.6.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/javax.servlet-api-4.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/javax.servlet-api-4.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/mysql-connector-java-8.0.12.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/protobuf-java-2.6.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/web-admin-tool/admin/articles.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-admin-tool/admin/articles.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/.idea/dataSources/49e700be-f749-462f-b261-02b12d121d98.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/dataSources/49e700be-f749-462f-b261-02b12d121d98.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/context/ApplicationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ArticleNotificationHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ArticleNotificationHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ArticleNotificationsChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ArticlesManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/SavePoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/SavePointImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/IssueController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/validator/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_3.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_3.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_4.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_4.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_5.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_5.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_6.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_6.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/content_licence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/content_licence.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/journal.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/journal.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/licence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/licence.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/notification.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/notification.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/save_point.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/save_point.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/user_content_licence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/user_content_licence.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000041" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000041" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000043" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000043" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_002" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,6 +142,13 @@
         <item name="MySQL - AdminTool@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="AdminTool: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - AdminTool@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="AdminTool: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="licence: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -141,75 +216,78 @@
     <session id="-1149856782">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Licence" value="2" />
+          <entry key="Licence" value="3" />
           <entry key="article" value="13" />
           <entry key="article_author" value="8" />
-          <entry key="class" value="2" />
-          <entry key="content_licence" value="6" />
+          <entry key="class" value="4" />
+          <entry key="content_licence" value="7" />
           <entry key="css" value="1" />
           <entry key="groovy" value="1" />
           <entry key="identity" value="8" />
-          <entry key="issue" value="7" />
+          <entry key="iml" value="1" />
+          <entry key="issue" value="8" />
           <entry key="issue_doi" value="1" />
           <entry key="issue_subject" value="7" />
-          <entry key="java" value="80" />
+          <entry key="java" value="127" />
           <entry key="journal" value="3" />
           <entry key="js" value="1" />
-          <entry key="jsp" value="4" />
-          <entry key="licence" value="1" />
+          <entry key="jsp" value="14" />
+          <entry key="licence" value="11" />
           <entry key="notification" value="7" />
           <entry key="properties" value="1" />
           <entry key="sql" value="8" />
           <entry key="submission" value="5" />
           <entry key="svg" value="1" />
-          <entry key="user_content_licence" value="5" />
-          <entry key="xml" value="12" />
-          <entry key="xsl" value="1" />
+          <entry key="user_content_licence" value="6" />
+          <entry key="xml" value="15" />
+          <entry key="xsl" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
+          <entry key="CLASS" value="4" />
           <entry key="CSS" value="1" />
-          <entry key="Database Element" value="72" />
-          <entry key="JAVA" value="80" />
-          <entry key="JSP" value="4" />
+          <entry key="Database Element" value="86" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="127" />
+          <entry key="JSP" value="14" />
           <entry key="JavaScript" value="1" />
           <entry key="Properties" value="1" />
           <entry key="SQL" value="1" />
           <entry key="SVG" value="1" />
           <entry key="Scratch" value="9" />
-          <entry key="XML" value="13" />
+          <entry key="XML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="cell" value="168" />
           <entry key="dummy" value="2" />
-          <entry key="java" value="1640" />
-          <entry key="jsp" value="98" />
-          <entry key="sql" value="121" />
+          <entry key="java" value="2974" />
+          <entry key="jsp" value="833" />
+          <entry key="sql" value="138" />
           <entry key="txt" value="11" />
-          <entry key="xml" value="18" />
+          <entry key="xml" value="38" />
           <entry key="xsl" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1640" />
-          <entry key="JSP" value="98" />
+          <entry key="JAVA" value="2969" />
+          <entry key="JSP" value="833" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="SQL" value="66" />
-          <entry key="Scratch" value="55" />
-          <entry key="XML" value="27" />
+          <entry key="SQL" value="88" />
+          <entry key="Scratch" value="223" />
+          <entry key="XML" value="47" />
         </counts>
       </usages-collector>
     </session>
@@ -217,61 +295,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="das://746b608b-bd6b-4b2d-9847-f73095b770b2/schema/AdminTool/table/content_licence">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/userProfile.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="147" column="102" selection-start-line="147" selection-start-column="52" selection-end-line="147" selection-end-column="102" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/contentLicence.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicenceDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="615">
+              <caret line="122" column="115" selection-start-line="122" selection-start-column="95" selection-end-line="122" selection-end-column="115" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicenceDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageSettings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="45" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/UserContentLicenceDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/LicenceController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="180">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/ArticleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/Validator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/ContentLicenceValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -280,43 +355,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IdentityDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="37" column="20" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="37" selection-end-column="20" />
+            <state relative-caret-position="720">
+              <caret line="82" column="29" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="82" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://746b608b-bd6b-4b2d-9847-f73095b770b2/schema/AdminTool/table/user_content_licence">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/ArticleSubmissionValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/UserContentLicence.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/form/ContentLicenceForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="3" />
               <folding>
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/ContentLicence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+            <state relative-caret-position="420">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="3" selection-end-line="40" selection-end-column="5" />
+              <folding>
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -327,8 +412,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -344,21 +429,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/746b608b-bd6b-4b2d-9847-f73095b770b2/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/ArticleSubmission.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionsProducer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/BackstageController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/config/settings.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/ProcessedContentProcessor.java" />
         <option value="$PROJECT_DIR$/../content/Nasser/bhda_bhda_40_3_20181029050737931/bhda_40_3/019874291504000301/019874291504000301.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
         <option value="$PROJECT_DIR$/../content/Nasser/bhda_bhda_40_3_20181029050737931/bhda_40_3/issue-files/bhda_40_3.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/submissions.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/assets/js/jquery.3.2.1.min.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/AsynchronousService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/Notification.java" />
@@ -372,7 +445,6 @@
         <option value="$PROJECT_DIR$/../processedContent/J1/10.1177/2325160318764464/issueMetadata.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/xsl/jatsToIssueMetadata.xsl" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/journal.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/admin/leftBar.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java" />
@@ -382,19 +454,32 @@
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/admin/articles.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/Request.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/LicenceService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/LicenceDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/Licence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/LicenceDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/ContentLicence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageSettings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/UserContentLicenceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/UserContentLicence.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/ServiceFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/backstage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/submissions.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/ContentLicence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/LicenceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/Licence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/UserContentLicenceDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/LicenceDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/LicenceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/LicenceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicenceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/ContentLicenceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/ContentLicenceServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicenceDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageSettings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/UserContentLicence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/UserContentLicenceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/leftBar.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/userLicence.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin/contentLicence.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/form/ContentLicenceForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/validator/ContentLicenceValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/web/controller/LicenceController.java" />
       </list>
     </option>
   </component>
@@ -441,6 +526,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -482,15 +568,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="atypon" type="462c0819:PsiDirectoryNode" />
-              <item name="backstage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="admintool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admintool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atypon" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -517,7 +594,59 @@
               <item name="admintool" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atypon" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admintool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admintool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atypon" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admintool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admintool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atypon" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admintool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admintool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atypon" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admintool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admintool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atypon" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="admintool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="admintool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="atypon" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="admintool" type="b2602c69:ProjectViewProjectNode" />
@@ -525,7 +654,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="admintool" type="b2602c69:ProjectViewProjectNode" />
@@ -540,15 +668,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="admintool" type="b2602c69:ProjectViewProjectNode" />
-              <item name="admintool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="admintool" type="b2602c69:ProjectViewProjectNode" />
@@ -558,16 +678,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543444424330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543509143963" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AccessControl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -576,19 +695,20 @@
     <property name="settings.editor.selected.configurable" value="database.main" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.atypon.backstage" />
-      <recent name="com.atypon.domain" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.atypon.domain.dao" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/admin" />
       <recent name="$PROJECT_DIR$/src/main/java/com/atypon/service" />
       <recent name="$PROJECT_DIR$/src/main/java/com/atypon/domain" />
       <recent name="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/admin" />
       <recent name="$PROJECT_DIR$/src/main/java/com/atypon/notification" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atypon.domain.dao" />
+      <recent name="com.atypon.web.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atypon.backstage" />
+      <recent name="com.atypon.domain" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -603,7 +723,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BackstageSettings">
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
     <configuration name="BackstageSettings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atypon.backstage.BackstageSettings" />
       <module name="admintool" />
@@ -746,17 +866,19 @@
       <workItem from="1543269180720" duration="2668000" />
       <workItem from="1543310280408" duration="22440000" />
       <workItem from="1543436744558" duration="4852000" />
+      <workItem from="1543498683252" duration="4883000" />
+      <workItem from="1543505480698" duration="3650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72308000" />
+    <option name="totallyTimeSpent" value="92601000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26674044" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27006087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -765,17 +887,17 @@
       <window_info id="Image Layers" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4997233" visible="true" weight="0.32822967" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997233" weight="0.32756758" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38918918" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4997233" weight="0.32822967" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4980631" weight="0.3272727" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4997233" weight="0.38851675" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32972974" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.32864866" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5002767" side_tool="true" weight="0.32756758" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4997233" weight="0.3291866" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5019369" side_tool="true" weight="0.3272727" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32756758" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" weight="0.32972974" />
@@ -785,8 +907,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32982844" />
-      <window_info active="true" anchor="right" id="Database" order="6" visible="true" weight="0.26175982" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.21416713" />
+      <window_info anchor="right" id="Database" order="6" weight="0.26175982" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -871,6 +993,11 @@
     </expressions>
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>request.getRequestURL()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>request.getHeaderNames()</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -910,282 +1037,258 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>nodeList.item(i).getLocalName()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/notification/NotificationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/notification/NotificationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/notification/NotificationsHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config/settings.properties">
+    <entry file="file://$PROJECT_DIR$/admintool.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="69" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/journal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="62" column="96" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://746b608b-bd6b-4b2d-9847-f73095b770b2/schema/AdminTool/table/journal">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/JournalServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://746b608b-bd6b-4b2d-9847-f73095b770b2/schema/AdminTool/table/article_author">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://746b608b-bd6b-4b2d-9847-f73095b770b2/schema/AdminTool/table/article">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/leftBar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/BackstageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/identities.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="70" column="6" selection-start-line="48" selection-end-line="70" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/journals.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="234" column="64" selection-start-line="234" selection-start-column="58" selection-end-line="234" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar!/javax/servlet/ServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/domain/Request.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/articles.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="97" column="28" lean-forward="true" selection-start-line="97" selection-start-column="28" selection-end-line="97" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Request.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/LicenceService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IdentityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://746b608b-bd6b-4b2d-9847-f73095b770b2/schema/AdminTool/table/licence">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/LicenceDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Licence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/LicenceServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/ServiceFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://746b608b-bd6b-4b2d-9847-f73095b770b2/schema/AdminTool/table/Licence" />
-    <entry file="das://746b608b-bd6b-4b2d-9847-f73095b770b2/schema/AdminTool/table/identity">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/ContentLicence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding>
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-          </folding>
+          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="100" column="24" selection-start-line="88" selection-start-column="7" selection-end-line="100" selection-end-column="24" />
+        <state relative-caret-position="390">
+          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/JournalDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="75" column="24" selection-start-line="62" selection-start-column="7" selection-end-line="75" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IdentityDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="37" column="20" selection-start-line="22" selection-start-column="7" selection-end-line="37" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/NotificationDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/NotificationDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/com/sun/jmx/interceptor/DefaultMBeanServerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="818" selection-start-line="818" selection-end-line="818" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/com/sun/jmx/mbeanserver/JmxMBeanServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="800" selection-start-line="800" selection-end-line="800" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/javax/management/remote/rmi/RMIConnectionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="828" selection-start-line="828" selection-end-line="828" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1599">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/xsl/jatsToFullPage.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1395">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.jar!/javax/servlet/Filter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/ServiceFilter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/backstage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="248" column="7" selection-start-line="248" selection-start-column="7" selection-end-line="248" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/submissions.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://746b608b-bd6b-4b2d-9847-f73095b770b2/schema/AdminTool/table/issue">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://746b608b-bd6b-4b2d-9847-f73095b770b2/schema/AdminTool/table/Licence" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/UserContentLicenceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/UserContentLicenceDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/LicenceDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        <state relative-caret-position="60">
+          <caret line="13" column="44" lean-forward="true" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/LicenceDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="105">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/LicenceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/LicenceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/listener/AppListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+        <state relative-caret-position="472">
+          <caret line="85" column="76" selection-start-line="85" selection-start-column="76" selection-end-line="85" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/UserContentLicence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ContentLicenceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ContentLicenceServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicenceDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/IdentityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicenceDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/servlet/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1196,34 +1299,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Notification.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicenceDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Licence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="60">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/backstage/BackstageSettings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="45" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IdentityDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="37" column="20" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="37" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1234,36 +1330,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/UserContentLicence.java">
+    <entry file="das://746b608b-bd6b-4b2d-9847-f73095b770b2/schema/AdminTool/table/licence">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/leftBar.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="435">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/identities.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="85" column="84" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/userLicence.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="66" column="46" lean-forward="true" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/userProfile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="147" column="102" selection-start-line="147" selection-start-column="52" selection-end-line="147" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin/contentLicence.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="122" column="115" selection-start-line="122" selection-start-column="95" selection-end-line="122" selection-end-column="115" />
           <folding>
-            <element signature="e#530#531#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicenceDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/ContentLicence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        <state relative-caret-position="420">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="3" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/form/ContentLicenceForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/ArticleSubmissionValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/validator/ContentLicenceValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/UserContentLicenceDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/ArticleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/JournalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="82" column="29" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="82" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/web/controller/LicenceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
