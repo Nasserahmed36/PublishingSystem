@@ -54,7 +54,7 @@
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#">
+                            <a href="${pageContext.request.contextPath}/login/loginPage">
                                 <p>Log out</p>
                             </a>
                         </li>

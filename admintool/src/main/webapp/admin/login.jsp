@@ -1,81 +1,101 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-
-    <title>Backstage</title>
-
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'/>
-    <meta name="viewport" content="width=device-width"/>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- Bootstrap core CSS     -->
-    <link href="${pageContext.request.contextPath}/admin/assets/css/bootstrap.min.css" rel="stylesheet"/>
-
-    <!-- Animation library for notifications   -->
-    <link href="${pageContext.request.contextPath}/admin/assets/css/animate.min.css" rel="stylesheet"/>
-
-    <!--  Light Bootstrap Table core CSS    -->
-    <link href="${pageContext.request.contextPath}/admin/assets/css/light-bootstrap-dashboard.css?v=1.4.0"
-          rel="stylesheet"/>
-
-
-    <!--  CSS for Demo Purpose, don't include it in your project     -->
-    <link href="${pageContext.request.contextPath}/admin/assets/css/demo.css" rel="stylesheet"/>
-
-
-    <!--     Fonts and icons     -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
-    <link href="${pageContext.request.contextPath}/admin/assets/css/pe-icon-7-stroke.css" rel="stylesheet"/>
-
+    <title>Login V11</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="${pageContext.request.contextPath}/admin/assets/images/icons/favicon.ico"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+          href="${pageContext.request.contextPath}/admin/assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+          href="${pageContext.request.contextPath}/admin/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+          href="${pageContext.request.contextPath}/admin/assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+          href="${pageContext.request.contextPath}/admin/assets/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+          href="${pageContext.request.contextPath}/admin/assets/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css"
+          href="${pageContext.request.contextPath}/admin/assets/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/admin/assets/css/util.css">
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/admin/assets/css/main.css">
+    <!--===============================================================================================-->
     <style>
-        .table-wrapper-scroll-y {
-            max-height: 700px;
-            overflow-y: auto;
-            overflow-x: hidden;
+        body div.container-login100 {
+            background: rgba(203, 203, 210, 0.15);
         }
     </style>
-
 </head>
 <body>
 
-<div class="wrapper">
+<div class="limiter">
+    <div class="container-login100">
+        <div class="wrap-login100 p-l-50 p-r-50 p-t-77 p-b-30">
+            <form class="login100-form validate-form">
+					<span class="login100-form-title p-b-55">
+						Admin Login
+					</span>
+
+                <div class="wrap-input100 validate-input m-b-16" data-validate="username is required">
+                    <input class="input100" type="text" name="username" placeholder="Username">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+							<span class="lnr lnr-user"></span>
+						</span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-16" data-validate="Password is required">
+                    <input class="input100" type="password" name="password" placeholder="Password">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+							<span class="lnr lnr-lock"></span>
+						</span>
+                </div>
+
+                <div class="contact100-form-checkbox m-l-4">
+                    <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+                    <label class="label-checkbox100" for="ckb1">
+                        Remember me
+                    </label>
+                </div>
+
+                <div class="container-login100-form-btn p-t-25">
+                    <button formaction="${pageContext.request.contextPath}/login/" class="login100-form-btn">
+                        Login
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </div>
 </div>
 
-</body>
 
-<!--   Core JS Files   -->
+<!--===============================================================================================-->
+<script src="${pageContext.request.contextPath}/admin/assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+<script src="${pageContext.request.contextPath}/admin/assets/vendor/bootstrap/js/popper.js"></script>
+<script src="${pageContext.request.contextPath}/admin/assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+<script src="${pageContext.request.contextPath}/admin/assets/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+<script src="${pageContext.request.contextPath}/admin/assets/js/main.js"></script>
+<!--===============================================================================================-->
 <script src="${pageContext.request.contextPath}/admin/assets/js/jquery.3.2.1.min.js" type="text/javascript"></script>
-<script src="${pageContext.request.contextPath}/admin/assets/js/bootstrap.min.js" type="text/javascript"></script>
-
-<!--  Charts Plugin -->
-<script src="${pageContext.request.contextPath}/admin/assets/js/chartist.min.js"></script>
-
-<!--  Notifications Plugin    -->
+<!--===============================================================================================-->
+<%--For Notifications--%>
 <script src="${pageContext.request.contextPath}/admin/assets/js/bootstrap-notify.js"></script>
 
-<!--  Google Maps Plugin    -->
-<script type="${pageContext.request.contextPath}/admin/text/javascript"
-        src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-
-<!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
-<script src="${pageContext.request.contextPath}/admin/assets/js/light-bootstrap-dashboard.js?v=1.4.0"></script>
-
-<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
-<script src="${pageContext.request.contextPath}/admin/assets/js/demo.js"></script>
-
-<script type="text/javascript">
-
-    $(document).ready(function () {
-        $(function () {
-            $(".d").addClass("active");
-        });
-    });
+<script>
 
     function notify(message) {
         $.notify({
@@ -87,20 +107,16 @@
                 from: "top",
                 align: "center"
             },
-            type: 'info',
+            type: 'danger',
             timer: 4000,
         });
     }
 
-
 </script>
 <c:if test="${not empty requestScope.result}">
-    <script>notify("${requestScope.result}")</script>
-</c:if>
-<c:forEach items="${requestScope.errors}" var="error">
     <script>
-        notify("${error}");
+        notify("${requestScope.result}");
     </script>
-</c:forEach>
-
+</c:if>
+</body>
 </html>

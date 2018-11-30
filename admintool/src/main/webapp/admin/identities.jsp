@@ -83,12 +83,13 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a style="font-weight: bold" class="navbar-brand" href="#">Identities</a>
-                    <a class="navbar-brand" href="${pageContext.request.contextPath}/identities/userProfile">User Profile</a>
+                    <a class="navbar-brand" href="${pageContext.request.contextPath}/identities/userProfile">User
+                        Profile</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a href="#">
+                            <a href="${pageContext.request.contextPath}/login/loginPage">
                                 <p>Log out</p>
                             </a>
                         </li>
@@ -122,7 +123,8 @@
                                         <td>${identity.email}</td>
                                         <td>${identity.type}</td>
                                         <td>
-                                            <button class="glyphicon glyphicon-trash btn btn-info" onclick="removeRow(this)">
+                                            <button class="glyphicon glyphicon-trash btn btn-info"
+                                                    onclick="removeRow(this)">
                                             </button>
                                         </td>
                                     </tr>
@@ -218,10 +220,12 @@
             timer: 4000,
         });
     }
+
     var username;
     var row;
+
     function removeRow(button) {
-        row =  $(button).closest('tr');
+        row = $(button).closest('tr');
         username = row.find('td:first-child').text();
         $('#exampleModal').modal('show');
     }
@@ -241,5 +245,7 @@
     }
 
 </script>
-
+<c:if test="${not empty param.result}">
+    <script>notify("${param.result}")</script>
+</c:if>
 </html>

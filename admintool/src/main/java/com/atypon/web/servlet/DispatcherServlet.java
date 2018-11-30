@@ -10,7 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "DispatcherServlet", urlPatterns = {"/identities/*", "/journal/*", "/backstage/*", "/article/*", "/licence/*"})
+@WebServlet(name = "DispatcherServlet", urlPatterns = {"/identities/*", "/journal/*", "/backstage/*",
+        "/article/*", "/licence/*", "/login/*"})
 @MultipartConfig
 public class DispatcherServlet extends HttpServlet {
 
@@ -21,6 +22,7 @@ public class DispatcherServlet extends HttpServlet {
     private Controller backstageController;
     private Controller articleController;
     private Controller licenceController;
+    private Controller loginController;
 
     @Override
     public void init() throws ServletException {
@@ -30,6 +32,7 @@ public class DispatcherServlet extends HttpServlet {
         backstageController = new BackstageController(getServletContext());
         articleController = new ArticleController(getServletContext());
         licenceController = new LicenceController(getServletContext());
+        loginController = new LoginController(getServletContext());
     }
 
 
@@ -53,6 +56,9 @@ public class DispatcherServlet extends HttpServlet {
             case "licence":
                 view = licenceController.handle(request, response);
                 break;
+            case "login":
+                view = loginController.handle(request, response);
+                break;
         }
         dispatch(request, response, view);
     }
@@ -70,7 +76,7 @@ public class DispatcherServlet extends HttpServlet {
                 if (view.contains(".jsp") || view.contains(".html") || view.contains(".htm")) {
                     view = JSPS_FILE + "/" + view;
                 }
-                response.sendRedirect(request.getContextPath() + "/" + view);
+                response.sendRedirect(request.getContextPath() + view);
             } else {
                 if (view.contains(".jsp") || view.contains(".html") || view.contains(".htm")) {
                     view = JSPS_FILE + "/" + view;
