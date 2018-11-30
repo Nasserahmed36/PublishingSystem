@@ -39,11 +39,131 @@
             overflow-y: auto;
             overflow-x: hidden;
         }
+
+        .modal-body th {
+            text-align: center;
+        }
+
+        .modal-body .table-hover tbody tr:hover td, .modal-body .table-hover tbody tr:hover th {
+            background-color: #1DC7EA;
+            color: white;
+            cursor: pointer;
+        }
+
+        #chooseLicence:hover, .glyphicon:hover , #showLicence:hover {
+            background-color: #1DC7EA;
+            color: white;
+        }
+
+        #chooseLicence {
+            border-color: #1DC7EA;
+            color: #1DC7EA;
+        }
+
+        #licencesModal .modal-dialog,#licenceModal .modal-dialog {
+            -webkit-transform: translate(0, -50%);
+            -o-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+            top: 50%;
+            margin: 0 auto;
+        }
     </style>
 
 </head>
 <body>
+<!-- Modal -->
+<div class="modal fade" id="licencesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Choose Licence</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <%--Are you sure you want to delete the Licence?--%>
+                <div class="content table-responsive table-full-width">
+                    <table class="table table-hover table-striped" style="text-align: center">
+                        <thead>
+                        <tr>
+                            <th>Content ID</th>
+                            <th>Licence Name</th>
+                            <th>Licence Body</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <c:forEach items="${requestScope.contentsLicences}" var="contentLicence">
+                            <tr onclick="chooseLicence(this)">
+                                <td class="contentLicenceId" style="display: none">${contentLicence.id}</td>
+                                <td>${contentLicence.contentId}</td>
+                                <td>${contentLicence.licenceName}</td>
+                                <td>${contentLicence.body}</td>
+                            </tr>
+                        </c:forEach>
+                        </tbody>
+                    </table>
 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="licenceModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Choose Licence</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <%--Are you sure you want to delete the Licence?--%>
+                <div class="content table-responsive table-full-width">
+                    <table class="table table-hover table-striped" style="text-align: center">
+                        <thead>
+                        <tr>
+                            <th>Content ID</th>
+                            <th>Licence Name</th>
+                            <th>Licence Body</th>
+                        </tr>
+                        </thead>
+                        <tbody id="licenceTableBody">
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Delete Licence</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete the Licence?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button onclick="confirmRemove()" type="button" class="btn btn-info btn-fill" data-dismiss="modal">
+                    Delete
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="wrapper">
     <%@include file="leftBar.jsp" %>
     <div class="main-panel">
@@ -57,8 +177,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="${pageContext.request.contextPath}/licence/contentLicence">Content Licence</a>
-                    <a style="font-weight: bold"  class="navbar-brand" href="#">User Licence</a>
+                    <a class="navbar-brand" href="${pageContext.request.contextPath}/licence/contentLicence">Content
+                        Licence</a>
+                    <a style="font-weight: bold" class="navbar-brand" href="#">User Licence</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -78,34 +199,34 @@
                 <div class="col-md-8">
                     <div class="card">
                         <div class="header">
-                            <h4 class="title">Create Content Licence</h4>
+                            <h4 class="title">Create User Licence</h4>
                         </div>
                         <div class="content">
-                            <form action="${pageContext.request.contextPath}/backstage/articleUpload" method="post"
+                            <form method="post"
                                   enctype="multipart/form-data">
                                 <div class="row">
-
-                                    <div class="col-md-6">
-
-                                        <label for="licenceName">Licence Name</label>
-                                        <select id="licenceName" name="licenceName" class="form-control"
-                                                onchange="licenceNameChanged(this)">
-                                            <script>
-                                                nameToDescription = {};
-                                            </script>
-                                            <c:forEach var="licence" items="${requestScope.licences}">
-                                                <option value="${licence.name}">${licence.name}</option>
-                                                <script>
-                                                    nameToDescription["${licence.name}"] = "${licence.contentLicenceDescription}";
-                                                </script>
-                                            </c:forEach>
-                                        </select>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label>Content Licence</label>
+                                            <button onclick="showLicences()" type="button" id="chooseLicence"
+                                                    class="form-control">Choose Content
+                                                Licence
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="chosenLicenceId">Chosen Content Licence</label>
+                                            <input readonly id="chosenLicenceId" name="contentLicenceId" type="text"
+                                                   class="form-control"
+                                                   value="${requestScope.form.contentLicenceId}">
+                                        </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label>Content ID</label>
-                                            <input name="contentID" type="text" class="form-control"
-                                                   placeholder="Content ID" value="${requestScope.form.seriesIssn}">
+                                            <label>Username</label>
+                                            <input name="username" type="text" class="form-control"
+                                                   value="${requestScope.form.username}">
                                         </div>
                                     </div>
                                 </div>
@@ -115,12 +236,13 @@
                                             <label for="licenceBody">Licence Body</label>
                                             <textarea placeholder="Licence Body" id="licenceBody" name="licenceBody"
                                                       class="form-control"
-                                                      rows="5"></textarea>
+                                                      rows="5">${requestScope.form.body}</textarea>
                                         </div>
                                     </div>
                                 </div>
 
-                                <button type="submit" style="margin-left: 10px;"
+                                <button formaction="${pageContext.request.contextPath}/licence/createUserLicence"
+                                        type="submit" style="margin-left: 10px;"
                                         class="btn btn-info btn-fill pull-right">Create
                                 </button>
                                 <div class="clearfix"></div>
@@ -138,16 +260,24 @@
                         <div class="content table-responsive table-full-width">
                             <table class="table table-hover table-striped">
                                 <thead>
-                                <th>Content ID</th>
-                                <th>Licence Name</th>
+                                <th>Username</th>
+                                <th>Start Date</th>
                                 <th>Licence Body</th>
+                                <th>Content Licence</th>
                                 </thead>
                                 <tbody id="identityTableBody">
-                                <c:forEach items="${requestScope.contentsLicences}" var="contentLicence">
+                                <c:forEach items="${requestScope.usersLicences}" var="contentLicence">
                                     <tr>
-                                        <td>${contentLicence.contentId}</td>
-                                        <td>${contentLicence.licenceName}</td>
+                                        <td style="display: none">${contentLicence.id}</td>
+                                        <td>${contentLicence.username}</td>
+                                        <td>${contentLicence.startDate}</td>
                                         <td>${contentLicence.body}</td>
+                                        <td>
+                                            <button id="showLicence" class="btn btn-info"
+                                                    onclick="showLicence('${contentLicence.contentLicenceId}')">
+                                                Show Content Licence
+                                            </button>
+                                        </td>
                                         <td>
                                             <button class="glyphicon glyphicon-trash btn btn-info"
                                                     onclick="removeRow(this)">
@@ -229,7 +359,6 @@
     $(document).ready(function () {
         $(function () {
             $(".c").addClass("active");
-            licenceNameChanged(document.getElementById("licenceName"));
         });
     });
 
@@ -251,6 +380,47 @@
     function licenceNameChanged(select) {
         var selected = select.value;
         document.getElementById("licenceBody").placeholder = nameToDescription[selected];
+    }
+
+    function showLicences() {
+        $('#licencesModal').modal('show');
+    }
+
+    function showLicence(contentLicenceId) {
+        var tableRow = $("td.contentLicenceId").filter(function() {
+            return $(this).text() == contentLicenceId;
+        }).closest("tr").html();
+        $("#licenceTableBody").html('');
+        $("#licenceTableBody").append('<tr>'+tableRow+'</tr>');
+        $('#licenceModal').modal('show');
+    }
+    function chooseLicence(row) {
+        var contentLicenceId = $(row).find('td:first-child').text();
+        $('#licencesModal').modal('hide');
+        document.getElementById("chosenLicenceId").value = contentLicenceId;
+    }
+
+
+    function removeRow(button) {
+        row = $(button).closest('tr');
+        userContentLicenceId = row.find('td:first-child').text();
+        $('#exampleModal').modal('show');
+    }
+
+
+    function confirmRemove() {
+
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:8080/AdminTool/licence/deleteUserLicence?id=" + userContentLicenceId,
+            success: function (data, textStatus, xhr) {
+                row.remove();
+                notify("Licence Removed")
+            },
+            error: function (xhr, status, error) {
+                notify(xhr.responseText);
+            }
+        });
     }
 
 

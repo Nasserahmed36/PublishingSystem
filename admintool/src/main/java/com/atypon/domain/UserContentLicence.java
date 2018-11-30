@@ -1,11 +1,20 @@
 package com.atypon.domain;
 
 public class UserContentLicence {
+    private int id;
     private String username;
     private int contentLicenceId;
     private long startDate;
     private String body;
 
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getUsername() {
         return username;

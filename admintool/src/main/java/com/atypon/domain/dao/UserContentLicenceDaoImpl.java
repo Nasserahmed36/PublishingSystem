@@ -35,9 +35,23 @@ public class UserContentLicenceDaoImpl implements UserContentLicenceDao {
     }
 
     @Override
+    public boolean delete(int id) {
+        String sql = "DELETE FROM user_content_licence WHERE id=?";
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            int index = 0;
+            statement.setInt(++index, id);
+            return statement.executeUpdate() > 0;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    @Override
     public List<UserContentLicence> get(String username, String contentLicenceId) {
         List<UserContentLicence> userLicences = new ArrayList<>();
-        String sql = "SELECT  username, content_licence_Id, start_date, body " +
+        String sql = "SELECT  id, username, content_licence_Id, start_date, body " +
                 "from user_content_licence where content_licence_Id = ?";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
@@ -52,9 +66,27 @@ public class UserContentLicenceDaoImpl implements UserContentLicenceDao {
         return userLicences;
     }
 
+    @Override
+    public List<UserContentLicence> getAll() {
+        List<UserContentLicence> usersLicences = new ArrayList<>();
+        String sql = "SELECT id, username,content_licence_Id,start_date,body" +
+                " from user_content_licence";
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            ResultSet resultSet = statement.executeQuery();
+            while (resultSet.next()) {
+                usersLicences.add(extractUserLicence(resultSet));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return usersLicences;
+    }
+
     private UserContentLicence extractUserLicence(ResultSet resultSet) throws SQLException {
         UserContentLicence userLicence = new UserContentLicence();
         int index = 0;
+        userLicence.setId(resultSet.getInt(++index));
         userLicence.setUsername(resultSet.getString(++index));
         userLicence.setContentLicenceId(resultSet.getInt(++index));
         userLicence.setStartDate(resultSet.getTimestamp(++index).getTime());

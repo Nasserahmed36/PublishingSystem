@@ -43,7 +43,29 @@
 
 </head>
 <body>
-
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Delete Licence</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete the Licence?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button onclick="confirmRemove()" type="button" class="btn btn-info btn-fill" data-dismiss="modal">
+                    Delete
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="wrapper">
     <%@include file="leftBar.jsp" %>
     <div class="main-panel">
@@ -58,7 +80,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a style="font-weight: bold" class="navbar-brand" href="#">Content Licence</a>
-                    <a class="navbar-brand" href="#">User Licence</a>
+                    <a class="navbar-brand" href="${pageContext.request.contextPath}/licence/userLicence">User Licence</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -105,7 +127,7 @@
                                         <div class="form-group">
                                             <label>Content ID</label>
                                             <input name="contentId" type="text" class="form-control"
-                                                   placeholder="Content ID" value="${requestScope.form.seriesIssn}">
+                                                   placeholder="Content ID" value="${requestScope.form.contentId}">
                                         </div>
                                     </div>
                                 </div>
@@ -115,7 +137,7 @@
                                             <label for="licenceBody">Licence Body</label>
                                             <textarea placeholder="Licence Body" id="licenceBody" name="licenceBody"
                                                       class="form-control"
-                                                      rows="5"></textarea>
+                                                      rows="5">${requestScope.form.body}</textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -146,6 +168,7 @@
                                 <tbody id="identityTableBody">
                                 <c:forEach items="${requestScope.contentsLicences}" var="contentLicence">
                                     <tr>
+                                        <td style="display: none">${contentLicence.id}</td>
                                         <td>${contentLicence.contentId}</td>
                                         <td>${contentLicence.licenceName}</td>
                                         <td>${contentLicence.body}</td>
@@ -252,6 +275,27 @@
     function licenceNameChanged(select) {
         var selected = select.value;
         document.getElementById("licenceBody").placeholder = nameToDescription[selected];
+    }
+
+    function removeRow(button) {
+        row = $(button).closest('tr');
+        contentLicenceId = row.find('td:first-child').text();
+        $('#exampleModal').modal('show');
+    }
+
+    function confirmRemove() {
+
+        $.ajax({
+            type: "GET",
+            url: "http://localhost:8080/AdminTool/licence/deleteContentLicence?id=" + contentLicenceId,
+            success: function (data, textStatus, xhr) {
+                row.remove();
+                notify("Licence Removed")
+            },
+            error: function (xhr, status, error) {
+                notify(xhr.responseText);
+            }
+        });
     }
 
 

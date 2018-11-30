@@ -85,12 +85,19 @@ public class AppListener implements ServletContextListener {
         ContentLicenceService contentLicenceService = new ContentLicenceServiceImpl(contentLicenceDao);
         context.setAttribute("contentLicenceService", contentLicenceService);
 
+        UserContentLicenceDao userContentLicenceDao = new UserContentLicenceDaoImpl(dataSource);
+        context.setAttribute("userContentLicenceDao", userContentLicenceDao);
+
+        UserContentLicenceService userContentLicenceService = new UserContentLicenceServiceImpl(userContentLicenceDao);
+        context.setAttribute("userContentLicenceService", userContentLicenceService);
+
         NotificationDao notificationDao = new NotificationDaoImpl(dataSource);
         context.setAttribute("notificationDao", notificationDao);
 
         NotificationService notificationService = new NotificationServiceImpl(notificationDao);
         context.setAttribute("notificationService", notificationService);
         ApplicationContext.setAttribute("notificationService", notificationService);
+
 
         asynchronusService = new BackstageConsumer(creationQueue, deletionQueue);
         asynchronusService.start();

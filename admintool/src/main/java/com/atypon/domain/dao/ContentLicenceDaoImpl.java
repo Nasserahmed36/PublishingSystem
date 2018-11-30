@@ -36,6 +36,19 @@ public class ContentLicenceDaoImpl implements ContentLicenceDao {
     }
 
     @Override
+    public boolean delete(int id) {
+        String sql = "DELETE FROM content_licence WHERE id=?";
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setInt(1, id);
+            return statement.executeUpdate() > 0;
+        } catch (SQLException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    @Override
     public List<ContentLicence> get(String contentId) {
         List<ContentLicence> contentLicences = new ArrayList<>();
         String sql = "SELECT id, content_id, licence_name, body from content_licence" +

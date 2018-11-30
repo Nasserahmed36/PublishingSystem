@@ -18,6 +18,11 @@ public class ContentLicenceServiceImpl implements ContentLicenceService {
     }
 
     @Override
+    public boolean delete(int id) {
+        return dao.delete(id);
+    }
+
+    @Override
     public List<ContentLicence> get(String contentId) {
         return dao.get(contentId);
     }
