@@ -17,15 +17,15 @@ public class AuthenticationServiceImpl implements AuthenticationService {
     }
 
     @Override
-    public boolean hasAccess(String user, Request request, String contentId) {
+    public boolean hasAccess(Request request, String user, String contentId) {
         List<ContentLicence> contentLicences = contentLicenceDao.get(contentId);
         for (ContentLicence contentLicence : contentLicences) {
             String licenceName = contentLicence.getLicenceName();
-            Authenticator authenticator = Authenticators.getAuthenticator(licenceName);
-            if (authenticator == null) {
+            Authenticator licenceAuthenticator = Authenticators.getAuthenticator(licenceName);
+            if (licenceAuthenticator == null) {
                 continue;
             }
-            if (authenticator.hasAccess(user, request, contentLicence)) {
+            if (licenceAuthenticator.hasAccess(user, request, contentLicence)) {
                 return true;
             }
         }

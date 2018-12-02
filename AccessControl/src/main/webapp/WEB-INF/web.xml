@@ -3,6 +3,7 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                              http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
     <servlet>
+
         <servlet-name>springmvc</servlet-name>
         <servlet-class>
             org.springframework.web.servlet.DispatcherServlet
@@ -18,4 +19,9 @@
         <servlet-name>springmvc</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+
+    <context-param>
+        <param-name>datasourceEnv</param-name>
+        <param-value>jdbc/mysql</param-value>
+    </context-param>
 </web-app>

@@ -11,12 +11,17 @@ import java.io.IOException;
 public class LoginFilter implements Filter {
 
     @Override
+    public void init(FilterConfig filterConfig) {
+
+    }
+
+    @Override
     public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws ServletException, IOException {
         HttpServletRequest request = (HttpServletRequest) req;
         HttpServletResponse response = (HttpServletResponse) res;
         HttpSession session = request.getSession(false);
         String loginURI = request.getContextPath() + "/login";
-        String loginPage = loginURI + "/" + "loginPage";
+        String loginPage = loginURI + "/" + "loginPage" + "?result=You are not logged in";
         String requestUri = request.getRequestURI();
 
         boolean isUserLoggedIn = session != null && session.getAttribute("user") != null;
