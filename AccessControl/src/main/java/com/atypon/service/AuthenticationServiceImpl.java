@@ -3,7 +3,7 @@ package com.atypon.service;
 import com.atypon.authentication.Authenticator;
 import com.atypon.authentication.Authenticators;
 import com.atypon.domain.ContentLicence;
-import com.atypon.domain.Request;
+import com.atypon.domain.UserRequest;
 import com.atypon.domain.dao.ContentLicenceDao;
 
 import java.util.List;
@@ -17,7 +17,7 @@ public class AuthenticationServiceImpl implements AuthenticationService {
     }
 
     @Override
-    public boolean hasAccess(Request request, String user, String contentId) {
+    public boolean hasAccess(UserRequest userRequest, String user, String contentId) {
         List<ContentLicence> contentLicences = contentLicenceDao.get(contentId);
         for (ContentLicence contentLicence : contentLicences) {
             String licenceName = contentLicence.getLicenceName();
@@ -25,7 +25,7 @@ public class AuthenticationServiceImpl implements AuthenticationService {
             if (licenceAuthenticator == null) {
                 continue;
             }
-            if (licenceAuthenticator.hasAccess(user, request, contentLicence)) {
+            if (licenceAuthenticator.hasAccess(user, userRequest, contentLicence)) {
                 return true;
             }
         }
