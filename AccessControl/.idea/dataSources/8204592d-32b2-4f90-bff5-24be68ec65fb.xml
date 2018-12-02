@@ -1112,660 +1112,524 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="279" parent="2" name="content_licence"/>
-    <table id="280" parent="2" name="identity"/>
-    <table id="281" parent="2" name="licence"/>
-    <table id="282" parent="2" name="user_content_licence"/>
-    <table id="283" parent="3" name="article"/>
-    <table id="284" parent="3" name="article_author"/>
-    <table id="285" parent="3" name="content_licence"/>
-    <table id="286" parent="3" name="identity"/>
-    <table id="287" parent="3" name="issue"/>
-    <table id="288" parent="3" name="issue_subject"/>
-    <table id="289" parent="3" name="journal"/>
-    <table id="290" parent="3" name="licence"/>
-    <table id="291" parent="3" name="notification"/>
-    <table id="292" parent="3" name="save_point"/>
-    <table id="293" parent="3" name="submission"/>
-    <table id="294" parent="3" name="user_content_licence"/>
-    <column id="295" parent="279" name="id">
+    <table id="279" parent="2" name="authorized_inquirer"/>
+    <table id="280" parent="3" name="article"/>
+    <table id="281" parent="3" name="article_author"/>
+    <table id="282" parent="3" name="content_licence"/>
+    <table id="283" parent="3" name="identity"/>
+    <table id="284" parent="3" name="issue"/>
+    <table id="285" parent="3" name="issue_subject"/>
+    <table id="286" parent="3" name="journal"/>
+    <table id="287" parent="3" name="licence"/>
+    <table id="288" parent="3" name="notification"/>
+    <table id="289" parent="3" name="save_point"/>
+    <table id="290" parent="3" name="submission"/>
+    <table id="291" parent="3" name="user_content_licence"/>
+    <column id="292" parent="279" name="name">
       <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <SequenceIdentity>1</SequenceIdentity>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="296" parent="279" name="content_id">
-      <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="297" parent="279" name="licence_id">
+    <column id="293" parent="279" name="public_key">
+      <Position>2</Position>
+      <DataType>varchar(1024)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="294" parent="279" name="private_key">
       <Position>3</Position>
-      <DataType>int(11)|0s</DataType>
+      <DataType>varchar(1024)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="298" parent="279" name="period">
-      <Position>4</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="299" parent="279" name="price">
-      <Position>5</Position>
-      <DataType>float|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="300" parent="279" name="content_id">
-      <ColNames>content_id
-licence_id
-period</ColNames>
-      <Unique>1</Unique>
-      <Type>btree</Type>
-    </index>
-    <index id="301" parent="279" name="licence_id">
-      <ColNames>licence_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="302" parent="279" name="PRIMARY">
+    <key id="295" parent="279" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
+      <ColNames>name</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="303" parent="279" name="content_id">
-      <ColNames>content_id
-licence_id
-period</ColNames>
-      <UnderlyingIndexName>content_id</UnderlyingIndexName>
-    </key>
-    <foreign-key id="304" parent="279" name="content_licence_ibfk_1">
-      <ColNames>licence_id</ColNames>
-      <RefSchemaName>AccessControl</RefSchemaName>
-      <RefTableName>licence</RefTableName>
-      <RefColNames>id</RefColNames>
-    </foreign-key>
-    <column id="305" parent="280" name="username">
+    <column id="296" parent="280" name="doi">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="306" parent="280" name="last_name">
+    <column id="297" parent="280" name="title">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="307" parent="280" name="first_name">
+    <column id="298" parent="280" name="issue_doi">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="308" parent="280" name="email">
+    <column id="299" parent="280" name="subject">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="309" parent="280" name="password">
+    <column id="300" parent="280" name="first_page">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="310" parent="280" name="type">
+    <column id="301" parent="280" name="last_page">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="311" parent="280" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>username</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="312" parent="281" name="id">
-      <Position>1</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="313" parent="281" name="type">
-      <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <key id="314" parent="281" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <column id="315" parent="282" name="username">
-      <Position>1</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="316" parent="282" name="content_licence_id">
-      <Position>2</Position>
-      <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="317" parent="282" name="start_date">
-      <Position>3</Position>
-      <DataType>timestamp|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="318" parent="282" name="content_licence_id">
-      <ColNames>content_licence_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="319" parent="282" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>username
-content_licence_id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <foreign-key id="320" parent="282" name="user_content_licence_ibfk_1">
-      <ColNames>username</ColNames>
-      <RefSchemaName>AccessControl</RefSchemaName>
-      <RefTableName>identity</RefTableName>
-      <RefColNames>username</RefColNames>
-    </foreign-key>
-    <foreign-key id="321" parent="282" name="user_content_licence_ibfk_2">
-      <ColNames>content_licence_id</ColNames>
-      <RefSchemaName>AccessControl</RefSchemaName>
-      <RefTableName>content_licence</RefTableName>
-      <RefColNames>id</RefColNames>
-    </foreign-key>
-    <column id="322" parent="283" name="doi">
-      <Position>1</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="323" parent="283" name="title">
-      <Position>2</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="324" parent="283" name="issue_doi">
-      <Position>3</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="325" parent="283" name="subject">
-      <Position>4</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="326" parent="283" name="first_page">
-      <Position>5</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="327" parent="283" name="last_page">
-      <Position>6</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="328" parent="283" name="month">
+    <column id="302" parent="280" name="month">
       <Position>7</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="329" parent="283" name="year">
+    <column id="303" parent="280" name="year">
       <Position>8</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="330" parent="283" name="issue_doi">
+    <index id="304" parent="280" name="issue_doi">
       <ColNames>issue_doi
 subject</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="331" parent="283" name="PRIMARY">
+    <key id="305" parent="280" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>doi</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="332" parent="283" name="article_ibfk_1">
+    <foreign-key id="306" parent="280" name="article_ibfk_1">
       <ColNames>issue_doi</ColNames>
       <RefSchemaName>AdminTool</RefSchemaName>
       <RefTableName>issue</RefTableName>
       <RefColNames>doi</RefColNames>
     </foreign-key>
-    <column id="333" parent="284" name="article_dao">
+    <column id="307" parent="281" name="article_dao">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="334" parent="284" name="given_name">
+    <column id="308" parent="281" name="given_name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="335" parent="284" name="sur_name">
+    <column id="309" parent="281" name="sur_name">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="336" parent="284" name="degrees">
+    <column id="310" parent="281" name="degrees">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="337" parent="284" name="article_dao">
+    <index id="311" parent="281" name="article_dao">
       <ColNames>article_dao</ColNames>
       <Type>btree</Type>
     </index>
-    <foreign-key id="338" parent="284" name="article_author_ibfk_1">
+    <foreign-key id="312" parent="281" name="article_author_ibfk_1">
       <ColNames>article_dao</ColNames>
       <RefSchemaName>AdminTool</RefSchemaName>
       <RefTableName>article</RefTableName>
       <RefColNames>doi</RefColNames>
     </foreign-key>
-    <column id="339" parent="285" name="id">
+    <column id="313" parent="282" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="340" parent="285" name="content_id">
+    <column id="314" parent="282" name="content_id">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="341" parent="285" name="licence_name">
+    <column id="315" parent="282" name="licence_name">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="342" parent="285" name="body">
+    <column id="316" parent="282" name="body">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="343" parent="285" name="UC_content_licence">
+    <index id="317" parent="282" name="UC_content_licence">
       <ColNames>content_id
 licence_name</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="344" parent="285" name="content_licence_Licence_name_fk">
+    <index id="318" parent="282" name="content_licence_Licence_name_fk">
       <ColNames>licence_name</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="345" parent="285" name="PRIMARY">
+    <key id="319" parent="282" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="346" parent="285" name="UC_content_licence">
+    <key id="320" parent="282" name="UC_content_licence">
       <ColNames>content_id
 licence_name</ColNames>
       <UnderlyingIndexName>UC_content_licence</UnderlyingIndexName>
     </key>
-    <foreign-key id="347" parent="285" name="content_licence_Licence_name_fk">
+    <foreign-key id="321" parent="282" name="content_licence_Licence_name_fk">
       <ColNames>licence_name</ColNames>
       <RefSchemaName>AdminTool</RefSchemaName>
       <RefTableName>licence</RefTableName>
       <RefColNames>name</RefColNames>
     </foreign-key>
-    <column id="348" parent="286" name="username">
+    <column id="322" parent="283" name="username">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="349" parent="286" name="last_name">
+    <column id="323" parent="283" name="last_name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="350" parent="286" name="first_name">
+    <column id="324" parent="283" name="first_name">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="351" parent="286" name="email">
+    <column id="325" parent="283" name="email">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="352" parent="286" name="password">
+    <column id="326" parent="283" name="password">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="353" parent="286" name="type">
+    <column id="327" parent="283" name="type">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="354" parent="286" name="PRIMARY">
+    <key id="328" parent="283" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>username</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="355" parent="287" name="doi">
+    <column id="329" parent="284" name="doi">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="356" parent="287" name="journal_print_issn">
+    <column id="330" parent="284" name="journal_print_issn">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="357" parent="287" name="number">
+    <column id="331" parent="284" name="number">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="358" parent="287" name="volume">
+    <column id="332" parent="284" name="volume">
       <Position>4</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="359" parent="287" name="month">
+    <column id="333" parent="284" name="month">
       <Position>5</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="360" parent="287" name="year">
+    <column id="334" parent="284" name="year">
       <Position>6</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="361" parent="287" name="journal_print_issn">
+    <index id="335" parent="284" name="journal_print_issn">
       <ColNames>journal_print_issn</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="362" parent="287" name="PRIMARY">
+    <key id="336" parent="284" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>doi</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="363" parent="287" name="issue_ibfk_1">
+    <foreign-key id="337" parent="284" name="issue_ibfk_1">
       <ColNames>journal_print_issn</ColNames>
       <RefSchemaName>AdminTool</RefSchemaName>
       <RefTableName>journal</RefTableName>
       <RefColNames>print_issn</RefColNames>
     </foreign-key>
-    <column id="364" parent="288" name="issue_doi">
+    <column id="338" parent="285" name="issue_doi">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="365" parent="288" name="subject_title">
+    <column id="339" parent="285" name="subject_title">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="366" parent="288" name="PRIMARY">
+    <key id="340" parent="285" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>issue_doi
 subject_title</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="367" parent="288" name="issue_subject_ibfk_1">
+    <foreign-key id="341" parent="285" name="issue_subject_ibfk_1">
       <ColNames>issue_doi</ColNames>
       <RefSchemaName>AdminTool</RefSchemaName>
       <RefTableName>issue</RefTableName>
       <RefColNames>doi</RefColNames>
     </foreign-key>
-    <column id="368" parent="289" name="print_issn">
+    <column id="342" parent="286" name="print_issn">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="369" parent="289" name="electronic_issn">
+    <column id="343" parent="286" name="electronic_issn">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="370" parent="289" name="ID">
+    <column id="344" parent="286" name="ID">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="371" parent="289" name="title">
+    <column id="345" parent="286" name="title">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="372" parent="289" name="publisher_name">
+    <column id="346" parent="286" name="publisher_name">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="373" parent="289" name="publisher_location">
+    <column id="347" parent="286" name="publisher_location">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="374" parent="289" name="discipline">
+    <column id="348" parent="286" name="discipline">
       <Position>7</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="375" parent="289" name="electronic_issn">
+    <index id="349" parent="286" name="electronic_issn">
       <ColNames>electronic_issn</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="376" parent="289" name="ID">
+    <index id="350" parent="286" name="ID">
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="377" parent="289" name="PRIMARY">
+    <key id="351" parent="286" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>print_issn</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="378" parent="289" name="electronic_issn">
+    <key id="352" parent="286" name="electronic_issn">
       <ColNames>electronic_issn</ColNames>
       <UnderlyingIndexName>electronic_issn</UnderlyingIndexName>
     </key>
-    <key id="379" parent="289" name="ID">
+    <key id="353" parent="286" name="ID">
       <ColNames>ID</ColNames>
       <UnderlyingIndexName>ID</UnderlyingIndexName>
     </key>
-    <column id="380" parent="290" name="name">
+    <column id="354" parent="287" name="name">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="381" parent="290" name="content_licence_body_description">
+    <column id="355" parent="287" name="content_licence_body_description">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="382" parent="290" name="user_licence_body_description">
+    <column id="356" parent="287" name="user_licence_body_description">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="383" parent="290" name="PRIMARY">
+    <key id="357" parent="287" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>name</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="384" parent="291" name="id">
+    <column id="358" parent="288" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="385" parent="291" name="type">
+    <column id="359" parent="288" name="type">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="386" parent="291" name="content">
+    <column id="360" parent="288" name="content">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="387" parent="291" name="operation">
+    <column id="361" parent="288" name="operation">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="388" parent="291" name="submission_notification_serial_number_uindex">
+    <index id="362" parent="288" name="submission_notification_serial_number_uindex">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="389" parent="291" name="PRIMARY">
+    <key id="363" parent="288" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="390" parent="291" name="submission_notification_serial_number_uindex">
+    <key id="364" parent="288" name="submission_notification_serial_number_uindex">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>submission_notification_serial_number_uindex</UnderlyingIndexName>
     </key>
-    <column id="391" parent="292" name="name">
+    <column id="365" parent="289" name="name">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="392" parent="292" name="value">
+    <column id="366" parent="289" name="value">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="393" parent="292" name="PRIMARY">
+    <key id="367" parent="289" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>name</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="394" parent="293" name="id">
+    <column id="368" parent="290" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="395" parent="293" name="series_issn">
+    <column id="369" parent="290" name="series_issn">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="396" parent="293" name="file_name">
+    <column id="370" parent="290" name="file_name">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="397" parent="293" name="date">
+    <column id="371" parent="290" name="date">
       <Position>4</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="398" parent="293" name="status">
+    <column id="372" parent="290" name="status">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="399" parent="293" name="path">
+    <column id="373" parent="290" name="path">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="400" parent="293" name="PRIMARY">
+    <key id="374" parent="290" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="401" parent="294" name="username">
+    <column id="375" parent="291" name="username">
       <Position>1</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="402" parent="294" name="content_licence_Id">
+    <column id="376" parent="291" name="content_licence_Id">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="403" parent="294" name="body">
+    <column id="377" parent="291" name="body">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="404" parent="294" name="user_content_licence_content_licence_id_fk">
+    <index id="378" parent="291" name="user_content_licence_content_licence_id_fk">
       <ColNames>content_licence_Id</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="405" parent="294" name="PRIMARY">
+    <key id="379" parent="291" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>username
 content_licence_Id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="406" parent="294" name="user_content_licence_identity_username_fk">
+    <foreign-key id="380" parent="291" name="user_content_licence_identity_username_fk">
       <ColNames>username</ColNames>
       <RefSchemaName>AdminTool</RefSchemaName>
       <RefTableName>identity</RefTableName>
       <RefColNames>username</RefColNames>
     </foreign-key>
-    <foreign-key id="407" parent="294" name="user_content_licence_content_licence_id_fk">
+    <foreign-key id="381" parent="291" name="user_content_licence_content_licence_id_fk">
       <ColNames>content_licence_Id</ColNames>
       <RefSchemaName>AdminTool</RefSchemaName>
       <RefTableName>content_licence</RefTableName>
