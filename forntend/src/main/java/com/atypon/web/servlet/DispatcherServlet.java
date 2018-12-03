@@ -1,6 +1,7 @@
 package com.atypon.web.servlet;//package com.atypon.com.atypon.web.servlet;
 
 
+import com.atypon.managing.ContentManager;
 import com.atypon.web.controller.IssueController;
 import com.atypon.web.controller.JournalController;
 
@@ -11,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "DispatcherServlet", urlPatterns = {"/journal/*","/issue/*"})
+@WebServlet(name = "DispatcherServlet", urlPatterns = {"/journal/*","/issue/*","/article/*"})
 public class DispatcherServlet extends HttpServlet {
     private static final String JSPS_FILE = "/publish";
 
@@ -27,6 +28,7 @@ public class DispatcherServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        ContentManager.getArticlePath("10.1177/2325160315620797");
         String action = extractAction(request);
         String view = null;
         switch (action) {

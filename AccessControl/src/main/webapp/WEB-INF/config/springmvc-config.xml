@@ -33,7 +33,7 @@
           class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/AccessControl"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/AdminTool"/>
         <property name="username" value="root"/>
         <property name="password" value="123"/>
     </bean>
@@ -46,7 +46,11 @@
         <constructor-arg ref="dataSource"/>
     </bean>
 
-    <bean id="authenticationService" class="com.atypon.service.AuthenticationServiceImpl">
+    <bean id="userContentLicenceService" class="com.atypon.service.UserContentLicenceServiceImpl">
+        <constructor-arg ref="userContentLicenceDao"/>
+    </bean>
+
+    <bean id="authenticationService" class="com.atypon.authentication.AuthenticationServiceImpl">
         <constructor-arg ref="contentLicenceDao"/>
     </bean>
 
@@ -58,4 +62,6 @@
         <constructor-arg ref="authorizedInquirerDao"/>
     </bean>
 
+    <bean id="authenticatorsDependencies" class="com.atypon.authentication.AuthenticatorsDependencies"/>
+    <bean id="staticContextInitializer" class="com.atypon.authentication.StaticContextInitializer"/>
 </beans>

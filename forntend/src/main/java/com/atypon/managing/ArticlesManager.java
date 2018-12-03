@@ -1,6 +1,6 @@
 package com.atypon.managing;
 
-import com.atypon.backstage.AsynchronousService;
+import com.atypon.commons.AsynchronousService;
 import com.atypon.context.ApplicationContext;
 import com.atypon.domain.Notification;
 import com.atypon.notification.NotificationHandler;

@@ -1,10 +1,8 @@
 package com.atypon.web.listener;
 
 
-import com.atypon.backstage.AsynchronousService;
 import com.atypon.context.ApplicationContext;
 import com.atypon.domain.dao.*;
-import com.atypon.managing.ArticlesManager;
 import com.atypon.notification.NotificationService;
 import com.atypon.notification.NotificationServiceImpl;
 import com.atypon.service.*;
@@ -22,7 +20,6 @@ import javax.sql.DataSource;
 public class AppListener implements ServletContextListener {
 
 
-    private AsynchronousService articlesManager;
 
     @Override
     public void contextInitialized(ServletContextEvent sce) {
@@ -43,26 +40,26 @@ public class AppListener implements ServletContextListener {
 
         IssueService issueService = new IssueServiceImpl(issueDao);
         context.setAttribute("issueService", issueService);
+        ApplicationContext.setAttribute("issueService",issueService);
 
         ArticleDao articleDao = new ArticleDaoImpl(dataSource);
         context.setAttribute("articleDao", articleDao);
 
         ArticleService articleService = new ArticleServiceImpl(articleDao);
         context.setAttribute("articleService", articleService);
+        ApplicationContext.setAttribute("articleService",articleService);
 
 
         NotificationService notificationService = new NotificationServiceImpl(new NotificationDaoImpl(dataSource));
         context.setAttribute("notificationService", notificationService);
         ApplicationContext.setAttribute("notificationService", notificationService);
 
-        articlesManager = new ArticlesManager();
-        articlesManager.start();
+
 
     }
 
     @Override
     public void contextDestroyed(ServletContextEvent sce) {
-        articlesManager.stop();
     }
 
     private DataSource getDataSource(ServletContext servletContext) {

@@ -1,13 +1,13 @@
 package com.atypon.controller;
 
 
+import com.atypon.authentication.AuthenticatorsDependencies;
 import com.atypon.consensus.QuerySignatureComputer;
 import com.atypon.consensus.SignatureComputer;
-import com.atypon.consensus.Signer;
-import com.atypon.domain.AuthorizedInquirer;
+
 import com.atypon.domain.HasAccessQuery;
 import com.atypon.domain.UserRequest;
-import com.atypon.service.AuthenticationService;
+import com.atypon.authentication.AuthenticationService;
 import com.atypon.service.AuthorizedInquirerService;
 import com.google.gson.Gson;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 @RestController
 public class AccessControlController {
 
+    private final static Gson GSON = new Gson();
     @Autowired
     private AuthorizedInquirerService authorizedInquirerService;
 
@@ -31,8 +32,9 @@ public class AccessControlController {
 
     @ModelAttribute("hasAccessQuery")
     public HasAccessQuery foo(@RequestBody String body) {
-        HasAccessQuery hasAccessQuery = new Gson().fromJson(body, HasAccessQuery.class);
-        AuthorizedInquirer inquirer = authorizedInquirerService.get(hasAccessQuery.getInquirerName());
+
+        HasAccessQuery hasAccessQuery = GSON.fromJson(body, HasAccessQuery.class);
+//        AuthorizedInquirer inquirer = authorizedInquirerService.get(hasAccessQuery.getInquirerName());
         return hasAccessQuery;
 //        try {
 //            if (signatureComputer.verify(hasAccessQuery, hasAccessQuery.getInquirerSignature(), inquirer.getPublicKey())) {
@@ -45,11 +47,12 @@ public class AccessControlController {
 
 
     @RequestMapping(value = "/hasAccess", method = {RequestMethod.POST})
-    public boolean hasAccess(@ModelAttribute HasAccessQuery hasAccessQuery,
+    public boolean hasAccess(@ModelAttribute("hasAccessQuery") HasAccessQuery hasAccessQuery,
                              HttpServletRequest request) {
         if (hasAccessQuery == null) {
             return false;
         }
+        System.out.println(AuthenticatorsDependencies.getUserContentLicenceDao());
         return authenticationService.hasAccess(extractUserRequest(request),
                 hasAccessQuery.getUsername(),
                 hasAccessQuery.getContentId());

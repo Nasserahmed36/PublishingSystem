@@ -81,7 +81,6 @@ com/atypon/backstage/ArticleMetadataProcessor.class
 com/atypon/backstage/ArticleSubmissionNavigator.class
 com/atypon/backstage/ArticleMetadataProcessor$EndOfTheDocumentException.class
 com/atypon/domain/dao/NotificationDao.class
-com/atypon/web/ServiceFilter.class
 com/atypon/backstage/BackstageConsumer.class
 com/atypon/backstage/IssueMetadataProcessor$XmlIssueHandler.class
 com/atypon/domain/dao/ArticleSubmissionDaoImpl.class

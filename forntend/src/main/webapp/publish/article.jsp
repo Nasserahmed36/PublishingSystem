@@ -161,18 +161,7 @@
                                     <div class=" date"><em>First Published August 16, 2018; pp. 10-15</em>
                                     </div>
                                 </div><!-- single-post -->
-                                <div class="article">
-                                    <h4>Abstract</h4>
-                                    It is National Diabetes Month, 2018, and we still have a lot of work to do.
-                                    According to CMS, a mere 5% of Medicare beneficiaries with diabetes access Diabetes
-                                    Self-Management and Support (DSMES) services. A study published in the November 21,
-                                    2014, Morbidity and Mortality Weekly Report stated just 6.8% of those with diabetes
-                                    with private insurance used DSMES services. To improve that, AADE is focused on
-                                    increasing referrals, trying to broaden the providers allowed to make a referral,
-                                    and increasing the number of hours allowed per year through the New Expanding Access
-                                    to Diabetes Self-Management Training Act. To learn more, go to
-                                    DiabetesEducator.org/Advocacy.
-                                </div>
+                                <jsp:include page="full.html"/>
                             </div><!-- col-sm-6 -->
                         </div><!-- row -->
                     </div><!-- single-post -->

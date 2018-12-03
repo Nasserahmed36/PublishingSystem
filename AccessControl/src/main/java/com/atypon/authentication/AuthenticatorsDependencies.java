@@ -2,13 +2,19 @@ package com.atypon.authentication;
 
 
 import com.atypon.domain.dao.UserContentLicenceDao;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.atypon.service.UserContentLicenceService;
+
 
 public class AuthenticatorsDependencies {
-    @Autowired
-    private static UserContentLicenceDao userContentLicenceDao;
+    private static UserContentLicenceService userContentLicenceService;
 
-    public static UserContentLicenceDao getUserContentLicenceDao() {
-        return userContentLicenceDao;
+
+    public static UserContentLicenceService getUserContentLicenceDao() {
+        return userContentLicenceService;
     }
+
+    public static void userContentLicenceService(UserContentLicenceService userContentLicenceService) {
+        AuthenticatorsDependencies.userContentLicenceService = userContentLicenceService;
+    }
+
 }
