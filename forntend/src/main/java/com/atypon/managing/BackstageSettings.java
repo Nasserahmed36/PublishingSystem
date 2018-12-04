@@ -74,7 +74,7 @@ class BackstageSettings {
                 File.separator + issueId + File.separator + articleId;
     }
 
-    static String articleDir(String contentDir, String journalId, String issueId, String articleId) {
+    static String cachedArticleDir(String contentDir, String journalId, String issueId, String articleId) {
         return contentDir + File.separator + journalId + File.separator + issueId +
                 File.separator + articleId;
     }

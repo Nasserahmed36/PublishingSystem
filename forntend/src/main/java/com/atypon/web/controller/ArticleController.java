@@ -14,7 +14,6 @@ public class ArticleController implements Controller {
 
     private static final String JOURNALS_VIEW = "journalList.jsp";
     private static final String ISSUES_VIEW = "issueList.jsp";
-    private final String contentPath;
 
     private final IssueService issueService;
     private final JournalService journalService;
@@ -22,7 +21,7 @@ public class ArticleController implements Controller {
 
 
     public ArticleController(ServletContext context) {
-        contentPath = context.getRealPath("publish/content");
+        String contentPath = context.getRealPath("publish/content");
         journalService = (JournalService) context.getAttribute("journalService");
         issueService = (IssueService) context.getAttribute("issueService");
         contentManager = new ContentManager(contentPath);
@@ -43,7 +42,9 @@ public class ArticleController implements Controller {
 
     private String handleView(HttpServletRequest request, HttpServletResponse response) {
         String doi = extractDoi(request);
-
+        String realPath = contentManager.getArticlePath(doi);
+        String relativePath = realPath.split(request.getRealPath("publish")+"/")[1];
+        System.out.println(relativePath);
         return null;
     }
 
@@ -65,8 +66,8 @@ public class ArticleController implements Controller {
     private String extractDoi(HttpServletRequest request) {
         String uri = request.getRequestURI();
         String res[] = uri.split("/");
-        if (res.length >= 5)
-            return res[4];
+        if (res.length >= 6)
+            return res[4] + "/" + res[5];
         else
             return "";
     }

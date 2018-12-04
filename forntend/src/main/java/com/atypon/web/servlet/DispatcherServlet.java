@@ -2,6 +2,7 @@ package com.atypon.web.servlet;//package com.atypon.com.atypon.web.servlet;
 
 
 import com.atypon.managing.ContentManager;
+import com.atypon.web.controller.ArticleController;
 import com.atypon.web.controller.IssueController;
 import com.atypon.web.controller.JournalController;
 
@@ -18,17 +19,18 @@ public class DispatcherServlet extends HttpServlet {
 
     private JournalController journalController;
     private IssueController issueController;
+    private ArticleController articleController;
 
     @Override
     public void init() throws ServletException {
         super.init();
         journalController = new JournalController(getServletContext());
         issueController = new IssueController(getServletContext());
+        articleController = new ArticleController(getServletContext());
     }
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        ContentManager.getArticlePath("10.1177/2325160315620797");
         String action = extractAction(request);
         String view = null;
         switch (action) {
@@ -37,6 +39,8 @@ public class DispatcherServlet extends HttpServlet {
                 break;
             case "issue":
                 view = issueController.handle(request, response);
+            case "article":
+                view = articleController.handle(request,response);
         }
         dispatch(request, response, view);
     }
