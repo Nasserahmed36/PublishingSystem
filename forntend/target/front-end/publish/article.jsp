@@ -44,10 +44,8 @@
             font-weight: bold;
         }
 
-
         div.article span.author span.name {
         }
-
 
         div.issueCard {
             width: 16rem;
@@ -73,10 +71,13 @@
             font-size: 16px;
             color: #333;
         }
-        div.article h4{
+
+        div.article h4 {
             font-family: SansSerif;
             font-weight: bold;
         }
+
+
     </style>
 
 </head>
@@ -147,21 +148,30 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12">
                                 <div class="articleInfo">
-                                    <h4><a href="#">Are You a Solutionary?</a></h4>
+                                    <h4><a href="#">${requestScope.article.title}</a></h4>
                                     <div class="authors">
-                                        <span class="author">
-                                            <span class="name">
-                                                Teresa Pearson
+                                        <c:forEach items="${requestScope.article.authors}" var="author"
+                                                   varStatus="status">
+                                            <span class="author">
+                                                <span class="name">
+                                                    ${author.givenName} ${author.surName}
+                                                </span>
+                                                <span class="degress">
+                                                        ${author.degrees}<c:if test="${not status.last}">,</c:if>
+
+                                                </span>
                                             </span>
-                                            <span class="degress">
-                                                MS, RN, CDE, FAADE
-                                            </span>
-                                        </span>
+                                        </c:forEach>
                                     </div>
-                                    <div class=" date"><em>First Published August 16, 2018; pp. 10-15</em>
+                                    <div class=" date">
+                                        <em>First Published <easy:DateFormat month="${requestScope.article.month}"/>
+                                            16, ${requestScope.article.year};
+                                            pp. ${requestScope.article.firstPage}-${requestScope.article.lastPage}</em>
                                     </div>
                                 </div><!-- single-post -->
-                                <jsp:include page="full.html"/>
+                                <div class="articleContent">
+                                    <jsp:include page="${requestScope.articleView}"/>
+                                </div>
                             </div><!-- col-sm-6 -->
                         </div><!-- row -->
                     </div><!-- single-post -->

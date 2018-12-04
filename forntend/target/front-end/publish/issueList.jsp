@@ -157,7 +157,8 @@
                                             </thead>
                                             <tbody>
                                             <c:forEach items="${requestScope.issues}" var="issue">
-                                                <tr>
+                                                <tr class="clickable-row"
+                                                    data-href="${context}/issue/${issue.doi}">
                                                     <td>${issue.number}</td>
                                                     <td>${issue.year}</td>
                                                     <td>${issue.volume}</td>
@@ -325,6 +326,12 @@
         //this will reload the page, it's likely better to store this until finished
         document.location.search = kvp.join('&');
     }
+
+    $(document).ready(function ($) {
+        $(".clickable-row").click(function () {
+            window.location = $(this).data("href");
+        });
+    });
 </script>
 </body>
 </html>

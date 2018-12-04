@@ -1,9 +1,10 @@
 package com.atypon.web.controller;
 
 
+import com.atypon.domain.Article;
 import com.atypon.managing.ContentManager;
+import com.atypon.service.ArticleService;
 import com.atypon.service.IssueService;
-import com.atypon.service.JournalService;
 import org.apache.commons.lang3.StringUtils;
 
 import javax.servlet.ServletContext;
@@ -12,17 +13,16 @@ import javax.servlet.http.HttpServletResponse;
 
 public class ArticleController implements Controller {
 
-    private static final String JOURNALS_VIEW = "journalList.jsp";
-    private static final String ISSUES_VIEW = "issueList.jsp";
+    private static final String ARTICLE_VIEW = "article.jsp";
 
     private final IssueService issueService;
-    private final JournalService journalService;
+    private final ArticleService articleService;
     private final ContentManager contentManager;
 
 
     public ArticleController(ServletContext context) {
         String contentPath = context.getRealPath("publish/content");
-        journalService = (JournalService) context.getAttribute("journalService");
+        articleService = (ArticleService) context.getAttribute("articleService");
         issueService = (IssueService) context.getAttribute("issueService");
         contentManager = new ContentManager(contentPath);
     }
@@ -42,10 +42,12 @@ public class ArticleController implements Controller {
 
     private String handleView(HttpServletRequest request, HttpServletResponse response) {
         String doi = extractDoi(request);
-        String realPath = contentManager.getArticlePath(doi);
-        String relativePath = realPath.split(request.getRealPath("publish")+"/")[1];
-        System.out.println(relativePath);
-        return null;
+        Article article = articleService.get(doi);
+        String viewAbsolutePath = contentManager.getArticlePath(doi);
+        String viewRelativePath = viewAbsolutePath.split(request.getRealPath("publish") + "/")[1];
+        request.setAttribute("article", article);
+        request.setAttribute("articleView", viewRelativePath);
+        return ARTICLE_VIEW;
     }
 
 

@@ -150,7 +150,9 @@
                                     </h4>
                                     <c:forEach var="article" items="${entry.value}">
                                         <div class="single-post article">
-                                            <h4 class="title"><a href="#">${article.title}</a></h4>
+                                            <h4 class="title"><a
+                                                    href="${context}/article/view/${article.doi}">${article.title}</a>
+                                            </h4>
                                             <div class="authors">
                                                 <c:forEach var="author" varStatus="status" items="${article.authors}">
                                                     <span class="author">
@@ -164,11 +166,13 @@
                                                 </span>
                                                 </c:forEach>
                                             </div>
-                                            <div class=" date"><em>First Published  <easy:DateFormat month="${article.month}"/> 16, ${article.year};
+                                            <div class=" date"><em>First Published <easy:DateFormat
+                                                    month="${article.month}"/> 16, ${article.year};
                                                 pp. ${article.firstPage}-${article.lastPage}</em>
                                             </div>
                                             <div class="options title">
-                                                <a class="btn category-btn" href="#">VIEW </a>
+                                                <a class="btn category-btn"
+                                                   href="${context}/article/view/${article.doi}">VIEW </a>
                                                 <a class="btn category-btn" href="#">PDF</a>
                                             </div>
                                         </div>
@@ -178,136 +182,6 @@
                                 <!-- col-sm-6 -->
 
                             </c:forEach>
-                            <div class="subject col-lg-12 col-md-12">
-
-                                <h4 class="title">
-                                    <b class="light-color">From the Editor</b>
-                                </h4>
-                                <div class="single-post article">
-                                    <h4 class="title"><a href="#">One more night in the localclubs</a></h4>
-                                    <div class="authors">
-                                        <span class="author">
-                                            <span class="name">
-                                                Teresa Pearson
-                                            </span>
-                                            <span class="degress">
-                                                MS, RN, CDE, FAADE
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class=" date"><em>First Published August 16, 2018; pp. 10-15</em>
-                                    </div>
-                                    <div class="options title">
-                                        <a class="btn category-btn" href="#">VIEW </a>
-                                        <a class="btn category-btn" href="#">PDF</a>
-                                    </div>
-                                </div><!-- single-post -->
-                                <div class="single-post article">
-                                    <h4 class="title"><a href="#">One more night in the localclubs</a></h4>
-                                    <div class="authors">
-                                        <span class="author">
-                                            <span class="name">
-                                                Teresa Pearson
-                                            </span>
-                                            <span class="degress">
-                                                MS, RN, CDE, FAADE
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class=" date"><em>First Published August 16, 2018; pp. 10–15</em>
-                                    </div>
-                                    <div class="options title">
-                                        <a class="btn category-btn" href="#">VIEW </a>
-                                        <a class="btn category-btn" href="#">PDF</a>
-                                    </div>
-                                </div><!-- single-post -->
-
-                                <div class="single-post article">
-                                    <h4 class="title"><a href="#">One more night in the localclubs</a></h4>
-                                    <div class="authors">
-                                        <span class="author">
-                                            <span class="name">
-                                                Teresa Pearson
-                                            </span>
-                                            <span class="degress">
-                                                MS, RN, CDE, FAADE
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class=" date"><em>First Published August 16, 2018; pp. 10–15</em>
-                                    </div>
-                                    <div class="options title">
-                                        <a class="btn category-btn" href="#">VIEW </a>
-                                        <a class="btn category-btn" href="#">PDF</a>
-                                    </div>
-                                </div><!-- single-post -->
-
-                            </div><!-- col-sm-6 -->
-                            <div class="subject col-lg-12 col-md-12">
-
-                                <h4 class="title">
-                                    <b class="light-color">From the Editor</b>
-                                </h4>
-                                <div class="single-post article">
-                                    <h4 class="title"><a href="#">One more night in the localclubs</a></h4>
-                                    <div class="authors">
-                                        <span class="author">
-                                            <span class="name">
-                                                Teresa Pearson
-                                            </span>
-                                            <span class="degress">
-                                                MS, RN, CDE, FAADE
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class=" date"><em>First Published August 16, 2018; pp. 10-15</em>
-                                    </div>
-                                    <div class="options title">
-                                        <a class="btn category-btn" href="#">VIEW </a>
-                                        <a class="btn category-btn" href="#">PDF</a>
-                                    </div>
-                                </div><!-- single-post -->
-                                <div class="single-post article">
-                                    <h4 class="title"><a href="#">One more night in the localclubs</a></h4>
-                                    <div class="authors">
-                                        <span class="author">
-                                            <span class="name">
-                                                Teresa Pearson
-                                            </span>
-                                            <span class="degress">
-                                                MS, RN, CDE, FAADE
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class=" date"><em>First Published August 16, 2018; pp. 10–15</em>
-                                    </div>
-                                    <div class="options title">
-                                        <a class="btn category-btn" href="#">VIEW </a>
-                                        <a class="btn category-btn" href="#">PDF</a>
-                                    </div>
-                                </div><!-- single-post -->
-
-                                <div class="single-post article">
-                                    <h4 class="title"><a href="#">One more night in the localclubs</a></h4>
-                                    <div class="authors">
-                                        <span class="author">
-                                            <span class="name">
-                                                Teresa Pearson
-                                            </span>
-                                            <span class="degress">
-                                                MS, RN, CDE, FAADE
-                                            </span>
-                                        </span>
-                                    </div>
-                                    <div class=" date"><em>First Published August 16, 2018; pp. 10–15</em>
-                                    </div>
-                                    <div class="options title">
-                                        <a class="btn category-btn" href="#">VIEW </a>
-                                        <a class="btn category-btn" href="#">PDF</a>
-                                    </div>
-                                </div><!-- single-post -->
-
-                            </div><!-- col-sm-6 -->
                         </div><!-- row -->
                     </div><!-- single-post -->
                 </div><!-- blog-posts -->

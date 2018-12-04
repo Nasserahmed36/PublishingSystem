@@ -3,84 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="31dfa7b1-1b0d-412c-8a0a-554ac8e3c20f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../AccessControl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/access-control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/access-control.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/authentication/Authenticator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/authentication/Authenticators.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/authentication/AuthenticatorsDependencies.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/authentication/FreeLicenceAuthenticator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/authentication/IdentityLicenceAuthenticator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/authentication/LimitedLicenceAuthenticator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/authentication/StaticContextInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/consensus/AsymmetricEncrypting$RSA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/consensus/AsymmetricEncrypting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/consensus/Keys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/consensus/QuerySignatureComputer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/consensus/RSASigner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/consensus/SignatureComputer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/consensus/Signer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/controller/AccessControlController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/Article$Author.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/Article.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/ArticleSubmission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/AuthorizedInquirer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/ContentLicence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/HasAccessQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/Identity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/Issue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/Journal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/Licence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/Notification$Operation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/Notification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/UserContentLicence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/UserRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/ArticleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/ArticleSubmissionDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/AuthorizedInquirerDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/AuthorizedInquirerDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/ContentLicenceDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/ContentLicenceDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/IdentityDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/IdentityDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/IssueDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/IssueDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/JournalDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/JournalDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/LicenceDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/LicenceDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/NotificationDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/NotificationDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/UserContentLicenceDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/domain/dao/UserContentLicenceDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/form/IdentityForm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/service/AuthenticationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/service/AuthenticationServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/service/AuthorizedInquirerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/service/AuthorizedInquirerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/service/ContentLicenceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/service/ContentLicenceServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/service/IdentityService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/service/IdentityServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/service/LicenceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/service/LicenceServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/service/UserContentLicenceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/service/UserContentLicenceServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/validator/IdentityValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/target/classes/com/atypon/validator/LicenceValidator.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/ArticleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/ArticleDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../admintool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/BackstageSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/BackstageSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/ContentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/ContentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/ArticleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/BackstageSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/BackstageSettings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ContentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ContentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/article.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/article.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/articleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/articleList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/homePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/issueList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/issueList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/ArticleController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/BackstageSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/BackstageSettings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/ContentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/ContentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/controller/ArticleController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/Core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/article.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/article.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/articleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/articleList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/homePage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/issueList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/issueList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" afterDir="false" />
@@ -91,31 +37,14 @@
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/article.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/article.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/article_author.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/article_author.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/authorized_inquirer.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/authorized_inquirer.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/content_licence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/content_licence.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/notification.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/notification.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/submission.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/submission.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/auto.cnf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000049" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000049" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000050" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000050" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibtmp1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/1235-1234/10.1177/019874291504000301/019874291504000301.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/1235-1234/10.1177/019874291504000301/articleMetadata.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/1235-1234/10.1177/019874291504000301/full.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/1235-1234/10.1177/019874291504000301/issueMetadata.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/1235-1234/10.1177/2325160315620797/2325160315620797.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/1235-1234/10.1177/2325160315620797/aipa_4_1.cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/1235-1234/10.1177/2325160315620797/articleMetadata.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/1235-1234/10.1177/2325160315620797/full.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/1235-1234/10.1177/2325160315620797/issueMetadata.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -177,6 +106,34 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="414359288">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -193,7 +150,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/HasAccessQuery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="204">
               <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
             </state>
           </provider>
@@ -202,7 +159,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/AuthorizedInquirer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="323">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
@@ -213,11 +170,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="375">
               <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Article.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -225,7 +191,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/commons/AsynchronousService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="119">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
@@ -234,24 +200,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/ArticleSubmission.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+            <state relative-caret-position="283">
+              <caret line="73" column="52" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c58eca76-9198-471d-9b04-3ab7b927c13f/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -269,6 +230,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/AuthorizedInquirerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/commons/AsynchronousService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java" />
       </list>
     </option>
   </component>
@@ -296,9 +258,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="1853" />
-    <option name="height" value="1175" />
+    <option name="y" value="124" />
+    <option name="width" value="1843" />
+    <option name="height" value="879" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -309,6 +271,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -392,7 +355,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,6 +362,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543931061948" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -440,17 +403,18 @@
       <workItem from="1543846608257" duration="2541000" />
       <workItem from="1543931199750" duration="2509000" />
       <workItem from="1543935942223" duration="10000" />
+      <workItem from="1543951596857" duration="3173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5060000" />
+    <option name="totallyTimeSpent" value="8233000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.255119" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -459,7 +423,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291866" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32864866" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,7 +440,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32982844" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="8" visible="true" weight="0.32982844" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,6 +567,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/consensus/Signer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c58eca76-9198-471d-9b04-3ab7b927c13f/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/consensus/RSASigner.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -611,14 +576,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/HasAccessQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="204">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/AuthorizedInquirer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="323">
           <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
@@ -628,32 +593,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/commons/AsynchronousService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/ArticleSubmission.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c58eca76-9198-471d-9b04-3ab7b927c13f/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        <state relative-caret-position="283">
+          <caret line="73" column="52" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
         </state>
       </provider>
     </entry>

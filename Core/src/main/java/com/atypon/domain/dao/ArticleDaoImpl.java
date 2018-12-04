@@ -71,7 +71,7 @@ public class ArticleDaoImpl implements ArticleDao {
             statement.setString(1, doi);
             ResultSet resultSet = statement.executeQuery();
             if (resultSet.next()) {
-                article = extractArticle(resultSet);
+                article = extractArticleWithAuthors(resultSet);
             }
         } catch (SQLException e) {
             e.printStackTrace();

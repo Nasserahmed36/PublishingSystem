@@ -1,8 +1,8 @@
 package com.atypon.web.servlet;//package com.atypon.com.atypon.web.servlet;
 
 
-import com.atypon.managing.ContentManager;
 import com.atypon.web.controller.ArticleController;
+import com.atypon.web.controller.HomeController;
 import com.atypon.web.controller.IssueController;
 import com.atypon.web.controller.JournalController;
 
@@ -13,13 +13,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "DispatcherServlet", urlPatterns = {"/journal/*","/issue/*","/article/*"})
+@WebServlet(name = "DispatcherServlet", urlPatterns = {"/journal/*", "/issue/*", "/article/*","/home/*"})
 public class DispatcherServlet extends HttpServlet {
     private static final String JSPS_FILE = "/publish";
 
     private JournalController journalController;
     private IssueController issueController;
     private ArticleController articleController;
+    private HomeController homeController;
 
     @Override
     public void init() throws ServletException {
@@ -27,6 +28,7 @@ public class DispatcherServlet extends HttpServlet {
         journalController = new JournalController(getServletContext());
         issueController = new IssueController(getServletContext());
         articleController = new ArticleController(getServletContext());
+        homeController = new HomeController(getServletContext());
     }
 
     @Override
@@ -39,8 +41,13 @@ public class DispatcherServlet extends HttpServlet {
                 break;
             case "issue":
                 view = issueController.handle(request, response);
+                break;
             case "article":
-                view = articleController.handle(request,response);
+                view = articleController.handle(request, response);
+                break;
+            case "home":
+                view = homeController.handle(request, response);
+                break;
         }
         dispatch(request, response, view);
     }
