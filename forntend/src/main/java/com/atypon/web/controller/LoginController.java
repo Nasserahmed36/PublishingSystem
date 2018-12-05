@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 public class LoginController implements Controller {
+    private final static String HOME_PAGE = "home/main";
     private final IdentityService identityService;
 
     public LoginController(ServletContext context) {
@@ -20,8 +21,10 @@ public class LoginController implements Controller {
     public String handle(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         String operation = extractOperation(request);
         switch (operation) {
-            case "login":
+            case "in":
                 return handleLogin(request, response);
+            case "out":
+                return handleLogout(request, response);
 
         }
         return null;
@@ -34,12 +37,18 @@ public class LoginController implements Controller {
         Identity identity = identityService.get(username, password);
         if (identity != null) {
             request.getSession().setAttribute("user", identity);
-            return "redirect:" + request.getRequestURL() + "?" + identity.getUsername();
+            return "redirect:" + HOME_PAGE + "?result=" + "Welcome " + identity.getFirstName();
         } else {
             request.getSession().invalidate();
-            request.setAttribute("result", "Incorrect Admin Username or password");
-            return LOGIN_PAGE;
+            return "redirect:" + HOME_PAGE + "?result=" + "Incorrect Username or password";
         }
+    }
+
+
+    private String handleLogout(HttpServletRequest request, HttpServletResponse response) {
+        request.getSession().invalidate();
+        return "redirect:" + HOME_PAGE;
+
     }
 
     private String getString(String key, HttpServletRequest request) {
@@ -56,7 +65,7 @@ public class LoginController implements Controller {
         if (res.length >= 4)
             return res[3];
         else
-            return "login";
+            return "";
     }
 
 }

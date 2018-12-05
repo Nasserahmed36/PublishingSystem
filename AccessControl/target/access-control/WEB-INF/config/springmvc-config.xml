@@ -50,7 +50,7 @@
         <constructor-arg ref="userContentLicenceDao"/>
     </bean>
 
-    <bean id="authenticationService" class="com.atypon.service.AuthenticationServiceImpl">
+    <bean id="authenticationService" class="com.atypon.authentication.AuthenticationServiceImpl">
         <constructor-arg ref="contentLicenceDao"/>
     </bean>
 

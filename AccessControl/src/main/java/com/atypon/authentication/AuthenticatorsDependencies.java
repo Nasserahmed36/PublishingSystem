@@ -1,7 +1,6 @@
 package com.atypon.authentication;
 
 
-import com.atypon.domain.dao.UserContentLicenceDao;
 import com.atypon.service.UserContentLicenceService;
 
 

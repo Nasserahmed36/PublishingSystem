@@ -1,7 +1,9 @@
 package com.atypon.web.listener;
 
 
+import com.atypon.acs.AuthenticationService;
 import com.atypon.context.ApplicationContext;
+import com.atypon.domain.UserRequest;
 import com.atypon.domain.dao.*;
 import com.atypon.notification.NotificationService;
 import com.atypon.notification.NotificationServiceImpl;
@@ -18,7 +20,6 @@ import javax.sql.DataSource;
 
 @WebListener
 public class AppListener implements ServletContextListener {
-
 
 
     @Override
@@ -40,21 +41,27 @@ public class AppListener implements ServletContextListener {
 
         IssueService issueService = new IssueServiceImpl(issueDao);
         context.setAttribute("issueService", issueService);
-        ApplicationContext.setAttribute("issueService",issueService);
+        ApplicationContext.setAttribute("issueService", issueService);
 
         ArticleDao articleDao = new ArticleDaoImpl(dataSource);
         context.setAttribute("articleDao", articleDao);
 
         ArticleService articleService = new ArticleServiceImpl(articleDao);
         context.setAttribute("articleService", articleService);
-        ApplicationContext.setAttribute("articleService",articleService);
+        ApplicationContext.setAttribute("articleService", articleService);
 
 
         NotificationService notificationService = new NotificationServiceImpl(new NotificationDaoImpl(dataSource));
         context.setAttribute("notificationService", notificationService);
         ApplicationContext.setAttribute("notificationService", notificationService);
 
+        IdentityDao identityDao = new IdentityDaoImpl(dataSource);
+        context.setAttribute("identityDao", identityDao);
 
+        IdentityService identityService = new IdentityServiceImpl(identityDao);
+        context.setAttribute("identityService", identityService);
+
+        context.setAttribute("authenticationService", (AuthenticationService) (userRequest, user, contentId) -> true);
 
     }
 

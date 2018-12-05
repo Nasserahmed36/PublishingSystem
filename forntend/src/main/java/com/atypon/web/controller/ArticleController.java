@@ -1,7 +1,11 @@
 package com.atypon.web.controller;
 
 
+import com.atypon.acs.AuthenticationService;
 import com.atypon.domain.Article;
+import com.atypon.domain.Identity;
+import com.atypon.domain.Issue;
+import com.atypon.domain.UserRequest;
 import com.atypon.managing.ContentManager;
 import com.atypon.service.ArticleService;
 import com.atypon.service.IssueService;
@@ -14,10 +18,12 @@ import javax.servlet.http.HttpServletResponse;
 public class ArticleController implements Controller {
 
     private static final String ARTICLE_VIEW = "article.jsp";
+    private static final String NO_ACCESS_VIEW = "noAccess.jsp";
 
     private final IssueService issueService;
     private final ArticleService articleService;
     private final ContentManager contentManager;
+    private final AuthenticationService authenticationService;
 
 
     public ArticleController(ServletContext context) {
@@ -25,6 +31,7 @@ public class ArticleController implements Controller {
         articleService = (ArticleService) context.getAttribute("articleService");
         issueService = (IssueService) context.getAttribute("issueService");
         contentManager = new ContentManager(contentPath);
+        authenticationService = (AuthenticationService) context.getAttribute("authenticationService");
     }
 
     @Override
@@ -42,12 +49,26 @@ public class ArticleController implements Controller {
 
     private String handleView(HttpServletRequest request, HttpServletResponse response) {
         String doi = extractDoi(request);
+        if (!hasAccess(request, response, doi)) {
+            return NO_ACCESS_VIEW;
+        }
         Article article = articleService.get(doi);
-        String viewAbsolutePath = contentManager.getArticlePath(doi);
+        Issue issue = issueService.get(article.getIssueDoi());
+        String viewAbsolutePath = contentManager.getArticlePath(article, issue);
         String viewRelativePath = viewAbsolutePath.split(request.getRealPath("publish") + "/")[1];
         request.setAttribute("article", article);
         request.setAttribute("articleView", viewRelativePath);
+        request.setAttribute("issue", issue);
         return ARTICLE_VIEW;
+    }
+
+    private boolean hasAccess(HttpServletRequest request, HttpServletResponse response, String doi) {
+        Identity identity = (Identity) request.getSession().getAttribute("user");
+        UserRequest userRequest = new UserRequest();
+        userRequest.setIp(request.getRemoteAddr());
+        userRequest.setUrl(request.getRequestURL().toString());
+        userRequest.setMethod(request.getMethod());
+        return authenticationService.hasAccess(userRequest, identity == null ? null : identity.getUsername(), doi);
     }
 
 
