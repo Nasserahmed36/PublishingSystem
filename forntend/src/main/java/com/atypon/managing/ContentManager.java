@@ -44,6 +44,15 @@ public class ContentManager {
         return fullPagePath(cachedArticleDir);
     }
 
+    public String getIssueCoverPath(Article article, Issue issue) {
+
+        String articleDoi = article.getDoi().split("/")[1];
+        updateCacheIfNeeded(issue.getJournalPrintIssn(), issue.getDoi(), articleDoi);
+        String cachedArticleDir = cachedArticleDir(contentPath, issue.getJournalPrintIssn(),
+                issue.getDoi(), articleDoi);
+        return issueCover(cachedArticleDir, issue.getDoi());
+    }
+
 
     private void updateCacheIfNeeded(String journalIssn, String issueDoi, String articleDoi) {
         try {

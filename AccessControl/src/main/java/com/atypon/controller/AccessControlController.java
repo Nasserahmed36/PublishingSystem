@@ -5,6 +5,7 @@ import com.atypon.authentication.AuthenticatorsDependencies;
 import com.atypon.consensus.QuerySignatureComputer;
 import com.atypon.consensus.SignatureComputer;
 
+import com.atypon.domain.AuthorizedInquirer;
 import com.atypon.domain.HasAccessQuery;
 import com.atypon.domain.UserRequest;
 import com.atypon.authentication.AuthenticationService;
@@ -34,15 +35,14 @@ public class AccessControlController {
     public HasAccessQuery foo(@RequestBody String body) {
 
         HasAccessQuery hasAccessQuery = GSON.fromJson(body, HasAccessQuery.class);
-//        AuthorizedInquirer inquirer = authorizedInquirerService.get(hasAccessQuery.getInquirerName());
-        return hasAccessQuery;
-//        try {
-//            if (signatureComputer.verify(hasAccessQuery, hasAccessQuery.getInquirerSignature(), inquirer.getPublicKey())) {
-//                return hasAccessQuery;
-//            }
-//        } catch (Exception ignore) {
-//        }
-//        return null;
+        AuthorizedInquirer inquirer = authorizedInquirerService.get(hasAccessQuery.getInquirerName());
+        try {
+            if (signatureComputer.verify(hasAccessQuery, hasAccessQuery.getInquirerSignature(), inquirer.getPublicKey())) {
+                return hasAccessQuery;
+            }
+        } catch (Exception ignore) {
+        }
+        return null;
     }
 
 

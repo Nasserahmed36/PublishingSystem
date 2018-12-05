@@ -1,6 +1,7 @@
 package com.atypon.acs;
 
 import com.atypon.consensus.SignatureComputer;
+import com.atypon.domain.AuthorizedInquirer;
 import com.atypon.domain.HasAccessQuery;
 import com.atypon.domain.UserRequest;
 import com.google.gson.Gson;
@@ -15,24 +16,22 @@ public class AuthenticationServiceImpl implements AuthenticationService {
     private static final Gson GSON = new Gson();
 
 
-    private final String inquirerName;
-    private final String inquirerKey;
+    private final AuthorizedInquirer authorizedInquirer;
     private final String authenticationServiceProvider;
     private final SignatureComputer<HasAccessQuery> signatureComputer;
 
     public AuthenticationServiceImpl(String authenticationServiceProvider,
                                      SignatureComputer<HasAccessQuery> signatureComputer,
-                                     String inquirerName, String inquirerKey) {
+                                     AuthorizedInquirer authorizedInquirer) {
         this.authenticationServiceProvider = authenticationServiceProvider;
         this.signatureComputer = signatureComputer;
-        this.inquirerName = inquirerName;
-        this.inquirerKey = inquirerKey;
+        this.authorizedInquirer = authorizedInquirer;
     }
 
     @Override
     public boolean hasAccess(UserRequest userRequest, String username, String contentId) {
         try {
-            HttpClient httpClient = HttpClientBuilder.create().build(); //Use this instead
+            HttpClient httpClient = HttpClientBuilder.create().build();
             HttpPost request = new HttpPost(authenticationServiceProvider);
             HasAccessQuery hasAccessQuery = createHasAccessQuery(userRequest, username, contentId);
             StringEntity requestBody = new StringEntity(GSON.toJson(hasAccessQuery));
@@ -52,8 +51,8 @@ public class AuthenticationServiceImpl implements AuthenticationService {
         hasAccessQuery.setUserRequest(userRequest);
         hasAccessQuery.setUsername(username);
         hasAccessQuery.setContentId(contentId);
-        hasAccessQuery.setInquirerName(inquirerName);
-        String signature = signatureComputer.sign(hasAccessQuery, inquirerKey);
+        hasAccessQuery.setInquirerName(authorizedInquirer.getName());
+        String signature = signatureComputer.sign(hasAccessQuery, authorizedInquirer.getPrivateKey());
         hasAccessQuery.setInquirerSignature(signature);
         return hasAccessQuery;
     }

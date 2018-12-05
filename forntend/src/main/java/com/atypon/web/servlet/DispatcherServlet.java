@@ -63,7 +63,7 @@ public class DispatcherServlet extends HttpServlet {
     private void dispatch(HttpServletRequest request, HttpServletResponse response, String view) throws IOException, ServletException {
         if (view != null) {
             if (isRedirect(view)) {
-                view = view.split(":")[1];
+                view = removeRedirectWord(view);
                 if (view.contains(".jsp") || view.contains(".html") || view.contains(".htm")) {
                     view = JSPS_FILE + "/" + view;
                 }
@@ -77,6 +77,10 @@ public class DispatcherServlet extends HttpServlet {
         } else {
             response.sendError(HttpServletResponse.SC_NOT_FOUND);
         }
+    }
+
+    private String removeRedirectWord(String view) {
+        return view.substring(view.indexOf(":") + 1);
     }
 
 

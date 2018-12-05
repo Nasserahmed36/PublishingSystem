@@ -83,6 +83,10 @@ class BackstageSettings {
         return outputDir + File.separator + FULL_PAGE_FILE_NAME;
     }
 
+    static String issueCover(String outputDir, String issueDoi) {
+        return outputDir + File.separator + issueDoi + ".png";
+    }
+
     static String fullPagePath(String journalId, String issueId, String articleId) {
         return articleProcessedContentDir(journalId, issueId, articleId) +
                 File.separator + FULL_PAGE_FILE_NAME;

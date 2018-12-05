@@ -2,263 +2,107 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="access-control:war" />
+      <artifact name="AccessControl:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6fd00d7-ea79-4df5-a141-84aea25d7f10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/8204592d-32b2-4f90-bff5-24be68ec65fb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8204592d-32b2-4f90-bff5-24be68ec65fb.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8204592d-32b2-4f90-bff5-24be68ec65fb/storage_v2/_src_/schema/AccessControl.OV83Xw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8204592d-32b2-4f90-bff5-24be68ec65fb/storage_v2/_src_/schema/AccessControl.OV83Xw.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/authentication/AuthenticatorsDependencies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/authentication/AuthenticatorsDependencies.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/authentication/StaticContextInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/authentication/StaticContextInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/consensus/QuerySignatureComputer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/controller/AccessControlController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/controller/AccessControlController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/access-control.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/authentication/Authenticator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/authentication/Authenticator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/authentication/Authenticators.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/authentication/Authenticators.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/access-control/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/authentication/AuthenticatorsDependencies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/authentication/AuthenticatorsDependencies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/authentication/FreeLicenceAuthenticator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/authentication/FreeLicenceAuthenticator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/authentication/IdentityLicenceAuthenticator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/authentication/IdentityLicenceAuthenticator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/authentication/LimitedLicenceAuthenticator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/authentication/LimitedLicenceAuthenticator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/authentication/StaticContextInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/authentication/StaticContextInitializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/consensus/AsymmetricEncrypting$RSA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/consensus/AsymmetricEncrypting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/consensus/Keys.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/consensus/QuerySignatureComputer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/consensus/QuerySignatureComputer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/consensus/RSASigner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/consensus/SignatureComputer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/consensus/Signer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/controller/AccessControlController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/controller/AccessControlController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/Article$Author.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/Article.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/ArticleSubmission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/AuthorizedInquirer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/ContentLicence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/HasAccessQuery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/Identity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/Issue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/Journal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/Licence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/Notification$Operation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/Notification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/UserContentLicence.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/UserRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/ArticleDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/ArticleSubmissionDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/AuthorizedInquirerDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/AuthorizedInquirerDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/ContentLicenceDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/ContentLicenceDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/IdentityDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/IdentityDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/IssueDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/IssueDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/JournalDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/JournalDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/LicenceDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/LicenceDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/NotificationDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/NotificationDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/UserContentLicenceDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/domain/dao/UserContentLicenceDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/form/IdentityForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/form/IdentityForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/service/AuthenticationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/service/AuthenticationServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/service/AuthorizedInquirerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/service/AuthorizedInquirerServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/service/ContentLicenceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/service/ContentLicenceServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/service/IdentityService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/service/IdentityServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/service/LicenceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/service/LicenceServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/service/UserContentLicenceService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/service/UserContentLicenceServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/validator/IdentityValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/validator/IdentityValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/validator/LicenceValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/classes/com/atypon/validator/LicenceValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/config/springmvc-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/config/springmvc-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/lib/gson-2.8.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/lib/gson-2.8.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/.idea/dataSources/c58eca76-9198-471d-9b04-3ab7b927c13f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/.idea/dataSources/c58eca76-9198-471d-9b04-3ab7b927c13f.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/access-control/WEB-INF/lib/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/access-control/WEB-INF/lib/Core-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/authentication/AuthenticatorsDependencies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/authentication/AuthenticatorsDependencies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/controller/AccessControlController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/controller/AccessControlController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/Core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/Core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Core/target/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/target/Core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../Core/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../admintool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleMetadataProcessor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleMetadataProcessor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleMetadataProcessor$EndOfTheDocumentException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleMetadataProcessor$EndOfTheDocumentException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleMetadataProcessor$XmlArticleHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleMetadataProcessor$XmlArticleHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleMetadataProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleMetadataProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleSubmissionNavigator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleSubmissionNavigator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleUploadHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleUploadHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/AsynchronousService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/AsynchronousService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/BackstageConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/BackstageConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/BackstageSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/BackstageSettings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/DataExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/DataExtractor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/FileTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/FileTransformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/FileValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/FileValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/IssueMetadataProcessor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/IssueMetadataProcessor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/IssueMetadataProcessor$XmlIssueHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/IssueMetadataProcessor$XmlIssueHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/IssueMetadataProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/IssueMetadataProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/MainFileTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/MainFileTransformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ProcessedContentProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ProcessedContentProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ProcessingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ProcessingException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/Processor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/Processor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/StaticResourcesCopier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/StaticResourcesCopier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/StaticResourcesCopierImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/StaticResourcesCopierImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/SubmissionProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/SubmissionProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/XsltTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/XsltTransformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ZipSubmissionNavigator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ZipSubmissionNavigator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ZipSubmissionNavigator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ZipSubmissionNavigator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/context/ApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/context/ApplicationContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/BackstageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/BackstageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/IdentityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/IdentityController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/LicenceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/LicenceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/filter/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/filter/LoginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/ArticleSubmissionForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/ArticleSubmissionForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/ContentLicenceForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/ContentLicenceForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/IdentityForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/IdentityForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/JournalForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/JournalForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/UserContentLicenceForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/UserContentLicenceForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/listener/AppListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/ArticleSubmissionValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/ArticleSubmissionValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/ContentLicenceValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/ContentLicenceValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/IdentityVaildator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/IdentityVaildator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/JournalValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/JournalValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/UserContentLicenceValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/UserContentLicenceValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/Validator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool.war" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$EndOfTheDocumentException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$EndOfTheDocumentException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$XmlArticleHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$XmlArticleHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleSubmissionNavigator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleSubmissionNavigator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleUploadHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleUploadHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/AsynchronousService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/AsynchronousService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/BackstageConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/BackstageConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/BackstageSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/BackstageSettings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/DataExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/DataExtractor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/FileTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/FileTransformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/FileValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/FileValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor$XmlIssueHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor$XmlIssueHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/MainFileTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/MainFileTransformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ProcessedContentProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ProcessedContentProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ProcessingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ProcessingException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/Processor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/Processor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/StaticResourcesCopier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/StaticResourcesCopier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/StaticResourcesCopierImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/StaticResourcesCopierImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/SubmissionProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/SubmissionProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/XsltTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/XsltTransformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ZipSubmissionNavigator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ZipSubmissionNavigator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ZipSubmissionNavigator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ZipSubmissionNavigator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/context/ApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/context/ApplicationContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/BackstageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/BackstageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/IdentityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/IdentityController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/LicenceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/LicenceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/filter/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/filter/LoginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/ArticleSubmissionForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/ArticleSubmissionForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/ContentLicenceForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/ContentLicenceForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/IdentityForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/IdentityForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/JournalForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/JournalForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/UserContentLicenceForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/UserContentLicenceForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/listener/AppListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/ArticleSubmissionValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/ArticleSubmissionValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/ContentLicenceValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/ContentLicenceValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/IdentityVaildator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/IdentityVaildator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/JournalValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/JournalValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/UserContentLicenceValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/UserContentLicenceValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/Validator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/Core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-dbcp-1.2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-io-2.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-pool-1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-annotations-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-annotations-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-core-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-core-2.6.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-core-asl-1.9.13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-databind-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-databind-2.6.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/javax.servlet-api-4.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/javax.servlet-api-4.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/mysql-connector-java-8.0.12.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/protobuf-java-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931/bhda_40_3/019874291504000301/019874291504000301.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931/bhda_40_3/019874291504000301/019874291504000301.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931/bhda_40_3/019874291504000301/019874291504000301.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931/bhda_40_3/019874291504000301/019874291504000301.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931/bhda_40_3/issue-files/bhda_40_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931/bhda_40_3/issue-files/bhda_40_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931/manifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931/manifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/0198742916688652/0198742916688652.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/0198742916688652/0198742916688652.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/0198742916688652/0198742916688652.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/0198742916688652/0198742916688652.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.largecover.png" beforeDir="false" afterPath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.largecover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/manifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/manifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/0198742916688652/0198742916688652.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/0198742916688652/0198742916688652.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/0198742916688652/0198742916688652.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/0198742916688652/0198742916688652.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.largecover.png" beforeDir="false" afterPath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.largecover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/manifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/manifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/StaticResourcesCopierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/StaticResourcesCopierImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleMetadataProcessor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleMetadataProcessor$EndOfTheDocumentException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleMetadataProcessor$XmlArticleHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleMetadataProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleSubmissionNavigator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ArticleUploadHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/AsynchronousService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/BackstageConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/BackstageSettings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/DataExtractor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/FileTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/FileValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/IssueMetadataProcessor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/IssueMetadataProcessor$XmlIssueHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/IssueMetadataProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/MainFileTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ProcessedContentProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ProcessingException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/Processor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/StaticResourcesCopier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/StaticResourcesCopierImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/SubmissionProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/XsltTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ZipSubmissionNavigator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/backstage/ZipSubmissionNavigator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/context/ApplicationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/ArticleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/BackstageController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/IdentityController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/LicenceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/filter/LoginFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/ArticleSubmissionForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/ContentLicenceForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/IdentityForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/JournalForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/form/UserContentLicenceForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/ArticleSubmissionValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/ContentLicenceValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/IdentityVaildator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/JournalValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/UserContentLicenceValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/com/atypon/web/validator/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/.idea/dataSources/49e700be-f749-462f-b261-02b12d121d98.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/dataSources/49e700be-f749-462f-b261-02b12d121d98.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/acs/AuthenticationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/acs/AuthenticationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/BackstageSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/BackstageSettings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/ContentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/ContentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/listener/AppListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/listener/AppListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/article.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/article.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/articleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/articleList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/homePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/homePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/issueList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/issueList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/journalList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/journalList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/acs/AuthenticationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/acs/AuthenticationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/BackstageSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/BackstageSettings.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ContentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/managing/ContentManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/controller/ArticleController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/listener/AppListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/acs/AuthenticationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/acs/AuthenticationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/BackstageSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/BackstageSettings.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/ContentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/managing/ContentManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/controller/ArticleController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/listener/AppListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/WEB-INF/lib/Core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/0198742916688652.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/0198742916688652.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/articleMetadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/articleMetadata.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/bhda_42_2.cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/bhda_42_2.cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/full.html" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/full.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/issueMetadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/issueMetadata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/article.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/article.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/articleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/articleList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/bhda_42_2.cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/10.1177.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/homePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/homePage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/issueList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/issueList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/journalList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/target/front-end/publish/journalList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" afterDir="false" />
@@ -269,29 +113,16 @@
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/authorized_inquirer.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/authorized_inquirer.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/auto.cnf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000049" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000049" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000050" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000050" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000051" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000051" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/content_licence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/content_licence.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/user_content_licence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/user_content_licence.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000052" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000052" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_buffer_pool" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibtmp1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/0198742916688652.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/0198742916688652.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/articleMetadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/articleMetadata.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/bhda_42_2.cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/bhda_42_2.cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/full.html" beforeDir="false" afterPath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/full.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/issueMetadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/issueMetadata.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/0198742916688652.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/0198742916688652.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/articleMetadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/articleMetadata.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/bhda_42_2.cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/bhda_42_2.cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/full.html" beforeDir="false" afterPath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/full.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/issueMetadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/issueMetadata.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -344,6 +175,7 @@
           <entry key="project.closed" value="7" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.26" value="2" />
@@ -353,7 +185,7 @@
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -381,21 +213,21 @@
         <counts>
           <entry key="cell" value="143" />
           <entry key="dummy" value="4" />
-          <entry key="java" value="3136" />
+          <entry key="java" value="3142" />
           <entry key="properties" value="29" />
           <entry key="sql" value="74" />
           <entry key="txt" value="13" />
-          <entry key="xml" value="50" />
+          <entry key="xml" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3136" />
+          <entry key="JAVA" value="3142" />
           <entry key="PLAIN_TEXT" value="17" />
           <entry key="Properties" value="29" />
           <entry key="SQL" value="23" />
           <entry key="Scratch" value="194" />
-          <entry key="XML" value="50" />
+          <entry key="XML" value="52" />
         </counts>
       </usages-collector>
     </session>
@@ -473,7 +305,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/AuthenticationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="51">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
@@ -482,8 +314,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+            <state relative-caret-position="191">
+              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -491,8 +323,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/controller/AccessControlController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+            <state relative-caret-position="323">
+              <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -503,12 +335,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/groupId/Core/1.0-SNAPSHOT/Core-1.0-SNAPSHOT.jar!/com/atypon/domain/HasAccessQuery.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="323">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -516,7 +344,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/FreeLicenceAuthenticator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="136">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -529,7 +357,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/LimitedLicenceAuthenticator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="68">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
@@ -538,7 +366,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/StaticContextInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="204">
               <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -550,7 +378,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config/licencesAuthenticators.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="34">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
@@ -559,8 +387,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/AuthenticatorsDependencies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -624,7 +452,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/filter/AuthenticationFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/AuthorizedInquirerServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/listener/AppListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/atypon/controller/AccessControlController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/UserContentLicenceDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/UserContentLicenceService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/service/UserContentLicenceServiceImpl.java" />
@@ -637,8 +464,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/authentication/AuthenticationService.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/atypon/authentication/AuthenticatorsDependencies.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atypon/controller/AccessControlController.java" />
       </list>
     </option>
   </component>
@@ -808,7 +636,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543931061906" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Edit As Language" value="GenericSQL" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Core" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../admintool" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -844,7 +672,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
+  <component name="RunManager" selected="Remote.Unnamed">
     <configuration name="Authenticators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atypon.authentication.Authenticators" />
       <module name="AccessControl" />
@@ -871,12 +699,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="AccessControl" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Unnamed" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8080" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8080" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
     </configuration>
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.91" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
@@ -955,6 +795,64 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/AccessControl" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="6762bc04-a144-4c17-a232-ef627015b018" />
+                    <id>6762bc04-a144-4c17-a232-ef627015b018</id>
+                  </TransportTarget>
+                </option>
+                <option name="watchedLocalPath" value="" />
+                <watched-path />
+                <name>CONTEXT_XML</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="6762bc04-a144-4c17-a232-ef627015b018" />
+                    <id>6762bc04-a144-4c17-a232-ef627015b018</id>
+                  </TransportTarget>
+                </transport-target>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <option name="stagingRemotePath" value="" />
+                <option name="transportStagingTarget">
+                  <TransportTarget>
+                    <option name="id" value="b24366ff-b6ed-4402-946e-cba34a2b68b1" />
+                    <id>b24366ff-b6ed-4402-946e-cba34a2b68b1</id>
+                  </TransportTarget>
+                </option>
+                <staging-path />
+                <name>STAGING</name>
+                <transport-target>
+                  <TransportTarget>
+                    <option name="id" value="b24366ff-b6ed-4402-946e-cba34a2b68b1" />
+                    <id>b24366ff-b6ed-4402-946e-cba34a2b68b1</id>
+                  </TransportTarget>
+                </transport-target>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8080" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.91" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
@@ -1019,8 +917,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Remote.Unnamed" />
+      <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="Application.LicenceAuthenticatorsReader" />
       <item itemvalue="Application.Authenticators" />
     </list>
@@ -1028,7 +928,6 @@
       <list>
         <item itemvalue="Application.Authenticators" />
         <item itemvalue="Application.LicenceAuthenticatorsReader" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -1072,11 +971,12 @@
       <workItem from="1543935933836" duration="20000" />
       <workItem from="1543951469082" duration="1772000" />
       <workItem from="1544022971293" duration="2792000" />
+      <workItem from="1544037009452" duration="6873000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132312000" />
+    <option name="totallyTimeSpent" value="139185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1088,10 +988,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978602" visible="true" weight="0.3375761" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978602" visible="true" weight="0.34144992" />
       <window_info id="Structure" order="1" sideWeight="0.5021398" side_tool="true" weight="0.23741007" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1102,11 +1002,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291866" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3291866" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3291866" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.32864866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3291866" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32822967" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32864866" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32756758" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -1141,6 +1041,12 @@
           <line>33</line>
           <properties />
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/atypon/controller/AccessControlController.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1325,9 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1341,9 +1244,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/consensus/QuerySignatureComputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/AuthenticationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/groupId/Core/1.0-SNAPSHOT/Core-1.0-SNAPSHOT.jar!/com/atypon/domain/HasAccessQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/FreeLicenceAuthenticator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="136">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1354,14 +1278,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/LimitedLicenceAuthenticator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="68">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/StaticContextInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="204">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1371,54 +1295,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/licencesAuthenticators.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/AuthenticationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/groupId/Core/1.0-SNAPSHOT/Core-1.0-SNAPSHOT.jar!/com/atypon/domain/HasAccessQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="100" column="21" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/consensus/QuerySignatureComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/authentication/AuthenticatorsDependencies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/controller/AccessControlController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="41" column="13" lean-forward="true" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

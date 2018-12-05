@@ -23,7 +23,7 @@ public class StaticResourcesCopierImpl implements StaticResourcesCopier {
         File issueCover = navigator.getIssueCover();
         if (issueCover.exists()) {
             FileUtils.copyFile(issueCover, new File(destinationDir +
-                    File.separator + issueCover.getName()));
+                    File.separator + navigator.getIssueDoi() + ".png"));
         }
     }
 

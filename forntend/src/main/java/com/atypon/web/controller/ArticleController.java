@@ -56,8 +56,11 @@ public class ArticleController implements Controller {
         Issue issue = issueService.get(article.getIssueDoi());
         String viewAbsolutePath = contentManager.getArticlePath(article, issue);
         String viewRelativePath = viewAbsolutePath.split(request.getRealPath("publish") + "/")[1];
+        String issueCoverAbsolutePath = contentManager.getIssueCoverPath(article, issue);
+        String issueCoverRelativePath = issueCoverAbsolutePath.split(request.getRealPath("publish") + "/")[1];
         request.setAttribute("article", article);
         request.setAttribute("articleView", viewRelativePath);
+        request.setAttribute("issueCover", issueCoverRelativePath);
         request.setAttribute("issue", issue);
         return ARTICLE_VIEW;
     }

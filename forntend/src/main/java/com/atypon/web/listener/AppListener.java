@@ -2,7 +2,10 @@ package com.atypon.web.listener;
 
 
 import com.atypon.acs.AuthenticationService;
+import com.atypon.acs.AuthenticationServiceImpl;
+import com.atypon.consensus.QuerySignatureComputer;
 import com.atypon.context.ApplicationContext;
+import com.atypon.domain.AuthorizedInquirer;
 import com.atypon.domain.UserRequest;
 import com.atypon.domain.dao.*;
 import com.atypon.notification.NotificationService;
@@ -21,6 +24,7 @@ import javax.sql.DataSource;
 @WebListener
 public class AppListener implements ServletContextListener {
 
+    private static final String authenticationServiceProvider = "http://localhost:8080/AccessControl/hasAccess";
 
     @Override
     public void contextInitialized(ServletContextEvent sce) {
@@ -61,7 +65,15 @@ public class AppListener implements ServletContextListener {
         IdentityService identityService = new IdentityServiceImpl(identityDao);
         context.setAttribute("identityService", identityService);
 
-        context.setAttribute("authenticationService", (AuthenticationService) (userRequest, user, contentId) -> true);
+
+        AuthorizedInquirerDao authorizedInquirerDao = new AuthorizedInquirerDaoImpl(dataSource);
+        AuthorizedInquirerService authorizedInquirerService = new AuthorizedInquirerServiceImpl(authorizedInquirerDao);
+        AuthorizedInquirer authorizedInquirer = authorizedInquirerService.get("frontend");
+        AuthenticationService authenticationService = new AuthenticationServiceImpl(authenticationServiceProvider
+                , new QuerySignatureComputer(), authorizedInquirer);
+
+        context.setAttribute("authenticationService", authenticationService);
+
 
     }
 

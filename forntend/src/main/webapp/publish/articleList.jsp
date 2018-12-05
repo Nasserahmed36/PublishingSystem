@@ -76,31 +76,43 @@
     </style>
 
 </head>
+<form method="post" action="${context}/log/in">
+    <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-3">
+                    <div class="md-form mb-5">
+                        <i class="fa fa-envelope prefix grey-text"></i>
+                        <input type="text" id="defaultForm-email" class="form-control validate" name="username">
+                        <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+                    </div>
+
+                    <div class="md-form mb-4">
+                        <i class="fa fa-lock prefix grey-text"></i>
+                        <input type="password" id="defaultForm-pass" class="form-control validate" name="password">
+                        <label data-error="wrong" data-success="right" for="defaultForm-pass">Your password</label>
+                    </div>
+
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button type="submit" class="btn btn-default">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
 <body>
 
 <header>
 
-    <div class="top-menu">
-
-        <ul class="left-area welcome-area">
-            <li class="hello-blog">Hello nice people, welcome to my blog</li>
-            <li><a href="mailto:contact@juliblog.com">contact@juliblog.com</a></li>
-        </ul><!-- left-area -->
-
-
-        <div class="right-area">
-
-            <div class="src-area">
-                <form action="post">
-                    <input class="src-input" type="text" placeholder="Search">
-                    <button class="src-btn" type="submit"><i class="ion-ios-search-strong"></i></button>
-                </form>
-            </div><!-- src-area -->
-
-
-        </div><!-- right-area -->
-
-    </div><!-- top-menu -->
+    <jsp:include page="topMenue.jsp"/>
 
     <div class="middle-menu center-text"><a href="#" class="logo"><img src="${resources}/images/atypon.jpg"
                                                                        alt="Logo Image"></a>

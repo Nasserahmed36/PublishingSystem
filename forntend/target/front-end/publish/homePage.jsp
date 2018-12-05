@@ -76,35 +76,7 @@
 
 <header>
 
-    <div class="top-menu">
-
-
-        <ul class="left-area welcome-area">
-            <li class="hello-blog"><h5>
-                <c:if test="${empty sessionScope.user}">
-                    <a style="color: blue" href="#" data-toggle="modal" data-target="#modalLoginForm">Sign In</a>
-                </c:if>
-                <c:if test="${not empty sessionScope.user}">
-                    <a style="color: blue" href="${context}/log/out" >Sign Out</a>
-                </c:if>
-            </h5></li>
-        </ul><!-- left-area -->
-
-
-        <div class="right-area">
-
-            <div class="src-area">
-                <form action="post">
-                    <input class="src-input" type="text" placeholder="Search">
-                    <button class="src-btn" type="submit"><i class="ion-ios-search-strong"></i></button>
-                </form>
-            </div><!-- src-area -->
-
-
-        </div><!-- right-area -->
-
-    </div><!-- top-menu -->
-
+    <jsp:include page="topMenue.jsp"/>
     <div class="middle-menu center-text"><a href="#" class="logo"><img src="${resources}/images/atypon.jpg"
                                                                        alt="Logo Image"></a>
     </div>
