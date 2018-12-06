@@ -41,11 +41,12 @@ public class ArticleController implements Controller {
             case "view":
                 return handleView(request, response);
             case "pdf":
-                return null;
+                return handlePdf(request, response);
 
         }
         return null;
     }
+
 
     private String handleView(HttpServletRequest request, HttpServletResponse response) {
         String doi = extractDoi(request);
@@ -53,7 +54,7 @@ public class ArticleController implements Controller {
             return NO_ACCESS_VIEW;
         }
         Article article = articleService.get(doi);
-        Issue issue = issueService.get(article.getIssueDoi());
+        Issue issue = issueService.get(article.getJournalPrintIssn(), article.getIssueDoi());
         String viewAbsolutePath = contentManager.getArticlePath(article, issue);
         String viewRelativePath = viewAbsolutePath.split(request.getRealPath("publish") + "/")[1];
         String issueCoverAbsolutePath = contentManager.getIssueCoverPath(article, issue);
@@ -63,6 +64,18 @@ public class ArticleController implements Controller {
         request.setAttribute("issueCover", issueCoverRelativePath);
         request.setAttribute("issue", issue);
         return ARTICLE_VIEW;
+    }
+
+    private String handlePdf(HttpServletRequest request, HttpServletResponse response) {
+        String doi = extractDoi(request);
+        if (!hasAccess(request, response, doi)) {
+            return NO_ACCESS_VIEW;
+        }
+        Article article = articleService.get(doi);
+        Issue issue = issueService.get(article.getJournalPrintIssn(), article.getIssueDoi());
+        String pdfAbsolutePath = contentManager.getArticlePdf(article, issue);
+        String pdfRelativePath = pdfAbsolutePath.split(request.getRealPath("publish") + "/")[1];
+        return pdfRelativePath;
     }
 
     private boolean hasAccess(HttpServletRequest request, HttpServletResponse response, String doi) {

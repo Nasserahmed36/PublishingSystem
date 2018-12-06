@@ -1,6 +1,7 @@
 package com.atypon.service;
 
 import com.atypon.domain.Article;
+import com.atypon.domain.Issue;
 import com.atypon.domain.dao.ArticleDao;
 
 import java.util.List;
@@ -24,8 +25,13 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
-    public Map<String, List<Article>> getSubjectToArticlesMap(String issueDoi) {
-        return dao.getSubjectToArticlesMap(issueDoi);
+    public Article getFromIssue(Issue issue) {
+        return dao.getFromIssue(issue);
+    }
+
+    @Override
+    public Map<String, List<Article>> getSubjectToArticlesMap(String journalPrintIssn, String issueDoi) {
+        return dao.getSubjectToArticlesMap(journalPrintIssn, issueDoi);
     }
 
     @Override

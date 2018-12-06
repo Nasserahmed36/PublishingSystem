@@ -10,7 +10,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "DispatcherServlet", urlPatterns = {"/journal/*", "/issue/*", "/article/*", "/home/*", "/log/*"})
+@WebServlet(name = "DispatcherServlet", urlPatterns = {"/journal/*", "/issue/*", "/article/*",
+        "/home/*", "/log/*"})
 public class DispatcherServlet extends HttpServlet {
     private static final String JSPS_FILE = "/publish";
 
@@ -69,7 +70,7 @@ public class DispatcherServlet extends HttpServlet {
                 }
                 response.sendRedirect(request.getContextPath() + "/" + view);
             } else {
-                if (view.contains(".jsp") || view.contains(".html") || view.contains(".htm")) {
+                if (view.contains(".jsp") || view.contains(".html") || view.contains(".htm") || view.contains(".pdf")) {
                     view = JSPS_FILE + "/" + view;
                 }
                 request.getRequestDispatcher(view).forward(request, response);

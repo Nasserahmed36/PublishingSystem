@@ -27,8 +27,9 @@ public class ProcessedContentProcessor implements Processor<String> {
     @Override
     public void process(String processedContentDir) throws ProcessingException {
         Issue issue = extractIssue(issueMetadataPath(processedContentDir));
+        issueService.createIfNotExist(issue);
         Article article = extractArticle(articleMetadataPath(processedContentDir));
-        boolean r =issueService.createIfNotExist(issue);
+        article.setJournalPrintIssn(issue.getJournalPrintIssn());
         if (!articleService.create(article)) {
             throw new ProcessingException("Article cannot be created");
         }

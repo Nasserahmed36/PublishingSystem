@@ -7,6 +7,7 @@ public class Article {
     private String doi;
     private String title;
     private String issueDoi;
+    private String journalPrintIssn;
     private String subject;
     private String firstPage;
     private String lastPage;
@@ -91,6 +92,14 @@ public class Article {
 
     public void setYear(int year) {
         this.year = year;
+    }
+
+    public String getJournalPrintIssn() {
+        return journalPrintIssn;
+    }
+
+    public void setJournalPrintIssn(String journalPrintIssn) {
+        this.journalPrintIssn = journalPrintIssn;
     }
 
     @Override

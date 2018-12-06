@@ -10,7 +10,6 @@ public class StaticResourcesCopierImpl implements StaticResourcesCopier {
     @Override
     public void copy(ArticleSubmissionNavigator navigator, String destinationDir) throws IOException {
         File graphicsDir = navigator.getArticleGraphicsDir();
-
         if (graphicsDir.exists()) {
             FileUtils.copyDirectory(graphicsDir, new File(destinationDir +
                     File.separator + graphicsDir.getName()));

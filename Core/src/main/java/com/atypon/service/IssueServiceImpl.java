@@ -18,8 +18,8 @@ public class IssueServiceImpl implements IssueService {
     }
 
     @Override
-    public Issue get(String doi) {
-        return dao.get(doi);
+    public Issue get(String journalPrintIssn, String doi) {
+        return dao.get(journalPrintIssn,doi);
     }
 
     @Override
@@ -33,14 +33,14 @@ public class IssueServiceImpl implements IssueService {
     }
 
     @Override
-    public boolean isExisted(String issueDao) {
-        return dao.isExisted(issueDao);
+    public boolean isExisted(Issue issue) {
+        return dao.isExisted(issue);
     }
 
 
     @Override
     public boolean createIfNotExist(Issue issue) {
-        if (!dao.isExisted(issue.getDoi())) {
+        if (!dao.isExisted(issue)) {
             return dao.create(issue);
         }
         return false;

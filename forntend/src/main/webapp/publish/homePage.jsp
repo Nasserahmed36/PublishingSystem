@@ -74,41 +74,7 @@
 </form>
 <body>
 
-<header>
-
-    <jsp:include page="topMenue.jsp"/>
-    <div class="middle-menu center-text"><a href="#" class="logo"><img src="${resources}/images/atypon.jpg"
-                                                                       alt="Logo Image"></a>
-    </div>
-
-    <div class="bottom-area">
-
-        <div class="menu-nav-icon" data-nav-menu="#main-menu"><i class="ion-navicon"></i></div>
-
-        <ul class="main-menu visible-on-click" id="main-menu">
-            <li class="drop-down"><a href="homePage.html">HOME<i class="ion-ios-arrow-down"></i></a>
-
-                <ul class="drop-down-menu">
-                    <li><a href="#">FEATURED</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li class="drop-down"><a href="#!">CATEGORIES<i class="ion-ios-arrow-right"></i></a>
-                        <ul class="drop-down-menu drop-down-inner">
-                            <li><a href="#">FEATURED</a></li>
-                            <li><a href="#">ABOUT</a></li>
-                            <li><a href="#">CATEGORIES</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-            </li>
-            <li><a href="#">FEATURED</a></li>
-            <li><a href="#" class="">ABOUT</a></li>
-            <li><a href="#">CATEGORIES</a></li>
-            <li><a href="04-Contact.html">CONTACT</a></li>
-        </ul><!-- main-menu -->
-
-    </div><!-- conatiner -->
-</header>
+<jsp:include page="header.jsp"/>
 <section style="margin-top: 230px;" class="section blog-area">
     <div class="container">
         <div class="row">
@@ -152,8 +118,7 @@
                             <div class="col-lg-6 col-md-12">
                                 <div class="single-post">
 
-                                    <h4 class="title"><a href="#"><b class="light-color">One more night in the local
-                                        clubs</b></a></h4>
+                                    <h4 class="title"><a href="#"><b class="light-color">Letter from the Editor-in-Chief</b></a></h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit doloremque
                                         laudantium, totam rem aperiam, eaque ipsa quae ab illo veritatis et quasi
                                         dolore magnam aliquam quaerat voluptatem.</p>
@@ -180,8 +145,7 @@
                             <div class="col-lg-6 col-md-12">
                                 <div class="single-post">
 
-                                    <h4 class="title"><a href="#"><b class="light-color">One more night in the local
-                                        clubs</b></a></h4>
+                                    <h4 class="title"><a href="#"><b class="light-color">Letter from the Editor-in-Chief</b></a></h4>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit doloremque
                                         laudantium, totam rem aperiam, eaque ipsa quae ab illo veritatis et quasi
                                         dolore magnam aliquam quaerat voluptatem.</p>
@@ -224,7 +188,7 @@
                             </div>
                             <div class="post-info">
                                 <a class="btn category-btn" href="#">TRAVEL</a>
-                                <h5><a href="#"><b class="light-color">One more night in the clubs</b></a></h5>
+                                <h5><a href="#"><b class="light-color">Letter from the Editor-in-Chief</b></a></h5>
                                 <h6 class="date"><em>Monday, October 13, 2017</em></h6>
                             </div>
                         </div>

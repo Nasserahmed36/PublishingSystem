@@ -7,9 +7,9 @@ import java.util.List;
 public interface IssueDao {
     boolean create(Issue issue);
 
-    boolean isExisted(String issueDao);
+    boolean isExisted(Issue issue);
 
-    Issue get(String doi);
+    Issue get(String journalPrintIssn, String doi);
 
 
     List<Issue> getBy(String journalPrintIssn);

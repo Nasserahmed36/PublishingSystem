@@ -78,6 +78,29 @@
         }
 
 
+        h2 {
+            font-size: 2em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        p {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        .section .heading {
+            padding-bottom: 0;
+        }
+
+        li.ref {
+            list-style: initial;
+            display: list-item;
+            border-bottom: black 1px solid;
+        }
+
     </style>
 
 </head>
@@ -115,42 +138,7 @@
 </form>
 <body>
 
-<header>
-
-    <jsp:include page="topMenue.jsp"/>
-
-    <div class="middle-menu center-text"><a href="#" class="logo"><img src="${resources}/images/atypon.jpg"
-                                                                       alt="Logo Image"></a>
-    </div>
-
-    <div class="bottom-area">
-
-        <div class="menu-nav-icon" data-nav-menu="#main-menu"><i class="ion-navicon"></i></div>
-
-        <ul class="main-menu visible-on-click" id="main-menu">
-            <li class="drop-down"><a href="homePage.html">HOME<i class="ion-ios-arrow-down"></i></a>
-
-                <ul class="drop-down-menu">
-                    <li><a href="#">FEATURED</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li class="drop-down"><a href="#!">CATEGORIES<i class="ion-ios-arrow-right"></i></a>
-                        <ul class="drop-down-menu drop-down-inner">
-                            <li><a href="#">FEATURED</a></li>
-                            <li><a href="#">ABOUT</a></li>
-                            <li><a href="#">CATEGORIES</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-            </li>
-            <li><a href="#">FEATURED</a></li>
-            <li><a href="#" class="">ABOUT</a></li>
-            <li><a href="#">CATEGORIES</a></li>
-            <li><a href="04-Contact.html">CONTACT</a></li>
-        </ul><!-- main-menu -->
-
-    </div><!-- conatiner -->
-</header>
+<jsp:include page="header.jsp"/>
 <section style="margin-top: 230px;" class="section blog-area">
     <div class="container">
         <div class="row">
@@ -194,12 +182,16 @@
                 <div class="sidebar-area">
 
                     <div class="issueCard card">
-                        <img class="card-img-top" src="${resources}/${requestScope.issueCover}" alt="Card image cap">
-                        <div class="card-body">
-                            <h6 class="title card-text">Volume ${requestScope.issue.volume}
-                                Issue ${requestScope.issue.number},
-                                <easy:DateFormat month="${requestScope.article.month}"/> 2018</h6>
-                        </div>
+                        <a href="${context}/journal/${requestScope.issue.journalPrintIssn}?volume=${requestScope.issue.volume}">
+                            <img class="card-img-top" src="${resources}/${requestScope.issueCover}"
+                                 alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="title card-text">Volume ${requestScope.issue.volume}
+                                    Issue ${requestScope.issue.number},
+                                    <easy:DateFormat
+                                            month="${requestScope.issue.month}"/> ${requestScope.issue.year}</h6>
+                            </div>
+                        </a>
                     </div>
 
                     <div class="sidebar-section latest-post-area">
@@ -211,7 +203,7 @@
                             </div>
                             <div class="post-info">
                                 <a class="btn category-btn" href="#">TRAVEL</a>
-                                <h5><a href="#"><b class="light-color">One more night in the clubs</b></a></h5>
+                                <h5><a href="#"><b class="light-color">Letter from the Editor-in-Chief</b></a></h5>
                                 <h6 class="date"><em>Monday, October 13, 2017</em></h6>
                             </div>
                         </div>

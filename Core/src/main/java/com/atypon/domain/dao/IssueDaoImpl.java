@@ -49,11 +49,12 @@ public class IssueDaoImpl implements IssueDao {
     }
 
     @Override
-    public boolean isExisted(String issueDao) {
-        String sql = "SELECT doi from issue where doi = ?";
+    public boolean isExisted(Issue issue) {
+        String sql = "SELECT doi from issue where doi = ? and journal_print_issn = ?";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
-            statement.setString(1, issueDao);
+            statement.setString(1, issue.getDoi());
+            statement.setString(2, issue.getJournalPrintIssn());
             ResultSet resultSet = statement.executeQuery();
             return resultSet.next();
         } catch (SQLException e) {
@@ -63,13 +64,14 @@ public class IssueDaoImpl implements IssueDao {
     }
 
     @Override
-    public Issue get(String doi) {
+    public Issue get(String journalPrintIssn, String doi) {
         Issue issue = null;
         String sql = "SELECT doi, journal_print_issn, number, volume, year, month FROM issue " +
-                "where doi = ?";
+                "where doi = ? and journal_print_issn = ?";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
             statement.setString(1, doi);
+            statement.setString(2, journalPrintIssn);
             ResultSet resultSet = statement.executeQuery();
             if (resultSet.next()) {
                 issue = extractIssue(resultSet);

@@ -2,6 +2,7 @@ package com.atypon.domain.dao;
 
 import com.atypon.domain.Article;
 import com.atypon.domain.Article.Author;
+import com.atypon.domain.Issue;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -24,8 +25,8 @@ public class ArticleDaoImpl implements ArticleDao {
     @Override
     public boolean create(Article article) {
         StringBuilder sql = new StringBuilder("insert into article (doi, title, " +
-                "issue_doi, subject, first_page, last_page,month,year)" +
-                " VALUES (?,?,?,?,?,?,?,?); ");
+                "issue_doi, subject, first_page, last_page,month,year,journal_print_issn)" +
+                " VALUES (?,?,?,?,?,?,?,?,?); ");
         if (!article.getAuthors().isEmpty()) {
             sql.append("insert into article_author (article_dao, given_name, sur_name," +
                     " degrees) values ");
@@ -46,6 +47,7 @@ public class ArticleDaoImpl implements ArticleDao {
             statement.setString(index++, article.getLastPage());
             statement.setInt(index++, article.getMonth());
             statement.setInt(index++, article.getYear());
+            statement.setString(index++, article.getJournalPrintIssn());
             for (Author author : article.getAuthors()) {
                 statement.setString(index++, article.getDoi());
                 statement.setString(index++, author.getGivenName());
@@ -65,7 +67,7 @@ public class ArticleDaoImpl implements ArticleDao {
     public Article get(String doi) {
         Article article = null;
         String sql = "select doi, title, issue_doi, subject, first_page, last_page" +
-                ",month, year from article where doi = ?";
+                ",month, year,journal_print_issn from article where doi = ?";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
             statement.setString(1, doi);
@@ -80,13 +82,34 @@ public class ArticleDaoImpl implements ArticleDao {
     }
 
     @Override
-    public Map<String, List<Article>> getSubjectToArticlesMap(String issueDoi) {
-        Map<String, List<Article>> map = new LinkedHashMap<>();
-        String sql = "select doi, title, issue_doi, subject, first_page, last_page" +
-                ",month, year from article where issue_doi = ? order by first_page";
+    public Article getFromIssue(Issue issue) {
+        Article article = null;
+        String sql = "select article.doi, title, issue_doi, subject, first_page, last_page, article.month," +
+                " article.year ,journal_print_issn from article where issue_doi = ? and journal_print_issn = ?";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
-            statement.setString(1, issueDoi);
+            int index = 1;
+            statement.setString(index++, issue.getDoi());
+            statement.setString(index, issue.getJournalPrintIssn());
+            ResultSet resultSet = statement.executeQuery();
+            if (resultSet.next()) {
+                article = extractArticleWithAuthors(resultSet);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return article;
+    }
+
+    @Override
+    public Map<String, List<Article>> getSubjectToArticlesMap(String journalPrintIssn, String issueDoi) {
+        Map<String, List<Article>> map = new LinkedHashMap<>();
+        String sql = "select doi, title, issue_doi, subject, first_page, last_page" +
+                ",month, year,journal_print_issn from article where journal_print_issn = ? and issue_doi = ? order by first_page";
+        try (Connection connection = dataSource.getConnection();
+             PreparedStatement statement = connection.prepareStatement(sql)) {
+            statement.setString(1, journalPrintIssn);
+            statement.setString(2, issueDoi);
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()) {
                 Article article = extractArticleWithAuthors(resultSet);
@@ -105,7 +128,7 @@ public class ArticleDaoImpl implements ArticleDao {
     public List<Article> getAll() {
         List<Article> articles = new ArrayList<>();
         String sql = "select doi, title, issue_doi, subject, first_page, last_page" +
-                ",month, year from article order by first_page";
+                ",month, year,journal_print_issn from article order by first_page";
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql)) {
             ResultSet resultSet = statement.executeQuery();
@@ -129,7 +152,8 @@ public class ArticleDaoImpl implements ArticleDao {
         article.setFirstPage(resultSet.getString(index++));
         article.setLastPage(resultSet.getString(index++));
         article.setMonth(resultSet.getInt(index++));
-        article.setYear(resultSet.getInt(index));
+        article.setYear(resultSet.getInt(index++));
+        article.setJournalPrintIssn(resultSet.getString(index));
         article.setAuthors(getAuthors(article.getDoi()));
         return article;
     }
@@ -144,7 +168,8 @@ public class ArticleDaoImpl implements ArticleDao {
         article.setFirstPage(resultSet.getString(index++));
         article.setLastPage(resultSet.getString(index++));
         article.setMonth(resultSet.getInt(index++));
-        article.setYear(resultSet.getInt(index));
+        article.setYear(resultSet.getInt(index++));
+        article.setJournalPrintIssn(resultSet.getString(index));
         return article;
     }
 

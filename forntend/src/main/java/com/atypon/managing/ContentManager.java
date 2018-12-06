@@ -1,10 +1,8 @@
 package com.atypon.managing;
 
-import com.atypon.context.ApplicationContext;
 import com.atypon.domain.Article;
 import com.atypon.domain.Issue;
-import com.atypon.service.ArticleService;
-import com.atypon.service.IssueService;
+
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
@@ -19,21 +17,6 @@ public class ContentManager {
         this.contentPath = contentPath;
     }
 
-    private IssueService issueService =
-            (IssueService) ApplicationContext.getAttribute("issueService");
-
-    private ArticleService articleService =
-            (ArticleService) ApplicationContext.getAttribute("articleService");
-
-    public String getArticlePath(String doi) {
-        Article article = articleService.get(doi);
-        Issue issue = issueService.get(article.getIssueDoi());
-        String articleDoi = doi.split("/")[1];
-        updateCacheIfNeeded(issue.getJournalPrintIssn(), issue.getDoi(), articleDoi);
-        String cachedArticleDir = cachedArticleDir(contentPath, issue.getJournalPrintIssn(),
-                issue.getDoi(), articleDoi);
-        return fullPagePath(cachedArticleDir);
-    }
 
     public String getArticlePath(Article article, Issue issue) {
 
@@ -51,6 +34,16 @@ public class ContentManager {
         String cachedArticleDir = cachedArticleDir(contentPath, issue.getJournalPrintIssn(),
                 issue.getDoi(), articleDoi);
         return issueCover(cachedArticleDir, issue.getDoi());
+    }
+
+
+    public String getArticlePdf(Article article, Issue issue) {
+
+        String articleDoi = article.getDoi().split("/")[1];
+        updateCacheIfNeeded(issue.getJournalPrintIssn(), issue.getDoi(), articleDoi);
+        String cachedArticleDir = cachedArticleDir(contentPath, issue.getJournalPrintIssn(),
+                issue.getDoi(), articleDoi);
+        return articlePdf(cachedArticleDir, articleDoi);
     }
 
 
