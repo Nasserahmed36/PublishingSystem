@@ -2,157 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31dfa7b1-1b0d-412c-8a0a-554ac8e3c20f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AccessControl/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/authentication/Authenticators.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/src/main/java/com/atypon/authentication/Authenticators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccessControl/src/main/resources/config/licencesAuthenticators.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AccessControl/src/main/resources/config/licencesAuthenticators.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/c58eca76-9198-471d-9b04-3ab7b927c13f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c58eca76-9198-471d-9b04-3ab7b927c13f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/service/IssueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/service/IssueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atypon/service/IssueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atypon/service/IssueServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/Article$Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/Article$Author.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/ArticleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/ArticleDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/ArticleDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/IssueDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/IssueDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/IssueDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/domain/dao/IssueDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/service/ArticleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/service/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/service/ArticleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/service/IssueService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/service/IssueService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atypon/service/IssueServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atypon/service/IssueServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../admintool/.idea/dataSources/746b608b-bd6b-4b2d-9847-f73095b770b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/dataSources/746b608b-bd6b-4b2d-9847-f73095b770b2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../admintool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/ProcessedContentProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/ProcessedContentProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/StaticResourcesCopierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/java/com/atypon/backstage/StaticResourcesCopierImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/src/main/resources/config/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/resources/config/settings.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/classes/config/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/classes/config/settings.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool.war" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$EndOfTheDocumentException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$EndOfTheDocumentException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$XmlArticleHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor$XmlArticleHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleMetadataProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleSubmissionNavigator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleSubmissionNavigator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleUploadHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ArticleUploadHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/AsynchronousService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/AsynchronousService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/BackstageConsumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/BackstageConsumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/BackstageSettings.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/BackstageSettings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/DataExtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/DataExtractor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/FileTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/FileTransformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/FileValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/FileValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor$XmlIssueHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor$XmlIssueHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/IssueMetadataProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/MainFileTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/MainFileTransformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ProcessedContentProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ProcessedContentProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ProcessingException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ProcessingException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/Processor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/Processor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/StaticResourcesCopier.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/StaticResourcesCopier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/StaticResourcesCopierImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/StaticResourcesCopierImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/SubmissionProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/SubmissionProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/XsltTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/XsltTransformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ZipSubmissionNavigator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ZipSubmissionNavigator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ZipSubmissionNavigator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/backstage/ZipSubmissionNavigator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/context/ApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/context/ApplicationContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/BackstageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/BackstageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/IdentityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/IdentityController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/JournalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/JournalController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/LicenceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/LicenceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/controller/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/filter/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/filter/LoginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/ArticleSubmissionForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/ArticleSubmissionForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/ContentLicenceForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/ContentLicenceForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/IdentityForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/IdentityForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/JournalForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/JournalForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/UserContentLicenceForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/form/UserContentLicenceForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/listener/AppListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/listener/AppListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/servlet/DispatcherServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/ArticleSubmissionValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/ArticleSubmissionValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/ContentLicenceValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/ContentLicenceValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/IdentityVaildator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/IdentityVaildator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/JournalValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/JournalValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/UserContentLicenceValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/UserContentLicenceValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/Validator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/com/atypon/web/validator/Validator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/config/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/classes/config/settings.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/Core-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/Core-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-dbcp-1.2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-io-2.6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-logging-1.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-pool-1.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/commons-pool-1.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-annotations-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-annotations-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-core-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-core-2.6.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-core-asl-1.9.13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-databind-2.6.7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-databind-2.6.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/javax.servlet-api-4.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/javax.servlet-api-4.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/mysql-connector-java-8.0.12.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/mysql-connector-java-8.0.12.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/protobuf-java-2.6.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/protobuf-java-2.6.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-aop-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-beans-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-context-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-core-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-expression-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-jdbc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-tx-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-web-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/lib/spring-webmvc-4.0.0.RELEASE.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/aipa_aipa_4_1_20181029022409186.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/aipa_aipa_4_1_20181029022409186/aipa_4_1/2325160315620797/2325160315620797.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/aipa_aipa_4_1_20181029022409186/aipa_4_1/2325160315620797/2325160315620797.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/aipa_aipa_4_1_20181029022409186/aipa_4_1/issue-files/aipa_4_1.cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/aipa_aipa_4_1_20181029022409186/aipa_4_1/issue-files/aipa_4_1.largecover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/aipa_aipa_4_1_20181029022409186/aipa_4_1/issue-files/aipa_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/aipa_aipa_4_1_20181029022409186/manifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931/bhda_40_3/019874291504000301/019874291504000301.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931/bhda_40_3/019874291504000301/019874291504000301.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931/bhda_40_3/issue-files/bhda_40_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/1235-1234/bhda_bhda_40_3_20181029050737931/manifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/0198742916688652/0198742916688652.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/0198742916688652/0198742916688652.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.largecover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/2325-1603/bhda_bhda_42_2_20181029050744961/manifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/0198742916688652/0198742916688652.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/0198742916688652/0198742916688652.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.largecover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/bhda_42_2/issue-files/bhda_42_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../content/ASSP/bhda_bhda_42_2_20181029050744961/manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../admintool/target/web-admin-tool/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_40_3_20181029050737931.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_40_3_20181029050737931/bhda_40_3/019874291504000301/019874291504000301.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_40_3_20181029050737931/bhda_40_3/019874291504000301/019874291504000301.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_40_3_20181029050737931/bhda_40_3/issue-files/bhda_40_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_40_3_20181029050737931/manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_42_1_20181029050651626.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_42_1_20181029050651626/bhda_42_1/bd-14-12.1/bd-14-12.1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_42_1_20181029050651626/bhda_42_1/bd-14-12.1/bd-14-12.1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_42_1_20181029050651626/bhda_42_1/issue-files/bhda_42_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_42_1_20181029050651626/manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_42_1_20181029050654938.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_42_1_20181029050654938/bhda_42_1/bd-15-95.1/bd-15-95.1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_42_1_20181029050654938/bhda_42_1/bd-15-95.1/bd-15-95.1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_42_1_20181029050654938/bhda_42_1/issue-files/bhda_42_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_42_1_20181029050654938/manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_42_2_20181029050744961/manifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../content/0198-7429/bhda_bhda_42_2_20181029050744961/manifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_6_3_20181029033525638.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_6_3_20181029033525638/afpa_6_3/192536211600600301/192536211600600301.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_6_3_20181029033525638/afpa_6_3/192536211600600301/192536211600600301.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_6_3_20181029033525638/afpa_6_3/issue-files/afpa_6_3.cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_6_3_20181029033525638/afpa_6_3/issue-files/afpa_6_3.largecover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_6_3_20181029033525638/afpa_6_3/issue-files/afpa_6_3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_6_3_20181029033525638/afpa_6_3/issue-files/afpa_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_6_3_20181029033525638/manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_7_1_20181029024924876.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_7_1_20181029024924876/afpa_7_1/192536211700700102/192536211700700102.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_7_1_20181029024924876/afpa_7_1/192536211700700102/192536211700700102.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_7_1_20181029024924876/afpa_7_1/issue-files/afpa_7_1.cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_7_1_20181029024924876/afpa_7_1/issue-files/afpa_7_1.largecover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_7_1_20181029024924876/afpa_7_1/issue-files/afpa_7_1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_7_1_20181029024924876/afpa_7_1/issue-files/afpa_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_7_1_20181029024924876/manifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_8_2_20181029031702404.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_8_2_20181029031702404/afpa_8_2/1925362118785217/1925362118785217.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_8_2_20181029031702404/afpa_8_2/1925362118785217/1925362118785217.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_8_2_20181029031702404/afpa_8_2/1925362118785217/graphic/10.1177_1925362118785217-fig1.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_8_2_20181029031702404/afpa_8_2/1925362118785217/graphic/10.1177_1925362118785217-fig2.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_8_2_20181029031702404/afpa_8_2/issue-files/afpa_8_2.cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_8_2_20181029031702404/afpa_8_2/issue-files/afpa_8_2.ed_board.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_8_2_20181029031702404/afpa_8_2/issue-files/afpa_8_2.largecover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_8_2_20181029031702404/afpa_8_2/issue-files/afpa_8_2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_8_2_20181029031702404/afpa_8_2/issue-files/afpa_8_2.toc.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_8_2_20181029031702404/afpa_8_2/issue-files/afpa_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../content/1925-3621/afpa_afpa_8_2_20181029031702404/manifest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/.idea/dataSources/49e700be-f749-462f-b261-02b12d121d98.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/dataSources/49e700be-f749-462f-b261-02b12d121d98.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/BackstageSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/BackstageSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/ContentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/managing/ContentManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/IssueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/controller/IssueController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/java/com/atypon/web/servlet/DispatcherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/file.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/file.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/02-Single-post.html" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/02-Single-post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/03-About-me.html" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/03-About-me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/article.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/article.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/articleList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/articleList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/homePage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/homePage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/issueList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/issueList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/journalList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/journalList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/publish/topMenue.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/test.xsl" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/test.xsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/src/main/resources/config/settings.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/resources/config/settings.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forntend/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/acs/AuthenticationService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/acs/AuthenticationServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/classes/com/atypon/context/ApplicationContext.class" beforeDir="false" />
@@ -439,17 +353,39 @@
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/scripts.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/swiper.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/common-js/tether.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/0198742916688652.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/10.1177.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/articleMetadata.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/full.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/2325-1603/10.1177/0198742916688652/issueMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/0198-7429/10.1177/019874291504000301/019874291504000301.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/0198-7429/10.1177/019874291504000301/articleMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/0198-7429/10.1177/019874291504000301/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/0198-7429/10.1177/019874291504000301/issueMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/0198-7429/10.1177/0198742916688652/0198742916688652.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/0198-7429/10.1177/0198742916688652/10.1177.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/0198-7429/10.1177/0198742916688652/articleMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/0198-7429/10.1177/0198742916688652/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/0198-7429/10.1177/0198742916688652/issueMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/192536211600600301/10.1177.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/192536211600600301/192536211600600301.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/192536211600600301/articleMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/192536211600600301/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/192536211600600301/issueMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/192536211700700102/10.1177.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/192536211700700102/192536211700700102.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/192536211700700102/articleMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/192536211700700102/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/192536211700700102/issueMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/1925362118785217/10.1177.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/1925362118785217/1925362118785217.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/1925362118785217/articleMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/1925362118785217/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/1925362118785217/graphic/10.1177_1925362118785217-fig1.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/1925362118785217/graphic/10.1177_1925362118785217-fig2.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/content/1925-3621/10.1177/1925362118785217/issueMetadata.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/fonts/ionicons.eot" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/fonts/ionicons.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/fonts/ionicons.ttf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/fonts/ionicons.woff" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/header.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/homePage.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/advertise-1-400x500.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/images/atypon.jpg" beforeDir="false" />
@@ -501,26 +437,240 @@
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/issueList.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/journalList.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/noAccess.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/publish/topMenue.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../forntend/target/front-end/test.xsl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_1.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_10.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_2.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_3.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_4.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_5.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_6.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_7.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_8.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/#innodb_temp/temp_9.ibt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/article.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/article.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/article_author.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/article_author.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/authorized_inquirer.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/authorized_inquirer.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/content_licence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/content_licence.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/identity.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/identity.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/issue.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/issue.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/issue_subject.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/issue_subject.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/journal.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/journal.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/licence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/licence.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/notification.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/notification.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/save_point.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/save_point.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/submission.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/submission.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/0198742916688652.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/articleMetadata.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/bhda_42_2.cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/full.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/2325-1603/10.1177/0198742916688652/issueMetadata.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/0198742916688652.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/articleMetadata.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/bhda_42_2.cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/full.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../processedContent/ASSP/10.1177/0198742916688652/issueMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/AdminTool/user_content_licence.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/AdminTool/user_content_licence.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/auto.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000001" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000002" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000003" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000003" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000004" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000004" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000005" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000005" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000006" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000006" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000007" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000007" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000008" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000008" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000009" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000009" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000010" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000010" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000011" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000011" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000012" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000012" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000013" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000013" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000014" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000014" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000015" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000015" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000016" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000016" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000017" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000017" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000018" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000018" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000019" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000019" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000020" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000020" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000021" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000021" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000022" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000022" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000023" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000023" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000024" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000024" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000025" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000025" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000026" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000026" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000027" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000027" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000028" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000028" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000029" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000029" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000030" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000030" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000031" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000031" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000032" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000032" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000033" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000033" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000034" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000034" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000035" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000035" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000036" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000036" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000037" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000037" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000038" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000038" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000039" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000039" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000040" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000040" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000041" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000041" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000042" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000042" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000043" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000043" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000044" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000044" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000045" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000045" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000046" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000046" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000047" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000047" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000048" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000048" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000049" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000049" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000050" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000050" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000051" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000051" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000052" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000052" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.000053" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.000053" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ca-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ca-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ca.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ca.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/client-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/client-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/client-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/client-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ib_logfile1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ib_logfile1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/ibtmp1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/keke" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/keke" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql/general_log.CSM" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql/general_log.CSM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql/general_log.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql/general_log.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql/general_log_197.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql/general_log_197.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql/slow_log.CSM" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql/slow_log.CSM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql/slow_log.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql/slow_log.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/mysql/slow_log_198.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/mysql/slow_log_198.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/accounts_135.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/accounts_135.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/cond_instances_74.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/cond_instances_74.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/data_lock_waits_150.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/data_lock_waits_150.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/data_locks_149.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/data_locks_149.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_129.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_129.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_130.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_130.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_131.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_131.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_132.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_132.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_133.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_errors_su_133.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_cu_101.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_cu_101.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_hi_102.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_hi_102.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_hi_103.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_hi_103.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_104.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_104.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_105.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_105.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_106.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_106.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_107.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_107.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_108.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_stages_su_108.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_109.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_109.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_110.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_110.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_111.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_111.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_112.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_112.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_113.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_113.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_114.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_114.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_115.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_115.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_116.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_116.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_117.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_117.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_118.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_118.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_119.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_119.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_120.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_statement_120.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_121.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_121.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_122.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_122.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_123.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_123.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_124.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_124.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_125.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_125.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_126.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_126.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_127.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_127.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_128.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_transacti_128.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_cur_75.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_cur_75.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_his_76.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_his_76.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_his_77.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_his_77.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_78.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_78.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_79.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_79.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_80.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_80.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_81.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_81.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_82.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_82.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_83.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/events_waits_sum_83.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/file_instances_84.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/file_instances_84.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/file_summary_by__85.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/file_summary_by__85.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/file_summary_by__86.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/file_summary_by__86.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/global_status_168.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/global_status_168.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/global_variables_171.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/global_variables_171.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/host_cache_87.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/host_cache_87.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/hosts_136.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/hosts_136.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/log_status_161.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/log_status_161.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_143.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_143.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_144.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_144.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_145.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_145.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_146.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_b_146.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_g_142.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/memory_summary_g_142.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/metadata_locks_148.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/metadata_locks_148.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/mutex_instances_88.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/mutex_instances_88.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/objects_summary__89.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/objects_summary__89.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/performance_time_90.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/performance_time_90.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/persisted_variab_174.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/persisted_variab_174.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/prepared_stateme_162.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/prepared_stateme_162.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_154.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_154.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_155.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_155.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_156.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_156.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_157.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_157.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_159.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_159.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_160.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_appl_160.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_conn_151.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_conn_151.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_conn_153.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_conn_153.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_grou_152.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_grou_152.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_grou_158.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/replication_grou_158.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/rwlock_instances_91.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/rwlock_instances_91.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/session_account__141.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/session_account__141.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/session_connect__140.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/session_connect__140.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/session_status_169.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/session_status_169.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/session_variable_172.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/session_variable_172.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_actors_92.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_actors_92.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_consumers_93.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_consumers_93.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_instrument_94.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_instrument_94.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_objects_95.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_objects_95.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_threads_96.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/setup_threads_96.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/socket_instances_137.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/socket_instances_137.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/socket_summary_b_138.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/socket_summary_b_138.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/socket_summary_b_139.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/socket_summary_b_139.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_accoun_164.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_accoun_164.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_host_165.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_host_165.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_thread_166.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_thread_166.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_user_167.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/status_by_user_167.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/table_handles_147.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/table_handles_147.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/table_io_waits_s_97.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/table_io_waits_s_97.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/table_io_waits_s_98.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/table_io_waits_s_98.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/table_lock_waits_99.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/table_lock_waits_99.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/threads_100.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/threads_100.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/user_defined_fun_175.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/user_defined_fun_175.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/user_variables_b_163.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/user_variables_b_163.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/users_134.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/users_134.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/variables_by_thr_170.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/variables_by_thr_170.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/performance_schema/variables_info_173.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/performance_schema/variables_info_173.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/private_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/private_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/public_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/public_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/server-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/server-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/server-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/server-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/sys/sys_config.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/sys/sys_config.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysqlData/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/../mysqlData/undo_002" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/0198-7429/10.1177/019874291504000301/019874291504000301.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/0198-7429/10.1177/019874291504000301/articleMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/0198-7429/10.1177/019874291504000301/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/0198-7429/10.1177/019874291504000301/issueMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/0198-7429/10.1177/bd-14-12.1/articleMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/0198-7429/10.1177/bd-14-12.1/bd-14-12.1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/0198-7429/10.1177/bd-14-12.1/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/0198-7429/10.1177/bd-14-12.1/issueMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/0198-7429/10.1177/bd-15-95.1/articleMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/0198-7429/10.1177/bd-15-95.1/bd-15-95.1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/0198-7429/10.1177/bd-15-95.1/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/0198-7429/10.1177/bd-15-95.1/issueMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/192536211600600301/10.1177.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/192536211600600301/192536211600600301.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/192536211600600301/articleMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/192536211600600301/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/192536211600600301/issueMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/192536211700700102/10.1177.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/192536211700700102/192536211700700102.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/192536211700700102/articleMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/192536211700700102/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/192536211700700102/issueMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/1925362118785217/10.1177.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/1925362118785217/1925362118785217.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/1925362118785217/articleMetadata.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/1925362118785217/full.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/1925362118785217/graphic/10.1177_1925362118785217-fig1.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/1925362118785217/graphic/10.1177_1925362118785217-fig2.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../processedContent/1925-3621/10.1177/1925362118785217/issueMetadata.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -556,6 +706,13 @@
         <item name="MySQL - AdminTool@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="AdminTool: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - AdminTool@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="AdminTool: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="article: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -609,29 +766,40 @@
     <session id="414359288">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="article" value="3" />
+          <entry key="content_licence" value="1" />
+          <entry key="issue_subject" value="1" />
+          <entry key="java" value="6" />
+          <entry key="journal" value="1" />
+          <entry key="user_content_licence" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="Database Element" value="7" />
+          <entry key="JAVA" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="2" />
+          <entry key="sql" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2" />
+          <entry key="SQL" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -639,86 +807,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="1632">
+              <caret line="110" column="32" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/IssueService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/AuthorizedInquirerDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="85">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/IssueServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/AuthorizedInquirerDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+            <state relative-caret-position="119">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionsProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-              <folding>
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="374">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="104" column="105" selection-start-line="104" selection-start-column="105" selection-end-line="104" selection-end-column="105" />
+            <state relative-caret-position="17">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="39" selection-start-line="15" selection-end-line="16" />
+        <entry file="das://c58eca76-9198-471d-9b04-3ab7b927c13f/schema/AdminTool/table/issue_subject">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <entry file="das://c58eca76-9198-471d-9b04-3ab7b927c13f/schema/AdminTool/table/content_licence">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -728,6 +874,24 @@
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://c58eca76-9198-471d-9b04-3ab7b927c13f/schema/AdminTool/table/journal">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" column="39" selection-start-line="15" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -797,6 +961,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -837,15 +1003,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="atypon" type="462c0819:PsiDirectoryNode" />
-              <item name="consensus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atypon" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -871,17 +1028,10 @@
               <item name="Core" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
-            <path>
-              <item name="Core" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -936,11 +1086,13 @@
       <workItem from="1543951596857" duration="3173000" />
       <workItem from="1544037013185" duration="2871000" />
       <workItem from="1544091891113" duration="9292000" />
+      <workItem from="1544607551896" duration="2663000" />
+      <workItem from="1544633795280" duration="384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22105000" />
+    <option name="totallyTimeSpent" value="27019000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -952,20 +1104,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1175" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26065302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2733813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.3291866" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32822967" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32756758" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -974,6 +1125,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3291866" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Console" order="11" weight="0.3291866" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -992,69 +1144,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/LicenceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/Notification.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/notification/NotificationService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/UserContentLicence.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/notification/NotificationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/commons/FileUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/commons/Messenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/AuthorizedInquirerDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicenceDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/UserContentLicenceDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ContentLicenceDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/UserContentLicenceDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/AuthenticationService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/AuthenticationServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/UserContentLicenceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ContentLicenceServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ContentLicenceService.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1123,13 +1212,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/AuthorizedInquirerDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/commons/AsynchronousService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1144,9 +1226,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c58eca76-9198-471d-9b04-3ab7b927c13f/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c58eca76-9198-471d-9b04-3ab7b927c13f/console.sql" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/consensus/QuerySignatureComputer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1172,12 +1252,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1921#1922#0" expanded="true" />
-            <element signature="e#1977#1978#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/IssueService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/IssueServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c58eca76-9198-471d-9b04-3ab7b927c13f/schema/AdminTool/table/user_content_licence">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="110" column="32" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/AuthorizedInquirerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/AuthorizedInquirerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleSubmissionsProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c58eca76-9198-471d-9b04-3ab7b927c13f/schema/AdminTool/table/issue_subject">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://c58eca76-9198-471d-9b04-3ab7b927c13f/schema/AdminTool/table/content_licence">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1188,70 +1354,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/IssueDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/IssueService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/IssueServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+    <entry file="das://c58eca76-9198-471d-9b04-3ab7b927c13f/schema/AdminTool/table/journal">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="187">
           <caret line="15" column="39" selection-start-line="15" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleSubmissionDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/service/ArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
-          <folding>
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atypon/domain/dao/ArticleDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="104" column="105" selection-start-line="104" selection-start-column="105" selection-end-line="104" selection-end-column="105" />
+        <state relative-caret-position="17">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
